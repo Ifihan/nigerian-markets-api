@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "wrangler pages dev dist",
-    "deploy": "$npm_execpath run build && wrangler pages deploy dist",
+    "deploy": "$npm_execpath run build && wrangler pages deploy dist --project-name iya-oloja --branch main",
     "seed": "npx tsx scripts/seed-states.ts",
     "validate": "npx tsx scripts/validate-data.ts",
     "sync": "npx tsx scripts/sync-to-d1.ts",

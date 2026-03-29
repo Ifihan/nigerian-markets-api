@@ -5,4 +5,4 @@ pages_build_output_dir = "dist"
 [[d1_databases]]
 binding = "DB"
 database_name = "iya-oloja"
-database_id = ""
+database_id = "2242167e-e003-4b4b-b0c0-af0987b26770"
