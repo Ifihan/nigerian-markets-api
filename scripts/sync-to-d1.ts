@@ -44,67 +44,87 @@ async function execSQL(sql: string, params: unknown[] = []) {
   return res.json();
 }
 
+async function execSQLWithRetry(sql: string, params: unknown[] = [], retries = 3): Promise<unknown> {
+  for (let attempt = 1; attempt <= retries; attempt++) {
+    try {
+      return await execSQL(sql, params);
+    } catch (err) {
+      if (attempt === retries) throw err;
+      await new Promise((r) => setTimeout(r, 1000 * attempt));
+    }
+  }
+}
+
+async function runConcurrent(statements: { sql: string; params?: unknown[] }[], concurrency: number) {
+  for (let i = 0; i < statements.length; i += concurrency) {
+    const chunk = statements.slice(i, i + concurrency);
+    await Promise.all(chunk.map((s) => execSQLWithRetry(s.sql, s.params ?? [])));
+  }
+}
+
 async function main() {
   const dataDir = join(process.cwd(), 'data', 'states');
   const files = readdirSync(dataDir).filter((f) => f.endsWith('.json'));
 
-  // Read all data
   const allStates: StateData[] = files.map((f) =>
     JSON.parse(readFileSync(join(dataDir, f), 'utf-8'))
   );
 
   console.log(`Syncing ${allStates.length} states to D1...`);
 
-  // Clear existing data (order matters for foreign keys)
+  // Step 1: Clear existing data (sequential, order matters for foreign keys)
+  console.log('Clearing existing data...');
   await execSQL('DELETE FROM markets');
   await execSQL('DELETE FROM lgas');
   await execSQL('DELETE FROM states');
 
-  // Insert states
-  for (const state of allStates) {
-    await execSQL('INSERT INTO states (name, slug) VALUES (?, ?)', [state.name, state.slug]);
-  }
+  // Step 2: Insert states (can run concurrently, no dependencies between them)
+  console.log('Inserting states...');
+  const stateStmts = allStates.map((s) => ({
+    sql: 'INSERT INTO states (name, slug) VALUES (?, ?)',
+    params: [s.name, s.slug],
+  }));
+  await runConcurrent(stateStmts, 3);
+  console.log(`  ${stateStmts.length} states inserted`);
 
-  // Insert LGAs
+  // Step 3: Insert LGAs (depends on states being done, but LGAs can be concurrent)
+  console.log('Inserting LGAs...');
+  const lgaStmts: { sql: string; params: unknown[] }[] = [];
   for (const state of allStates) {
     for (const lga of state.lgas) {
-      await execSQL(
-        'INSERT INTO lgas (state_id, name, slug) VALUES ((SELECT id FROM states WHERE slug = ?), ?, ?)',
-        [state.slug, lga.name, lga.slug]
-      );
+      lgaStmts.push({
+        sql: 'INSERT INTO lgas (state_id, name, slug) VALUES ((SELECT id FROM states WHERE slug = ?), ?, ?)',
+        params: [state.slug, lga.name, lga.slug],
+      });
     }
   }
+  await runConcurrent(lgaStmts, 3);
+  console.log(`  ${lgaStmts.length} LGAs inserted`);
 
-  // Insert markets
+  // Step 4: Insert markets (depends on LGAs being done)
+  console.log('Inserting markets...');
+  const marketStmts: { sql: string; params: unknown[] }[] = [];
   for (const state of allStates) {
     for (const lga of state.lgas) {
       for (const market of lga.markets) {
-        await execSQL(
-          'INSERT INTO markets (lga_id, name, slug, lat, lng, added_by) VALUES ((SELECT id FROM lgas WHERE slug = ?), ?, ?, ?, ?, ?)',
-          [
+        marketStmts.push({
+          sql: 'INSERT INTO markets (lga_id, name, slug, lat, lng, added_by) VALUES ((SELECT id FROM lgas WHERE slug = ?), ?, ?, ?, ?, ?)',
+          params: [
             lga.slug,
             market.name,
             market.slug,
             market.coordinates?.lat ?? null,
             market.coordinates?.lng ?? null,
             market.added_by ?? null,
-          ]
-        );
+          ],
+        });
       }
     }
   }
+  await runConcurrent(marketStmts, 3);
+  console.log(`  ${marketStmts.length} markets inserted`);
 
-  // Count totals
-  let totalMarkets = 0;
-  let totalLGAs = 0;
-  for (const state of allStates) {
-    totalLGAs += state.lgas.length;
-    for (const lga of state.lgas) {
-      totalMarkets += lga.markets.length;
-    }
-  }
-
-  console.log(`Synced: ${allStates.length} states, ${totalLGAs} LGAs, ${totalMarkets} markets`);
+  console.log(`Done! Synced: ${allStates.length} states, ${lgaStmts.length} LGAs, ${marketStmts.length} markets`);
 }
 
 main().catch((err) => {
