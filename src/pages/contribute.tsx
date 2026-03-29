@@ -24,15 +24,12 @@ export const ContributePage: FC = () => {
               <label for="lga">Local Government Area *</label>
               <input type="text" id="lga" name="lga" required placeholder="e.g. Lagos Island" />
             </div>
-            <div class="field-row">
-              <div class="field">
-                <label for="lat">Latitude</label>
-                <input type="number" id="lat" name="lat" step="any" placeholder="e.g. 6.4541" />
-              </div>
-              <div class="field">
-                <label for="lng">Longitude</label>
-                <input type="number" id="lng" name="lng" step="any" placeholder="e.g. 3.3947" />
-              </div>
+            <div class="field">
+              <label>Location <span class="label-hint">Click the map to set the market location</span></label>
+              <div id="map" class="map-picker"></div>
+              <input type="hidden" id="lat" name="lat" />
+              <input type="hidden" id="lng" name="lng" />
+              <div id="coords-display" class="coords-display"></div>
             </div>
             <div class="field">
               <label for="description">Description</label>
@@ -46,7 +43,54 @@ export const ContributePage: FC = () => {
             <div id="form-message" class="form-message"></div>
           </form>
 
+          <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+          <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
           <script dangerouslySetInnerHTML={{__html: `
+            (function() {
+              var map = L.map('map').setView([9.05, 7.49], 6);
+              L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; OpenStreetMap contributors',
+                maxZoom: 19
+              }).addTo(map);
+
+              var marker = null;
+              var latInput = document.getElementById('lat');
+              var lngInput = document.getElementById('lng');
+              var coordsDisplay = document.getElementById('coords-display');
+
+              map.on('click', function(e) {
+                var lat = e.latlng.lat.toFixed(6);
+                var lng = e.latlng.lng.toFixed(6);
+
+                if (marker) {
+                  marker.setLatLng(e.latlng);
+                } else {
+                  marker = L.marker(e.latlng).addTo(map);
+                }
+
+                latInput.value = lat;
+                lngInput.value = lng;
+                coordsDisplay.textContent = lat + ', ' + lng;
+                coordsDisplay.className = 'coords-display active';
+              });
+
+              // Fix map rendering in case container was hidden
+              setTimeout(function() { map.invalidateSize(); }, 100);
+
+              // Reset map on form reset
+              document.getElementById('contribute-form').addEventListener('reset', function() {
+                if (marker) {
+                  map.removeLayer(marker);
+                  marker = null;
+                }
+                latInput.value = '';
+                lngInput.value = '';
+                coordsDisplay.textContent = '';
+                coordsDisplay.className = 'coords-display';
+              });
+            })();
+
             document.getElementById('contribute-form').addEventListener('submit', async (e) => {
               e.preventDefault();
               const form = e.target;
