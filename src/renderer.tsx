@@ -1,16 +1,60 @@
 import { jsxRenderer } from 'hono/jsx-renderer';
 
+const SITE_URL = 'https://iya-oloja.pages.dev';
+const SITE_NAME = 'Iya Oloja';
+const DEFAULT_TITLE = 'Iya Oloja — Nigerian Markets API';
+const DEFAULT_DESC = 'A community-powered API and directory for markets across all 36 states of Nigeria and the FCT. Search, explore, and contribute to open market data.';
+
 export const renderer = jsxRenderer(({ children, title }) => {
+  const pageTitle = title ?? DEFAULT_TITLE;
+
   return (
     <html lang="en">
       <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Iya Oloja — An open directory and API for markets across Nigeria" />
+
+        {/* SEO */}
+        <title>{pageTitle}</title>
+        <meta name="description" content={DEFAULT_DESC} />
+        <meta name="keywords" content="Nigerian markets, Nigeria API, open data, market directory, Lagos markets, Kano markets, Abuja markets, LGA, states, JSON API" />
+        <meta name="author" content="Iya Oloja Contributors" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href={SITE_URL} />
+
+        {/* Open Graph */}
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content={SITE_NAME} />
+        <meta property="og:title" content={pageTitle} />
+        <meta property="og:description" content={DEFAULT_DESC} />
+        <meta property="og:url" content={SITE_URL} />
+        <meta property="og:image" content={`${SITE_URL}/static/og.png`} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:locale" content="en_NG" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={pageTitle} />
+        <meta name="twitter:description" content={DEFAULT_DESC} />
+        <meta name="twitter:image" content={`${SITE_URL}/static/og.png`} />
+
+        {/* Favicon */}
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+        {/* Theme Color */}
+        <meta name="theme-color" content="#0a0f0d" media="(prefers-color-scheme: dark)" />
+        <meta name="theme-color" content="#fafbf9" media="(prefers-color-scheme: light)" />
+
+        {/* Fonts */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+        {/* Styles */}
         <link href="/static/style.css" rel="stylesheet" />
+
+        {/* Theme init (prevent flash) */}
         <script dangerouslySetInnerHTML={{__html: `
           (function() {
             var t = localStorage.getItem('theme');
@@ -19,7 +63,6 @@ export const renderer = jsxRenderer(({ children, title }) => {
             }
           })();
         `}} />
-        <title>{title ?? 'Iya Oloja — Nigerian Markets API'}</title>
       </head>
       <body>
         <nav class="nav">

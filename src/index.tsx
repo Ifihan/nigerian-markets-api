@@ -67,7 +67,6 @@ app.get('/docs', (c) => {
   if (c.env.DOCS_URL) {
     return c.redirect(c.env.DOCS_URL, 302);
   }
-
   return c.render(<DocsPage />, { title: 'Docs — Iya Oloja' });
 });
 

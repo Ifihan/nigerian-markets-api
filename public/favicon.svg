@@ -1,0 +1,6 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="32" height="32" rx="8" fill="#0a0f0d"/>
+  <circle cx="16" cy="14" r="6" fill="none" stroke="#34d399" stroke-width="1.5" opacity="0.3"/>
+  <circle cx="16" cy="14" r="3" fill="#34d399"/>
+  <text x="6" y="28" fill="#34d399" font-family="system-ui" font-size="8" font-weight="800">IO</text>
+</svg>
