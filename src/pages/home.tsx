@@ -103,6 +103,9 @@ export const HomePage: FC<HomeProps> = ({
                 <h2>Nigeria market pulse</h2>
               </div>
               <div class="map-header-tools">
+                <button type="button" class="map-reset" id="map-reset" hidden>
+                  Reset view
+                </button>
                 <div class="map-legend">
                   <span><i class="legend-dot legend-dot-hot"></i> Has markets</span>
                   <span><i class="legend-dot legend-dot-watch"></i> Needs data</span>
@@ -291,8 +294,17 @@ export const HomePage: FC<HomeProps> = ({
           var focusMeta = document.getElementById('focus-meta');
           var focusLink = document.getElementById('focus-link');
           var focusedSlug = null;
-          var defaultTransform = 'translate(0 0) scale(1)';
+          var currentTransform = { tx: 0, ty: 0, scale: 1 };
           var activeGroup = null;
+          var dragState = null;
+
+          function renderTransform() {
+            if (!viewport) return;
+            viewport.setAttribute(
+              'transform',
+              'translate(' + currentTransform.tx + ' ' + currentTransform.ty + ') scale(' + currentTransform.scale + ')'
+            );
+          }
 
           function setActiveGroup(nextGroup) {
             if (activeGroup) activeGroup.classList.remove('is-active');
@@ -309,7 +321,8 @@ export const HomePage: FC<HomeProps> = ({
             var tx = targetX - (scale * x);
             var ty = targetY - (scale * y);
 
-            viewport.setAttribute('transform', 'translate(' + tx + ' ' + ty + ') scale(' + scale + ')');
+            currentTransform = { tx: tx, ty: ty, scale: scale };
+            renderTransform();
             map.classList.add('map-focused');
             focusedSlug = slug;
 
@@ -328,9 +341,11 @@ export const HomePage: FC<HomeProps> = ({
 
           function resetFocus() {
             if (!viewport) return;
-            viewport.setAttribute('transform', defaultTransform);
+            currentTransform = { tx: 0, ty: 0, scale: 1 };
+            renderTransform();
             map.classList.remove('map-focused');
             focusedSlug = null;
+            dragState = null;
             setActiveGroup(null);
             if (reset) reset.hidden = true;
             if (focusCard) focusCard.hidden = true;
@@ -340,6 +355,60 @@ export const HomePage: FC<HomeProps> = ({
             reset.addEventListener('click', function() {
               resetFocus();
             });
+          }
+
+          if (map) {
+            map.addEventListener('pointerdown', function(event) {
+              if (!focusedSlug) return;
+              if (event.target.closest('.state-dot-group') || event.target.closest('.map-focus-card') || event.target.closest('.map-reset')) {
+                return;
+              }
+
+              dragState = {
+                pointerId: event.pointerId,
+                startX: event.clientX,
+                startY: event.clientY,
+                originTx: currentTransform.tx,
+                originTy: currentTransform.ty,
+                moved: false,
+              };
+
+              map.classList.add('is-dragging');
+              if (map.setPointerCapture) map.setPointerCapture(event.pointerId);
+            });
+
+            map.addEventListener('pointermove', function(event) {
+              if (!dragState || dragState.pointerId !== event.pointerId || !focusedSlug) return;
+
+              var dx = event.clientX - dragState.startX;
+              var dy = event.clientY - dragState.startY;
+
+              if (Math.abs(dx) > 3 || Math.abs(dy) > 3) {
+                dragState.moved = true;
+              }
+
+              currentTransform.tx = dragState.originTx + dx;
+              currentTransform.ty = dragState.originTy + dy;
+              renderTransform();
+            });
+
+            function endDrag(event) {
+              if (!dragState || dragState.pointerId !== event.pointerId) return;
+
+              var moved = dragState.moved;
+              dragState = null;
+              map.classList.remove('is-dragging');
+              if (map.releasePointerCapture) {
+                try { map.releasePointerCapture(event.pointerId); } catch (e) {}
+              }
+
+              if (!moved && focusedSlug && !event.target.closest('.state-dot-group')) {
+                resetFocus();
+              }
+            }
+
+            map.addEventListener('pointerup', endDrag);
+            map.addEventListener('pointercancel', endDrag);
           }
 
           groups.forEach(function(g) {
@@ -360,7 +429,8 @@ export const HomePage: FC<HomeProps> = ({
               tooltip.classList.remove('tooltip-active');
             });
 
-            g.addEventListener('click', function() {
+            g.addEventListener('click', function(event) {
+              event.stopPropagation();
               var slug = g.getAttribute('data-slug');
               var name = g.getAttribute('data-name');
               var count = g.getAttribute('data-count');

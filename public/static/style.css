@@ -507,6 +507,14 @@ a:hover {
   isolation: isolate;
 }
 
+.map-focused .market-map {
+  cursor: grab;
+}
+
+.map-focused .market-map.is-dragging {
+  cursor: grabbing;
+}
+
 .nigeria-svg {
   width: 100%;
   height: 100%;
