@@ -300,8 +300,8 @@ a:hover {
 
 .hero-modern {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(340px, 1fr);
-  gap: 3rem;
+  grid-template-columns: minmax(0, 1fr) minmax(400px, 1.3fr);
+  gap: 2.5rem;
   align-items: start;
   padding: 2.5rem 0 3rem;
 }
@@ -406,12 +406,13 @@ a:hover {
    ============================================ */
 .hero-visual {
   display: flex;
+  width: 100%;
   animation: fadeUp 0.7s var(--ease-out) 0.15s both;
 }
 
 .map-card {
   width: 100%;
-  padding: 1.25rem;
+  padding: 1rem;
   border-radius: var(--radius-xl);
   background: #0d1613;
   color: #e8ede8;
@@ -419,12 +420,11 @@ a:hover {
   border: 1px solid rgba(52, 211, 153, 0.08);
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
+  gap: 0.65rem;
   position: relative;
   overflow: hidden;
 }
 
-/* Subtle radial glow inside map card */
 .map-card::before {
   content: '';
   position: absolute;
@@ -443,11 +443,12 @@ a:hover {
   gap: 1rem;
   position: relative;
   z-index: 1;
+  padding: 0;
 }
 
 .map-card-header h2 {
   color: #f0f4ef;
-  font-size: 1.3rem;
+  font-size: 1.15rem;
 }
 
 .map-kicker,
@@ -500,8 +501,10 @@ a:hover {
 /* SVG Map Area */
 .market-map {
   position: relative;
-  min-height: 340px;
+  width: 100%;
+  aspect-ratio: 800 / 620;
   overflow: hidden;
+  isolation: isolate;
 }
 
 .nigeria-svg {
@@ -511,9 +514,49 @@ a:hover {
   inset: 0;
 }
 
+.nigeria-svg .map-viewport {
+  transform-box: fill-box;
+}
+
 .map-viewport {
   transform-origin: 0 0;
   transition: transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.map-focused .nigeria-outline,
+.map-focused .trade-route,
+.map-focused .state-dot-group,
+.map-focused .map-label {
+  transition: opacity 0.25s ease, filter 0.25s ease;
+}
+
+.map-focused .nigeria-outline {
+  opacity: 0.35;
+}
+
+.map-focused .trade-route,
+.map-focused .state-dot-group {
+  opacity: 0.18;
+}
+
+.map-focused .state-dot-group.is-active {
+  opacity: 1;
+}
+
+.map-focused .state-dot-group.is-active .market-dot {
+  filter: drop-shadow(0 0 18px var(--green-glow)) brightness(1.35);
+}
+
+.map-focused .state-dot-group.is-active .market-dot-watch {
+  filter: drop-shadow(0 0 14px rgba(240, 190, 122, 0.55)) brightness(1.2);
+}
+
+.map-focused .map-label {
+  opacity: 0.08;
+}
+
+.map-focused .state-dot-group.is-active .map-label {
+  opacity: 1;
 }
 
 .nigeria-outline {
@@ -544,6 +587,12 @@ a:hover {
   font-size: 11px;
   font-family: var(--font-sans);
   font-weight: 500;
+  letter-spacing: 0.01em;
+  paint-order: stroke;
+  stroke: rgba(15, 27, 23, 0.9);
+  stroke-width: 3px;
+  stroke-linejoin: round;
+  transition: opacity 0.2s ease, fill 0.2s ease;
 }
 
 .map-label-left {
@@ -560,6 +609,7 @@ a:hover {
 /* Interactive state dots */
 .state-dot-group {
   cursor: pointer;
+  transition: opacity 0.2s ease;
 }
 
 .state-dot-group:hover .market-dot {
@@ -577,8 +627,8 @@ a:hover {
 /* Floating tooltip on map */
 .map-tooltip {
   position: absolute;
-  bottom: 1rem;
-  left: 1rem;
+  bottom: 0.8rem;
+  left: 0.8rem;
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
@@ -607,17 +657,17 @@ a:hover {
 }
 
 .tooltip-text {
-  font-size: 0.75rem;
+  font-size: 0.72rem;
   color: rgba(232, 237, 232, 0.8);
   font-weight: 500;
 }
 
 .map-focus-card {
   position: absolute;
-  right: 1rem;
-  bottom: 1rem;
-  width: min(240px, calc(100% - 2rem));
-  padding: 0.9rem 1rem;
+  right: 0.8rem;
+  bottom: 0.8rem;
+  width: min(224px, calc(100% - 1.6rem));
+  padding: 0.8rem 0.9rem;
   border-radius: 14px;
   background: rgba(7, 14, 12, 0.94);
   border: 1px solid rgba(52, 211, 153, 0.14);
@@ -626,7 +676,7 @@ a:hover {
 
 .focus-kicker {
   display: inline-block;
-  font-size: 0.68rem;
+  font-size: 0.64rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: rgba(232, 237, 232, 0.46);
@@ -635,20 +685,20 @@ a:hover {
 
 .map-focus-card strong {
   display: block;
-  font-size: 1rem;
+  font-size: 0.94rem;
   color: #eef4ef;
   margin-bottom: 0.35rem;
 }
 
 .map-focus-card p {
-  font-size: 0.78rem;
+  font-size: 0.74rem;
   line-height: 1.5;
   color: rgba(232, 237, 232, 0.7);
   margin-bottom: 0.65rem;
 }
 
 .map-focus-card a {
-  font-size: 0.78rem;
+  font-size: 0.74rem;
   color: #7de6b3;
   font-weight: 600;
 }
@@ -683,15 +733,15 @@ a:hover {
 }
 
 .activity-column {
-  padding: 0.8rem 0.9rem;
+  padding: 0.7rem 0.85rem;
   border-radius: 14px;
   background: rgba(255, 255, 255, 0.03);
   border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .activity-column p {
-  font-size: 0.82rem;
-  line-height: 1.5;
+  font-size: 0.78rem;
+  line-height: 1.45;
   color: rgba(232, 237, 232, 0.6);
 }
 
@@ -1364,7 +1414,7 @@ code {
   }
 
   .market-map {
-    min-height: 280px;
+    aspect-ratio: 800 / 700;
   }
 
   .map-card-header {

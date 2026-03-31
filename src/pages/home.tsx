@@ -107,94 +107,94 @@ export const HomePage: FC<HomeProps> = ({
                   <span><i class="legend-dot legend-dot-hot"></i> Has markets</span>
                   <span><i class="legend-dot legend-dot-watch"></i> Needs data</span>
                 </div>
-                <button type="button" class="map-reset" id="map-reset" hidden>
-                  Reset view
-                </button>
               </div>
             </div>
 
             <div class="market-map" id="market-map">
               <svg class="nigeria-svg" viewBox="0 0 800 700" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g class="map-viewport" id="map-viewport">
-                  {/* Nigeria outline */}
-                  <path class="nigeria-outline" d={NIGERIA_OUTLINE_PATH} />
+              <g class="map-viewport" id="map-viewport">
+                {/* Nigeria outline */}
+                <path class="nigeria-outline" d={NIGERIA_OUTLINE_PATH} />
 
-                  {/* Trade routes between hot states */}
-                  {tradeRoutes.map((r, i) => (
-                    <line
-                      key={`route-${i}`}
-                      class="trade-route"
-                      x1={String(r.x1)} y1={String(r.y1)}
-                      x2={String(r.x2)} y2={String(r.y2)}
-                    />
-                  ))}
+                {/* Trade routes between hot states */}
+                {tradeRoutes.map((r, i) => (
+                  <line
+                    key={`route-${i}`}
+                    class="trade-route"
+                    x1={String(r.x1)} y1={String(r.y1)}
+                    x2={String(r.x2)} y2={String(r.y2)}
+                  />
+                ))}
 
-                  {/* Data-driven state dots */}
-                  {stateStats.map((state) => {
-                    const coords = STATE_COORDS[state.slug];
-                    if (!coords) return null;
+                {/* Data-driven state dots */}
+                {stateStats.map((state) => {
+                  const coords = STATE_COORDS[state.slug];
+                  if (!coords) return null;
 
-                    const r = dotRadius(state.market_count);
-                    const isHot = state.market_count > 0;
-                    const dotClass = isHot ? 'market-dot market-dot-hot' : 'market-dot market-dot-watch';
-                    const showLabel = state.market_count > 2 || hotStates.slice(0, 8).includes(state) || needsData.slice(0, 3).includes(state);
-                    const pulseSpeed = isHot ? `${2.5 + Math.random() * 1.5}s` : `${3.5 + Math.random() * 1}s`;
+                  const r = dotRadius(state.market_count);
+                  const isHot = state.market_count > 0;
+                  const dotClass = isHot ? 'market-dot market-dot-hot' : 'market-dot market-dot-watch';
+                  const showLabel = state.market_count > 2 || hotStates.slice(0, 8).includes(state) || needsData.slice(0, 3).includes(state);
+                  const pulseSpeed = isHot ? `${2.5 + Math.random() * 1.5}s` : `${3.5 + Math.random() * 1}s`;
+                  const labelDx = coords.labelOffset?.[0] ?? (coords.labelDir === 'left' ? -r - 6 : r + 6);
+                  const labelDy = coords.labelOffset?.[1] ?? 4;
 
-                    return (
-                      <g
-                        key={state.slug}
-                        class="state-dot-group"
-                        data-slug={state.slug}
-                        data-name={state.name}
-                        data-count={String(state.market_count)}
-                        data-lgas={String(state.lga_with_markets)}
-                        data-x={String(coords.x)}
-                        data-y={String(coords.y)}
-                      >
-                        {/* Pulse ring for hot states */}
-                        {isHot && r >= 5 && (
-                          <circle
-                            class="market-dot-ring"
-                            cx={String(coords.x)} cy={String(coords.y)}
-                            r={String(r * 2)}
-                          >
-                            <animate attributeName="r" values={`${r * 2};${r * 3.5};${r * 2}`} dur={pulseSpeed} repeatCount="indefinite" />
-                            <animate attributeName="opacity" values="0.4;0;0.4" dur={pulseSpeed} repeatCount="indefinite" />
-                          </circle>
-                        )}
-
-                        {/* Main dot */}
+                  return (
+                    <g
+                      key={state.slug}
+                      class="state-dot-group"
+                      data-slug={state.slug}
+                      data-name={state.name}
+                      data-count={String(state.market_count)}
+                      data-lgas={String(state.lga_with_markets)}
+                      data-x={String(coords.x)}
+                      data-y={String(coords.y)}
+                      data-label={coords.label}
+                    >
+                      {/* Pulse ring for hot states */}
+                      {isHot && r >= 5 && (
                         <circle
-                          class={dotClass}
+                          class="market-dot-ring"
                           cx={String(coords.x)} cy={String(coords.y)}
-                          r={String(r)}
+                          r={String(r * 2)}
                         >
-                          <animate attributeName="r" values={`${r};${r + 2};${r}`} dur={pulseSpeed} repeatCount="indefinite" />
+                          <animate attributeName="r" values={`${r * 2};${r * 3.5};${r * 2}`} dur={pulseSpeed} repeatCount="indefinite" />
+                          <animate attributeName="opacity" values="0.4;0;0.4" dur={pulseSpeed} repeatCount="indefinite" />
                         </circle>
+                      )}
 
-                        {/* Label for notable states */}
-                        {showLabel && (
-                          <text
-                            class={`map-label${coords.labelDir === 'left' ? ' map-label-left' : ''}`}
-                            x={String(coords.labelDir === 'left' ? coords.x - r - 6 : coords.x + r + 6)}
-                            y={String(coords.y + 4)}
-                          >
-                            {coords.label}
-                          </text>
-                        )}
-                      </g>
-                    );
-                  })}
-                </g>
-              </svg>
+                      {/* Main dot */}
+                      <circle
+                        class={dotClass}
+                        cx={String(coords.x)} cy={String(coords.y)}
+                        r={String(r)}
+                      >
+                        <animate attributeName="r" values={`${r};${r + 2};${r}`} dur={pulseSpeed} repeatCount="indefinite" />
+                      </circle>
 
-              {/* Interactive tooltip — positioned via JS */}
-              <div class="map-tooltip" id="map-tooltip">
-                <span class="tooltip-ping"></span>
-                <span class="tooltip-text" id="tooltip-text">
-                  {totalMarkets} markets across {statesWithMarkets} states
-                </span>
-              </div>
+                      {/* Label for notable states */}
+                      {showLabel && (
+                        <text
+                          class={`map-label${coords.labelDir === 'left' ? ' map-label-left' : ''}`}
+                          x={String(coords.x + labelDx)}
+                          y={String(coords.y + labelDy)}
+                        >
+                          {coords.label}
+                        </text>
+                      )}
+                    </g>
+                  );
+                })}
+              </g>
+            </svg>
+
+            {/* Interactive tooltip */}
+            <div class="map-tooltip" id="map-tooltip">
+              <span class="tooltip-ping"></span>
+              <span class="tooltip-text" id="tooltip-text">
+                {totalMarkets} markets across {statesWithMarkets} states
+              </span>
+            </div>
 
               <div class="map-focus-card" id="map-focus-card" hidden>
                 <span class="focus-kicker">Focused state</span>
@@ -208,17 +208,23 @@ export const HomePage: FC<HomeProps> = ({
               <div class="activity-column">
                 <span class="activity-label">Top coverage</span>
                 <p>
-                  {hotStates.length > 0
-                    ? hotStates.map((s) => `${s.name} (${s.market_count})`).join(', ')
-                    : 'No market data yet — be the first contributor!'}
+                  {hotStates.map((s, i) => (
+                    <span key={s.slug}>
+                      {i > 0 && ', '}
+                      <strong>{s.name}</strong> ({s.market_count})
+                    </span>
+                  ))}
                 </p>
               </div>
               <div class="activity-column">
                 <span class="activity-label">Needs contributors</span>
                 <p>
-                  {needsData.length > 0
-                    ? `${needsData.map((s) => s.name).join(', ')}${stateStats.filter((s) => s.market_count === 0).length > 5 ? ` + ${stateStats.filter((s) => s.market_count === 0).length - 5} more` : ''}`
-                    : 'All states have data!'}
+                  {needsData.map((s, i) => (
+                    <span key={s.slug}>
+                      {i > 0 && ', '}
+                      {s.name}
+                    </span>
+                  ))}
                 </p>
               </div>
             </div>
@@ -286,13 +292,20 @@ export const HomePage: FC<HomeProps> = ({
           var focusLink = document.getElementById('focus-link');
           var focusedSlug = null;
           var defaultTransform = 'translate(0 0) scale(1)';
+          var activeGroup = null;
+
+          function setActiveGroup(nextGroup) {
+            if (activeGroup) activeGroup.classList.remove('is-active');
+            activeGroup = nextGroup;
+            if (activeGroup) activeGroup.classList.add('is-active');
+          }
 
           function applyFocus(slug, name, count, lgas, x, y) {
             if (!viewport) return;
 
-            var scale = 1.85;
+            var scale = 1.95;
             var targetX = 400;
-            var targetY = 350;
+            var targetY = 330;
             var tx = targetX - (scale * x);
             var ty = targetY - (scale * y);
 
@@ -318,6 +331,7 @@ export const HomePage: FC<HomeProps> = ({
             viewport.setAttribute('transform', defaultTransform);
             map.classList.remove('map-focused');
             focusedSlug = null;
+            setActiveGroup(null);
             if (reset) reset.hidden = true;
             if (focusCard) focusCard.hidden = true;
           }
@@ -359,6 +373,7 @@ export const HomePage: FC<HomeProps> = ({
                 return;
               }
 
+              setActiveGroup(g);
               applyFocus(slug, name, count, lgas, x, y);
             });
           });
