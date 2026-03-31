@@ -1,6 +1,53 @@
 import type { FC } from 'hono/jsx';
+import { STATE_COORDS } from '../data/state-coordinates';
+import { NIGERIA_OUTLINE_PATH } from '../data/nigeria-outline';
 
-export const HomePage: FC = () => {
+interface StateStat {
+  slug: string;
+  name: string;
+  market_count: number;
+  lga_with_markets: number;
+}
+
+interface HomeProps {
+  stateStats: StateStat[];
+  totalMarkets: number;
+  totalStates: number;
+  statesWithMarkets: number;
+  lgasWithData: number;
+}
+
+function dotRadius(count: number): number {
+  if (count === 0) return 3;
+  if (count <= 3) return 5;
+  if (count <= 10) return 7;
+  if (count <= 20) return 9;
+  return 11;
+}
+
+export const HomePage: FC<HomeProps> = ({
+  stateStats,
+  totalMarkets,
+  totalStates,
+  statesWithMarkets,
+  lgasWithData,
+}) => {
+  // Top 5 states with most markets
+  const hotStates = stateStats.filter((s) => s.market_count > 0).slice(0, 5);
+  // States needing contributions (0 markets or very few)
+  const needsData = stateStats.filter((s) => s.market_count === 0).slice(0, 5);
+
+  // Build trade routes between top states
+  const tradeRoutes: Array<{ x1: number; y1: number; x2: number; y2: number }> = [];
+  const hotSlugs = hotStates.map((s) => s.slug);
+  for (let i = 0; i < hotSlugs.length - 1; i++) {
+    const a = STATE_COORDS[hotSlugs[i]];
+    const b = STATE_COORDS[hotSlugs[i + 1]];
+    if (a && b) {
+      tradeRoutes.push({ x1: a.x, y1: a.y, x2: b.x, y2: b.y });
+    }
+  }
+
   return (
     <div class="home-page">
       {/* Ambient background grid */}
@@ -29,21 +76,21 @@ export const HomePage: FC = () => {
             </a>
           </div>
 
-          {/* Live stats strip */}
+          {/* Live stats strip — real data */}
           <div class="stats-strip">
             <div class="stat-item">
-              <span class="stat-number" data-count="37">37</span>
-              <span class="stat-label">States covered</span>
+              <span class="stat-number">{totalMarkets}</span>
+              <span class="stat-label">Markets tracked</span>
             </div>
             <div class="stat-divider"></div>
             <div class="stat-item">
-              <span class="stat-number" data-count="774">774</span>
-              <span class="stat-label">LGAs mapped</span>
+              <span class="stat-number">{statesWithMarkets}/{totalStates}</span>
+              <span class="stat-label">States with data</span>
             </div>
             <div class="stat-divider"></div>
             <div class="stat-item">
-              <span class="stat-number">Open</span>
-              <span class="stat-label">Community data</span>
+              <span class="stat-number">{lgasWithData}</span>
+              <span class="stat-label">LGAs covered</span>
             </div>
           </div>
         </div>
@@ -55,124 +102,124 @@ export const HomePage: FC = () => {
                 <span class="map-kicker">Live coverage</span>
                 <h2>Nigeria market pulse</h2>
               </div>
-              <div class="map-legend">
-                <span><i class="legend-dot legend-dot-hot"></i> Active markets</span>
-                <span><i class="legend-dot legend-dot-watch"></i> Needs data</span>
+              <div class="map-header-tools">
+                <div class="map-legend">
+                  <span><i class="legend-dot legend-dot-hot"></i> Has markets</span>
+                  <span><i class="legend-dot legend-dot-watch"></i> Needs data</span>
+                </div>
+                <button type="button" class="map-reset" id="map-reset" hidden>
+                  Reset view
+                </button>
               </div>
             </div>
 
-            <div class="market-map">
-              {/* SVG map of Nigeria outline with state boundaries */}
+            <div class="market-map" id="market-map">
               <svg class="nigeria-svg" viewBox="0 0 800 700" fill="none" xmlns="http://www.w3.org/2000/svg">
-                {/* Nigeria outline - simplified polygon */}
-                <path class="nigeria-outline" d="M280,80 L320,60 L380,55 L440,50 L500,55 L540,70 L580,90 L600,120 L620,160 L640,200 L660,250 L680,300 L690,350 L700,400 L690,440 L670,470 L640,490 L600,510 L560,530 L520,550 L480,560 L440,565 L400,560 L360,550 L320,530 L280,510 L250,490 L230,470 L210,440 L200,400 L190,360 L185,320 L190,280 L200,240 L210,200 L230,160 L250,120 L280,80Z" />
+                <g class="map-viewport" id="map-viewport">
+                  {/* Nigeria outline */}
+                  <path class="nigeria-outline" d={NIGERIA_OUTLINE_PATH} />
 
-                {/* Grid lines for geographic feel */}
-                <line class="grid-line" x1="100" y1="200" x2="750" y2="200" />
-                <line class="grid-line" x1="100" y1="350" x2="750" y2="350" />
-                <line class="grid-line" x1="100" y1="500" x2="750" y2="500" />
-                <line class="grid-line" x1="300" y1="30" x2="300" y2="600" />
-                <line class="grid-line" x1="450" y1="30" x2="450" y2="600" />
-                <line class="grid-line" x1="600" y1="30" x2="600" y2="600" />
+                  {/* Trade routes between hot states */}
+                  {tradeRoutes.map((r, i) => (
+                    <line
+                      key={`route-${i}`}
+                      class="trade-route"
+                      x1={String(r.x1)} y1={String(r.y1)}
+                      x2={String(r.x2)} y2={String(r.y2)}
+                    />
+                  ))}
 
-                {/* Market cluster nodes */}
-                {/* Lagos */}
-                <circle class="market-dot market-dot-hot" cx="310" cy="500" r="8">
-                  <animate attributeName="r" values="8;12;8" dur="3s" repeatCount="indefinite" />
-                </circle>
-                <circle class="market-dot-ring" cx="310" cy="500" r="16">
-                  <animate attributeName="r" values="16;28;16" dur="3s" repeatCount="indefinite" />
-                  <animate attributeName="opacity" values="0.4;0;0.4" dur="3s" repeatCount="indefinite" />
-                </circle>
-                <text class="map-label" x="328" y="505">Lagos</text>
+                  {/* Data-driven state dots */}
+                  {stateStats.map((state) => {
+                    const coords = STATE_COORDS[state.slug];
+                    if (!coords) return null;
 
-                {/* Kano */}
-                <circle class="market-dot market-dot-hot" cx="480" cy="110" r="7">
-                  <animate attributeName="r" values="7;10;7" dur="3.5s" repeatCount="indefinite" />
-                </circle>
-                <circle class="market-dot-ring" cx="480" cy="110" r="14">
-                  <animate attributeName="r" values="14;24;14" dur="3.5s" repeatCount="indefinite" />
-                  <animate attributeName="opacity" values="0.4;0;0.4" dur="3.5s" repeatCount="indefinite" />
-                </circle>
-                <text class="map-label" x="498" y="115">Kano</text>
+                    const r = dotRadius(state.market_count);
+                    const isHot = state.market_count > 0;
+                    const dotClass = isHot ? 'market-dot market-dot-hot' : 'market-dot market-dot-watch';
+                    const showLabel = state.market_count > 2 || hotStates.slice(0, 8).includes(state) || needsData.slice(0, 3).includes(state);
+                    const pulseSpeed = isHot ? `${2.5 + Math.random() * 1.5}s` : `${3.5 + Math.random() * 1}s`;
 
-                {/* Abuja / FCT */}
-                <circle class="market-dot market-dot-hot" cx="430" cy="310" r="7">
-                  <animate attributeName="r" values="7;10;7" dur="2.8s" repeatCount="indefinite" />
-                </circle>
-                <circle class="market-dot-ring" cx="430" cy="310" r="14">
-                  <animate attributeName="r" values="14;24;14" dur="2.8s" repeatCount="indefinite" />
-                  <animate attributeName="opacity" values="0.4;0;0.4" dur="2.8s" repeatCount="indefinite" />
-                </circle>
-                <text class="map-label" x="448" y="315">Abuja</text>
+                    return (
+                      <g
+                        key={state.slug}
+                        class="state-dot-group"
+                        data-slug={state.slug}
+                        data-name={state.name}
+                        data-count={String(state.market_count)}
+                        data-lgas={String(state.lga_with_markets)}
+                        data-x={String(coords.x)}
+                        data-y={String(coords.y)}
+                      >
+                        {/* Pulse ring for hot states */}
+                        {isHot && r >= 5 && (
+                          <circle
+                            class="market-dot-ring"
+                            cx={String(coords.x)} cy={String(coords.y)}
+                            r={String(r * 2)}
+                          >
+                            <animate attributeName="r" values={`${r * 2};${r * 3.5};${r * 2}`} dur={pulseSpeed} repeatCount="indefinite" />
+                            <animate attributeName="opacity" values="0.4;0;0.4" dur={pulseSpeed} repeatCount="indefinite" />
+                          </circle>
+                        )}
 
-                {/* Onitsha */}
-                <circle class="market-dot market-dot-hot" cx="420" cy="460" r="5">
-                  <animate attributeName="r" values="5;8;5" dur="3.2s" repeatCount="indefinite" />
-                </circle>
-                <text class="map-label" x="434" y="465">Onitsha</text>
+                        {/* Main dot */}
+                        <circle
+                          class={dotClass}
+                          cx={String(coords.x)} cy={String(coords.y)}
+                          r={String(r)}
+                        >
+                          <animate attributeName="r" values={`${r};${r + 2};${r}`} dur={pulseSpeed} repeatCount="indefinite" />
+                        </circle>
 
-                {/* Port Harcourt */}
-                <circle class="market-dot market-dot-watch" cx="380" cy="520" r="5">
-                  <animate attributeName="r" values="5;8;5" dur="4s" repeatCount="indefinite" />
-                </circle>
-                <text class="map-label" x="394" y="525">PH</text>
-
-                {/* Ibadan */}
-                <circle class="market-dot market-dot-hot" cx="300" cy="430" r="5">
-                  <animate attributeName="r" values="5;7;5" dur="3.8s" repeatCount="indefinite" />
-                </circle>
-                <text class="map-label" x="312" y="435">Ibadan</text>
-
-                {/* Kaduna */}
-                <circle class="market-dot market-dot-watch" cx="440" cy="200" r="5">
-                  <animate attributeName="r" values="5;7;5" dur="3.3s" repeatCount="indefinite" />
-                </circle>
-                <text class="map-label" x="454" y="205">Kaduna</text>
-
-                {/* Maiduguri */}
-                <circle class="market-dot market-dot-watch" cx="620" cy="130" r="4">
-                  <animate attributeName="r" values="4;6;4" dur="4.2s" repeatCount="indefinite" />
-                </circle>
-                <text class="map-label" x="632" y="135">Maiduguri</text>
-
-                {/* Jos */}
-                <circle class="market-dot market-dot-watch" cx="490" cy="250" r="4">
-                  <animate attributeName="r" values="4;6;4" dur="3.6s" repeatCount="indefinite" />
-                </circle>
-
-                {/* Enugu */}
-                <circle class="market-dot market-dot-hot" cx="440" cy="420" r="4">
-                  <animate attributeName="r" values="4;6;4" dur="3.4s" repeatCount="indefinite" />
-                </circle>
-
-                {/* Benin */}
-                <circle class="market-dot market-dot-watch" cx="350" cy="470" r="4">
-                  <animate attributeName="r" values="4;6;4" dur="3.9s" repeatCount="indefinite" />
-                </circle>
-
-                {/* Trade route lines */}
-                <line class="trade-route" x1="310" y1="500" x2="430" y2="310" />
-                <line class="trade-route" x1="430" y1="310" x2="480" y2="110" />
-                <line class="trade-route" x1="310" y1="500" x2="420" y2="460" />
-                <line class="trade-route" x1="420" y1="460" x2="430" y2="310" />
+                        {/* Label for notable states */}
+                        {showLabel && (
+                          <text
+                            class={`map-label${coords.labelDir === 'left' ? ' map-label-left' : ''}`}
+                            x={String(coords.labelDir === 'left' ? coords.x - r - 6 : coords.x + r + 6)}
+                            y={String(coords.y + 4)}
+                          >
+                            {coords.label}
+                          </text>
+                        )}
+                      </g>
+                    );
+                  })}
+                </g>
               </svg>
 
-              {/* Floating tooltip */}
-              <div class="map-tooltip">
+              {/* Interactive tooltip — positioned via JS */}
+              <div class="map-tooltip" id="map-tooltip">
                 <span class="tooltip-ping"></span>
-                <span class="tooltip-text">8 markets in Lagos</span>
+                <span class="tooltip-text" id="tooltip-text">
+                  {totalMarkets} markets across {statesWithMarkets} states
+                </span>
+              </div>
+
+              <div class="map-focus-card" id="map-focus-card" hidden>
+                <span class="focus-kicker">Focused state</span>
+                <strong id="focus-title">Nigeria overview</strong>
+                <p id="focus-meta">Click a node to zoom in and inspect coverage.</p>
+                <a href="/api" id="focus-link">Open API index</a>
               </div>
             </div>
 
             <div class="activity-ribbon">
               <div class="activity-column">
-                <span class="activity-label">Hot zones</span>
-                <p>Lagos, Kano, Abuja — highest market density</p>
+                <span class="activity-label">Top coverage</span>
+                <p>
+                  {hotStates.length > 0
+                    ? hotStates.map((s) => `${s.name} (${s.market_count})`).join(', ')
+                    : 'No market data yet — be the first contributor!'}
+                </p>
               </div>
               <div class="activity-column">
                 <span class="activity-label">Needs contributors</span>
-                <p>Borno, Yobe, Zamfara — help fill the gaps</p>
+                <p>
+                  {needsData.length > 0
+                    ? `${needsData.map((s) => s.name).join(', ')}${stateStats.filter((s) => s.market_count === 0).length > 5 ? ` + ${stateStats.filter((s) => s.market_count === 0).length - 5} more` : ''}`
+                    : 'All states have data!'}
+                </p>
               </div>
             </div>
           </div>
@@ -222,6 +269,101 @@ export const HomePage: FC = () => {
           </div>
         </div>
       </section>
+
+      {/* Client-side interactivity for map */}
+      <script dangerouslySetInnerHTML={{ __html: `
+        (function() {
+          var tooltip = document.getElementById('map-tooltip');
+          var tooltipText = document.getElementById('tooltip-text');
+          var defaultText = tooltipText.textContent;
+          var groups = document.querySelectorAll('.state-dot-group');
+          var map = document.getElementById('market-map');
+          var viewport = document.getElementById('map-viewport');
+          var reset = document.getElementById('map-reset');
+          var focusCard = document.getElementById('map-focus-card');
+          var focusTitle = document.getElementById('focus-title');
+          var focusMeta = document.getElementById('focus-meta');
+          var focusLink = document.getElementById('focus-link');
+          var focusedSlug = null;
+          var defaultTransform = 'translate(0 0) scale(1)';
+
+          function applyFocus(slug, name, count, lgas, x, y) {
+            if (!viewport) return;
+
+            var scale = 1.85;
+            var targetX = 400;
+            var targetY = 350;
+            var tx = targetX - (scale * x);
+            var ty = targetY - (scale * y);
+
+            viewport.setAttribute('transform', 'translate(' + tx + ' ' + ty + ') scale(' + scale + ')');
+            map.classList.add('map-focused');
+            focusedSlug = slug;
+
+            if (reset) reset.hidden = false;
+            if (focusCard) focusCard.hidden = false;
+            if (focusTitle) focusTitle.textContent = name;
+            if (focusMeta) {
+              if (parseInt(count, 10) > 0) {
+                focusMeta.textContent = count + ' market' + (count !== '1' ? 's' : '') + ' across ' + lgas + ' LGA' + (lgas !== '1' ? 's' : '');
+              } else {
+                focusMeta.textContent = 'No markets yet. This state is a good contribution target.';
+              }
+            }
+            if (focusLink) focusLink.setAttribute('href', '/api/states/' + slug);
+          }
+
+          function resetFocus() {
+            if (!viewport) return;
+            viewport.setAttribute('transform', defaultTransform);
+            map.classList.remove('map-focused');
+            focusedSlug = null;
+            if (reset) reset.hidden = true;
+            if (focusCard) focusCard.hidden = true;
+          }
+
+          if (reset) {
+            reset.addEventListener('click', function() {
+              resetFocus();
+            });
+          }
+
+          groups.forEach(function(g) {
+            g.addEventListener('mouseenter', function() {
+              var name = g.getAttribute('data-name');
+              var count = g.getAttribute('data-count');
+              var lgas = g.getAttribute('data-lgas');
+              if (parseInt(count) > 0) {
+                tooltipText.textContent = name + ' — ' + count + ' market' + (count !== '1' ? 's' : '') + ' across ' + lgas + ' LGA' + (lgas !== '1' ? 's' : '');
+              } else {
+                tooltipText.textContent = name + ' — no markets yet. Help add some!';
+              }
+              tooltip.classList.add('tooltip-active');
+            });
+
+            g.addEventListener('mouseleave', function() {
+              tooltipText.textContent = defaultText;
+              tooltip.classList.remove('tooltip-active');
+            });
+
+            g.addEventListener('click', function() {
+              var slug = g.getAttribute('data-slug');
+              var name = g.getAttribute('data-name');
+              var count = g.getAttribute('data-count');
+              var lgas = g.getAttribute('data-lgas');
+              var x = parseFloat(g.getAttribute('data-x'));
+              var y = parseFloat(g.getAttribute('data-y'));
+
+              if (focusedSlug === slug) {
+                resetFocus();
+                return;
+              }
+
+              applyFocus(slug, name, count, lgas, x, y);
+            });
+          });
+        })();
+      `}} />
     </div>
   );
 };
