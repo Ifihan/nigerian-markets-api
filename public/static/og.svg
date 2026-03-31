@@ -1,0 +1,58 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0a0f0d"/>
+
+  <!-- Grid -->
+  <line x1="0" y1="100" x2="1200" y2="100" stroke="rgba(52,211,153,0.05)" stroke-width="1"/>
+  <line x1="0" y1="200" x2="1200" y2="200" stroke="rgba(52,211,153,0.05)" stroke-width="1"/>
+  <line x1="0" y1="300" x2="1200" y2="300" stroke="rgba(52,211,153,0.05)" stroke-width="1"/>
+  <line x1="0" y1="400" x2="1200" y2="400" stroke="rgba(52,211,153,0.05)" stroke-width="1"/>
+  <line x1="0" y1="500" x2="1200" y2="500" stroke="rgba(52,211,153,0.05)" stroke-width="1"/>
+  <line x1="200" y1="0" x2="200" y2="630" stroke="rgba(52,211,153,0.05)" stroke-width="1"/>
+  <line x1="400" y1="0" x2="400" y2="630" stroke="rgba(52,211,153,0.05)" stroke-width="1"/>
+  <line x1="600" y1="0" x2="600" y2="630" stroke="rgba(52,211,153,0.05)" stroke-width="1"/>
+  <line x1="800" y1="0" x2="800" y2="630" stroke="rgba(52,211,153,0.05)" stroke-width="1"/>
+  <line x1="1000" y1="0" x2="1000" y2="630" stroke="rgba(52,211,153,0.05)" stroke-width="1"/>
+
+  <!-- Glow -->
+  <circle cx="900" cy="350" r="250" fill="rgba(52,211,153,0.04)"/>
+  <circle cx="300" cy="250" r="180" fill="rgba(52,211,153,0.03)"/>
+
+  <!-- Nigeria outline (simplified) -->
+  <path d="M750,140 L780,130 L820,128 L860,125 L900,128 L930,138 L950,155 L965,180 L975,210 L985,245 L995,285 L1000,320 L1005,355 L1000,385 L990,405 L975,420 L955,430 L935,445 L915,455 L895,462 L875,465 L855,462 L835,455 L815,445 L800,435 L790,420 L780,405 L775,385 L770,360 L768,335 L770,310 L775,285 L780,260 L790,235 L800,210 L815,185 L830,160 L750,140Z"
+        fill="rgba(52,211,153,0.06)" stroke="rgba(52,211,153,0.2)" stroke-width="1.5"/>
+
+  <!-- Market dots -->
+  <circle cx="810" cy="415" r="8" fill="#34d399" opacity="0.9"/>
+  <circle cx="810" cy="415" r="16" fill="none" stroke="#34d399" stroke-width="1" opacity="0.3"/>
+  <circle cx="870" cy="200" r="6" fill="#34d399" opacity="0.8"/>
+  <circle cx="870" cy="200" r="12" fill="none" stroke="#34d399" stroke-width="1" opacity="0.25"/>
+  <circle cx="850" cy="310" r="6" fill="#34d399" opacity="0.8"/>
+  <circle cx="850" cy="310" r="12" fill="none" stroke="#34d399" stroke-width="1" opacity="0.25"/>
+  <circle cx="840" cy="380" r="5" fill="#f0be7a" opacity="0.7"/>
+  <circle cx="900" cy="250" r="4" fill="#f0be7a" opacity="0.6"/>
+
+  <!-- Trade routes -->
+  <line x1="810" y1="415" x2="850" y2="310" stroke="rgba(52,211,153,0.1)" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="850" y1="310" x2="870" y2="200" stroke="rgba(52,211,153,0.1)" stroke-width="1" stroke-dasharray="4 3"/>
+
+  <!-- Text -->
+  <text x="80" y="230" fill="#ecf0ea" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="800" letter-spacing="-3">Iya Oloja</text>
+  <text x="80" y="300" fill="#9ca89c" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="400">The living map of Nigerian markets</text>
+
+  <!-- Stats -->
+  <text x="80" y="400" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="700">37</text>
+  <text x="145" y="400" fill="#6b756b" font-family="system-ui, -apple-system, sans-serif" font-size="18">states</text>
+
+  <text x="230" y="400" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="700">774</text>
+  <text x="310" y="400" fill="#6b756b" font-family="system-ui, -apple-system, sans-serif" font-size="18">LGAs</text>
+
+  <text x="390" y="400" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="700">Open</text>
+  <text x="490" y="400" fill="#6b756b" font-family="system-ui, -apple-system, sans-serif" font-size="18">API</text>
+
+  <!-- URL -->
+  <text x="80" y="560" fill="#6b756b" font-family="monospace" font-size="18">iya-oloja.pages.dev</text>
+
+  <!-- Dot indicator -->
+  <circle cx="83" y="480" cx="83" cy="480" r="5" fill="#34d399"/>
+  <text x="98" y="486" fill="#9ca89c" font-family="system-ui, -apple-system, sans-serif" font-size="16">Community-powered open data</text>
+</svg>
