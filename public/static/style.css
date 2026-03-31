@@ -1261,16 +1261,18 @@ details[open] summary {
   margin-left: 0.35rem;
 }
 
-.coords-display {
-  font-family: var(--font-mono);
-  font-size: 0.8rem;
-  color: var(--text-muted);
-  margin-top: 0.4rem;
-  min-height: 1.2em;
+.coords-inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 0.5rem;
 }
 
-.coords-display.active {
-  color: var(--green);
+.coord-field label {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-bottom: 0.25rem;
 }
 
 .field-row {

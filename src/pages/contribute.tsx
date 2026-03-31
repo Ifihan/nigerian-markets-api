@@ -25,11 +25,18 @@ export const ContributePage: FC = () => {
               <input type="text" id="lga" name="lga" required placeholder="e.g. Lagos Island" />
             </div>
             <div class="field">
-              <label>Location <span class="label-hint">Click the map to set the market location</span></label>
+              <label>Location * <span class="label-hint">Click the map or enter coordinates manually</span></label>
               <div id="map" class="map-picker"></div>
-              <input type="hidden" id="lat" name="lat" />
-              <input type="hidden" id="lng" name="lng" />
-              <div id="coords-display" class="coords-display"></div>
+              <div class="coords-inputs">
+                <div class="coord-field">
+                  <label for="lat">Latitude</label>
+                  <input type="number" id="lat" name="lat" required step="any" min="3" max="15" placeholder="e.g. 6.4541" />
+                </div>
+                <div class="coord-field">
+                  <label for="lng">Longitude</label>
+                  <input type="number" id="lng" name="lng" required step="any" min="1" max="16" placeholder="e.g. 3.3947" />
+                </div>
+              </div>
             </div>
             <div class="field">
               <label for="description">Description</label>
@@ -48,37 +55,61 @@ export const ContributePage: FC = () => {
 
           <script dangerouslySetInnerHTML={{__html: `
             (function() {
-              var map = L.map('map').setView([9.05, 7.49], 6);
+              // Nigeria bounds — restrict map to this area
+              var nigeriaBounds = L.latLngBounds(
+                L.latLng(3.0, 1.0),   // SW corner
+                L.latLng(14.5, 15.5)   // NE corner
+              );
+
+              var map = L.map('map', {
+                maxBounds: nigeriaBounds,
+                maxBoundsViscosity: 1.0,
+                minZoom: 6,
+                maxZoom: 18
+              }).setView([9.05, 7.49], 6);
+
               L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 attribution: '&copy; OpenStreetMap contributors',
-                maxZoom: 19
+                bounds: nigeriaBounds
               }).addTo(map);
 
               var marker = null;
               var latInput = document.getElementById('lat');
               var lngInput = document.getElementById('lng');
-              var coordsDisplay = document.getElementById('coords-display');
 
+              function updateMarker(lat, lng) {
+                var latlng = L.latLng(lat, lng);
+                if (marker) {
+                  marker.setLatLng(latlng);
+                } else {
+                  marker = L.marker(latlng).addTo(map);
+                }
+              }
+
+              // Map click → update inputs and marker
               map.on('click', function(e) {
                 var lat = e.latlng.lat.toFixed(6);
                 var lng = e.latlng.lng.toFixed(6);
-
-                if (marker) {
-                  marker.setLatLng(e.latlng);
-                } else {
-                  marker = L.marker(e.latlng).addTo(map);
-                }
-
                 latInput.value = lat;
                 lngInput.value = lng;
-                coordsDisplay.textContent = lat + ', ' + lng;
-                coordsDisplay.className = 'coords-display active';
+                updateMarker(lat, lng);
               });
 
-              // Fix map rendering in case container was hidden
+              // Manual input → update marker and pan map
+              function onManualInput() {
+                var lat = parseFloat(latInput.value);
+                var lng = parseFloat(lngInput.value);
+                if (!isNaN(lat) && !isNaN(lng) && lat >= 3 && lat <= 15 && lng >= 1 && lng <= 16) {
+                  updateMarker(lat, lng);
+                  map.panTo([lat, lng]);
+                }
+              }
+              latInput.addEventListener('change', onManualInput);
+              lngInput.addEventListener('change', onManualInput);
+
               setTimeout(function() { map.invalidateSize(); }, 100);
 
-              // Reset map on form reset
+              // Reset
               document.getElementById('contribute-form').addEventListener('reset', function() {
                 if (marker) {
                   map.removeLayer(marker);
@@ -86,8 +117,6 @@ export const ContributePage: FC = () => {
                 }
                 latInput.value = '';
                 lngInput.value = '';
-                coordsDisplay.textContent = '';
-                coordsDisplay.className = 'coords-display';
               });
             })();
 
@@ -103,8 +132,14 @@ export const ContributePage: FC = () => {
 
               try {
                 const data = Object.fromEntries(new FormData(form));
-                if (data.lat) data.lat = parseFloat(data.lat);
-                if (data.lng) data.lng = parseFloat(data.lng);
+                data.lat = parseFloat(data.lat);
+                data.lng = parseFloat(data.lng);
+
+                if (isNaN(data.lat) || isNaN(data.lng)) {
+                  msg.textContent = 'Please set the market location on the map or enter coordinates.';
+                  msg.className = 'form-message error';
+                  return;
+                }
 
                 const res = await fetch('/api/contribute', {
                   method: 'POST',
@@ -114,7 +149,10 @@ export const ContributePage: FC = () => {
                 const result = await res.json();
 
                 if (result.success) {
-                  msg.textContent = 'Thank you! Your submission has been received and will be reviewed.';
+                  var prUrl = result.data && result.data.pr_url;
+                  msg.innerHTML = prUrl
+                    ? 'Thank you! A <a href="' + prUrl + '" target="_blank" rel="noopener">pull request</a> has been created and will be merged shortly.'
+                    : 'Thank you! Your submission has been received.';
                   msg.className = 'form-message success';
                   form.reset();
                 } else {

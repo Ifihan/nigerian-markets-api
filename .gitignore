@@ -16,3 +16,5 @@ bun.lockb
 ajo.png
 
 .env
+*.pem
+*.private-key.*

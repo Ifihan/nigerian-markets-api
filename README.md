@@ -59,15 +59,13 @@ curl https://iya-oloja.pages.dev/api/states/lagos
 
 **Slug format:** lowercase, hyphens only (e.g., `mile-12-market`). Must be unique across all markets.
 
-**Coordinates:** Optional. Use Google Maps to find lat/lng for the market location.
+**Coordinates:** Required. Use Google Maps or the map picker on the contribute page to find lat/lng for the market location.
 
 ### Option 2: Web Form
 
-Visit the [contribute page](https://iya-oloja.pages.dev/contribute) to submit a market through the web form. This creates a GitHub issue that maintainers will review and add.
+Visit the [contribute page](https://iya-oloja.pages.dev/contribute) to submit a market through the web form. The form automatically creates a pull request that will be validated by CI and merged by a maintainer.
 
-### Option 3: GitHub Issue
-
-Use the [Add a Market](https://github.com/ifihan/nigerian-markets-api/issues/new?template=add-market.yml) issue template.
+> **Preview the homepage with sample data:** [iya-oloja.pages.dev/?mock=1](https://iya-oloja.pages.dev/?mock=1)
 
 ## Data Structure
 
