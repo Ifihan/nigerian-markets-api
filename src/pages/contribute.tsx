@@ -39,10 +39,6 @@ export const ContributePage: FC = () => {
               </div>
             </div>
             <div class="field">
-              <label for="description">Description</label>
-              <textarea id="description" name="description" rows={3} placeholder="What is this market known for?"></textarea>
-            </div>
-            <div class="field">
               <label for="contributor_name">Your Name / GitHub Username</label>
               <input type="text" id="contributor_name" name="contributor_name" placeholder="e.g. ifihan" />
             </div>

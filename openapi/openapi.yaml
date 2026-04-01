@@ -1,26 +1,31 @@
 openapi: 3.1.0
 info:
   title: Iya Oloja API
-  version: 1.0.0
+  version: 1.1.0
   summary: Open data API for Nigerian markets
   description: |
     Iya Oloja is a free JSON API for discovering markets across all 36 states of Nigeria and the FCT.
-    The API is read-only except for the contribution endpoint, which creates a GitHub issue for review.
+    The main read path is the `GET /api/markets` collection endpoint, which supports listing, search, and filtering.
+    The API is read-only except for the contribution endpoint, which opens a GitHub pull request for review.
 servers:
   - url: https://iya-oloja.pages.dev
     description: Production
 tags:
+  - name: Core
   - name: States
   - name: LGAs
   - name: Markets
-  - name: Search
+  - name: Coverage
   - name: Contributions
 paths:
   /api:
     get:
       tags:
-        - States
+        - Core
       summary: Get the API index
+      description: |
+        Returns high-level metadata plus a discovery object with the primary public endpoints.
+        Use this as a lightweight entrypoint when you want to inspect the current API surface.
       operationId: getApiIndex
       responses:
         "200":
@@ -29,11 +34,28 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/ApiIndexResponse"
+              example:
+                name: Iya Oloja
+                description: An open directory and API for markets across Nigeria
+                version: 1.1.0
+                endpoints:
+                  states: /api/states
+                  state: /api/states/:slug
+                  lgas: /api/lgas?state=:slug
+                  lga: /api/lgas/:slug
+                  markets: /api/markets?state=lagos&limit=20&offset=0&order=asc
+                  coverage: /api/coverage
+                  contribute: POST /api/contribute
+                docs: /docs
+                github: https://github.com/ifihan/nigerian-markets-api
   /api/states:
     get:
       tags:
         - States
       summary: List all states
+      description: |
+        Returns all 36 states and the FCT. This endpoint is intentionally lightweight and useful for populating
+        dropdowns, filters, and lookup tables in clients.
       operationId: listStates
       responses:
         "200":
@@ -56,6 +78,10 @@ paths:
       tags:
         - States
       summary: Get a state by slug
+      description: |
+        Returns state metadata. Keep this endpoint for state detail and hierarchy.
+        Use `GET /api/markets?state={state}` when you want the markets in a state.
+        Clients may optionally request child LGAs with `include=lgas`.
       operationId: getStateBySlug
       parameters:
         - name: state
@@ -65,9 +91,17 @@ paths:
           schema:
             type: string
           example: lagos
+        - name: include
+          in: query
+          required: false
+          description: Include child resources in the response.
+          schema:
+            type: string
+            enum:
+              - lgas
       responses:
         "200":
-          description: A state with its LGAs
+          description: State detail
           content:
             application/json:
               schema:
@@ -78,6 +112,8 @@ paths:
                   id: 25
                   name: Lagos
                   slug: lagos
+                  lga_count: 20
+                  market_count: 48
                   lgas:
                     - id: 100
                       state_id: 25
@@ -98,11 +134,51 @@ paths:
                 error:
                   message: State not found
                   code: NOT_FOUND
+  /api/lgas:
+    get:
+      tags:
+        - LGAs
+      summary: List LGAs
+      description: |
+        Returns LGAs. Most clients should provide a state slug so the response stays focused:
+        `GET /api/lgas?state=lagos`.
+      operationId: listLgas
+      parameters:
+        - name: state
+          in: query
+          required: false
+          description: Filter LGAs by parent state slug.
+          schema:
+            type: string
+          example: lagos
+      responses:
+        "200":
+          description: A list of LGAs
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/LgasResponse"
+              example:
+                success: true
+                data:
+                  - id: 100
+                    state_id: 25
+                    name: Eti-Osa
+                    slug: lagos-eti-osa
+                    market_count: 8
+                  - id: 101
+                    state_id: 25
+                    name: Lagos Island
+                    slug: lagos-lagos-island
+                    market_count: 12
   /api/lgas/{lga}:
     get:
       tags:
         - LGAs
       summary: Get an LGA by slug
+      description: |
+        Returns LGA metadata plus the parent state. By default this endpoint stays lightweight.
+        Use `GET /api/markets?lga={lga}` for the markets in an LGA, or request `include=markets` when you explicitly want the embedded collection.
       operationId: getLgaBySlug
       parameters:
         - name: lga
@@ -112,9 +188,17 @@ paths:
           schema:
             type: string
           example: lagos-eti-osa
+        - name: include
+          in: query
+          required: false
+          description: Include child resources in the response.
+          schema:
+            type: string
+            enum:
+              - markets
       responses:
         "200":
-          description: An LGA with its parent state and all markets
+          description: LGA detail
           content:
             application/json:
               schema:
@@ -126,18 +210,11 @@ paths:
                   state_id: 25
                   name: Eti-Osa
                   slug: lagos-eti-osa
+                  market_count: 8
                   state:
                     id: 25
                     name: Lagos
                     slug: lagos
-                  markets:
-                    - id: 1
-                      lga_id: 100
-                      name: Lekki Market, Eti-Osa
-                      slug: lekki-market
-                      lat: 6.4698
-                      lng: 3.5852
-                      added_by: ifihan
         "404":
           description: The LGA slug does not exist
           content:
@@ -153,9 +230,36 @@ paths:
     get:
       tags:
         - Markets
-      summary: List markets
+      summary: List, search, and filter markets
+      description: |
+        This is the main collection endpoint for market discovery.
+        Use it to paginate the full market directory, run free-text search with `q`,
+        or filter by `state` and `lga`.
       operationId: listMarkets
       parameters:
+        - name: q
+          in: query
+          required: false
+          description: Free-text search across market, LGA, and state names.
+          schema:
+            type: string
+            minLength: 1
+            maxLength: 100
+          example: balogun
+        - name: state
+          in: query
+          required: false
+          description: Filter markets by state slug.
+          schema:
+            type: string
+          example: lagos
+        - name: lga
+          in: query
+          required: false
+          description: Filter markets by LGA slug.
+          schema:
+            type: string
+          example: lagos-eti-osa
         - name: limit
           in: query
           required: false
@@ -185,92 +289,96 @@ paths:
             default: asc
       responses:
         "200":
-          description: Paginated market list
+          description: Paginated market results
           content:
             application/json:
               schema:
                 $ref: "#/components/schemas/MarketsResponse"
-              example:
-                success: true
-                data:
-                  - id: 1
-                    lga_id: 100
-                    name: Ajah Market, Eti-Osa
-                    slug: ajah-market
-                    lat: 6.4698
-                    lng: 3.5986
-                    added_by: ifihan
-                    lga_name: Eti-Osa
-                    lga_slug: lagos-eti-osa
-                    state_name: Lagos
-                    state_slug: lagos
-                meta:
-                  total: 400
-                  limit: 20
-                  offset: 0
-  /api/search:
-    get:
-      tags:
-        - Search
-      summary: Search markets, LGAs, and states
-      operationId: searchMarkets
-      parameters:
-        - name: q
-          in: query
-          required: true
-          description: Search query string. Empty queries are rejected. Maximum length is 100 characters.
-          schema:
-            type: string
-            minLength: 1
-            maxLength: 100
-          example: balogun
-      responses:
-        "200":
-          description: Search results
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/SearchResponse"
-              example:
-                success: true
-                data:
-                  - id: 22
-                    lga_id: 101
-                    name: Balogun Market, Lagos Island
-                    slug: balogun-market
-                    lat: 6.4541
-                    lng: 3.3947
-                    added_by: ifihan
-                    lga_name: Lagos Island
-                    lga_slug: lagos-lagos-island
-                    state_name: Lagos
-                    state_slug: lagos
+              examples:
+                listAll:
+                  summary: List markets
+                  value:
+                    success: true
+                    data:
+                      - id: 1
+                        lga_id: 100
+                        name: Ajah Market, Eti-Osa
+                        slug: ajah-market
+                        lat: 6.4698
+                        lng: 3.5986
+                        lga_name: Eti-Osa
+                        lga_slug: lagos-eti-osa
+                        state_name: Lagos
+                        state_slug: lagos
+                    meta:
+                      total: 400
+                      limit: 20
+                      offset: 0
+                filterByState:
+                  summary: Markets in one state
+                  value:
+                    success: true
+                    data:
+                      - id: 1
+                        lga_id: 100
+                        name: Lekki Market, Eti-Osa
+                        slug: lekki-market
+                        lat: 6.4698
+                        lng: 3.5852
+                        lga_name: Eti-Osa
+                        lga_slug: lagos-eti-osa
+                        state_name: Lagos
+                        state_slug: lagos
+                    meta:
+                      total: 48
+                      limit: 20
+                      offset: 0
         "400":
-          description: Missing or invalid query
+          description: One or more query parameters are invalid
           content:
             application/json:
               schema:
                 $ref: "#/components/schemas/ErrorResponse"
-              examples:
-                missingQuery:
-                  summary: Missing q
-                  value:
-                    success: false
-                    error:
-                      message: Query parameter "q" is required
-                      code: BAD_REQUEST
-                queryTooLong:
-                  summary: Query too long
-                  value:
-                    success: false
-                    error:
-                      message: Query too long
-                      code: BAD_REQUEST
+  /api/coverage:
+    get:
+      tags:
+        - Coverage
+      summary: Get coverage summary data
+      description: |
+        Returns aggregated coverage metrics for dashboards, maps, and overview screens.
+        This is the endpoint the homepage-style market pulse should use instead of re-assembling totals client-side.
+      operationId: getCoverage
+      responses:
+        "200":
+          description: Coverage totals and state-level summary rows
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CoverageResponse"
+              example:
+                success: true
+                data:
+                  total_markets: 246
+                  total_states: 37
+                  states_with_markets: 15
+                  lgas_with_markets: 65
+                  state_stats:
+                    - slug: lagos
+                      name: Lagos
+                      market_count: 48
+                      lga_with_markets: 12
+                    - slug: kano
+                      name: Kano
+                      market_count: 37
+                      lga_with_markets: 8
   /api/contribute:
     post:
       tags:
         - Contributions
       summary: Submit a market for review
+      description: |
+        Validates a market submission and opens a GitHub pull request against the repository for maintainer review.
+        This endpoint is the API equivalent of the public contribution form.
       operationId: createContribution
       requestBody:
         required: true
@@ -284,11 +392,10 @@ paths:
               lga: Lagos Island
               lat: 6.4541
               lng: 3.3947
-              description: One of the largest markets in Lagos
               contributor_name: your-github-username
       responses:
         "201":
-          description: Submission accepted and converted into a GitHub issue
+          description: Submission accepted and a pull request has been created
           content:
             application/json:
               schema:
@@ -296,9 +403,10 @@ paths:
               example:
                 success: true
                 data:
-                  issue_url: https://github.com/ifihan/nigerian-markets-api/issues/123
+                  pr_url: https://github.com/ifihan/nigerian-markets-api/pull/42
+                  message: Pull request created! It will be reviewed and merged shortly.
         "400":
-          description: Missing required fields
+          description: Missing required fields or invalid market data
           content:
             application/json:
               schema:
@@ -308,28 +416,24 @@ paths:
                 error:
                   message: market_name, state, and lga are required
                   code: BAD_REQUEST
-        "502":
-          description: GitHub issue creation failed
+        "409":
+          description: A duplicate market slug or market already exists
           content:
             application/json:
               schema:
                 $ref: "#/components/schemas/ErrorResponse"
-              example:
-                success: false
-                error:
-                  message: Failed to create submission
-                  code: UPSTREAM_ERROR
+        "502":
+          description: GitHub pull request creation failed
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
         "503":
           description: GitHub submission service is unavailable
           content:
             application/json:
               schema:
                 $ref: "#/components/schemas/ErrorResponse"
-              example:
-                success: false
-                error:
-                  message: Contribution service unavailable
-                  code: SERVICE_UNAVAILABLE
 components:
   schemas:
     ApiIndexResponse:
@@ -350,26 +454,8 @@ components:
           type: string
         endpoints:
           type: object
-          required:
-            - states
-            - state
-            - lgas
-            - markets
-            - search
-            - contribute
-          properties:
-            states:
-              type: string
-            state:
-              type: string
-            lgas:
-              type: string
-            markets:
-              type: string
-            search:
-              type: string
-            contribute:
-              type: string
+          additionalProperties:
+            type: string
         docs:
           type: string
         github:
@@ -412,7 +498,6 @@ components:
         - slug
         - lat
         - lng
-        - added_by
       properties:
         id:
           type: integer
@@ -429,10 +514,6 @@ components:
         lng:
           type:
             - number
-            - "null"
-        added_by:
-          type:
-            - string
             - "null"
     MarketSearchResult:
       allOf:
@@ -456,20 +537,28 @@ components:
       allOf:
         - $ref: "#/components/schemas/State"
         - type: object
-          required:
-            - lgas
           properties:
+            lga_count:
+              type: integer
+            market_count:
+              type: integer
             lgas:
               type: array
               items:
                 $ref: "#/components/schemas/Lga"
-    LgaDetail:
+    LgaSummary:
       allOf:
         - $ref: "#/components/schemas/Lga"
         - type: object
+          properties:
+            market_count:
+              type: integer
+    LgaDetail:
+      allOf:
+        - $ref: "#/components/schemas/LgaSummary"
+        - type: object
           required:
             - state
-            - markets
           properties:
             state:
               $ref: "#/components/schemas/State"
@@ -477,6 +566,22 @@ components:
               type: array
               items:
                 $ref: "#/components/schemas/Market"
+    CoverageStateStat:
+      type: object
+      required:
+        - slug
+        - name
+        - market_count
+        - lga_with_markets
+      properties:
+        slug:
+          type: string
+        name:
+          type: string
+        market_count:
+          type: integer
+        lga_with_markets:
+          type: integer
     StatesResponse:
       type: object
       required:
@@ -501,6 +606,19 @@ components:
           const: true
         data:
           $ref: "#/components/schemas/StateDetail"
+    LgasResponse:
+      type: object
+      required:
+        - success
+        - data
+      properties:
+        success:
+          type: boolean
+          const: true
+        data:
+          type: array
+          items:
+            $ref: "#/components/schemas/LgaSummary"
     LgaDetailResponse:
       type: object
       required:
@@ -528,7 +646,7 @@ components:
             $ref: "#/components/schemas/MarketSearchResult"
         meta:
           $ref: "#/components/schemas/PaginationMeta"
-    SearchResponse:
+    CoverageResponse:
       type: object
       required:
         - success
@@ -538,9 +656,26 @@ components:
           type: boolean
           const: true
         data:
-          type: array
-          items:
-            $ref: "#/components/schemas/MarketSearchResult"
+          type: object
+          required:
+            - total_markets
+            - total_states
+            - states_with_markets
+            - lgas_with_markets
+            - state_stats
+          properties:
+            total_markets:
+              type: integer
+            total_states:
+              type: integer
+            states_with_markets:
+              type: integer
+            lgas_with_markets:
+              type: integer
+            state_stats:
+              type: array
+              items:
+                $ref: "#/components/schemas/CoverageStateStat"
     PaginationMeta:
       type: object
       required:
@@ -560,6 +695,8 @@ components:
         - market_name
         - state
         - lga
+        - lat
+        - lng
       properties:
         market_name:
           type: string
@@ -569,11 +706,13 @@ components:
           type: string
         lat:
           type: number
+          description: Latitude (must be within Nigeria, 3-15)
         lng:
           type: number
-        description:
-          type: string
+          description: Longitude (must be within Nigeria, 1-16)
         contributor_name:
+          type: string
+        description:
           type: string
     ContributionResponse:
       type: object
@@ -587,11 +726,14 @@ components:
         data:
           type: object
           required:
-            - issue_url
+            - pr_url
+            - message
           properties:
-            issue_url:
+            pr_url:
               type: string
               format: uri
+            message:
+              type: string
     ErrorResponse:
       type: object
       required:

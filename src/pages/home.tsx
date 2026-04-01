@@ -272,8 +272,8 @@ export const HomePage: FC<HomeProps> = ({
             </div>
             <div class="terminal-body">
               <div class="terminal-line"><span class="terminal-prompt">$</span> curl /api/states/lagos</div>
-              <div class="terminal-line"><span class="terminal-prompt">$</span> curl /api/search?q=balogun</div>
-              <div class="terminal-line"><span class="terminal-prompt">$</span> curl /api/markets?limit=10</div>
+              <div class="terminal-line"><span class="terminal-prompt">$</span> curl /api/markets?q=balogun</div>
+              <div class="terminal-line"><span class="terminal-prompt">$</span> curl /api/markets?state=lagos&limit=10</div>
             </div>
           </div>
         </div>

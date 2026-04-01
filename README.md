@@ -20,21 +20,27 @@ The API docs are now powered by a separate FumaDocs app in this repository:
 ### Example
 
 ```bash
-curl https://iya-oloja.pages.dev/api/states/lagos
+curl "https://iya-oloja.pages.dev/api/markets?state=lagos&limit=10"
 ```
 
 ```json
 {
   "success": true,
-  "data": {
-    "id": 25,
-    "name": "Lagos",
-    "slug": "lagos",
-    "lgas": [
-      { "id": 1, "name": "Eti-Osa", "slug": "lagos-eti-osa" },
-      { "id": 2, "name": "Lagos Island", "slug": "lagos-lagos-island" }
-    ]
-  }
+  "data": [
+    {
+      "id": 1,
+      "lga_id": 100,
+      "name": "Lekki Market, Eti-Osa",
+      "slug": "lekki-market",
+      "lat": 6.4698,
+      "lng": 3.5852,
+      "lga_name": "Eti-Osa",
+      "lga_slug": "lagos-eti-osa",
+      "state_name": "Lagos",
+      "state_slug": "lagos"
+    }
+  ],
+  "meta": { "total": 48, "limit": 10, "offset": 0 }
 }
 ```
 

@@ -1,6 +1,6 @@
 ---
 title: Overview
-description: Public JSON API for markets across all 36 states of Nigeria and the FCT.
+description: Public JSON API for markets across all 36 states of Nigeria and the FCT, with a single main collection endpoint for list, search, and filtering.
 ---
 
 # Overview
@@ -17,14 +17,33 @@ https://iya-oloja.pages.dev/api
 
 The main API experience lives in the generated `API Reference` section. Open any endpoint there to inspect parameters, example payloads, and run requests interactively.
 
-## Endpoints
+## Recommended read pattern
+
+Use `GET /api/markets` as the main collection endpoint for:
+
+- full listings
+- free-text search with `q`
+- filtering by `state`
+- filtering by `lga`
+
+Examples:
+
+```bash
+GET /api/markets
+GET /api/markets?q=balogun
+GET /api/markets?state=lagos
+GET /api/markets?lga=lagos-eti-osa
+```
+
+## Primary endpoints
 
 - `GET /api`
 - `GET /api/states`
 - `GET /api/states/{state}`
+- `GET /api/lgas`
 - `GET /api/lgas/{lga}`
 - `GET /api/markets`
-- `GET /api/search`
+- `GET /api/coverage`
 - `POST /api/contribute`
 
 ## Contribution flow
