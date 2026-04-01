@@ -186,6 +186,15 @@
             "lng": 3.3595
           },
           "added_by": "ifihan"
+        },
+        {
+          "name": "Aguda market",
+          "slug": "aguda-market",
+          "coordinates": {
+            "lat": 6.495764,
+            "lng": 3.342435
+          },
+          "added_by": "Uthman"
         }
       ]
     }
