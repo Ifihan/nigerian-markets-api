@@ -3,11 +3,11 @@ import { cors } from 'hono/cors';
 import { cache } from 'hono/cache';
 import type { Bindings } from '../types';
 import { renderer } from './renderer';
-import searchApi from './api/search';
 import statesApi from './api/states';
 import lgasApi from './api/lgas';
 import marketsApi from './api/markets';
 import contributeApi from './api/contribute';
+import coverageApi from './api/coverage';
 import { HomePage } from './pages/home';
 import { DocsPage } from './pages/docs';
 import { ContributePage } from './pages/contribute';
@@ -30,19 +30,24 @@ app.use(
   '/api/markets',
   cache({ cacheName: 'iya-oloja', cacheControl: 'public, max-age=300' })
 );
+app.use(
+  '/api/coverage',
+  cache({ cacheName: 'iya-oloja', cacheControl: 'public, max-age=300' })
+);
 
 // API index
 app.get('/api', (c) => {
   return c.json({
     name: 'Iya Oloja',
     description: 'An open directory and API for markets across Nigeria',
-    version: '1.0.0',
+    version: '1.1.0',
     endpoints: {
       states: '/api/states',
       state: '/api/states/:slug',
-      lgas: '/api/lgas/:slug',
-      markets: '/api/markets?limit=20&offset=0&order=asc',
-      search: '/api/search?q=query',
+      lgas: '/api/lgas?state=:slug',
+      lga: '/api/lgas/:slug',
+      markets: '/api/markets?state=lagos&limit=20&offset=0&order=asc',
+      coverage: '/api/coverage',
       contribute: 'POST /api/contribute',
     },
     docs: '/docs',
@@ -51,10 +56,10 @@ app.get('/api', (c) => {
 });
 
 // API routes
-app.route('/api/search', searchApi);
 app.route('/api/states', statesApi);
 app.route('/api/lgas', lgasApi);
 app.route('/api/markets', marketsApi);
+app.route('/api/coverage', coverageApi);
 app.route('/api/contribute', contributeApi);
 
 // Pages

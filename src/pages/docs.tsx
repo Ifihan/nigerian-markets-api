@@ -14,8 +14,9 @@ export const DocsPage: FC = () => {
           <li><a href="https://nigerian-markets-api-docs.vercel.app/docs" target="_blank" rel="noopener">Interactive API Docs (live)</a></li>
           <li><a href="/api">API Index</a></li>
           <li><a href="/api/states">GET /api/states</a></li>
-          <li><a href="/api/markets?limit=10">GET /api/markets</a></li>
-          <li><a href="/api/search?q=lagos">GET /api/search?q=lagos</a></li>
+          <li><a href="/api/lgas?state=lagos">GET /api/lgas?state=lagos</a></li>
+          <li><a href="/api/markets?state=lagos&limit=10">GET /api/markets?state=lagos</a></li>
+          <li><a href="/api/coverage">GET /api/coverage</a></li>
         </ul>
       </section>
 

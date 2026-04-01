@@ -11,7 +11,8 @@ app.get('/', async (c) => {
 
 app.get('/:state', async (c) => {
   const slug = c.req.param('state');
-  const state = await getStateBySlug(c.env.DB, slug);
+  const includeLgas = c.req.query('include') === 'lgas';
+  const state = await getStateBySlug(c.env.DB, slug, { includeLgas });
 
   if (!state) {
     return c.json({ success: false, error: { message: 'State not found', code: 'NOT_FOUND' } }, 404);
