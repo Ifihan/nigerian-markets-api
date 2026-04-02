@@ -50,7 +50,17 @@
     {
       "name": "Shongom",
       "slug": "gombe-shongom",
-      "markets": []
+      "markets": [
+        {
+          "name": "Lalaipido Market, Shongom",
+          "slug": "lalaipido-market-shongom",
+          "coordinates": {
+            "lat": 9.734568,
+            "lng": 11.279497
+          },
+          "added_by": "AdemolaSam"
+        }
+      ]
     },
     {
       "name": "Yamaltu/Deba",
