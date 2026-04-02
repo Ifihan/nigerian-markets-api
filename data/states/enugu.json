@@ -25,7 +25,17 @@
     {
       "name": "Enugu South",
       "slug": "enugu-enugu-south",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kenyatta Market, Enugu South",
+          "slug": "kenyatta-market-enugu-south",
+          "coordinates": {
+            "lat": 6.417518,
+            "lng": 7.501099
+          },
+          "added_by": "Ebukamee"
+        }
+      ]
     },
     {
       "name": "Ezeagu",
