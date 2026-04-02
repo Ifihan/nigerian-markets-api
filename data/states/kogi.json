@@ -60,7 +60,17 @@
     {
       "name": "Lokoja",
       "slug": "kogi-lokoja",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kogi State International Market, Lokoja",
+          "slug": "kogi-state-international-market-lokoja",
+          "coordinates": {
+            "lat": 7.8035,
+            "lng": 6.7397
+          },
+          "added_by": "Nifemi101"
+        }
+      ]
     },
     {
       "name": "Mopa-Muro",
