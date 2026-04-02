@@ -10,6 +10,15 @@ function normalizeText(value: string) {
   return value.trim().toLowerCase().replace(/\s+/g, ' ');
 }
 
+function titleCase(value: string) {
+  return value
+    .trim()
+    .replace(/\s+/g, ' ')
+    .split(' ')
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase())
+    .join(' ');
+}
+
 function slugify(value: string) {
   return value
     .trim()
@@ -156,7 +165,12 @@ app.post('/', async (c) => {
     );
   }
 
-  const marketSlug = slugify(marketName);
+  // Build final name: title-case the market name, append LGA name if not already there
+  const titleCased = titleCase(marketName);
+  const marketNameFinal = titleCased.toLowerCase().endsWith(`, ${lga.name.toLowerCase()}`)
+    ? titleCased
+    : `${titleCased}, ${lga.name}`;
+  const marketSlug = slugify(marketNameFinal);
   if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(marketSlug)) {
     return c.json(
       {
@@ -191,12 +205,12 @@ app.post('/', async (c) => {
   // Check for duplicate market name in this LGA
   const existing = await db
     .prepare('SELECT id FROM markets WHERE lga_id = ? AND LOWER(name) = LOWER(?)')
-    .bind(lga.id, marketName)
+    .bind(lga.id, marketNameFinal)
     .first();
 
   if (existing) {
     return c.json(
-      { success: false, error: { message: `A market named "${marketName}" already exists in ${lga.name}, ${state.name}`, code: 'DUPLICATE_MARKET' } },
+      { success: false, error: { message: `A market named "${marketNameFinal}" already exists in ${lga.name}, ${state.name}`, code: 'DUPLICATE_MARKET' } },
       409
     );
   }
@@ -274,7 +288,7 @@ app.post('/', async (c) => {
   }
 
   const newMarket: MarketEntry = {
-    name: marketName,
+    name: marketNameFinal,
     slug: marketSlug,
   };
 
@@ -307,7 +321,7 @@ app.post('/', async (c) => {
   }
 
   // 5. Update the file on the new branch
-  const commitMessage = `feat: add ${marketName} to ${lga.name}, ${state.name}`;
+  const commitMessage = `feat: add ${marketNameFinal} to ${state.name}`;
   const updateFile = await ghFetch(`/repos/${REPO}/contents/${filePath}`, token, {
     method: 'PUT',
     body: JSON.stringify({
@@ -332,7 +346,7 @@ app.post('/', async (c) => {
     ``,
     `| Field | Value |`,
     `|-------|-------|`,
-    `| **Market** | ${marketName} |`,
+    `| **Market** | ${marketNameFinal} |`,
     `| **State** | ${state.name} |`,
     `| **LGA** | ${lga.name} |`,
     `| **Slug** | \`${marketSlug}\` |`,
@@ -347,7 +361,7 @@ app.post('/', async (c) => {
   const createPr = await ghFetch(`/repos/${REPO}/pulls`, token, {
     method: 'POST',
     body: JSON.stringify({
-      title: `feat: add ${marketName} — ${lga.name}, ${state.name}`,
+      title: `feat: add ${marketNameFinal} — ${state.name}`,
       body: prBody,
       head: branchName,
       base: 'main',
