@@ -105,7 +105,17 @@
     {
       "name": "Irewole",
       "slug": "osun-irewole",
-      "markets": []
+      "markets": [
+        {
+          "name": "Obada, Irewole",
+          "slug": "obada-irewole",
+          "coordinates": {
+            "lat": 7.38,
+            "lng": 4.18
+          },
+          "added_by": "stephenolajire"
+        }
+      ]
     },
     {
       "name": "Isokan",
