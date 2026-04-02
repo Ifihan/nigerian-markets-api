@@ -20,7 +20,17 @@
     {
       "name": "Enugu North",
       "slug": "enugu-enugu-north",
-      "markets": []
+      "markets": [
+        {
+          "name": "Ogbete Main Market, Enugu North",
+          "slug": "ogbete-main-market-enugu-north",
+          "coordinates": {
+            "lat": 6.430254,
+            "lng": 7.479869
+          },
+          "added_by": "Ebukamee"
+        }
+      ]
     },
     {
       "name": "Enugu South",
