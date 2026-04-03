@@ -125,8 +125,8 @@
       "slug": "lagos-lagos-mainland",
       "markets": [
         {
-          "name": "Oyingbo Market main, Oyingbo",
-          "slug": "oyingbo-main-market",
+          "name": "Oyingbo Market, Lagos Mainland",
+          "slug": "oyingbo-market-lagos-mainland",
           "coordinates": { 
             "lat": 6.4822167076134445, 
             "lng": 3.3853597067126606
