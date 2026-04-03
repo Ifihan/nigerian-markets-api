@@ -3,8 +3,7 @@
  *
  * Uses upserts (INSERT ... ON CONFLICT DO UPDATE) so only changed rows are
  * written.  Stale rows whose slugs no longer appear in the JSON source are
- * deleted at the end using temp tables, in child-first order to respect
- * foreign keys.
+ * deleted at the end, in child-first order to respect foreign keys.
  *
  * Each batch API call is atomic (D1 rolls back on failure), but the full
  * sync spans multiple batches and is NOT globally atomic — a failure
@@ -73,33 +72,28 @@ async function runBatched(statements: { sql: string; params?: unknown[] }[], bat
 }
 
 /**
+ * Escapes a string for safe use as a SQL string literal.
+ * Slugs only contain [a-z0-9-] so this is mostly defensive.
+ */
+function sqlLiteral(value: string): string {
+  return `'${value.replace(/'/g, "''")}'`;
+}
+
+/**
  * Deletes rows from `table` whose slugs are NOT in `validSlugs`.
- * Uses a temp table to hold valid slugs, then deletes via NOT IN,
- * all in a single atomic batch. Handles any number of slugs without
- * hitting SQLite parameter limits.
+ * Inlines slug values directly in the SQL to avoid D1's 100-param limit
+ * and the SQLITE_AUTH restriction on temp tables via the HTTP API.
  */
 async function deleteStale(table: string, validSlugs: string[]) {
-  const tmpTable = `_tmp_${table}_slugs`;
-  const stmts: { sql: string; params?: unknown[] }[] = [];
-
-  stmts.push({ sql: `CREATE TEMP TABLE IF NOT EXISTS ${tmpTable} (slug TEXT PRIMARY KEY)` });
-  stmts.push({ sql: `DELETE FROM ${tmpTable}` });
-
-  // Insert valid slugs into temp table in chunks to stay under param limits
-  for (let i = 0; i < validSlugs.length; i += 50) {
-    const chunk = validSlugs.slice(i, i + 50);
-    const values = chunk.map(() => '(?)').join(', ');
-    stmts.push({ sql: `INSERT INTO ${tmpTable} (slug) VALUES ${values}`, params: chunk });
+  if (validSlugs.length === 0) {
+    await execBatchWithRetry([{ sql: `DELETE FROM ${table}` }]);
+    return;
   }
 
-  // Delete rows not present in the temp table
-  stmts.push({
-    sql: `DELETE FROM ${table} WHERE slug NOT IN (SELECT slug FROM ${tmpTable})`,
-  });
-
-  stmts.push({ sql: `DROP TABLE IF EXISTS ${tmpTable}` });
-
-  await execBatchWithRetry(stmts);
+  const slugList = validSlugs.map(sqlLiteral).join(', ');
+  await execBatchWithRetry([
+    { sql: `DELETE FROM ${table} WHERE slug NOT IN (${slugList})` },
+  ]);
 }
 
 async function main() {
