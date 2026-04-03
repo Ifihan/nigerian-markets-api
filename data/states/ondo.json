@@ -30,7 +30,17 @@
     {
       "name": "Akure South",
       "slug": "ondo-akure-south",
-      "markets": []
+      "markets": [
+        {
+          "name": "Oja Oba, Akure South",
+          "slug": "oja-oba-akure-south",
+          "coordinates": {
+            "lat": 7.2537162173161756,
+            "lng": 5.19536951534164
+          },
+          "added_by": "adeteejay"
+        }
+      ]
     },
     {
       "name": "Ese Odo",
