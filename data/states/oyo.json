@@ -110,7 +110,17 @@
     {
       "name": "Ogbomosho North",
       "slug": "oyo-ogbomosho-north",
-      "markets": []
+      "markets": [
+        {
+          "name": "Wazo, Ogbomosho North",
+          "slug": "wazo-ogbomosho-north",
+          "coordinates": {
+            "lat": 8.165596,
+            "lng": 4.257921
+          },
+          "added_by": "olamarvel"
+        }
+      ]
     },
     {
       "name": "Ogbomosho South",
