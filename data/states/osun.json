@@ -169,7 +169,16 @@
     {
       "name": "Osogbo",
       "slug": "osun-osogbo",
-      "markets": []
+      "markets": [
+        {
+          "name": "Oja Oba, Osogbo",
+          "slug": "oja-oba-osogbo",
+          "coordinates": {
+            "lat": 7.765788,
+            "lng": 4.556754
+          }
+        }
+      ]
     }
   ]
 }
