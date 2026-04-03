@@ -100,7 +100,16 @@
     {
       "name": "Irepodun",
       "slug": "osun-irepodun",
-      "markets": []
+      "markets": [
+        {
+          "name": "Olobu, Irepodun",
+          "slug": "olobu-irepodun",
+          "coordinates": {
+            "lat": 7.84094,
+            "lng": 4.484643
+          }
+        }
+      ]
     },
     {
       "name": "Irewole",
