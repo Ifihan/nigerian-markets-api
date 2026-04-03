@@ -145,7 +145,16 @@
     {
       "name": "Olorunda",
       "slug": "osun-olorunda",
-      "markets": []
+      "markets": [
+        {
+          "name": "Oja Igbona, Olorunda",
+          "slug": "oja-igbona-olorunda",
+          "coordinates": {
+            "lat": 7.777181,
+            "lng": 4.552413
+          }
+        }
+      ]
     },
     {
       "name": "Oriade",
