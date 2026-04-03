@@ -155,7 +155,16 @@
     {
       "name": "Orolu",
       "slug": "osun-orolu",
-      "markets": []
+      "markets": [
+        {
+          "name": "Ifon, Orolu",
+          "slug": "ifon-orolu",
+          "coordinates": {
+            "lat": 7.853902,
+            "lng": 4.431178
+          }
+        }
+      ]
     },
     {
       "name": "Osogbo",
