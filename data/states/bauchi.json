@@ -10,7 +10,17 @@
     {
       "name": "Bauchi",
       "slug": "bauchi-bauchi",
-      "markets": []
+      "markets": [
+        {
+          "name": "Yelwa Market, Bauchi",
+          "slug": "yelwa-market-bauchi",
+          "coordinates": {
+            "lat": 10.2730712,
+            "lng": 9.7954078
+          },
+          "added_by": "GreatGrant"
+        }
+      ]
     },
     {
       "name": "Bogoro",
