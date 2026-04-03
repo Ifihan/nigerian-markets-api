@@ -162,6 +162,14 @@
             "lat": 7.777181,
             "lng": 4.552413
           }
+        },
+        {
+          "name": "Orisumbare, Olorunda",
+          "slug": "orisumbare-olorunda",
+          "coordinates": {
+            "lat": 7.782899,
+            "lng": 4.542488
+          }
         }
       ]
     },
