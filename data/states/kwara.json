@@ -30,7 +30,17 @@
     {
       "name": "Ilorin East",
       "slug": "kwara-ilorin-east",
-      "markets": []
+      "markets": [
+        {
+          "name": "Challenge Market, Ilorin East",
+          "slug": "challenge-market-ilorin-east",
+          "coordinates": {
+            "lat": 8.48449,
+            "lng": 4.564951
+          },
+          "added_by": "clrzr"
+        }
+      ]
     },
     {
       "name": "Ilorin South",
