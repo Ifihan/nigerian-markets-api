@@ -12,6 +12,8 @@
       "vite/client"
     ],
     "jsx": "react-jsx",
-    "jsxImportSource": "hono/jsx"
+    "jsxImportSource": "hono/jsx",
+    "skipLibCheck": true
   },
+  "exclude": ["node_modules", "dist", "docs"]
 }

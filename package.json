@@ -2,14 +2,19 @@
   "name": "iya-oloja",
   "description": "Nigerian Markets API — an open directory of markets across Nigeria",
   "type": "module",
+  "packageManager": "pnpm@10.8.1",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "wrangler pages dev dist",
-    "deploy": "$npm_execpath run build && wrangler pages deploy dist --project-name iya-oloja --branch main",
-    "seed": "npx tsx scripts/seed-states.ts",
-    "validate": "npx tsx scripts/validate-data.ts",
-    "sync": "npx tsx scripts/sync-to-d1.ts",
+    "typecheck": "tsc --noEmit",
+    "deploy": "pnpm run build && wrangler pages deploy dist --project-name iya-oloja --branch main",
+    "seed": "pnpm exec tsx scripts/seed-states.ts",
+    "validate": "pnpm exec tsx scripts/validate-data.ts",
+    "sync": "pnpm exec tsx scripts/sync-to-d1.ts",
     "db:migrate": "wrangler d1 execute iya-oloja --local --file=migrations/0001_create_tables.sql"
   },
   "dependencies": {
@@ -20,7 +25,11 @@
     "@hono/vite-cloudflare-pages": "^0.2.4",
     "@hono/vite-dev-server": "^0.10.0",
     "tsx": "^4.7.0",
+    "typescript": "^6.0.2",
     "vite": "^5.0.12",
     "wrangler": "^3.32.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild", "workerd"]
   }
 }
