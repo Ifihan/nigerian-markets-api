@@ -15,6 +15,7 @@ bun.lockb
 
 ajo.png
 
+.worktrees
 .env
 *.pem
 *.private-key.*
