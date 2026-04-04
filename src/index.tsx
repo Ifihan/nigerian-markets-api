@@ -8,6 +8,7 @@ import lgasApi from './api/lgas';
 import marketsApi from './api/markets';
 import contributeApi from './api/contribute';
 import coverageApi from './api/coverage';
+import { rateLimiter } from './middleware/rate-limit';
 import { HomePage } from './pages/home';
 import { DocsPage } from './pages/docs';
 import { ContributePage } from './pages/contribute';
@@ -15,6 +16,10 @@ import { NotFoundPage } from './pages/not-found';
 import { getMockMarketPulseData } from './data/mock-market-pulse';
 
 const app = new Hono<{ Bindings: Bindings }>();
+
+// Rate limiting
+app.use('/api/contribute', rateLimiter({ limit: 5, windowMs: 3_600_000 }));
+app.use('/api/*', rateLimiter({ limit: 60, windowMs: 60_000 }));
 
 // API middleware
 app.use('/api/*', cors());
