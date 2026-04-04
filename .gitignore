@@ -7,10 +7,9 @@ dist
 docs/.next
 docs/.source
 
-# Change them to your taste:
-# package-lock.json
+# Lockfiles (using pnpm)
+package-lock.json
 yarn.lock
-pnpm-lock.yaml
 bun.lockb
 
 ajo.png
