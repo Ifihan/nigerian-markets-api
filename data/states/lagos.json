@@ -89,7 +89,17 @@
     {
       "name": "Ikorodu",
       "slug": "lagos-ikorodu",
-      "markets": []
+      "markets": [
+        {
+          "name": "Ajina, Ikorodu",
+          "slug": "ajina-ikorodu",
+          "coordinates": {
+            "lat": 6.61075,
+            "lng": 3.506055
+          },
+          "added_by": "Abdul-Salam15"
+        }
+      ]
     },
     {
       "name": "Kosofe",
@@ -127,8 +137,8 @@
         {
           "name": "Oyingbo Market, Lagos Mainland",
           "slug": "oyingbo-market-lagos-mainland",
-          "coordinates": { 
-            "lat": 6.4822167076134445, 
+          "coordinates": {
+            "lat": 6.4822167076134445,
             "lng": 3.3853597067126606
           },
           "added_by": "ehizman"
@@ -157,9 +167,9 @@
         {
           "name": "Alaba International Central Market, Ojo",
           "slug": "alaba-international-central-market",
-          "coordinates": { 
-            "lat": 6.467060154866623, 
-            "lng": 3.193351040733511 
+          "coordinates": {
+            "lat": 6.467060154866623,
+            "lng": 3.193351040733511
           },
           "added_by": "ehizman"
         }
@@ -196,9 +206,9 @@
         {
           "name": "Bajulaiye Market, Shomolu",
           "slug": "bajulaiye-market",
-          "coordinates": { 
-            "lat": 6.532625723656187, 
-            "lng": 3.381950844758177 
+          "coordinates": {
+            "lat": 6.532625723656187,
+            "lng": 3.381950844758177
           },
           "added_by": "ehizman"
         }
