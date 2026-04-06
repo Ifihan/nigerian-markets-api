@@ -112,20 +112,21 @@ Each file follows this structure:
 ## Development
 
 ```bash
-npm install
-npm run dev
+pnpm install
+pnpm run dev
 ```
 
 ### Scripts
 
-| Command              | Description                                   |
-| -------------------- | --------------------------------------------- |
-| `npm run dev`        | Start local dev server                        |
-| `npm run build`      | Build for production                          |
-| `npm run deploy`     | Build and deploy to Cloudflare Pages          |
-| `npm run seed`       | Regenerate state JSON files (clears markets!) |
-| `npm run validate`   | Validate all data files                       |
-| `npm run db:migrate` | Run D1 migrations locally                     |
+| Command               | Description                                   |
+| --------------------- | --------------------------------------------- |
+| `pnpm run dev`        | Start local dev server                        |
+| `pnpm run build`      | Build for production                          |
+| `pnpm run deploy`     | Build and deploy to Cloudflare Pages          |
+| `pnpm run typecheck`  | Run TypeScript type checking                  |
+| `pnpm run seed`       | Regenerate state JSON files (clears markets!) |
+| `pnpm run validate`   | Validate all data files                       |
+| `pnpm run db:migrate` | Run D1 migrations locally                     |
 
 ### Docs App
 
@@ -133,8 +134,8 @@ The docs site lives in `docs/` as a separate Next.js + FumaDocs app.
 
 ```bash
 cd docs
-npm install
-npm run dev
+pnpm install
+pnpm run dev
 ```
 
 ### Tech Stack

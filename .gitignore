@@ -17,3 +17,7 @@ ajo.png
 .env
 *.pem
 *.private-key.*
+
+# Local-only scripts
+scripts/seed-local.ts
+.seed-local.sql
