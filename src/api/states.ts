@@ -1,6 +1,6 @@
 import { Hono } from 'hono';
+import { getStateBySlug, getStates } from '../../lib/db';
 import type { Bindings } from '../../types';
-import { getStates, getStateBySlug } from '../../lib/db';
 
 const app = new Hono<{ Bindings: Bindings }>();
 
@@ -15,7 +15,13 @@ app.get('/:state', async (c) => {
   const state = await getStateBySlug(c.env.DB, slug, { includeLgas });
 
   if (!state) {
-    return c.json({ success: false, error: { message: 'State not found', code: 'NOT_FOUND' } }, 404);
+    return c.json(
+      {
+        success: false,
+        error: { message: 'State not found', code: 'NOT_FOUND' },
+      },
+      404,
+    );
   }
 
   return c.json({ success: true, data: state });

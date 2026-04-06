@@ -49,10 +49,16 @@ interface StateFile {
 function base64UrlEncode(data: Uint8Array): string {
   let binary = '';
   for (const byte of data) binary += String.fromCharCode(byte);
-  return btoa(binary).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+  return btoa(binary)
+    .replace(/\+/g, '-')
+    .replace(/\//g, '_')
+    .replace(/=+$/, '');
 }
 
-async function createGitHubAppJwt(appId: string, privateKeyPem: string): Promise<string> {
+async function createGitHubAppJwt(
+  appId: string,
+  privateKeyPem: string,
+): Promise<string> {
   const now = Math.floor(Date.now() / 1000);
   const header = { alg: 'RS256', typ: 'JWT' };
   const payload = { iat: now - 60, exp: now + 600, iss: appId };
@@ -63,8 +69,10 @@ async function createGitHubAppJwt(appId: string, privateKeyPem: string): Promise
   const signingInput = `${headerB64}.${payloadB64}`;
 
   // Import RSA private key using Web Crypto
-  const pemBody = privateKeyPem
-    .replace(/-----BEGIN RSA PRIVATE KEY-----|-----END RSA PRIVATE KEY-----|\n|\r/g, '');
+  const pemBody = privateKeyPem.replace(
+    /-----BEGIN RSA PRIVATE KEY-----|-----END RSA PRIVATE KEY-----|\n|\r/g,
+    '',
+  );
   const keyData = Uint8Array.from(atob(pemBody), (c) => c.charCodeAt(0));
 
   const key = await crypto.subtle.importKey(
@@ -72,26 +80,37 @@ async function createGitHubAppJwt(appId: string, privateKeyPem: string): Promise
     keyData,
     { name: 'RSASSA-PKCS1-v1_5', hash: 'SHA-256' },
     false,
-    ['sign']
+    ['sign'],
   );
 
-  const signature = await crypto.subtle.sign('RSASSA-PKCS1-v1_5', key, enc.encode(signingInput));
+  const signature = await crypto.subtle.sign(
+    'RSASSA-PKCS1-v1_5',
+    key,
+    enc.encode(signingInput),
+  );
   const sigB64 = base64UrlEncode(new Uint8Array(signature));
 
   return `${signingInput}.${sigB64}`;
 }
 
-async function getInstallationToken(appId: string, privateKey: string, installationId: string): Promise<string> {
+async function getInstallationToken(
+  appId: string,
+  privateKey: string,
+  installationId: string,
+): Promise<string> {
   const jwt = await createGitHubAppJwt(appId, privateKey);
 
-  const res = await fetch(`${GH_API}/app/installations/${installationId}/access_tokens`, {
-    method: 'POST',
-    headers: {
-      Authorization: `Bearer ${jwt}`,
-      Accept: 'application/vnd.github.v3+json',
-      'User-Agent': 'iya-oloja',
+  const res = await fetch(
+    `${GH_API}/app/installations/${installationId}/access_tokens`,
+    {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${jwt}`,
+        Accept: 'application/vnd.github.v3+json',
+        'User-Agent': 'iya-oloja',
+      },
     },
-  });
+  );
 
   if (!res.ok) {
     throw new Error(`Failed to get installation token: ${res.status}`);
@@ -132,8 +151,14 @@ app.post('/', async (c) => {
 
   if (!marketName || !stateInput || !lgaInput) {
     return c.json(
-      { success: false, error: { message: 'market_name, state, and lga are required', code: 'BAD_REQUEST' } },
-      400
+      {
+        success: false,
+        error: {
+          message: 'market_name, state, and lga are required',
+          code: 'BAD_REQUEST',
+        },
+      },
+      400,
     );
   }
 
@@ -141,33 +166,51 @@ app.post('/', async (c) => {
 
   // Validate state exists
   const state = await db
-    .prepare('SELECT id, name, slug FROM states WHERE LOWER(name) = LOWER(?) OR slug = ?')
+    .prepare(
+      'SELECT id, name, slug FROM states WHERE LOWER(name) = LOWER(?) OR slug = ?',
+    )
     .bind(stateInput, slugify(stateInput))
     .first<{ id: number; name: string; slug: string }>();
 
   if (!state) {
     return c.json(
-      { success: false, error: { message: `State "${stateInput}" not found`, code: 'INVALID_STATE' } },
-      400
+      {
+        success: false,
+        error: {
+          message: `State "${stateInput}" not found`,
+          code: 'INVALID_STATE',
+        },
+      },
+      400,
     );
   }
 
   // Validate LGA exists under that state
   const lga = await db
-    .prepare('SELECT id, name, slug FROM lgas WHERE state_id = ? AND (LOWER(name) = LOWER(?) OR slug = ?)')
+    .prepare(
+      'SELECT id, name, slug FROM lgas WHERE state_id = ? AND (LOWER(name) = LOWER(?) OR slug = ?)',
+    )
     .bind(state.id, lgaInput, slugify(lgaInput))
     .first<{ id: number; name: string; slug: string }>();
 
   if (!lga) {
     return c.json(
-      { success: false, error: { message: `LGA "${lgaInput}" not found in ${state.name}`, code: 'INVALID_LGA' } },
-      400
+      {
+        success: false,
+        error: {
+          message: `LGA "${lgaInput}" not found in ${state.name}`,
+          code: 'INVALID_LGA',
+        },
+      },
+      400,
     );
   }
 
   // Build final name: title-case the market name, append LGA name if not already there
   const titleCased = titleCase(marketName);
-  const marketNameFinal = titleCased.toLowerCase().endsWith(`, ${lga.name.toLowerCase()}`)
+  const marketNameFinal = titleCased
+    .toLowerCase()
+    .endsWith(`, ${lga.name.toLowerCase()}`)
     ? titleCased
     : `${titleCased}, ${lga.name}`;
   const marketSlug = slugify(marketNameFinal);
@@ -180,7 +223,7 @@ app.post('/', async (c) => {
           code: 'INVALID_MARKET_SLUG',
         },
       },
-      400
+      400,
     );
   }
 
@@ -198,55 +241,99 @@ app.post('/', async (c) => {
           code: 'DUPLICATE_MARKET_SLUG',
         },
       },
-      409
+      409,
     );
   }
 
   // Check for duplicate market name in this LGA
   const existing = await db
-    .prepare('SELECT id FROM markets WHERE lga_id = ? AND LOWER(name) = LOWER(?)')
+    .prepare(
+      'SELECT id FROM markets WHERE lga_id = ? AND LOWER(name) = LOWER(?)',
+    )
     .bind(lga.id, marketNameFinal)
     .first();
 
   if (existing) {
     return c.json(
-      { success: false, error: { message: `A market named "${marketNameFinal}" already exists in ${lga.name}, ${state.name}`, code: 'DUPLICATE_MARKET' } },
-      409
+      {
+        success: false,
+        error: {
+          message: `A market named "${marketNameFinal}" already exists in ${lga.name}, ${state.name}`,
+          code: 'DUPLICATE_MARKET',
+        },
+      },
+      409,
     );
   }
 
-  if (typeof body.lat !== 'number' || Number.isNaN(body.lat) || typeof body.lng !== 'number' || Number.isNaN(body.lng)) {
+  if (
+    typeof body.lat !== 'number' ||
+    Number.isNaN(body.lat) ||
+    typeof body.lng !== 'number' ||
+    Number.isNaN(body.lng)
+  ) {
     return c.json(
       {
         success: false,
-        error: { message: 'Coordinates (lat and lng) are required and must be valid numbers', code: 'INVALID_COORDINATES' },
+        error: {
+          message:
+            'Coordinates (lat and lng) are required and must be valid numbers',
+          code: 'INVALID_COORDINATES',
+        },
       },
-      400
+      400,
     );
   }
 
   if (body.lat < 3 || body.lat > 15 || body.lng < 1 || body.lng > 16) {
     return c.json(
-      { success: false, error: { message: 'Coordinates are outside Nigeria (lat: 3-15, lng: 1-16)', code: 'INVALID_COORDINATES' } },
-      400
+      {
+        success: false,
+        error: {
+          message: 'Coordinates are outside Nigeria (lat: 3-15, lng: 1-16)',
+          code: 'INVALID_COORDINATES',
+        },
+      },
+      400,
     );
   }
 
-  const { GITHUB_APP_ID, GITHUB_APP_PRIVATE_KEY, GITHUB_APP_INSTALLATION_ID } = c.env;
-  if (!GITHUB_APP_ID || !GITHUB_APP_PRIVATE_KEY || !GITHUB_APP_INSTALLATION_ID) {
+  const { GITHUB_APP_ID, GITHUB_APP_PRIVATE_KEY, GITHUB_APP_INSTALLATION_ID } =
+    c.env;
+  if (
+    !GITHUB_APP_ID ||
+    !GITHUB_APP_PRIVATE_KEY ||
+    !GITHUB_APP_INSTALLATION_ID
+  ) {
     return c.json(
-      { success: false, error: { message: 'Contribution service unavailable', code: 'SERVICE_UNAVAILABLE' } },
-      503
+      {
+        success: false,
+        error: {
+          message: 'Contribution service unavailable',
+          code: 'SERVICE_UNAVAILABLE',
+        },
+      },
+      503,
     );
   }
 
   let token: string;
   try {
-    token = await getInstallationToken(GITHUB_APP_ID, GITHUB_APP_PRIVATE_KEY, GITHUB_APP_INSTALLATION_ID);
+    token = await getInstallationToken(
+      GITHUB_APP_ID,
+      GITHUB_APP_PRIVATE_KEY,
+      GITHUB_APP_INSTALLATION_ID,
+    );
   } catch {
     return c.json(
-      { success: false, error: { message: 'Failed to authenticate with GitHub', code: 'AUTH_ERROR' } },
-      502
+      {
+        success: false,
+        error: {
+          message: 'Failed to authenticate with GitHub',
+          code: 'AUTH_ERROR',
+        },
+      },
+      502,
     );
   }
 
@@ -255,8 +342,11 @@ app.post('/', async (c) => {
   const mainRef = await ghFetch(`/repos/${REPO}/git/ref/heads/main`, token);
   if (!mainRef.ok) {
     return c.json(
-      { success: false, error: { message: 'Failed to read repository', code: 'UPSTREAM_ERROR' } },
-      502
+      {
+        success: false,
+        error: { message: 'Failed to read repository', code: 'UPSTREAM_ERROR' },
+      },
+      502,
     );
   }
   const mainData = (await mainRef.json()) as { object: { sha: string } };
@@ -264,11 +354,20 @@ app.post('/', async (c) => {
 
   // 2. Fetch the current state JSON file
   const filePath = `data/states/${state.slug}.json`;
-  const fileRes = await ghFetch(`/repos/${REPO}/contents/${filePath}?ref=main`, token);
+  const fileRes = await ghFetch(
+    `/repos/${REPO}/contents/${filePath}?ref=main`,
+    token,
+  );
   if (!fileRes.ok) {
     return c.json(
-      { success: false, error: { message: 'Failed to read state data file', code: 'UPSTREAM_ERROR' } },
-      502
+      {
+        success: false,
+        error: {
+          message: 'Failed to read state data file',
+          code: 'UPSTREAM_ERROR',
+        },
+      },
+      502,
     );
   }
   const fileData = (await fileRes.json()) as { content: string; sha: string };
@@ -277,13 +376,20 @@ app.post('/', async (c) => {
 
   // 3. Add the new market to the correct LGA
   const lgaEntry = stateFile.lgas.find(
-    (l) => l.slug === lga.slug || normalizeText(l.name) === normalizeText(lga.name)
+    (l) =>
+      l.slug === lga.slug || normalizeText(l.name) === normalizeText(lga.name),
   );
 
   if (!lgaEntry) {
     return c.json(
-      { success: false, error: { message: `LGA "${lga.name}" not found in state data file`, code: 'DATA_MISMATCH' } },
-      500
+      {
+        success: false,
+        error: {
+          message: `LGA "${lga.name}" not found in state data file`,
+          code: 'DATA_MISMATCH',
+        },
+      },
+      500,
     );
   }
 
@@ -301,7 +407,7 @@ app.post('/', async (c) => {
 
   lgaEntry.markets.push(newMarket);
 
-  const updatedContent = JSON.stringify(stateFile, null, 2) + '\n';
+  const updatedContent = `${JSON.stringify(stateFile, null, 2)}\n`;
 
   // 4. Create a new branch
   const branchName = `market/${marketSlug}-${Date.now()}`;
@@ -315,27 +421,37 @@ app.post('/', async (c) => {
 
   if (!createBranch.ok) {
     return c.json(
-      { success: false, error: { message: 'Failed to create branch', code: 'UPSTREAM_ERROR' } },
-      502
+      {
+        success: false,
+        error: { message: 'Failed to create branch', code: 'UPSTREAM_ERROR' },
+      },
+      502,
     );
   }
 
   // 5. Update the file on the new branch
   const commitMessage = `feat: add ${marketNameFinal} to ${state.name}`;
-  const updateFile = await ghFetch(`/repos/${REPO}/contents/${filePath}`, token, {
-    method: 'PUT',
-    body: JSON.stringify({
-      message: commitMessage,
-      content: btoa(updatedContent),
-      sha: fileData.sha,
-      branch: branchName,
-    }),
-  });
+  const updateFile = await ghFetch(
+    `/repos/${REPO}/contents/${filePath}`,
+    token,
+    {
+      method: 'PUT',
+      body: JSON.stringify({
+        message: commitMessage,
+        content: btoa(updatedContent),
+        sha: fileData.sha,
+        branch: branchName,
+      }),
+    },
+  );
 
   if (!updateFile.ok) {
     return c.json(
-      { success: false, error: { message: 'Failed to commit changes', code: 'UPSTREAM_ERROR' } },
-      502
+      {
+        success: false,
+        error: { message: 'Failed to commit changes', code: 'UPSTREAM_ERROR' },
+      },
+      502,
     );
   }
 
@@ -356,7 +472,9 @@ app.post('/', async (c) => {
     body.description ? `### Description\n${body.description}\n` : '',
     `---`,
     `*Submitted via the [Iya Oloja](https://iya-oloja.pages.dev) contribution form.*`,
-  ].filter(Boolean).join('\n');
+  ]
+    .filter(Boolean)
+    .join('\n');
 
   const createPr = await ghFetch(`/repos/${REPO}/pulls`, token, {
     method: 'POST',
@@ -371,8 +489,14 @@ app.post('/', async (c) => {
 
   if (!createPr.ok) {
     return c.json(
-      { success: false, error: { message: 'Failed to create pull request', code: 'UPSTREAM_ERROR' } },
-      502
+      {
+        success: false,
+        error: {
+          message: 'Failed to create pull request',
+          code: 'UPSTREAM_ERROR',
+        },
+      },
+      502,
     );
   }
 
@@ -392,7 +516,7 @@ app.post('/', async (c) => {
         message: `Pull request created! It will be reviewed and merged shortly.`,
       },
     },
-    201
+    201,
   );
 });
 
