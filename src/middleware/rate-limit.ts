@@ -44,10 +44,15 @@ export function rateLimiter(config: RateLimitConfig): MiddlewareHandler {
     const timestamps = store.get(ip) || [];
     const valid = timestamps.filter((t) => now - t < windowMs);
 
+    const resetTime = valid.length > 0 ? valid[0] + windowMs : now + windowMs;
+    const resetSeconds = Math.ceil(resetTime / 1000);
+
     if (valid.length >= limit) {
-      const oldestValid = valid[0];
-      const retryAfter = Math.ceil((oldestValid + windowMs - now) / 1000);
+      const retryAfter = Math.ceil((resetTime - now) / 1000);
       c.header('Retry-After', String(retryAfter));
+      c.header('X-RateLimit-Limit', String(limit));
+      c.header('X-RateLimit-Remaining', '0');
+      c.header('X-RateLimit-Reset', String(resetSeconds));
       return c.json(
         {
           success: false,
@@ -62,6 +67,10 @@ export function rateLimiter(config: RateLimitConfig): MiddlewareHandler {
 
     valid.push(now);
     store.set(ip, valid);
+
+    c.header('X-RateLimit-Limit', String(limit));
+    c.header('X-RateLimit-Remaining', String(limit - valid.length));
+    c.header('X-RateLimit-Reset', String(resetSeconds));
 
     await next();
   };
