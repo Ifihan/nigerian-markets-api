@@ -1,6 +1,6 @@
 import { Hono } from 'hono';
-import type { Bindings } from '../../types';
 import { getLGABySlug, getLGAs } from '../../lib/db';
+import type { Bindings } from '../../types';
 
 const app = new Hono<{ Bindings: Bindings }>();
 
@@ -16,7 +16,13 @@ app.get('/:lga', async (c) => {
   const lga = await getLGABySlug(c.env.DB, slug, { includeMarkets });
 
   if (!lga) {
-    return c.json({ success: false, error: { message: 'LGA not found', code: 'NOT_FOUND' } }, 404);
+    return c.json(
+      {
+        success: false,
+        error: { message: 'LGA not found', code: 'NOT_FOUND' },
+      },
+      404,
+    );
   }
 
   return c.json({ success: true, data: lga });

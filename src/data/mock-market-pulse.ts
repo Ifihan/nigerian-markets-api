@@ -47,7 +47,10 @@ const STATE_NAMES: Record<string, string> = {
   zamfara: 'Zamfara',
 };
 
-const HOT_STATE_OVERRIDES: Record<string, { market_count: number; lga_with_markets: number }> = {
+const HOT_STATE_OVERRIDES: Record<
+  string,
+  { market_count: number; lga_with_markets: number }
+> = {
   lagos: { market_count: 48, lga_with_markets: 11 },
   kano: { market_count: 37, lga_with_markets: 8 },
   anambra: { market_count: 29, lga_with_markets: 7 },
@@ -78,10 +81,18 @@ export function getMockMarketPulseData() {
 
   stateStats.sort((a, b) => b.market_count - a.market_count);
 
-  const totalMarkets = stateStats.reduce((sum, state) => sum + state.market_count, 0);
+  const totalMarkets = stateStats.reduce(
+    (sum, state) => sum + state.market_count,
+    0,
+  );
   const totalStates = stateStats.length;
-  const statesWithMarkets = stateStats.filter((state) => state.market_count > 0).length;
-  const lgasWithData = stateStats.reduce((sum, state) => sum + state.lga_with_markets, 0);
+  const statesWithMarkets = stateStats.filter(
+    (state) => state.market_count > 0,
+  ).length;
+  const lgasWithData = stateStats.reduce(
+    (sum, state) => sum + state.lga_with_markets,
+    0,
+  );
 
   return {
     stateStats,
