@@ -1,18 +1,18 @@
 import { Hono } from 'hono';
-import { cors } from 'hono/cors';
 import { cache } from 'hono/cache';
+import { cors } from 'hono/cors';
 import type { Bindings } from '../types';
-import { renderer } from './renderer';
-import statesApi from './api/states';
-import lgasApi from './api/lgas';
-import marketsApi from './api/markets';
 import contributeApi from './api/contribute';
 import coverageApi from './api/coverage';
-import { HomePage } from './pages/home';
-import { DocsPage } from './pages/docs';
-import { ContributePage } from './pages/contribute';
-import { NotFoundPage } from './pages/not-found';
+import lgasApi from './api/lgas';
+import marketsApi from './api/markets';
+import statesApi from './api/states';
 import { getMockMarketPulseData } from './data/mock-market-pulse';
+import { ContributePage } from './pages/contribute';
+import { DocsPage } from './pages/docs';
+import { HomePage } from './pages/home';
+import { NotFoundPage } from './pages/not-found';
+import { renderer } from './renderer';
 
 const app = new Hono<{ Bindings: Bindings }>();
 
@@ -20,19 +20,19 @@ const app = new Hono<{ Bindings: Bindings }>();
 app.use('/api/*', cors());
 app.use(
   '/api/states/*',
-  cache({ cacheName: 'iya-oloja', cacheControl: 'public, max-age=3600' })
+  cache({ cacheName: 'iya-oloja', cacheControl: 'public, max-age=3600' }),
 );
 app.use(
   '/api/lgas/*',
-  cache({ cacheName: 'iya-oloja', cacheControl: 'public, max-age=3600' })
+  cache({ cacheName: 'iya-oloja', cacheControl: 'public, max-age=3600' }),
 );
 app.use(
   '/api/markets',
-  cache({ cacheName: 'iya-oloja', cacheControl: 'public, max-age=300' })
+  cache({ cacheName: 'iya-oloja', cacheControl: 'public, max-age=300' }),
 );
 app.use(
   '/api/coverage',
-  cache({ cacheName: 'iya-oloja', cacheControl: 'public, max-age=300' })
+  cache({ cacheName: 'iya-oloja', cacheControl: 'public, max-age=300' }),
 );
 
 // API index
@@ -76,7 +76,7 @@ app.get('/', async (c) => {
         statesWithMarkets={mock.statesWithMarkets}
         lgasWithData={mock.lgasWithData}
       />,
-      { title: 'Iya Oloja — Nigerian Markets API' }
+      { title: 'Iya Oloja — Nigerian Markets API' },
     );
   }
 
@@ -93,12 +93,20 @@ app.get('/', async (c) => {
       GROUP BY s.id
       ORDER BY market_count DESC
     `)
-    .all<{ slug: string; name: string; market_count: number; lga_with_markets: number }>();
+    .all<{
+      slug: string;
+      name: string;
+      market_count: number;
+      lga_with_markets: number;
+    }>();
 
   // Totals
-  const totalMarkets = await db.prepare('SELECT COUNT(*) as c FROM markets').first<{ c: number }>();
+  const totalMarkets = await db
+    .prepare('SELECT COUNT(*) as c FROM markets')
+    .first<{ c: number }>();
   const totalStates = stateStats.results?.length ?? 37;
-  const statesWithMarkets = stateStats.results?.filter((s) => s.market_count > 0).length ?? 0;
+  const statesWithMarkets =
+    stateStats.results?.filter((s) => s.market_count > 0).length ?? 0;
   const totalLgasWithData = await db
     .prepare('SELECT COUNT(DISTINCT lga_id) as c FROM markets')
     .first<{ c: number }>();
@@ -111,7 +119,7 @@ app.get('/', async (c) => {
       statesWithMarkets={statesWithMarkets}
       lgasWithData={totalLgasWithData?.c ?? 0}
     />,
-    { title: 'Iya Oloja — Nigerian Markets API' }
+    { title: 'Iya Oloja — Nigerian Markets API' },
   );
 });
 

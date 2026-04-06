@@ -1,6 +1,6 @@
 import { Hono } from 'hono';
-import type { Bindings } from '../../types';
 import { getCoverageSummary } from '../../lib/db';
+import type { Bindings } from '../../types';
 
 const app = new Hono<{ Bindings: Bindings }>();
 
