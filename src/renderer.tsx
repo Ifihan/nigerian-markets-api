@@ -69,7 +69,7 @@ export const renderer = jsxRenderer(({ children, title }) => {
           <div class="container nav-inner">
             <a href="/" class="nav-brand">Iya Oloja</a>
             <div class="nav-links">
-              <a href="/docs">Docs</a>
+              <a href="https://nigerian-markets-api-docs.vercel.app/docs" target="_blank" rel="noopener">Docs</a>
               <a href="/contribute">Contribute</a>
               <a href="https://github.com/ifihan/nigerian-markets-api" target="_blank" rel="noopener">GitHub</a>
               <button class="theme-toggle" aria-label="Toggle theme" type="button">
