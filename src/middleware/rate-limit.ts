@@ -15,11 +15,33 @@ function getClientIp(req: Request): string | null {
   );
 }
 
+const policyWindows = new Map<string, number>();
+
+// Global prune counter shared across all rateLimiter instances in the isolate.
+// Periodically deletes expired rows for all policies/IPs to prevent unbounded growth.
+let globalRequestCount = 0;
+
+async function pruneExpiredRows(db: D1Database) {
+  const now = Date.now();
+
+  for (const [policy, windowMs] of policyWindows) {
+    const cutoff = now - windowMs;
+    await db
+      .prepare(
+        `DELETE FROM rate_limit_events
+         WHERE policy = ? AND created_at <= ?`
+      )
+      .bind(policy, cutoff)
+      .run();
+  }
+}
+
 export function rateLimiter(
   config: RateLimitConfig
 ): MiddlewareHandler<{ Bindings: Bindings }> {
   const { name, limit, windowMs } = config;
   let schemaReady: Promise<void> | null = null;
+  policyWindows.set(name, windowMs);
 
   async function ensureRateLimitSchema(db: D1Database) {
     if (!schemaReady) {
@@ -56,29 +78,50 @@ export function rateLimiter(
 
     await ensureRateLimitSchema(db);
 
+    // Periodic global prune every 500 requests to prevent unbounded table growth.
+    // Each policy is pruned using its own retention window.
+    globalRequestCount++;
+    if (globalRequestCount % 500 === 0) {
+      await pruneExpiredRows(db);
+    }
+
+    // Atomic check-and-insert: insert the event unconditionally, then count
+    // within the window. If the count exceeds the limit, delete the just-inserted
+    // row and reject. This avoids the TOCTOU race of separate check/insert steps.
     await db
       .prepare(
-        `DELETE FROM rate_limit_events
-         WHERE policy = ? AND client_key = ? AND created_at <= ?`
+        `INSERT INTO rate_limit_events (policy, client_key, created_at)
+         VALUES (?, ?, ?)`
       )
-      .bind(name, ip, cutoff)
+      .bind(name, ip, now)
       .run();
 
     const usage = await db
       .prepare(
         `SELECT COUNT(*) as total, MIN(created_at) as oldest
          FROM rate_limit_events
-         WHERE policy = ? AND client_key = ?`
+         WHERE policy = ? AND client_key = ? AND created_at > ?`
       )
-      .bind(name, ip)
+      .bind(name, ip, cutoff)
       .first<{ total: number; oldest: number | null }>();
 
-    const total = usage?.total ?? 0;
-    const oldest = usage?.oldest;
-    const resetTime = oldest ? oldest + windowMs : now + windowMs;
+    const total = usage?.total ?? 1;
+    const oldest = usage?.oldest ?? now;
+    const resetTime = oldest + windowMs;
     const resetSeconds = Math.ceil(resetTime / 1000);
 
-    if (total >= limit) {
+    if (total > limit) {
+      // Roll back the insert so the slot is not consumed on a rejected request.
+      await db
+        .prepare(
+          `DELETE FROM rate_limit_events
+           WHERE policy = ? AND client_key = ? AND created_at = ? AND
+                 id = (SELECT MAX(id) FROM rate_limit_events
+                       WHERE policy = ? AND client_key = ? AND created_at = ?)`
+        )
+        .bind(name, ip, now, name, ip, now)
+        .run();
+
       const retryAfter = Math.max(1, Math.ceil((resetTime - now) / 1000));
       c.header('Retry-After', String(retryAfter));
       c.header('X-RateLimit-Limit', String(limit));
@@ -96,16 +139,8 @@ export function rateLimiter(
       );
     }
 
-    await db
-      .prepare(
-        `INSERT INTO rate_limit_events (policy, client_key, created_at)
-         VALUES (?, ?, ?)`
-      )
-      .bind(name, ip, now)
-      .run();
-
     c.header('X-RateLimit-Limit', String(limit));
-    c.header('X-RateLimit-Remaining', String(limit - total - 1));
+    c.header('X-RateLimit-Remaining', String(limit - total));
     c.header('X-RateLimit-Reset', String(resetSeconds));
 
     await next();
