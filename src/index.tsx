@@ -18,8 +18,26 @@ import { getMockMarketPulseData } from './data/mock-market-pulse';
 const app = new Hono<{ Bindings: Bindings }>();
 
 // Rate limiting
-app.use('/api/contribute', rateLimiter({ limit: 5, windowMs: 3_600_000 }));
-app.use('/api/*', rateLimiter({ limit: 60, windowMs: 60_000 }));
+const contributeRateLimiter = rateLimiter({
+  name: 'api-contribute',
+  limit: 5,
+  windowMs: 3_600_000,
+});
+const readRateLimiter = rateLimiter({
+  name: 'api-read',
+  limit: 60,
+  windowMs: 60_000,
+});
+
+app.use('/api/contribute', contributeRateLimiter);
+app.use('/api/*', async (c, next) => {
+  if (c.req.method !== 'GET' || c.req.path === '/api/contribute') {
+    await next();
+    return;
+  }
+
+  return readRateLimiter(c, next);
+});
 
 // API middleware
 app.use('/api/*', cors());
