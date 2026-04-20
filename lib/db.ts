@@ -1,16 +1,21 @@
-import type { State, LGA, Market } from '../types';
+import type { LGA, Market, State } from '../types';
 
 export async function getStates(db: D1Database): Promise<State[]> {
-  const { results } = await db.prepare('SELECT * FROM states ORDER BY name').all<State>();
+  const { results } = await db
+    .prepare('SELECT * FROM states ORDER BY name')
+    .all<State>();
   return results;
 }
 
 export async function getStateBySlug(
   db: D1Database,
   slug: string,
-  opts: { includeLgas?: boolean } = {}
+  opts: { includeLgas?: boolean } = {},
 ) {
-  const state = await db.prepare('SELECT * FROM states WHERE slug = ?').bind(slug).first<State>();
+  const state = await db
+    .prepare('SELECT * FROM states WHERE slug = ?')
+    .bind(slug)
+    .first<State>();
   if (!state) return null;
 
   const lgaCount = await db
@@ -23,12 +28,16 @@ export async function getStateBySlug(
       `SELECT COUNT(m.id) as total
        FROM markets m
        JOIN lgas l ON m.lga_id = l.id
-       WHERE l.state_id = ?`
+       WHERE l.state_id = ?`,
     )
     .bind(state.id)
     .first<{ total: number }>();
 
-  const data: State & { lga_count: number; market_count: number; lgas?: LGA[] } = {
+  const data: State & {
+    lga_count: number;
+    market_count: number;
+    lgas?: LGA[];
+  } = {
     ...state,
     lga_count: lgaCount?.total ?? 0,
     market_count: marketCount?.total ?? 0,
@@ -45,7 +54,10 @@ export async function getStateBySlug(
   return data;
 }
 
-export async function getLGAs(db: D1Database, opts: { stateSlug?: string } = {}) {
+export async function getLGAs(
+  db: D1Database,
+  opts: { stateSlug?: string } = {},
+) {
   const conditions: string[] = [];
   const bindings: Array<string | number> = [];
 
@@ -54,7 +66,8 @@ export async function getLGAs(db: D1Database, opts: { stateSlug?: string } = {})
     bindings.push(opts.stateSlug);
   }
 
-  const whereClause = conditions.length > 0 ? `WHERE ${conditions.join(' AND ')}` : '';
+  const whereClause =
+    conditions.length > 0 ? `WHERE ${conditions.join(' AND ')}` : '';
 
   const { results } = await db
     .prepare(
@@ -64,7 +77,7 @@ export async function getLGAs(db: D1Database, opts: { stateSlug?: string } = {})
        LEFT JOIN markets m ON m.lga_id = l.id
        ${whereClause}
        GROUP BY l.id
-       ORDER BY s.name ASC, l.name ASC`
+       ORDER BY s.name ASC, l.name ASC`,
     )
     .bind(...bindings)
     .all();
@@ -75,19 +88,29 @@ export async function getLGAs(db: D1Database, opts: { stateSlug?: string } = {})
 export async function getLGABySlug(
   db: D1Database,
   slug: string,
-  opts: { includeMarkets?: boolean } = {}
+  opts: { includeMarkets?: boolean } = {},
 ) {
-  const lga = await db.prepare('SELECT * FROM lgas WHERE slug = ?').bind(slug).first<LGA>();
+  const lga = await db
+    .prepare('SELECT * FROM lgas WHERE slug = ?')
+    .bind(slug)
+    .first<LGA>();
   if (!lga) return null;
 
-  const state = await db.prepare('SELECT * FROM states WHERE id = ?').bind(lga.state_id).first<State>();
+  const state = await db
+    .prepare('SELECT * FROM states WHERE id = ?')
+    .bind(lga.state_id)
+    .first<State>();
 
   const marketCount = await db
     .prepare('SELECT COUNT(*) as total FROM markets WHERE lga_id = ?')
     .bind(lga.id)
     .first<{ total: number }>();
 
-  const data: LGA & { state: State | null; market_count: number; markets?: Market[] } = {
+  const data: LGA & {
+    state: State | null;
+    market_count: number;
+    markets?: Market[];
+  } = {
     ...lga,
     state: state ?? null,
     market_count: marketCount?.total ?? 0,
@@ -95,7 +118,9 @@ export async function getLGABySlug(
 
   if (opts.includeMarkets) {
     const { results: markets } = await db
-      .prepare('SELECT id, lga_id, name, slug, lat, lng, added_by FROM markets WHERE lga_id = ? ORDER BY name')
+      .prepare(
+        'SELECT id, lga_id, name, slug, lat, lng, added_by FROM markets WHERE lga_id = ? ORDER BY name',
+      )
       .bind(lga.id)
       .all<Market>();
     data.markets = markets;
@@ -113,7 +138,7 @@ export async function getMarkets(
     q?: string;
     stateSlug?: string;
     lgaSlug?: string;
-  }
+  },
 ) {
   const conditions: string[] = [];
   const bindings: Array<string | number> = [];
@@ -134,7 +159,8 @@ export async function getMarkets(
     bindings.push(opts.lgaSlug);
   }
 
-  const whereClause = conditions.length > 0 ? `WHERE ${conditions.join(' AND ')}` : '';
+  const whereClause =
+    conditions.length > 0 ? `WHERE ${conditions.join(' AND ')}` : '';
 
   const countResult = await db
     .prepare(
@@ -142,7 +168,7 @@ export async function getMarkets(
        FROM markets m
        JOIN lgas l ON m.lga_id = l.id
        JOIN states s ON l.state_id = s.id
-       ${whereClause}`
+       ${whereClause}`,
     )
     .bind(...bindings)
     .first<{ total: number }>();
@@ -157,7 +183,7 @@ export async function getMarkets(
        JOIN states s ON l.state_id = s.id
        ${whereClause}
        ORDER BY m.name ${opts.order === 'desc' ? 'DESC' : 'ASC'}
-       LIMIT ? OFFSET ?`
+       LIMIT ? OFFSET ?`,
     )
     .bind(...bindings, opts.limit, opts.offset)
     .all();
@@ -174,12 +200,16 @@ export async function getCoverageSummary(db: D1Database) {
        LEFT JOIN lgas l ON l.state_id = s.id
        LEFT JOIN markets m ON m.lga_id = l.id
        GROUP BY s.id
-       ORDER BY market_count DESC, s.name ASC`
+       ORDER BY market_count DESC, s.name ASC`,
     )
     .all();
 
-  const totalMarkets = await db.prepare('SELECT COUNT(*) as total FROM markets').first<{ total: number }>();
-  const totalStates = await db.prepare('SELECT COUNT(*) as total FROM states').first<{ total: number }>();
+  const totalMarkets = await db
+    .prepare('SELECT COUNT(*) as total FROM markets')
+    .first<{ total: number }>();
+  const totalStates = await db
+    .prepare('SELECT COUNT(*) as total FROM states')
+    .first<{ total: number }>();
   const statesWithMarkets = await db
     .prepare(
       `SELECT COUNT(*) as total
@@ -189,7 +219,7 @@ export async function getCoverageSummary(db: D1Database) {
          JOIN lgas l ON l.state_id = s.id
          JOIN markets m ON m.lga_id = l.id
          GROUP BY s.id
-       )`
+       )`,
     )
     .first<{ total: number }>();
   const lgasWithMarkets = await db
