@@ -8,6 +8,7 @@ import lgasApi from './api/lgas';
 import marketsApi from './api/markets';
 import statesApi from './api/states';
 import { getMockMarketPulseData } from './data/mock-market-pulse';
+import { rateLimiter } from './middleware/rate-limit';
 import { ContributePage } from './pages/contribute';
 import { DocsPage } from './pages/docs';
 import { HomePage } from './pages/home';
@@ -15,6 +16,28 @@ import { NotFoundPage } from './pages/not-found';
 import { renderer } from './renderer';
 
 const app = new Hono<{ Bindings: Bindings }>();
+
+// Rate limiting
+const contributeRateLimiter = rateLimiter({
+  name: 'api-contribute',
+  limit: 5,
+  windowMs: 3_600_000,
+});
+const readRateLimiter = rateLimiter({
+  name: 'api-read',
+  limit: 60,
+  windowMs: 60_000,
+});
+
+app.use('/api/contribute', contributeRateLimiter);
+app.use('/api/*', async (c, next) => {
+  if (c.req.method !== 'GET' || c.req.path === '/api/contribute') {
+    await next();
+    return;
+  }
+
+  return readRateLimiter(c, next);
+});
 
 // API middleware
 app.use('/api/*', cors());
