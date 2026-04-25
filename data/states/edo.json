@@ -10,7 +10,7 @@
     {
       "name": "Egor",
       "slug": "edo-egor",
-      "markets": []
+      "markets": [Uselu Market]
     },
     {
       "name": "Esan Central",
@@ -60,7 +60,7 @@
     {
       "name": "Oredo",
       "slug": "edo-oredo",
-      "markets": []
+      "markets": [Oba Market, New Benin Market, Santana Market]
     },
     {
       "name": "Orhionmwon",
