@@ -10,7 +10,17 @@
     {
       "name": "Ajeromi-Ifelodun",
       "slug": "lagos-ajeromi-ifelodun",
-      "markets": []
+      "markets": [
+        {
+          "name": "Ibafon Market, Ajeromi-Ifelodun",
+          "slug": "ibafon-market",
+          "coordinates": {
+            "lat": 6.4408,
+            "lng": 3.3268
+          },
+          "added_by": "ahmad-cod"
+        },
+      ]
     },
     {
       "name": "Alimosho",
