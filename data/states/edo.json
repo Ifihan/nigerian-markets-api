@@ -10,7 +10,14 @@
     {
       "name": "Egor",
       "slug": "edo-egor",
-      "markets": [Uselu Market]
+      "markets": [
+        {
+          "name": "Uselu Market, Use, Benin City",
+          "slug": "uselu-market",
+          "coordinates": { "lat": 6.3750, "lng": 5.6133 },
+          "added_by": "sike25"
+        }
+      ]
     },
     {
       "name": "Esan Central",
