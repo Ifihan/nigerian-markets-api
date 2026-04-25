@@ -105,7 +105,17 @@
     {
       "name": "Maiduguri",
       "slug": "borno-maiduguri",
-      "markets": []
+      "markets": [
+         {
+          "name": "Monday Market",
+          "slug": "monday-market",
+          "coordinates": {
+            "lat": 11.8362,
+            "lng": 13.1535
+          },
+          "added_by": "sojijr"
+        }
+      ]
     },
     {
       "name": "Marte",
