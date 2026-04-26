@@ -10,7 +10,14 @@
     {
       "name": "Egor",
       "slug": "edo-egor",
-      "markets": []
+      "markets": [
+        {
+          "name": "Uselu Market, Use, Benin City",
+          "slug": "uselu-market",
+          "coordinates": { "lat": 6.3750, "lng": 5.6133 },
+          "added_by": "sike25"
+        }
+      ]
     },
     {
       "name": "Esan Central",
@@ -60,7 +67,26 @@
     {
       "name": "Oredo",
       "slug": "edo-oredo",
-      "markets": []
+      "markets": [
+        {
+          "name": "Oba Market, Benin City",
+          "slug": "oba-market",
+          "coordinates": { "lat": 6.3367, "lng": 5.6186 },
+          "added_by": "sike25"
+        },
+        {
+          "name": "New Benin Market, Benin City",
+          "slug": "new-benin-market",
+          "coordinates": { "lat": 6.3465, "lng": 5.6340 },
+          "added_by": "sike25"
+        },
+        {
+          "name": "Santana Market, Benin City",
+          "slug": "santana-market",
+          "coordinates": { "lat": 6.2929, "lng": 5.6323 },
+          "added_by": "sike25"
+        }
+      ]
     },
     {
       "name": "Orhionmwon",
