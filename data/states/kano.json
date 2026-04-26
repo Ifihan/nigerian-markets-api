@@ -224,7 +224,14 @@
     {
       "name": "Tofa",
       "slug": "kano-tofa",
-      "markets": []
+      "markets": [
+          {
+          "name": "Janguza Market, Tofa, Kano Municipal",
+          "slug": "janguza-market",
+          "coordinates": { "lat": 11.96, "lng": 8.40 },
+          "added_by": "ahmad-cod"
+        }
+      ]
     },
     {
       "name": "Tsanyawa",
