@@ -12,7 +12,7 @@
       "slug": "edo-egor",
       "markets": [
         {
-          "name": "Uselu Market, Use, Benin City",
+          "name": "Uselu Market, Egor, Benin City",
           "slug": "uselu-market",
           "coordinates": { "lat": 6.3750, "lng": 5.6133 },
           "added_by": "sike25"
@@ -69,19 +69,19 @@
       "slug": "edo-oredo",
       "markets": [
         {
-          "name": "Oba Market, Benin City",
+          "name": "Oba Market, Oredo, Benin City",
           "slug": "oba-market",
           "coordinates": { "lat": 6.3367, "lng": 5.6186 },
           "added_by": "sike25"
         },
         {
-          "name": "New Benin Market, Benin City",
+          "name": "New Benin Market, Oredo, Benin City",
           "slug": "new-benin-market",
           "coordinates": { "lat": 6.3465, "lng": 5.6340 },
           "added_by": "sike25"
         },
         {
-          "name": "Santana Market, Benin City",
+          "name": "Santana Market, Oredo, Benin City",
           "slug": "santana-market",
           "coordinates": { "lat": 6.2929, "lng": 5.6323 },
           "added_by": "sike25"
