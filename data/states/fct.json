@@ -28,6 +28,18 @@
           "slug": "utako-market",
           "coordinates": { "lat": 9.0726, "lng": 7.4416 },
           "added_by": "ifihan"
+        },
+        {
+          "name": "Maitama Farmers Market, Abuja Municipal",
+          "slug": "maitama-farmers-market",
+          "coordinates": { "lat": 9.0860, "lng": 7.4942 },
+          "added_by": "ahmad-cod"
+        },
+        {
+          "name": "Wuye Ultra Modern Market, Abuja Municipal",
+          "slug": "wuye-market",
+          "coordinates": { "lat": 9.0517, "lng": 7.4435 },
+          "added_by": "ahmad-cod"
         }
       ]
     },
