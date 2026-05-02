@@ -20,7 +20,7 @@ const app = new Hono<{ Bindings: Bindings }>();
 // Rate limiting
 const contributeRateLimiter = rateLimiter({
   name: 'api-contribute',
-  limit: 5,
+  limit: 10,
   windowMs: 3_600_000,
 });
 const readRateLimiter = rateLimiter({
