@@ -141,7 +141,35 @@
     {
       "name": "Kosofe",
       "slug": "lagos-kosofe",
-      "markets": []
+      "markets": [
+        {
+          "name": "Babajide Sanwo-Olu International Market, Kosofe",
+          "slug": "babajide-sanwo-olu-international-market",
+          "coordinates": {
+            "lat": 6.597185,
+            "lng": 3.383451
+          },
+          "added_by": "hilory16"
+        },
+        {
+          "name": "Oja Oba Market Ketu, Kosofe",
+          "slug": "oja-oba-market-ketu",
+          "coordinates": {
+            "lat": 6.598710,
+            "lng": 3.387552
+          },
+          "added_by": "hilory16"
+        },
+        {
+          "name": "Mile 12 International Market, Kosofe",
+          "slug": "mile-12-international-market",
+          "coordinates": {
+            "lat": 6.608584,
+            "lng": 3.393954
+          },
+          "added_by": "hilory16"
+        }
+      ]
     },
     {
       "name": "Lagos Island",
@@ -226,8 +254,8 @@
           "added_by": "ifihan"
         },
         {
-          "name": "Mile 12 Market, Oshodi-Isolo",
-          "slug": "mile-12-market",
+          "name": "Mile 2 Market, Oshodi-Isolo",
+          "slug": "mile-2-market",
           "coordinates": {
             "lat": 6.5963,
             "lng": 3.3933
