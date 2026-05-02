@@ -64,7 +64,7 @@ async function createGitHubAppJwt(appId: string, privateKeyPem: string): Promise
 
   // Import RSA private key using Web Crypto
   const pemBody = privateKeyPem
-    .replace(/-----BEGIN RSA PRIVATE KEY-----|-----END RSA PRIVATE KEY-----|\n|\r/g, '');
+    .replace(/-----BEGIN [A-Z ]+-----|-----END [A-Z ]+-----|\n|\r/g, '');
   const keyData = Uint8Array.from(atob(pemBody), (c) => c.charCodeAt(0));
 
   const key = await crypto.subtle.importKey(
@@ -240,9 +240,11 @@ app.post('/', async (c) => {
     );
   }
 
+  const privateKey = atob(GITHUB_APP_PRIVATE_KEY);
+
   let token: string;
   try {
-    token = await getInstallationToken(GITHUB_APP_ID, GITHUB_APP_PRIVATE_KEY, GITHUB_APP_INSTALLATION_ID);
+    token = await getInstallationToken(GITHUB_APP_ID, privateKey, GITHUB_APP_INSTALLATION_ID);
   } catch {
     return c.json(
       { success: false, error: { message: 'Failed to authenticate with GitHub', code: 'AUTH_ERROR' } },
