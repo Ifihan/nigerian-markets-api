@@ -143,16 +143,16 @@
       "slug": "lagos-kosofe",
       "markets": [
         {
-          "name": "Babajide Sanwo-Olu International Market",
+          "name": "Babajide Sanwo-Olu International Market, Kosofe",
           "slug": "babajide-sanwo-olu-international-market",
           "coordinates": {
             "lat": 6.597185,
             "lng": 3.383451
           },
           "added_by": "hilory16"
-        }
-         {
-          "name": "Oja Oba Market Ketu",
+        },
+        {
+          "name": "Oja Oba Market Ketu, Kosofe",
           "slug": "oja-oba-market-ketu",
           "coordinates": {
             "lat": 6.598710,
@@ -161,15 +161,14 @@
           "added_by": "hilory16"
         },
         {
-          "name": "Mile 12 International Market",
+          "name": "Mile 12 International Market, Kosofe",
           "slug": "mile-12-international-market",
           "coordinates": {
             "lat": 6.608584,
             "lng": 3.393954
           },
           "added_by": "hilory16"
-        },
-      ]
+        }
       ]
     },
     {
