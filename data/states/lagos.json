@@ -43,7 +43,7 @@
           "slug": "alakoto-market",
           "coordinates": {
             "lat": 6.4713,
-            "lng": 3.3500
+            "lng": 3.35
           },
           "added_by": "ahmad-cod"
         }
@@ -155,7 +155,7 @@
           "name": "Oja Oba Market Ketu, Kosofe",
           "slug": "oja-oba-market-ketu",
           "coordinates": {
-            "lat": 6.598710,
+            "lat": 6.59871,
             "lng": 3.387552
           },
           "added_by": "hilory16"
@@ -276,6 +276,15 @@
             "lng": 3.381950844758177
           },
           "added_by": "ehizman"
+        },
+        {
+          "name": "Test, Shomolu",
+          "slug": "test-shomolu",
+          "coordinates": {
+            "lat": 6.492236,
+            "lng": 3.94137
+          },
+          "added_by": "test"
         }
       ]
     },
