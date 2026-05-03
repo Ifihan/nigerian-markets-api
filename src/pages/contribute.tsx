@@ -14,15 +14,24 @@ export const ContributePage: FC = () => {
           <form id="contribute-form" class="form">
             <div class="field">
               <label for="market_name">Market Name *</label>
-              <input type="text" id="market_name" name="market_name" required placeholder="e.g. Balogun Market, Lagos Island" />
+              <input type="text" id="market_name" name="market_name" required placeholder="e.g. Aleshinloye Market" />
+              <p id="market-name-preview" class="field-note">
+                Select a state and LGA to preview the final saved format.
+              </p>
             </div>
             <div class="field">
               <label for="state">State *</label>
-              <input type="text" id="state" name="state" required placeholder="e.g. Lagos" />
+              <select id="state" name="state" required>
+                <option value="">Loading states...</option>
+              </select>
+              <p class="field-note">Choose the state from the canonical list.</p>
             </div>
             <div class="field">
               <label for="lga">Local Government Area *</label>
-              <input type="text" id="lga" name="lga" required placeholder="e.g. Lagos Island" />
+              <select id="lga" name="lga" required disabled>
+                <option value="">Select a state first</option>
+              </select>
+              <p class="field-note">The LGA list updates after you pick a state.</p>
             </div>
             <div class="field">
               <label>Location * <span class="label-hint">Click the map or enter coordinates manually</span></label>
@@ -51,6 +60,143 @@ export const ContributePage: FC = () => {
 
           <script dangerouslySetInnerHTML={{__html: `
             (function() {
+              var stateInput = document.getElementById('state');
+              var lgaInput = document.getElementById('lga');
+              var marketNameInput = document.getElementById('market_name');
+              var preview = document.getElementById('market-name-preview');
+              var formMessage = document.getElementById('form-message');
+
+              function normalizeSpacing(value) {
+                return (value || '').trim().replace(/\\s+/g, ' ');
+              }
+
+              function titleCase(value) {
+                return normalizeSpacing(value)
+                  .split(' ')
+                  .filter(Boolean)
+                  .map(function(word) {
+                    return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+                  })
+                  .join(' ');
+              }
+
+              function getSelectedLabel(select) {
+                if (!select || !select.selectedOptions || !select.selectedOptions[0]) return '';
+                return select.selectedOptions[0].textContent || '';
+              }
+
+              function setPreview() {
+                var marketName = titleCase(marketNameInput.value);
+                var lgaLabel = getSelectedLabel(lgaInput);
+
+                if (!marketName && !lgaInput.value) {
+                  preview.textContent = 'Select a state and LGA to preview the final saved format.';
+                  return;
+                }
+
+                if (!marketName) {
+                  preview.textContent = 'Enter the market name to preview the final saved format.';
+                  return;
+                }
+
+                if (!lgaInput.value) {
+                  preview.textContent = 'Select an LGA to preview the final saved format.';
+                  return;
+                }
+
+                var finalName = marketName.toLowerCase().endsWith(', ' + lgaLabel.toLowerCase())
+                  ? marketName
+                  : marketName + ', ' + lgaLabel;
+
+                preview.textContent = 'Saved as: ' + finalName;
+              }
+
+              function setLgaOptions(lgas) {
+                lgaInput.innerHTML = '';
+
+                var placeholder = document.createElement('option');
+                placeholder.value = '';
+                placeholder.textContent = lgas.length ? 'Select an LGA' : 'No LGAs available';
+                lgaInput.appendChild(placeholder);
+
+                lgas.forEach(function(lga) {
+                  var option = document.createElement('option');
+                  option.value = lga.slug;
+                  option.textContent = lga.name;
+                  lgaInput.appendChild(option);
+                });
+
+                lgaInput.disabled = !lgas.length;
+                lgaInput.value = '';
+                setPreview();
+              }
+
+              async function loadStates() {
+                try {
+                  var res = await fetch('/api/states');
+                  var result = await res.json();
+
+                  if (!result.success) throw new Error('Failed to load states');
+
+                  stateInput.innerHTML = '';
+
+                  var placeholder = document.createElement('option');
+                  placeholder.value = '';
+                  placeholder.textContent = 'Select a state';
+                  stateInput.appendChild(placeholder);
+
+                  result.data.forEach(function(state) {
+                    var option = document.createElement('option');
+                    option.value = state.slug;
+                    option.textContent = state.name;
+                    stateInput.appendChild(option);
+                  });
+                } catch (error) {
+                  stateInput.innerHTML = '<option value="">Unable to load states</option>';
+                  stateInput.disabled = true;
+                  lgaInput.innerHTML = '<option value="">Unable to load LGAs</option>';
+                  lgaInput.disabled = true;
+                  formMessage.textContent = 'We could not load the state and LGA lists right now. Please refresh and try again.';
+                  formMessage.className = 'form-message error';
+                }
+              }
+
+              async function loadLgasForState(stateSlug) {
+                if (!stateSlug) {
+                  lgaInput.innerHTML = '<option value="">Select a state first</option>';
+                  lgaInput.disabled = true;
+                  setPreview();
+                  return;
+                }
+
+                lgaInput.disabled = true;
+                lgaInput.innerHTML = '<option value="">Loading LGAs...</option>';
+
+                try {
+                  var res = await fetch('/api/lgas?state=' + encodeURIComponent(stateSlug));
+                  var result = await res.json();
+
+                  if (!result.success) throw new Error('Failed to load LGAs');
+
+                  setLgaOptions(result.data || []);
+                } catch (error) {
+                  lgaInput.innerHTML = '<option value="">Unable to load LGAs</option>';
+                  lgaInput.disabled = true;
+                  setPreview();
+                  formMessage.textContent = 'We could not load the LGAs for that state. Please try again.';
+                  formMessage.className = 'form-message error';
+                }
+              }
+
+              stateInput.addEventListener('change', function() {
+                formMessage.textContent = '';
+                formMessage.className = 'form-message';
+                loadLgasForState(stateInput.value);
+              });
+
+              lgaInput.addEventListener('change', setPreview);
+              marketNameInput.addEventListener('input', setPreview);
+
               // Nigeria bounds — restrict map to this area
               var nigeriaBounds = L.latLngBounds(
                 L.latLng(3.0, 1.0),   // SW corner
@@ -113,7 +259,14 @@ export const ContributePage: FC = () => {
                 }
                 latInput.value = '';
                 lngInput.value = '';
+                stateInput.value = '';
+                lgaInput.innerHTML = '<option value="">Select a state first</option>';
+                lgaInput.disabled = true;
+                setPreview();
               });
+
+              loadStates();
+              setPreview();
             })();
 
             document.getElementById('contribute-form').addEventListener('submit', async (e) => {
