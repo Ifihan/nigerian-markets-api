@@ -21,3 +21,5 @@ ajo.png
 # Local-only scripts
 scripts/seed-local.ts
 .seed-local.sql
+
+markets.csv
