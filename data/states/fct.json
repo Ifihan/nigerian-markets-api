@@ -5,40 +5,366 @@
     {
       "name": "Abaji",
       "slug": "fct-abaji",
-      "markets": []
+      "markets": [
+        {
+          "name": "Abaji Central Market",
+          "slug": "abaji-central-market",
+          "coordinates": {
+            "lat": 8.47168,
+            "lng": 6.9543
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Abaji Central"
+        },
+        {
+          "name": "Abaji Market Abatoir",
+          "slug": "abaji-market-abatoir",
+          "coordinates": {
+            "lat": 8.46808,
+            "lng": 6.95301
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Abaji Abatoir"
+        }
+      ]
     },
     {
       "name": "Abuja Municipal",
       "slug": "fct-abuja-municipal",
       "markets": [
         {
-          "name": "Wuse Market, Abuja Municipal",
-          "slug": "wuse-market",
-          "coordinates": { "lat": 9.0579, "lng": 7.4891 },
-          "added_by": "ifihan"
+          "name": "Aco Estate Market, Abuja Municipal",
+          "slug": "aco-estate-market-abuja-municipal",
+          "coordinates": {
+            "lat": 8.93604,
+            "lng": 7.32703
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Aco Estate"
+        },
+        {
+          "name": "Deidei Building Material, Abuja Municipal",
+          "slug": "deidei-building-material-abuja-municipal",
+          "coordinates": {
+            "lat": 9.103473333,
+            "lng": 7.275516667
+          },
+          "added_by": "GRID3 (kevin.ukueku)",
+          "frequency": "Weekly",
+          "type": "Other",
+          "local_name": "Saburi",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Framers Market Maitama, Abuja Municipal",
+          "slug": "framers-market-maitama-abuja-municipal",
+          "coordinates": {
+            "lat": 9.085967852,
+            "lng": 7.494193598
+          },
+          "added_by": "GRID3 (kevin.ukueku)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Maitama",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Galadimawa Market, Abuja Municipal",
+          "slug": "galadimawa-market-abuja-municipal",
+          "coordinates": {
+            "lat": 8.99254,
+            "lng": 7.42653
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Galadimawa"
+        },
+        {
+          "name": "Garki Area 1 Market, Abuja Municipal",
+          "slug": "garki-area-1-market-abuja-municipal",
+          "coordinates": {
+            "lat": 9.03233,
+            "lng": 7.47105
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Garki Area 1"
+        },
+        {
+          "name": "Garki Area 10 Market, Abuja Municipal",
+          "slug": "garki-area-10-market-abuja-municipal",
+          "coordinates": {
+            "lat": 9.03627,
+            "lng": 7.48539
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Garki Area 10"
+        },
+        {
+          "name": "Garki Area 2 Market, Abuja Municipal",
+          "slug": "garki-area-2-market-abuja-municipal",
+          "coordinates": {
+            "lat": 9.03591,
+            "lng": 7.47765
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Garki Area 2"
         },
         {
           "name": "Garki Market, Abuja Municipal",
           "slug": "garki-market",
-          "coordinates": { "lat": 9.0227, "lng": 7.4891 },
+          "coordinates": {
+            "lat": 9.0227,
+            "lng": 7.4891
+          },
           "added_by": "ifihan"
         },
         {
-          "name": "Utako Market, Abuja Municipal",
-          "slug": "utako-market",
-          "coordinates": { "lat": 9.0726, "lng": 7.4416 },
-          "added_by": "ifihan"
+          "name": "Garki Village Market, Abuja Municipal",
+          "slug": "garki-village-market-abuja-municipal",
+          "coordinates": {
+            "lat": 9.01988,
+            "lng": 7.48992
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Garki Village"
+        },
+        {
+          "name": "Gishiri Transformer Market, Abuja Municipal",
+          "slug": "gishiri-transformer-market-abuja-municipal",
+          "coordinates": {
+            "lat": 9.1001083,
+            "lng": 7.46481
+          },
+          "added_by": "GRID3 (kevin.ukueku)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff Other",
+          "local_name": "Gishiri",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Goza Market, Abuja Municipal",
+          "slug": "goza-market-abuja-municipal",
+          "coordinates": {
+            "lat": 8.932325,
+            "lng": 7.295848333
+          },
+          "added_by": "GRID3 (kevin.ukueku)",
+          "frequency": "Weekly",
+          "type": "Livestock Food Stuff Mixed",
+          "local_name": "Goza",
+          "days": [
+            "Mon",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Gwarinpa Market, Abuja Municipal",
+          "slug": "gwarinpa-market-abuja-municipal",
+          "coordinates": {
+            "lat": 9.09887,
+            "lng": 7.40668
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gwarinpa"
+        },
+        {
+          "name": "Kabusa Market, Abuja Municipal",
+          "slug": "kabusa-market-abuja-municipal",
+          "coordinates": {
+            "lat": 8.94936,
+            "lng": 7.44491
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kabusa"
+        },
+        {
+          "name": "Kado Village Market, Abuja Municipal",
+          "slug": "kado-village-market-abuja-municipal",
+          "coordinates": {
+            "lat": 9.06697,
+            "lng": 7.39996
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kado Village"
+        },
+        {
+          "name": "Karmo Market, Abuja Municipal",
+          "slug": "karmo-market-abuja-municipal",
+          "coordinates": {
+            "lat": 9.06826,
+            "lng": 7.3647
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Karmo"
+        },
+        {
+          "name": "Karsana 1 Market, Abuja Municipal",
+          "slug": "karsana-1-market-abuja-municipal",
+          "coordinates": {
+            "lat": 9.09302,
+            "lng": 7.30235
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Karsana 1"
+        },
+        {
+          "name": "Karshi Market, Abuja Municipal",
+          "slug": "karshi-market-abuja-municipal",
+          "coordinates": {
+            "lat": 8.82683,
+            "lng": 7.57285
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Karshi"
+        },
+        {
+          "name": "Karu Village Market, Abuja Municipal",
+          "slug": "karu-village-market-abuja-municipal",
+          "coordinates": {
+            "lat": 9.00788,
+            "lng": 7.57337
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Karu Village"
+        },
+        {
+          "name": "Kaura Modern Market, Abuja Municipal",
+          "slug": "kaura-modern-market-abuja-municipal",
+          "coordinates": {
+            "lat": 9.008086423,
+            "lng": 7.457748005
+          },
+          "added_by": "GRID3 (kevin.ukueku)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff Mixed Other",
+          "local_name": "Prince and Princess Estate",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
         },
         {
           "name": "Maitama Farmers Market, Abuja Municipal",
           "slug": "maitama-farmers-market",
-          "coordinates": { "lat": 9.0860, "lng": 7.4942 },
+          "coordinates": {
+            "lat": 9.086,
+            "lng": 7.4942
+          },
           "added_by": "ahmad-cod"
+        },
+        {
+          "name": "Nnamdi Azikiwe Market, Abuja Municipal",
+          "slug": "nnamdi-azikiwe-market-abuja-municipal",
+          "coordinates": {
+            "lat": 9.01304,
+            "lng": 7.27659
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Nnamdi Azikiwe"
+        },
+        {
+          "name": "Nyanya Market, Abuja Municipal",
+          "slug": "nyanya-market-abuja-municipal",
+          "coordinates": {
+            "lat": 9.02438,
+            "lng": 7.56955
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Nyanya"
+        },
+        {
+          "name": "Tomatoes Market, Abuja Municipal",
+          "slug": "tomatoes-market-abuja-municipal",
+          "coordinates": {
+            "lat": 9.102793333,
+            "lng": 7.273538333
+          },
+          "added_by": "GRID3 (kevin.ukueku)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Tunga Fulani",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Utako Market, Abuja Municipal",
+          "slug": "utako-market",
+          "coordinates": {
+            "lat": 9.0726,
+            "lng": 7.4416
+          },
+          "added_by": "ifihan"
+        },
+        {
+          "name": "Utako Market, Abuja Municipal",
+          "slug": "utako-market-abuja-municipal",
+          "coordinates": {
+            "lat": 9.06352,
+            "lng": 7.44486
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Utako"
+        },
+        {
+          "name": "Wuse Market, Abuja Municipal",
+          "slug": "wuse-market",
+          "coordinates": {
+            "lat": 9.0579,
+            "lng": 7.4891
+          },
+          "added_by": "ifihan"
+        },
+        {
+          "name": "Wuse Zone 5 Market, Abuja Municipal",
+          "slug": "wuse-zone-5-market-abuja-municipal",
+          "coordinates": {
+            "lat": 9.06895,
+            "lng": 7.46429
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Wuse Zone 5"
         },
         {
           "name": "Wuye Ultra Modern Market, Abuja Municipal",
           "slug": "wuye-market",
-          "coordinates": { "lat": 9.0517, "lng": 7.4435 },
+          "coordinates": {
+            "lat": 9.0517,
+            "lng": 7.4435
+          },
           "added_by": "ahmad-cod"
         }
       ]
@@ -46,29 +372,432 @@
     {
       "name": "Bwari",
       "slug": "fct-bwari",
-      "markets": []
+      "markets": [
+        {
+          "name": "Bwari Market",
+          "slug": "bwari-market",
+          "coordinates": {
+            "lat": 9.28136,
+            "lng": 7.38334
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Bwari"
+        },
+        {
+          "name": "Bwari Shopping Complex",
+          "slug": "bwari-shopping-complex",
+          "coordinates": {
+            "lat": 9.271515,
+            "lng": 7.382175
+          },
+          "added_by": "GRID3 (kevin.ukueku)",
+          "frequency": "Weekly",
+          "type": "Clothing Electronic Spare Parts Food Stuff Mixed",
+          "local_name": "Bwari",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Byazhin Model Market Kubwa, Bwari",
+          "slug": "byazhin-model-market-kubwa-bwari",
+          "coordinates": {
+            "lat": 9.1712,
+            "lng": 7.3270517
+          },
+          "added_by": "GRID3 (kevin.ukueku)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff Mixed",
+          "local_name": "Byazhin",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Dutse Alhaji Market, Bwari",
+          "slug": "dutse-alhaji-market-bwari",
+          "coordinates": {
+            "lat": 9.13973,
+            "lng": 7.36803
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Dutse Alhaji"
+        },
+        {
+          "name": "Igu Market, Bwari",
+          "slug": "igu-market-bwari",
+          "coordinates": {
+            "lat": 9.27706,
+            "lng": 7.47229
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Igu"
+        },
+        {
+          "name": "Kawu Market, Bwari",
+          "slug": "kawu-market-bwari",
+          "coordinates": {
+            "lat": 9.310905,
+            "lng": 7.5777917
+          },
+          "added_by": "GRID3 (kevin.ukueku)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Kawu",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Kubwa Village Market, Bwari",
+          "slug": "kubwa-village-market-bwari",
+          "coordinates": {
+            "lat": 9.150173283,
+            "lng": 7.320237463
+          },
+          "added_by": "GRID3 (kevin.ukueku)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff Mixed",
+          "local_name": "Kubwa Village",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kukwaba Market, Bwari",
+          "slug": "kukwaba-market-bwari",
+          "coordinates": {
+            "lat": 9.1462267,
+            "lng": 7.3197367
+          },
+          "added_by": "GRID3 (kevin.ukueku)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff Mixed",
+          "local_name": "Old Maitama Road Kubwa",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Mpape Market, Bwari",
+          "slug": "mpape-market-bwari",
+          "coordinates": {
+            "lat": 9.13819,
+            "lng": 7.49475
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Mpape"
+        },
+        {
+          "name": "Umuaka Plaza Logo2, Bwari",
+          "slug": "umuaka-plaza-logo2-bwari",
+          "coordinates": {
+            "lat": 9.2576483,
+            "lng": 7.3842383
+          },
+          "added_by": "GRID3 (kevin.ukueku)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Kogo2 by the Road side",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        }
+      ]
     },
     {
       "name": "Gwagwalada",
       "slug": "fct-gwagwalada",
       "markets": [
         {
+          "name": "Dobi Market, Gwagwalada",
+          "slug": "dobi-market-gwagwalada",
+          "coordinates": {
+            "lat": 9.0656224,
+            "lng": 6.9931584
+          },
+          "added_by": "GRID3 (kevin.ukueku)",
+          "frequency": "Bi-Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Dobi",
+          "days": [
+            "Tue",
+            "Sat"
+          ]
+        },
+        {
           "name": "Gwagwalada Market",
           "slug": "gwagwalada-market",
-          "coordinates": { "lat": 8.9432, "lng": 7.0843 },
+          "coordinates": {
+            "lat": 8.9432,
+            "lng": 7.0843
+          },
           "added_by": "ifihan"
+        },
+        {
+          "name": "Zuba Market, Gwagwalada",
+          "slug": "zuba-market-gwagwalada",
+          "coordinates": {
+            "lat": 9.08883,
+            "lng": 7.21551
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Zuba"
         }
       ]
     },
     {
       "name": "Kuje",
       "slug": "fct-kuje",
-      "markets": []
+      "markets": [
+        {
+          "name": "Chukukwu, Kuje",
+          "slug": "chukukwu-kuje",
+          "coordinates": {
+            "lat": 8.921488035,
+            "lng": 7.118627399
+          },
+          "added_by": "GRID3 (kevin.ukueku)",
+          "frequency": "Bi-Weekly",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff Mixed Other",
+          "local_name": "Chukukwu",
+          "days": [
+            "Tue",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Dafara Junction Market, Kuje",
+          "slug": "dafara-junction-market-kuje",
+          "coordinates": {
+            "lat": 8.863,
+            "lng": 7.28678
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Dafara Junction"
+        },
+        {
+          "name": "Gaube Market, Kuje",
+          "slug": "gaube-market-kuje",
+          "coordinates": {
+            "lat": 8.82205,
+            "lng": 7.33729
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gaube"
+        },
+        {
+          "name": "Guda Aba Market, Kuje",
+          "slug": "guda-aba-market-kuje",
+          "coordinates": {
+            "lat": 8.9053,
+            "lng": 7.25619
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Guda Aba"
+        },
+        {
+          "name": "Gwargada Market, Kuje",
+          "slug": "gwargada-market-kuje",
+          "coordinates": {
+            "lat": 8.56572,
+            "lng": 7.10607
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gwargada"
+        },
+        {
+          "name": "Kabi Mangoro Market, Kuje",
+          "slug": "kabi-mangoro-market-kuje",
+          "coordinates": {
+            "lat": 8.726565,
+            "lng": 7.373755
+          },
+          "added_by": "GRID3 (kevin.ukueku)",
+          "frequency": "Weekly",
+          "type": "Livestock Food Stuff Mixed",
+          "local_name": "Kabi mangoro",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Kuje Central Market",
+          "slug": "kuje-central-market",
+          "coordinates": {
+            "lat": 8.88106,
+            "lng": 7.22867
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kuje Central"
+        },
+        {
+          "name": "Kuje International Market",
+          "slug": "kuje-international-market",
+          "coordinates": {
+            "lat": 8.89122,
+            "lng": 7.2544
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kuje International"
+        },
+        {
+          "name": "Kuje Market",
+          "slug": "kuje-market",
+          "coordinates": {
+            "lat": 8.87285,
+            "lng": 7.25185
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kuje"
+        },
+        {
+          "name": "Kujekwa Market",
+          "slug": "kujekwa-market",
+          "coordinates": {
+            "lat": 8.58,
+            "lng": 7.3767
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kujekwa"
+        },
+        {
+          "name": "Kwaku Market, Kuje",
+          "slug": "kwaku-market-kuje",
+          "coordinates": {
+            "lat": 8.68397,
+            "lng": 7.15253
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kwaku"
+        },
+        {
+          "name": "Rije Market, Kuje",
+          "slug": "rije-market-kuje",
+          "coordinates": {
+            "lat": 8.88409,
+            "lng": 7.21606
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Rije"
+        },
+        {
+          "name": "Rubochi Market, Kuje",
+          "slug": "rubochi-market-kuje",
+          "coordinates": {
+            "lat": 8.53464,
+            "lng": 7.03562
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Rubochi"
+        },
+        {
+          "name": "Sungba Market, Kuje",
+          "slug": "sungba-market-kuje",
+          "coordinates": {
+            "lat": 8.5123,
+            "lng": 7.35241
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Sungba"
+        }
+      ]
     },
     {
       "name": "Kwali",
       "slug": "fct-kwali",
-      "markets": []
+      "markets": [
+        {
+          "name": "Bonugo Market, Kwali",
+          "slug": "bonugo-market-kwali",
+          "coordinates": {
+            "lat": 8.81447,
+            "lng": 7.03459
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Bonugo"
+        },
+        {
+          "name": "Centre Market Kwaita, Kwali",
+          "slug": "centre-market-kwaita-kwali",
+          "coordinates": {
+            "lat": 8.66464,
+            "lng": 6.924927
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Center Kwaita",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Dangara Market, Kwali",
+          "slug": "dangara-market-kwali",
+          "coordinates": {
+            "lat": 8.58124,
+            "lng": 6.88712
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Dangara"
+        },
+        {
+          "name": "Kamadi Tsoho Market, Kwali",
+          "slug": "kamadi-tsoho-market-kwali",
+          "coordinates": {
+            "lat": 8.66305,
+            "lng": 6.92459
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kamadi Tsoho"
+        },
+        {
+          "name": "Sheda Sarki Seasonal Market, Kwali",
+          "slug": "sheda-sarki-seasonal-market-kwali",
+          "coordinates": {
+            "lat": 8.91174,
+            "lng": 6.95956
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Sheda Sarki Seasonal"
+        }
+      ]
     }
   ]
 }

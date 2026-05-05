@@ -28,6 +28,27 @@ const LGA_OVERRIDES: Record<string, Record<string, string>> = {
   'cross-river': {
     Bekwarra: 'Bekwara',
   },
+  edo: {
+    Iguegben: 'Igueben',
+  },
+  gombe: {
+    Shomgom: 'Shongom',
+  },
+  imo: {
+    Mbatoli: 'Mbaitoli',
+  },
+  kano: {
+    'Garun Malam': 'Garun Mallam',
+    Nassarawa: 'Nasarawa',
+  },
+  fct: {
+    'Municipal Area Council': 'Abuja Municipal',
+  },
+};
+
+// Maps CSV statename values to JSON state names where they differ
+const CSV_STATE_NAME_OVERRIDES: Record<string, string> = {
+  Fct: 'Federal Capital Territory',
 };
 
 type CsvRow = Record<string, string>;
@@ -175,7 +196,8 @@ function loadStateData(): StateData[] {
 function main() {
   const { stateName, csvPath } = parseArgs();
   const allStates = loadStateData();
-  const targetState = allStates.find((state) => state.name.toLowerCase() === stateName.toLowerCase());
+  const jsonStateName = CSV_STATE_NAME_OVERRIDES[stateName] ?? stateName;
+  const targetState = allStates.find((state) => state.name.toLowerCase() === jsonStateName.toLowerCase());
 
   if (!targetState) {
     throw new Error(`State "${stateName}" not found in data/states`);
