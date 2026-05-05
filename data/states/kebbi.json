@@ -10,52 +10,599 @@
     {
       "name": "Arewa Dandi",
       "slug": "kebbi-arewa-dandi",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwan Bachaka, Arewa Dandi",
+          "slug": "kasuwan-bachaka-arewa-dandi",
+          "coordinates": {
+            "lat": 13.16231,
+            "lng": 4.143183
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Bachaka",
+          "days": [
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kasuwan Gunki, Arewa Dandi",
+          "slug": "kasuwan-gunki-arewa-dandi",
+          "coordinates": {
+            "lat": 12.23953,
+            "lng": 3.68421
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Gunki"
+        },
+        {
+          "name": "Kasuwan Jar Kuka, Arewa Dandi",
+          "slug": "kasuwan-jar-kuka-arewa-dandi",
+          "coordinates": {
+            "lat": 13.15113,
+            "lng": 4.41147
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Jar Kuka"
+        },
+        {
+          "name": "Kasuwan Kangiwa, Arewa Dandi",
+          "slug": "kasuwan-kangiwa-arewa-dandi",
+          "coordinates": {
+            "lat": 12.55642,
+            "lng": 3.816693
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Kangiwa",
+          "days": [
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kasuwan Kuka Maifulani Sabowa, Arewa Dandi",
+          "slug": "kasuwan-kuka-maifulani-sabowa-arewa-dandi",
+          "coordinates": {
+            "lat": 12.32916,
+            "lng": 3.73346
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Kuka Maifulani Sabowa"
+        },
+        {
+          "name": "Kasuwan Yaldu, Arewa Dandi",
+          "slug": "kasuwan-yaldu-arewa-dandi",
+          "coordinates": {
+            "lat": 12.78861,
+            "lng": 4.263832
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Yaldu",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Kasuwar Bui, Arewa Dandi",
+          "slug": "kasuwar-bui-arewa-dandi",
+          "coordinates": {
+            "lat": 12.72047,
+            "lng": 4.11864
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Bui",
+          "days": [
+            "Fri"
+          ]
+        }
+      ]
     },
     {
       "name": "Argungu",
       "slug": "kebbi-argungu",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwan Argungu",
+          "slug": "kasuwan-argungu",
+          "coordinates": {
+            "lat": 12.74834,
+            "lng": 4.52579
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Argungu"
+        },
+        {
+          "name": "Kasuwan Gulma Babba, Argungu",
+          "slug": "kasuwan-gulma-babba-argungu",
+          "coordinates": {
+            "lat": 12.65393,
+            "lng": 4.35569
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Gulma Babba"
+        },
+        {
+          "name": "Kasuwan Lailaba, Argungu",
+          "slug": "kasuwan-lailaba-argungu",
+          "coordinates": {
+            "lat": 12.7664,
+            "lng": 4.4156
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Lailaba"
+        }
+      ]
     },
     {
       "name": "Augie",
       "slug": "kebbi-augie",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwan Augie",
+          "slug": "kasuwan-augie",
+          "coordinates": {
+            "lat": 12.88902,
+            "lng": 4.60034
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Augie"
+        },
+        {
+          "name": "Kasuwan Mera, Augie",
+          "slug": "kasuwan-mera-augie",
+          "coordinates": {
+            "lat": 12.94427,
+            "lng": 4.62182
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Mera"
+        },
+        {
+          "name": "Kasuwanzagi, Augie",
+          "slug": "kasuwanzagi-augie",
+          "coordinates": {
+            "lat": 13.06901,
+            "lng": 4.69491
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwanzagi"
+        }
+      ]
     },
     {
       "name": "Bagudo",
       "slug": "kebbi-bagudo",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwa Daji, Bagudo",
+          "slug": "kasuwa-daji-bagudo",
+          "coordinates": {
+            "lat": 11.40618,
+            "lng": 4.221332
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwa Daji",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Kasuwa Gari, Bagudo",
+          "slug": "kasuwa-gari-bagudo",
+          "coordinates": {
+            "lat": 11.40313,
+            "lng": 4.229844
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwa Gari",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kasuwan Khaliel, Bagudo",
+          "slug": "kasuwan-khaliel-bagudo",
+          "coordinates": {
+            "lat": 11.49182,
+            "lng": 4.09834
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Khaliel"
+        },
+        {
+          "name": "Kasuwan Lolo, Bagudo",
+          "slug": "kasuwan-lolo-bagudo",
+          "coordinates": {
+            "lat": 11.65465,
+            "lng": 3.61041
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Lolo"
+        },
+        {
+          "name": "Sabuwa Kasuwa Kaoje, Bagudo",
+          "slug": "sabuwa-kasuwa-kaoje-bagudo",
+          "coordinates": {
+            "lat": 11.18493,
+            "lng": 4.126274
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Sabuwa Kasuwa Kaoje",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Tsoho Kasuwa Kaoje, Bagudo",
+          "slug": "tsoho-kasuwa-kaoje-bagudo",
+          "coordinates": {
+            "lat": 11.18096,
+            "lng": 4.122672
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Tsoho Kasuwa Kaoje",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        }
+      ]
     },
     {
       "name": "Birnin Kebbi",
       "slug": "kebbi-birnin-kebbi",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwan Ambursa, Birnin Kebbi",
+          "slug": "kasuwan-ambursa-birnin-kebbi",
+          "coordinates": {
+            "lat": 12.50592,
+            "lng": 4.33762
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Ambursa"
+        },
+        {
+          "name": "Kasuwan Daji, Birnin Kebbi",
+          "slug": "kasuwan-daji-birnin-kebbi",
+          "coordinates": {
+            "lat": 12.47929,
+            "lng": 4.24937
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Daji"
+        },
+        {
+          "name": "Kasuwan Kardi, Birnin Kebbi",
+          "slug": "kasuwan-kardi-birnin-kebbi",
+          "coordinates": {
+            "lat": 12.42239,
+            "lng": 4.28455
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Kardi"
+        },
+        {
+          "name": "Kasuwan Kola, Birnin Kebbi",
+          "slug": "kasuwan-kola-birnin-kebbi",
+          "coordinates": {
+            "lat": 12.44038,
+            "lng": 4.11003
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Kola"
+        },
+        {
+          "name": "Kasuwan Maimaje, Birnin Kebbi",
+          "slug": "kasuwan-maimaje-birnin-kebbi",
+          "coordinates": {
+            "lat": 12.51147,
+            "lng": 4.11929
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Maimaje"
+        },
+        {
+          "name": "Kasuwan Yar Yara, Birnin Kebbi",
+          "slug": "kasuwan-yar-yara-birnin-kebbi",
+          "coordinates": {
+            "lat": 12.46385,
+            "lng": 4.19337
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Yar Yara"
+        },
+        {
+          "name": "Sabuwar Kasuwa, Birnin Kebbi",
+          "slug": "sabuwar-kasuwa-birnin-kebbi",
+          "coordinates": {
+            "lat": 12.44122,
+            "lng": 4.208195
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Sabuwar Kasuwa",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Tsohuwar Kasuwa, Birnin Kebbi",
+          "slug": "tsohuwar-kasuwa-birnin-kebbi",
+          "coordinates": {
+            "lat": 12.45013,
+            "lng": 4.200214
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Tsohuwar Kasuwa",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        }
+      ]
     },
     {
       "name": "Bunza",
       "slug": "kebbi-bunza",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwan Gwade, Bunza",
+          "slug": "kasuwan-gwade-bunza",
+          "coordinates": {
+            "lat": 12.16372,
+            "lng": 3.92867
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Gwade"
+        },
+        {
+          "name": "Kasuwan Raha, Bunza",
+          "slug": "kasuwan-raha-bunza",
+          "coordinates": {
+            "lat": 12.07471,
+            "lng": 4.08241
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Raha"
+        },
+        {
+          "name": "Kasuwan Tilli, Bunza",
+          "slug": "kasuwan-tilli-bunza",
+          "coordinates": {
+            "lat": 12.33818,
+            "lng": 3.97278
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Tilli"
+        }
+      ]
     },
     {
       "name": "Dandi",
       "slug": "kebbi-dandi",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwan Dolenkaina, Dandi",
+          "slug": "kasuwan-dolenkaina-dandi",
+          "coordinates": {
+            "lat": 11.70912,
+            "lng": 3.63096
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Dolenkaina"
+        }
+      ]
     },
     {
       "name": "Fakai",
       "slug": "kebbi-fakai",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwan Auwal, Fakai",
+          "slug": "kasuwan-auwal-fakai",
+          "coordinates": {
+            "lat": 11.66267,
+            "lng": 4.76532
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Auwal"
+        },
+        {
+          "name": "Kasuwan Kangi, Fakai",
+          "slug": "kasuwan-kangi-fakai",
+          "coordinates": {
+            "lat": 11.58772,
+            "lng": 4.61357
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Kangi"
+        },
+        {
+          "name": "Kasuwan Mahuta, Fakai",
+          "slug": "kasuwan-mahuta-fakai",
+          "coordinates": {
+            "lat": 11.54963,
+            "lng": 4.97361
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Mahuta"
+        }
+      ]
     },
     {
       "name": "Gwandu",
       "slug": "kebbi-gwandu",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwan Dalijan, Gwandu",
+          "slug": "kasuwan-dalijan-gwandu",
+          "coordinates": {
+            "lat": 12.57003,
+            "lng": 4.5233
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Dalijan"
+        },
+        {
+          "name": "Kasuwan Dodoru, Gwandu",
+          "slug": "kasuwan-dodoru-gwandu",
+          "coordinates": {
+            "lat": 12.41735,
+            "lng": 4.66698
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Dodoru"
+        },
+        {
+          "name": "Kasuwan Gwandu",
+          "slug": "kasuwan-gwandu",
+          "coordinates": {
+            "lat": 12.50152,
+            "lng": 4.63889
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Gwandu"
+        },
+        {
+          "name": "Kasuwan Maruda, Gwandu",
+          "slug": "kasuwan-maruda-gwandu",
+          "coordinates": {
+            "lat": 12.49385,
+            "lng": 4.76226
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Maruda"
+        },
+        {
+          "name": "Kasuwan Masama, Gwandu",
+          "slug": "kasuwan-masama-gwandu",
+          "coordinates": {
+            "lat": 12.46573,
+            "lng": 4.70223
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Masama"
+        }
+      ]
     },
     {
       "name": "Jega",
       "slug": "kebbi-jega",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwan Jega",
+          "slug": "kasuwan-jega",
+          "coordinates": {
+            "lat": 12.22258,
+            "lng": 4.37558
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Jega"
+        },
+        {
+          "name": "Kasuwan Kimba, Jega",
+          "slug": "kasuwan-kimba-jega",
+          "coordinates": {
+            "lat": 12.19424,
+            "lng": 4.41419
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Kimba"
+        },
+        {
+          "name": "Kasuwar Alelu, Jega",
+          "slug": "kasuwar-alelu-jega",
+          "coordinates": {
+            "lat": 12.18957,
+            "lng": 4.46599
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Alelu",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Kasuwar Basuara, Jega",
+          "slug": "kasuwar-basuara-jega",
+          "coordinates": {
+            "lat": 12.31981,
+            "lng": 4.253323
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Basuara",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Kasuwar Daji, Jega",
+          "slug": "kasuwar-daji-jega",
+          "coordinates": {
+            "lat": 12.13627,
+            "lng": 4.516282
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Daji",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Kasuwar Gari Agwada, Jega",
+          "slug": "kasuwar-gari-agwada-jega",
+          "coordinates": {
+            "lat": 12.07047,
+            "lng": 4.572582
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Gari Agwada",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Kasuwar Gari, Jega",
+          "slug": "kasuwar-gari-jega",
+          "coordinates": {
+            "lat": 12.13602,
+            "lng": 4.512875
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Gari",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        }
+      ]
     },
     {
       "name": "Kalgo",
@@ -65,7 +612,68 @@
     {
       "name": "Koko/Besse",
       "slug": "kebbi-koko-besse",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwan Dutsin Mari, Koko/Besse",
+          "slug": "kasuwan-dutsin-mari-koko-besse",
+          "coordinates": {
+            "lat": 11.19094,
+            "lng": 4.44746
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Dutsin Mari"
+        },
+        {
+          "name": "Kasuwan Jadadi, Koko/Besse",
+          "slug": "kasuwan-jadadi-koko-besse",
+          "coordinates": {
+            "lat": 11.66142,
+            "lng": 4.25625
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Jadadi"
+        },
+        {
+          "name": "Kasuwan Karamar Damba, Koko/Besse",
+          "slug": "kasuwan-karamar-damba-koko-besse",
+          "coordinates": {
+            "lat": 11.42966,
+            "lng": 4.38868
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Karamar Damba"
+        },
+        {
+          "name": "Kasuwan Koko, Koko/Besse",
+          "slug": "kasuwan-koko-koko-besse",
+          "coordinates": {
+            "lat": 11.42707,
+            "lng": 4.51422
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Koko"
+        },
+        {
+          "name": "Kasuwan Lani, Koko/Besse",
+          "slug": "kasuwan-lani-koko-besse",
+          "coordinates": {
+            "lat": 11.56963,
+            "lng": 4.41722
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Lani"
+        },
+        {
+          "name": "Kasuwan Samanaji, Koko/Besse",
+          "slug": "kasuwan-samanaji-koko-besse",
+          "coordinates": {
+            "lat": 11.16597,
+            "lng": 4.46326
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Samanaji"
+        }
+      ]
     },
     {
       "name": "Maiyama",
@@ -75,37 +683,404 @@
     {
       "name": "Ngaski",
       "slug": "kebbi-ngaski",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwan Gafara, Ngaski",
+          "slug": "kasuwan-gafara-ngaski",
+          "coordinates": {
+            "lat": 10.40095,
+            "lng": 4.68629
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Gafara"
+        },
+        {
+          "name": "Kasuwan Makirin, Ngaski",
+          "slug": "kasuwan-makirin-ngaski",
+          "coordinates": {
+            "lat": 10.70123,
+            "lng": 4.80721
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Makirin"
+        },
+        {
+          "name": "Kasuwan Ngaski",
+          "slug": "kasuwan-ngaski",
+          "coordinates": {
+            "lat": 10.40963,
+            "lng": 4.71621
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Ngaski"
+        }
+      ]
     },
     {
       "name": "Sakaba",
       "slug": "kebbi-sakaba",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwan Dankolo, Sakaba",
+          "slug": "kasuwan-dankolo-sakaba",
+          "coordinates": {
+            "lat": 11.03118,
+            "lng": 5.75143
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Dankolo"
+        },
+        {
+          "name": "Kasuwan Darin Daji, Sakaba",
+          "slug": "kasuwan-darin-daji-sakaba",
+          "coordinates": {
+            "lat": 11.24351,
+            "lng": 5.47732
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Darin Daji"
+        },
+        {
+          "name": "Kasuwan Maganda, Sakaba",
+          "slug": "kasuwan-maganda-sakaba",
+          "coordinates": {
+            "lat": 11.13696,
+            "lng": 5.48623
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Maganda"
+        },
+        {
+          "name": "Kasuwan Makuku, Sakaba",
+          "slug": "kasuwan-makuku-sakaba",
+          "coordinates": {
+            "lat": 11.02077,
+            "lng": 5.52279
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Makuku"
+        },
+        {
+          "name": "Kasuwan Sakaba",
+          "slug": "kasuwan-sakaba",
+          "coordinates": {
+            "lat": 11.06637,
+            "lng": 5.59517
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Sakaba"
+        }
+      ]
     },
     {
       "name": "Shanga",
       "slug": "kebbi-shanga",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwan Dabe, Shanga",
+          "slug": "kasuwan-dabe-shanga",
+          "coordinates": {
+            "lat": 10.93085,
+            "lng": 4.55506
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Dabe"
+        },
+        {
+          "name": "Kasuwan Dugutsoho, Shanga",
+          "slug": "kasuwan-dugutsoho-shanga",
+          "coordinates": {
+            "lat": 11.11804,
+            "lng": 4.58523
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Dugutsoho"
+        },
+        {
+          "name": "Kasuwan Gebbe, Shanga",
+          "slug": "kasuwan-gebbe-shanga",
+          "coordinates": {
+            "lat": 11.02232,
+            "lng": 4.60291
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Gebbe"
+        },
+        {
+          "name": "Kasuwan Gero, Shanga",
+          "slug": "kasuwan-gero-shanga",
+          "coordinates": {
+            "lat": 11.10316,
+            "lng": 4.71996
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Gero"
+        },
+        {
+          "name": "Kasuwan Kasouchi, Shanga",
+          "slug": "kasuwan-kasouchi-shanga",
+          "coordinates": {
+            "lat": 10.98294,
+            "lng": 4.53258
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Kasouchi"
+        },
+        {
+          "name": "Kasuwan Shabanda, Shanga",
+          "slug": "kasuwan-shabanda-shanga",
+          "coordinates": {
+            "lat": 11.04188,
+            "lng": 4.59376
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Shabanda"
+        }
+      ]
     },
     {
       "name": "Suru",
       "slug": "kebbi-suru",
-      "markets": []
+      "markets": [
+        {
+          "name": "Babbar Kasuwa, Suru",
+          "slug": "babbar-kasuwa-suru",
+          "coordinates": {
+            "lat": 11.64809,
+            "lng": 4.06152
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Babbar Kasuwa"
+        },
+        {
+          "name": "Kasuwan Aljannare, Suru",
+          "slug": "kasuwan-aljannare-suru",
+          "coordinates": {
+            "lat": 11.58752,
+            "lng": 3.9101
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Aljannare"
+        },
+        {
+          "name": "Kasuwan Bandam, Suru",
+          "slug": "kasuwan-bandam-suru",
+          "coordinates": {
+            "lat": 11.74569,
+            "lng": 4.12893
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Bandam"
+        },
+        {
+          "name": "Kasuwan Barbareje, Suru",
+          "slug": "kasuwan-barbareje-suru",
+          "coordinates": {
+            "lat": 11.561,
+            "lng": 3.9875
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Barbareje"
+        },
+        {
+          "name": "Kasuwan Buma, Suru",
+          "slug": "kasuwan-buma-suru",
+          "coordinates": {
+            "lat": 11.7118,
+            "lng": 4.24744
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Buma"
+        },
+        {
+          "name": "Kasuwan Gawasa Babba, Suru",
+          "slug": "kasuwan-gawasa-babba-suru",
+          "coordinates": {
+            "lat": 11.80179,
+            "lng": 4.12957
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Gawasa Babba"
+        },
+        {
+          "name": "Kasuwan Kwaifa, Suru",
+          "slug": "kasuwan-kwaifa-suru",
+          "coordinates": {
+            "lat": 11.68726,
+            "lng": 4.19516
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Kwaifa"
+        },
+        {
+          "name": "Kasuwan Kwakware, Suru",
+          "slug": "kasuwan-kwakware-suru",
+          "coordinates": {
+            "lat": 11.87223,
+            "lng": 4.02641
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Kwakware"
+        },
+        {
+          "name": "Kasuwan Saminaka, Suru",
+          "slug": "kasuwan-saminaka-suru",
+          "coordinates": {
+            "lat": 11.59308,
+            "lng": 3.94547
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Saminaka"
+        },
+        {
+          "name": "Kasuwan Titi, Suru",
+          "slug": "kasuwan-titi-suru",
+          "coordinates": {
+            "lat": 11.70327,
+            "lng": 4.12749
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Titi"
+        },
+        {
+          "name": "Kasuwan Zakuwa, Suru",
+          "slug": "kasuwan-zakuwa-suru",
+          "coordinates": {
+            "lat": 11.86016,
+            "lng": 4.10053
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Zakuwa"
+        }
+      ]
     },
     {
       "name": "Wasagu/Danko",
       "slug": "kebbi-wasagu-danko",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwan Bena, Wasagu/Danko",
+          "slug": "kasuwan-bena-wasagu-danko",
+          "coordinates": {
+            "lat": 11.29237,
+            "lng": 5.94467
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Bena"
+        },
+        {
+          "name": "Kasuwan Dank, Wasagu/Danko",
+          "slug": "kasuwan-dank-wasagu-danko",
+          "coordinates": {
+            "lat": 11.6007,
+            "lng": 5.18451
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Dank"
+        },
+        {
+          "name": "Kasuwan Garin Hausawa, Wasagu/Danko",
+          "slug": "kasuwan-garin-hausawa-wasagu-danko",
+          "coordinates": {
+            "lat": 11.69004,
+            "lng": 4.9741
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Garin Hausawa"
+        },
+        {
+          "name": "Kasuwan Kanya, Wasagu/Danko",
+          "slug": "kasuwan-kanya-wasagu-danko",
+          "coordinates": {
+            "lat": 11.33951,
+            "lng": 5.59124
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Kanya"
+        },
+        {
+          "name": "Kasuwan Shengel, Wasagu/Danko",
+          "slug": "kasuwan-shengel-wasagu-danko",
+          "coordinates": {
+            "lat": 11.5463,
+            "lng": 5.5345
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Shengel"
+        },
+        {
+          "name": "Kasuwan Tudun Maga, Wasagu/Danko",
+          "slug": "kasuwan-tudun-maga-wasagu-danko",
+          "coordinates": {
+            "lat": 11.72432,
+            "lng": 5.29169
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Tudun Maga"
+        },
+        {
+          "name": "Kasuwan Vadako, Wasagu/Danko",
+          "slug": "kasuwan-vadako-wasagu-danko",
+          "coordinates": {
+            "lat": 11.50206,
+            "lng": 5.67285
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Vadako"
+        },
+        {
+          "name": "Kasuwan Wasagu, Wasagu/Danko",
+          "slug": "kasuwan-wasagu-wasagu-danko",
+          "coordinates": {
+            "lat": 11.3758,
+            "lng": 5.80787
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Wasagu"
+        },
+        {
+          "name": "Kasuwan Yar Kuka, Wasagu/Danko",
+          "slug": "kasuwan-yar-kuka-wasagu-danko",
+          "coordinates": {
+            "lat": 11.6627,
+            "lng": 5.54617
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Yar Kuka"
+        }
+      ]
     },
     {
       "name": "Yauri",
       "slug": "kebbi-yauri",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwan Yauri",
+          "slug": "kasuwan-yauri",
+          "coordinates": {
+            "lat": 10.83365,
+            "lng": 4.73608
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Yauri"
+        }
+      ]
     },
     {
       "name": "Zuru",
       "slug": "kebbi-zuru",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwan Senchi, Zuru",
+          "slug": "kasuwan-senchi-zuru",
+          "coordinates": {
+            "lat": 11.30431,
+            "lng": 5.23035
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Senchi"
+        }
+      ]
     }
   ]
 }

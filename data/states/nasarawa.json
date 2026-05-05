@@ -5,67 +5,1275 @@
     {
       "name": "Akwanga",
       "slug": "nasarawa-akwanga",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwan Akpata, Akwanga",
+          "slug": "kasuwan-akpata-akwanga",
+          "coordinates": {
+            "lat": 8.90208,
+            "lng": 8.37466
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Kasuwan Akpata"
+        },
+        {
+          "name": "Kasuwan Andaha, Akwanga",
+          "slug": "kasuwan-andaha-akwanga",
+          "coordinates": {
+            "lat": 9.05343,
+            "lng": 8.40661
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Andaha"
+        },
+        {
+          "name": "Kasuwan Moroa, Akwanga",
+          "slug": "kasuwan-moroa-akwanga",
+          "coordinates": {
+            "lat": 9.02553,
+            "lng": 8.20007
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Moroa"
+        },
+        {
+          "name": "Kasuwan Nizo, Akwanga",
+          "slug": "kasuwan-nizo-akwanga",
+          "coordinates": {
+            "lat": 8.88042,
+            "lng": 8.27015
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Nizo"
+        },
+        {
+          "name": "Kasuwan Sabo Wakama, Akwanga",
+          "slug": "kasuwan-sabo-wakama-akwanga",
+          "coordinates": {
+            "lat": 8.91481,
+            "lng": 8.38564
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Sabo Wakama"
+        }
+      ]
     },
     {
       "name": "Awe",
       "slug": "nasarawa-awe",
-      "markets": []
+      "markets": [
+        {
+          "name": "Awe Central Market",
+          "slug": "awe-central-market",
+          "coordinates": {
+            "lat": 8.112518675,
+            "lng": 9.141815185
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Bi-Weekly",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff Mixed",
+          "local_name": "Kofar sarkin pawa",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Kafinmoyi Market, Awe",
+          "slug": "kafinmoyi-market-awe",
+          "coordinates": {
+            "lat": 8.088883333,
+            "lng": 9.268993333
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Bi-Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Kafin moyi",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Kasuwan Adudu, Awe",
+          "slug": "kasuwan-adudu-awe",
+          "coordinates": {
+            "lat": 8.29281,
+            "lng": 9.00723
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Adudu"
+        },
+        {
+          "name": "Kasuwan Dankam Hayi, Awe",
+          "slug": "kasuwan-dankam-hayi-awe",
+          "coordinates": {
+            "lat": 8.43087,
+            "lng": 9.45788
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Dankam Hayi"
+        },
+        {
+          "name": "Kasuwan Jangaru, Awe",
+          "slug": "kasuwan-jangaru-awe",
+          "coordinates": {
+            "lat": 8.03834,
+            "lng": 9.14697
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Jangaru"
+        },
+        {
+          "name": "Kasuwan Jangwa, Awe",
+          "slug": "kasuwan-jangwa-awe",
+          "coordinates": {
+            "lat": 8.43753,
+            "lng": 9.10053
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Jangwa"
+        },
+        {
+          "name": "Kasuwan Kange, Awe",
+          "slug": "kasuwan-kange-awe",
+          "coordinates": {
+            "lat": 8.23001,
+            "lng": 9.08812
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Kange"
+        },
+        {
+          "name": "Kasuwan Kumar, Awe",
+          "slug": "kasuwan-kumar-awe",
+          "coordinates": {
+            "lat": 8.33154,
+            "lng": 9.45707
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Kumar"
+        },
+        {
+          "name": "Kasuwan Ribi, Awe",
+          "slug": "kasuwan-ribi-awe",
+          "coordinates": {
+            "lat": 8.36863,
+            "lng": 9.12252
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Ribi"
+        },
+        {
+          "name": "Kasuwan Tunga, Awe",
+          "slug": "kasuwan-tunga-awe",
+          "coordinates": {
+            "lat": 8.00023,
+            "lng": 9.32366
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Tunga"
+        },
+        {
+          "name": "Kasuwan Wuse, Awe",
+          "slug": "kasuwan-wuse-awe",
+          "coordinates": {
+            "lat": 8.37178,
+            "lng": 9.30987
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Wuse"
+        },
+        {
+          "name": "Kwari Community Market, Awe",
+          "slug": "kwari-community-market-awe",
+          "coordinates": {
+            "lat": 8.513948875,
+            "lng": 9.046914629
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Kwari",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Local Market, Awe",
+          "slug": "local-market-awe",
+          "coordinates": {
+            "lat": 8.004041667,
+            "lng": 9.321681667
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Livestock Electronic Spare Parts Food Stuff",
+          "local_name": "Lasuwan Tunga",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        }
+      ]
     },
     {
       "name": "Doma",
       "slug": "nasarawa-doma",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwan Agbashi, Doma",
+          "slug": "kasuwan-agbashi-doma",
+          "coordinates": {
+            "lat": 8.01269,
+            "lng": 8.11915
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Kasuwan Agbashi"
+        },
+        {
+          "name": "Kasuwan Agirma, Doma",
+          "slug": "kasuwan-agirma-doma",
+          "coordinates": {
+            "lat": 7.93434,
+            "lng": 8.17007
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Kasuwan Agirma"
+        },
+        {
+          "name": "Kasuwan Akwaza, Doma",
+          "slug": "kasuwan-akwaza-doma",
+          "coordinates": {
+            "lat": 8.38172,
+            "lng": 8.41669
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Akwaza"
+        },
+        {
+          "name": "Kasuwan Alagye, Doma",
+          "slug": "kasuwan-alagye-doma",
+          "coordinates": {
+            "lat": 8.35813,
+            "lng": 8.25823
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Alagye"
+        },
+        {
+          "name": "Kasuwan Amaku, Doma",
+          "slug": "kasuwan-amaku-doma",
+          "coordinates": {
+            "lat": 8.23627,
+            "lng": 8.12765
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Kasuwan Amaku"
+        },
+        {
+          "name": "Kasuwan Bassa, Doma",
+          "slug": "kasuwan-bassa-doma",
+          "coordinates": {
+            "lat": 8.46915,
+            "lng": 8.16232
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Bassa"
+        },
+        {
+          "name": "Kasuwan Doma",
+          "slug": "kasuwan-doma",
+          "coordinates": {
+            "lat": 8.39382,
+            "lng": 8.34471
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Doma"
+        },
+        {
+          "name": "Kasuwan Odeni Magaji, Doma",
+          "slug": "kasuwan-odeni-magaji-doma",
+          "coordinates": {
+            "lat": 7.9401,
+            "lng": 8.07662
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Kasuwan Odeni Magaji"
+        },
+        {
+          "name": "Kasuwan Rutu, Doma",
+          "slug": "kasuwan-rutu-doma",
+          "coordinates": {
+            "lat": 8.43235,
+            "lng": 8.2349
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Rutu"
+        },
+        {
+          "name": "Kasuwan Ruwa Baka, Doma",
+          "slug": "kasuwan-ruwa-baka-doma",
+          "coordinates": {
+            "lat": 8.35694,
+            "lng": 8.11718
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Ruwa Baka"
+        }
+      ]
     },
     {
       "name": "Karu",
       "slug": "nasarawa-karu",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwan Ado, Karu",
+          "slug": "kasuwan-ado-karu",
+          "coordinates": {
+            "lat": 9.01316,
+            "lng": 7.63428
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Ado"
+        },
+        {
+          "name": "Kasuwan Kare Market, Karu",
+          "slug": "kasuwan-kare-market-karu",
+          "coordinates": {
+            "lat": 9.30313,
+            "lng": 7.70262
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Kare"
+        },
+        {
+          "name": "Kasuwan Karu",
+          "slug": "kasuwan-karu",
+          "coordinates": {
+            "lat": 9.00314,
+            "lng": 7.63926
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Karu"
+        },
+        {
+          "name": "Kasuwan Uke Market, Karu",
+          "slug": "kasuwan-uke-market-karu",
+          "coordinates": {
+            "lat": 8.8989172,
+            "lng": 7.7125847
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Other",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Kasuwan uke",
+          "days": [
+            "Tue",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Kasuwan Uke, Karu",
+          "slug": "kasuwan-uke-karu",
+          "coordinates": {
+            "lat": 8.89887,
+            "lng": 7.71331
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Uke"
+        },
+        {
+          "name": "Kusuwan Panda, Karu",
+          "slug": "kusuwan-panda-karu",
+          "coordinates": {
+            "lat": 9.26021,
+            "lng": 7.83791
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kusuwan Panda"
+        }
+      ]
     },
     {
       "name": "Keana",
       "slug": "nasarawa-keana",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwan Giza, Keana",
+          "slug": "kasuwan-giza-keana",
+          "coordinates": {
+            "lat": 8.19756,
+            "lng": 8.64378
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Giza"
+        },
+        {
+          "name": "Kasuwan Kadarko, Keana",
+          "slug": "kasuwan-kadarko-keana",
+          "coordinates": {
+            "lat": 8.22542,
+            "lng": 8.57388
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Kadarko"
+        },
+        {
+          "name": "Kasuwan Keana",
+          "slug": "kasuwan-keana",
+          "coordinates": {
+            "lat": 8.14636,
+            "lng": 8.79865
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Keana"
+        }
+      ]
     },
     {
       "name": "Keffi",
       "slug": "nasarawa-keffi",
-      "markets": []
+      "markets": [
+        {
+          "name": "Babbar Kasuwan Keffi",
+          "slug": "babbar-kasuwan-keffi",
+          "coordinates": {
+            "lat": 8.84345,
+            "lng": 7.87804
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Babbar Kasuwan Keffi"
+        }
+      ]
     },
     {
       "name": "Kokona",
       "slug": "nasarawa-kokona",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwan Ajuye, Kokona",
+          "slug": "kasuwan-ajuye-kokona",
+          "coordinates": {
+            "lat": 8.94085,
+            "lng": 8.01365
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Ajuye"
+        },
+        {
+          "name": "Kasuwan Amba, Kokona",
+          "slug": "kasuwan-amba-kokona",
+          "coordinates": {
+            "lat": 8.62829,
+            "lng": 8.13354
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Amba"
+        },
+        {
+          "name": "Kasuwan Angoro, Kokona",
+          "slug": "kasuwan-angoro-kokona",
+          "coordinates": {
+            "lat": 8.80507,
+            "lng": 8.21149
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Angoro"
+        },
+        {
+          "name": "Kasuwan Arusu, Kokona",
+          "slug": "kasuwan-arusu-kokona",
+          "coordinates": {
+            "lat": 8.69791,
+            "lng": 8.1592
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Arusu"
+        },
+        {
+          "name": "Kasuwan Garaku, Kokona",
+          "slug": "kasuwan-garaku-kokona",
+          "coordinates": {
+            "lat": 8.84581,
+            "lng": 8.12816
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Garaku"
+        },
+        {
+          "name": "Kasuwan Gunduma, Kokona",
+          "slug": "kasuwan-gunduma-kokona",
+          "coordinates": {
+            "lat": 8.96181,
+            "lng": 7.89011
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Gunduma"
+        },
+        {
+          "name": "Kasuwan Jibiya, Kokona",
+          "slug": "kasuwan-jibiya-kokona",
+          "coordinates": {
+            "lat": 8.9453,
+            "lng": 8.02183
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Jibiya"
+        }
+      ]
     },
     {
       "name": "Lafia",
       "slug": "nasarawa-lafia",
-      "markets": []
+      "markets": [
+        {
+          "name": "Akura Market, Lafia",
+          "slug": "akura-market-lafia",
+          "coordinates": {
+            "lat": 8.636462095,
+            "lng": 8.67833136
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff",
+          "local_name": "Akura",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Ashangwa Market, Lafia",
+          "slug": "ashangwa-market-lafia",
+          "coordinates": {
+            "lat": 8.578641026,
+            "lng": 8.805906205
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Livestock Food Stuff Mixed Other",
+          "local_name": "Ashangwa",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Assakio Market, Lafia",
+          "slug": "assakio-market-lafia",
+          "coordinates": {
+            "lat": 8.601744394,
+            "lng": 8.858062222
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Assakio",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Babbar Kasuwan Lafia",
+          "slug": "babbar-kasuwan-lafia",
+          "coordinates": {
+            "lat": 8.49453,
+            "lng": 8.51541
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Babbar Kasuwan Lafia"
+        },
+        {
+          "name": "Babbar Kasuwar Shabu, Lafia",
+          "slug": "babbar-kasuwar-shabu-lafia",
+          "coordinates": {
+            "lat": 8.5741,
+            "lng": 8.55687
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Babbar Kasuwar Shabu"
+        },
+        {
+          "name": "Gwagwalada Market, Lafia",
+          "slug": "gwagwalada-market-lafia",
+          "coordinates": {
+            "lat": 8.692833333,
+            "lng": 8.854438333
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Other",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Gwagwalada market",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kasuwan Akura, Lafia",
+          "slug": "kasuwan-akura-lafia",
+          "coordinates": {
+            "lat": 8.63698,
+            "lng": 8.67841
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Akura"
+        },
+        {
+          "name": "Kasuwan Arugbadu Market, Lafia",
+          "slug": "kasuwan-arugbadu-market-lafia",
+          "coordinates": {
+            "lat": 8.761086667,
+            "lng": 8.641516667
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Clothing Food Stuff",
+          "local_name": "Kasuwan Arugbadu",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Kasuwan Arugbadu, Lafia",
+          "slug": "kasuwan-arugbadu-lafia",
+          "coordinates": {
+            "lat": 8.76117,
+            "lng": 8.6415
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Arugbadu"
+        },
+        {
+          "name": "Kasuwan Assakio, Lafia",
+          "slug": "kasuwan-assakio-lafia",
+          "coordinates": {
+            "lat": 8.60035,
+            "lng": 8.85734
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Assakio"
+        },
+        {
+          "name": "Kasuwan Bakkyano, Lafia",
+          "slug": "kasuwan-bakkyano-lafia",
+          "coordinates": {
+            "lat": 8.76545,
+            "lng": 8.63061
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Bakkyano"
+        },
+        {
+          "name": "Kasuwan Bukan Sidi, Lafia",
+          "slug": "kasuwan-bukan-sidi-lafia",
+          "coordinates": {
+            "lat": 8.52345,
+            "lng": 8.52238
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Kasuwan Bukan Sidi"
+        },
+        {
+          "name": "Kasuwan Burumburum, Lafia",
+          "slug": "kasuwan-burumburum-lafia",
+          "coordinates": {
+            "lat": 8.52654,
+            "lng": 8.31709
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Burumburum"
+        },
+        {
+          "name": "Kasuwan Doya, Lafia",
+          "slug": "kasuwan-doya-lafia",
+          "coordinates": {
+            "lat": 8.40327,
+            "lng": 8.55574
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Doya"
+        },
+        {
+          "name": "Kasuwan Fadama Bauna, Lafia",
+          "slug": "kasuwan-fadama-bauna-lafia",
+          "coordinates": {
+            "lat": 8.75594,
+            "lng": 8.75545
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Fadama Bauna"
+        },
+        {
+          "name": "Kasuwan Fadaman Bauna Market, Lafia",
+          "slug": "kasuwan-fadaman-bauna-market-lafia",
+          "coordinates": {
+            "lat": 8.756446667,
+            "lng": 8.755345
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Fadaman Bauna village",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Kasuwan Gidan Mai Akuya, Lafia",
+          "slug": "kasuwan-gidan-mai-akuya-lafia",
+          "coordinates": {
+            "lat": 8.54356,
+            "lng": 8.73422
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Gidan Mai Akuya"
+        },
+        {
+          "name": "Kasuwan Iggah, Lafia",
+          "slug": "kasuwan-iggah-lafia",
+          "coordinates": {
+            "lat": 8.54159,
+            "lng": 8.25714
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Iggah"
+        },
+        {
+          "name": "Kasuwan Mankwar, Lafia",
+          "slug": "kasuwan-mankwar-lafia",
+          "coordinates": {
+            "lat": 8.88798,
+            "lng": 8.94303
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Mankwar"
+        },
+        {
+          "name": "Kauwan Barikin Abdullahi, Lafia",
+          "slug": "kauwan-barikin-abdullahi-lafia",
+          "coordinates": {
+            "lat": 8.59557,
+            "lng": 8.37135
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kauwan Barikin Abdullahi"
+        }
+      ]
     },
     {
       "name": "Nasarawa",
       "slug": "nasarawa-nasarawa",
-      "markets": []
+      "markets": [
+        {
+          "name": "Dogon Dutse Market, Nasarawa",
+          "slug": "dogon-dutse-market-nasarawa",
+          "coordinates": {
+            "lat": 8.497096104,
+            "lng": 7.518494353
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Dogon Dutse",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Kasuiran Takalafia Market, Nasarawa",
+          "slug": "kasuiran-takalafia-market-nasarawa",
+          "coordinates": {
+            "lat": 8.6932,
+            "lng": 7.58479
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuiran Takalafia"
+        },
+        {
+          "name": "Kasuwan Agwada, Nasarawa",
+          "slug": "kasuwan-agwada-nasarawa",
+          "coordinates": {
+            "lat": 8.54072,
+            "lng": 7.94456
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Agwada"
+        },
+        {
+          "name": "Kasuwan Ajaga Market, Nasarawa",
+          "slug": "kasuwan-ajaga-market-nasarawa",
+          "coordinates": {
+            "lat": 8.342568764,
+            "lng": 7.600575979
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Ajaga",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Kasuwan Ajaga, Nasarawa",
+          "slug": "kasuwan-ajaga-nasarawa",
+          "coordinates": {
+            "lat": 8.3425,
+            "lng": 7.60053
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Ajaga"
+        },
+        {
+          "name": "Kasuwan Ajigwara, Nasarawa",
+          "slug": "kasuwan-ajigwara-nasarawa",
+          "coordinates": {
+            "lat": 8.1608,
+            "lng": 7.51457
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Ajigwara"
+        },
+        {
+          "name": "Kasuwan Akum, Nasarawa",
+          "slug": "kasuwan-akum-nasarawa",
+          "coordinates": {
+            "lat": 8.12328,
+            "lng": 7.96506
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Akum"
+        },
+        {
+          "name": "Kasuwan Arume, Nasarawa",
+          "slug": "kasuwan-arume-nasarawa",
+          "coordinates": {
+            "lat": 8.36168,
+            "lng": 8.07755
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Kasuwan Arume"
+        },
+        {
+          "name": "Kasuwan Bakono, Nasarawa",
+          "slug": "kasuwan-bakono-nasarawa",
+          "coordinates": {
+            "lat": 8.23759,
+            "lng": 7.57826
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Bakono"
+        },
+        {
+          "name": "Kasuwan Karmo, Nasarawa",
+          "slug": "kasuwan-karmo-nasarawa",
+          "coordinates": {
+            "lat": 8.4983,
+            "lng": 7.49223
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Karmo"
+        },
+        {
+          "name": "Kasuwan Kurudu Market, Nasarawa",
+          "slug": "kasuwan-kurudu-market-nasarawa",
+          "coordinates": {
+            "lat": 8.521220167,
+            "lng": 7.576685742
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Kurudu",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Kasuwan Lamigo, Nasarawa",
+          "slug": "kasuwan-lamigo-nasarawa",
+          "coordinates": {
+            "lat": 8.68184,
+            "lng": 7.81128
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Lamigo"
+        },
+        {
+          "name": "Kasuwan Mararraban Udege, Nasarawa",
+          "slug": "kasuwan-mararraban-udege-nasarawa",
+          "coordinates": {
+            "lat": 8.30781,
+            "lng": 7.80536
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Mararraban Udege"
+        },
+        {
+          "name": "Kasuwan Ogufa, Nasarawa",
+          "slug": "kasuwan-ogufa-nasarawa",
+          "coordinates": {
+            "lat": 8.10559,
+            "lng": 7.72373
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Kasuwan Ogufa"
+        },
+        {
+          "name": "Kasuwan Shanu, Nasarawa",
+          "slug": "kasuwan-shanu-nasarawa",
+          "coordinates": {
+            "lat": 8.571655863,
+            "lng": 7.735187502
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Livestock",
+          "local_name": "Kemu",
+          "days": [
+            "Thu",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kasuwan Tudu Uku, Nasarawa",
+          "slug": "kasuwan-tudu-uku-nasarawa",
+          "coordinates": {
+            "lat": 8.49702,
+            "lng": 7.48404
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Tudu Uku"
+        },
+        {
+          "name": "Kasuwan Udeue Mbeki, Nasarawa",
+          "slug": "kasuwan-udeue-mbeki-nasarawa",
+          "coordinates": {
+            "lat": 8.42978,
+            "lng": 7.90448
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Udeue Mbeki"
+        },
+        {
+          "name": "Laminga Market, Nasarawa",
+          "slug": "laminga-market-nasarawa",
+          "coordinates": {
+            "lat": 8.682096667,
+            "lng": 7.811126667
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Laminga",
+          "days": [
+            "Sun"
+          ]
+        }
+      ]
     },
     {
       "name": "Nasarawa Eggon",
       "slug": "nasarawa-nasarawa-eggon",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwan Lahadi, Nasarawa Eggon",
+          "slug": "kasuwan-lahadi-nasarawa-eggon",
+          "coordinates": {
+            "lat": 8.87588,
+            "lng": 8.39224
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Lahadi"
+        },
+        {
+          "name": "Kasuwan Laraba, Nasarawa Eggon",
+          "slug": "kasuwan-laraba-nasarawa-eggon",
+          "coordinates": {
+            "lat": 8.65601,
+            "lng": 8.42251
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Laraba"
+        },
+        {
+          "name": "Kasuwan Litinin, Nasarawa Eggon",
+          "slug": "kasuwan-litinin-nasarawa-eggon",
+          "coordinates": {
+            "lat": 8.67828,
+            "lng": 8.41073
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Litinin"
+        },
+        {
+          "name": "Kasuwan Mada, Nasarawa Eggon",
+          "slug": "kasuwan-mada-nasarawa-eggon",
+          "coordinates": {
+            "lat": 8.72198,
+            "lng": 8.29932
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Kasuwan Mada"
+        },
+        {
+          "name": "Kasuwan Nasarawa Eggon",
+          "slug": "kasuwan-nasarawa-eggon",
+          "coordinates": {
+            "lat": 8.71386,
+            "lng": 8.54006
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Nasarawa Eggon"
+        },
+        {
+          "name": "Kasuwan Nasarawa Eggon Market",
+          "slug": "kasuwan-nasarawa-eggon-market",
+          "coordinates": {
+            "lat": 8.714085344,
+            "lng": 8.540483658
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Nasarawa eggon",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kasuwan Ogbabi, Nasarawa Eggon",
+          "slug": "kasuwan-ogbabi-nasarawa-eggon",
+          "coordinates": {
+            "lat": 8.66767,
+            "lng": 8.47898
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Kasuwan Ogbabi"
+        },
+        {
+          "name": "Kasuwan Washo, Nasarawa Eggon",
+          "slug": "kasuwan-washo-nasarawa-eggon",
+          "coordinates": {
+            "lat": 8.86277,
+            "lng": 8.34727
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Kasuwan Washo"
+        }
+      ]
     },
     {
       "name": "Obi",
       "slug": "nasarawa-obi",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwan Agwade, Obi",
+          "slug": "kasuwan-agwade-obi",
+          "coordinates": {
+            "lat": 8.44728,
+            "lng": 8.6465
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Agwade"
+        },
+        {
+          "name": "Kasuwan Agwatashi, Obi",
+          "slug": "kasuwan-agwatashi-obi",
+          "coordinates": {
+            "lat": 8.31705,
+            "lng": 8.854
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Agwatashi"
+        },
+        {
+          "name": "Kasuwan Agyaragu, Obi",
+          "slug": "kasuwan-agyaragu-obi",
+          "coordinates": {
+            "lat": 8.3986,
+            "lng": 8.54585
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Agyaragu"
+        },
+        {
+          "name": "Kasuwan Daddare, Obi",
+          "slug": "kasuwan-daddare-obi",
+          "coordinates": {
+            "lat": 8.44123,
+            "lng": 8.71262
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Daddare"
+        },
+        {
+          "name": "Kasuwan Epishicent, Obi",
+          "slug": "kasuwan-epishicent-obi",
+          "coordinates": {
+            "lat": 8.36535,
+            "lng": 8.77404
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Epishicent"
+        }
+      ]
     },
     {
       "name": "Toto",
       "slug": "nasarawa-toto",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwan Gadabuke, Toto",
+          "slug": "kasuwan-gadabuke-toto",
+          "coordinates": {
+            "lat": 8.43891,
+            "lng": 7.28343
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Gadabuke"
+        },
+        {
+          "name": "Kasuwan Iggwapati, Toto",
+          "slug": "kasuwan-iggwapati-toto",
+          "coordinates": {
+            "lat": 7.93028,
+            "lng": 7.02463
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Kasuwan Iggwapati"
+        },
+        {
+          "name": "Kasuwan Katakpa, Toto",
+          "slug": "kasuwan-katakpa-toto",
+          "coordinates": {
+            "lat": 8.21928,
+            "lng": 7.31518
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Katakpa"
+        },
+        {
+          "name": "Kasuwan Kuru, Toto",
+          "slug": "kasuwan-kuru-toto",
+          "coordinates": {
+            "lat": 8.39367,
+            "lng": 7.17575
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Kuru"
+        },
+        {
+          "name": "Kasuwan Toto",
+          "slug": "kasuwan-toto",
+          "coordinates": {
+            "lat": 8.3893,
+            "lng": 7.08399
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Toto"
+        },
+        {
+          "name": "Kasuwan Ugya, Toto",
+          "slug": "kasuwan-ugya-toto",
+          "coordinates": {
+            "lat": 8.20456,
+            "lng": 7.16532
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Kasuwan Ugya"
+        },
+        {
+          "name": "Kasuwan Umaisha, Toto",
+          "slug": "kasuwan-umaisha-toto",
+          "coordinates": {
+            "lat": 8.01723,
+            "lng": 7.19148
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Kasuwan Umaisha"
+        }
+      ]
     },
     {
       "name": "Wamba",
       "slug": "nasarawa-wamba",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwa, Wamba",
+          "slug": "kasuwa-wamba",
+          "coordinates": {
+            "lat": 9.11122,
+            "lng": 8.71064
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwa"
+        },
+        {
+          "name": "Kasuwan Arum Chini, Wamba",
+          "slug": "kasuwan-arum-chini-wamba",
+          "coordinates": {
+            "lat": 9.06379,
+            "lng": 8.64524
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Arum Chini"
+        },
+        {
+          "name": "Kasuwan Kam Kire, Wamba",
+          "slug": "kasuwan-kam-kire-wamba",
+          "coordinates": {
+            "lat": 9.00417,
+            "lng": 8.77
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Kam Kire"
+        },
+        {
+          "name": "Kasuwan Kwara, Wamba",
+          "slug": "kasuwan-kwara-wamba",
+          "coordinates": {
+            "lat": 9.05241,
+            "lng": 8.70217
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Kwara"
+        },
+        {
+          "name": "Kasuwan Sisimbaki, Wamba",
+          "slug": "kasuwan-sisimbaki-wamba",
+          "coordinates": {
+            "lat": 9.06929,
+            "lng": 8.60976
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Sisimbaki"
+        },
+        {
+          "name": "Kasuwan Wamba",
+          "slug": "kasuwan-wamba",
+          "coordinates": {
+            "lat": 8.93496,
+            "lng": 8.60811
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Wamba"
+        }
+      ]
     }
   ]
 }

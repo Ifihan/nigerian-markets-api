@@ -5,7 +5,18 @@
     {
       "name": "Adavi",
       "slug": "kogi-adavi",
-      "markets": []
+      "markets": [
+        {
+          "name": "Okodi Market, Adavi",
+          "slug": "okodi-market-adavi",
+          "coordinates": {
+            "lat": 7.58411,
+            "lng": 6.22147
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Okodi"
+        }
+      ]
     },
     {
       "name": "Ajaokuta",
@@ -15,27 +26,127 @@
     {
       "name": "Ankpa",
       "slug": "kogi-ankpa",
-      "markets": []
+      "markets": [
+        {
+          "name": "Agudoko Market, Ankpa",
+          "slug": "agudoko-market-ankpa",
+          "coordinates": {
+            "lat": 7.39808,
+            "lng": 7.58057
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Agudoko"
+        },
+        {
+          "name": "Eke Market Igoro, Ankpa",
+          "slug": "eke-market-igoro-ankpa",
+          "coordinates": {
+            "lat": 7.68328,
+            "lng": 7.75379
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Igoro",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Ikanekpo Market, Ankpa",
+          "slug": "ikanekpo-market-ankpa",
+          "coordinates": {
+            "lat": 7.45359,
+            "lng": 7.52396
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ikanekpo"
+        }
+      ]
     },
     {
       "name": "Bassa",
       "slug": "kogi-bassa",
-      "markets": []
+      "markets": [
+        {
+          "name": "Gboloko Market, Bassa",
+          "slug": "gboloko-market-bassa",
+          "coordinates": {
+            "lat": 7.72422,
+            "lng": 6.88961
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gboloko"
+        },
+        {
+          "name": "Sheria Market, Bassa",
+          "slug": "sheria-market-bassa",
+          "coordinates": {
+            "lat": 7.89001,
+            "lng": 7.08141
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Sheria"
+        }
+      ]
     },
     {
       "name": "Dekina",
       "slug": "kogi-dekina",
-      "markets": []
+      "markets": [
+        {
+          "name": "Anyigba Market Square, Dekina",
+          "slug": "anyigba-market-square-dekina",
+          "coordinates": {
+            "lat": 7.51041,
+            "lng": 7.1735
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Anyigba Square"
+        }
+      ]
     },
     {
       "name": "Ibaji",
       "slug": "kogi-ibaji",
-      "markets": []
+      "markets": [
+        {
+          "name": "Ede Market, Ibaji",
+          "slug": "ede-market-ibaji",
+          "coordinates": {
+            "lat": 6.81199,
+            "lng": 6.65617
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ede"
+        },
+        {
+          "name": "Odeke Market, Ibaji",
+          "slug": "odeke-market-ibaji",
+          "coordinates": {
+            "lat": 6.70943,
+            "lng": 6.80051
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Odeke"
+        }
+      ]
     },
     {
       "name": "Idah",
       "slug": "kogi-idah",
-      "markets": []
+      "markets": [
+        {
+          "name": "Ega Central Market, Idah",
+          "slug": "ega-central-market-idah",
+          "coordinates": {
+            "lat": 7.10702,
+            "lng": 6.72891
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ega Central"
+        }
+      ]
     },
     {
       "name": "Igalamela-Odolu",
@@ -45,22 +156,95 @@
     {
       "name": "Ijumu",
       "slug": "kogi-ijumu",
-      "markets": []
+      "markets": [
+        {
+          "name": "Ayere Central Market, Ijumu",
+          "slug": "ayere-central-market-ijumu",
+          "coordinates": {
+            "lat": 7.70721,
+            "lng": 5.97619
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ayere Central"
+        },
+        {
+          "name": "Irepodun Central Market, Ijumu",
+          "slug": "irepodun-central-market-ijumu",
+          "coordinates": {
+            "lat": 7.83374,
+            "lng": 5.86536
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Irepodun Central"
+        },
+        {
+          "name": "Iyara Central Market, Ijumu",
+          "slug": "iyara-central-market-ijumu",
+          "coordinates": {
+            "lat": 7.84665,
+            "lng": 5.97425
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Iyara Central"
+        }
+      ]
     },
     {
       "name": "Kabba/Bunu",
       "slug": "kogi-kabba-bunu",
-      "markets": []
+      "markets": [
+        {
+          "name": "Tiv Camp, Kabba/Bunu",
+          "slug": "tiv-camp-kabba-bunu",
+          "coordinates": {
+            "lat": 7.89774,
+            "lng": 6.21101
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Tiv Camp"
+        }
+      ]
     },
     {
       "name": "Koton Karfe",
       "slug": "kogi-koton-karfe",
-      "markets": []
+      "markets": [
+        {
+          "name": "Gegu Beki Market, Koton Karfe",
+          "slug": "gegu-beki-market-koton-karfe",
+          "coordinates": {
+            "lat": 8.24589,
+            "lng": 6.82192
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "local_name": "Gegu Beki"
+        },
+        {
+          "name": "Girinyan Market, Koton Karfe",
+          "slug": "girinyan-market-koton-karfe",
+          "coordinates": {
+            "lat": 8.25144,
+            "lng": 6.72932
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "local_name": "Girinyan"
+        }
+      ]
     },
     {
       "name": "Lokoja",
       "slug": "kogi-lokoja",
       "markets": [
+        {
+          "name": "International Market Lokoja",
+          "slug": "international-market-lokoja",
+          "coordinates": {
+            "lat": 7.84114,
+            "lng": 6.74605
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "local_name": "International Lokoja"
+        },
         {
           "name": "Kogi State International Market, Lokoja",
           "slug": "kogi-state-international-market-lokoja",
@@ -75,32 +259,289 @@
     {
       "name": "Mopa-Muro",
       "slug": "kogi-mopa-muro",
-      "markets": []
+      "markets": [
+        {
+          "name": "Aiyedayo Market, Mopa-Muro",
+          "slug": "aiyedayo-market-mopa-muro",
+          "coordinates": {
+            "lat": 8.15845,
+            "lng": 5.89985
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "local_name": "Aiyedayo"
+        },
+        {
+          "name": "Oja Idi Igba, Mopa-Muro",
+          "slug": "oja-idi-igba-mopa-muro",
+          "coordinates": {
+            "lat": 8.12144,
+            "lng": 5.89482
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "local_name": "Oja Idi-igba"
+        },
+        {
+          "name": "Orokere Amuro New Site, Mopa-Muro",
+          "slug": "orokere-amuro-new-site-mopa-muro",
+          "coordinates": {
+            "lat": 8.16002,
+            "lng": 5.89288
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "local_name": "Orokere Amuro New Site"
+        }
+      ]
     },
     {
       "name": "Ofu",
       "slug": "kogi-ofu",
-      "markets": []
+      "markets": [
+        {
+          "name": "Itobe Market, Ofu",
+          "slug": "itobe-market-ofu",
+          "coordinates": {
+            "lat": 7.42654,
+            "lng": 6.72558
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "local_name": "Itobe"
+        }
+      ]
     },
     {
       "name": "Ogori/Magongo",
       "slug": "kogi-ogori-magongo",
-      "markets": []
+      "markets": [
+        {
+          "name": "Magongo Central Market, Ogori/Magongo",
+          "slug": "magongo-central-market-ogori-magongo",
+          "coordinates": {
+            "lat": 7.47303,
+            "lng": 6.15104
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "local_name": "Magongo Central"
+        },
+        {
+          "name": "Ogori Central Market, Ogori/Magongo",
+          "slug": "ogori-central-market-ogori-magongo",
+          "coordinates": {
+            "lat": 7.45475,
+            "lng": 6.17848
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "local_name": "Ogori Central"
+        }
+      ]
     },
     {
       "name": "Okehi",
       "slug": "kogi-okehi",
-      "markets": []
+      "markets": [
+        {
+          "name": "Oboroke Ihima Central Market, Okehi",
+          "slug": "oboroke-ihima-central-market-okehi",
+          "coordinates": {
+            "lat": 7.59199,
+            "lng": 6.16049
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Oboroke Ihima Central"
+        }
+      ]
     },
     {
       "name": "Okene",
       "slug": "kogi-okene",
-      "markets": []
+      "markets": [
+        {
+          "name": "Obehira Market, Okene",
+          "slug": "obehira-market-okene",
+          "coordinates": {
+            "lat": 7.54242,
+            "lng": 6.20076
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "local_name": "Obehira"
+        },
+        {
+          "name": "Okene Central Market",
+          "slug": "okene-central-market",
+          "coordinates": {
+            "lat": 7.54983,
+            "lng": 6.23492
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "local_name": "Okene Central"
+        },
+        {
+          "name": "Sefideen Primary School Okengwe, Okene",
+          "slug": "sefideen-primary-school-okengwe-okene",
+          "coordinates": {
+            "lat": 7.54718,
+            "lng": 6.19176
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "local_name": "Sefideen Primary School Okengwe"
+        }
+      ]
     },
     {
       "name": "Olamaboro",
       "slug": "kogi-olamaboro",
-      "markets": []
+      "markets": [
+        {
+          "name": "Adum Machine Parts Market, Olamaboro",
+          "slug": "adum-machine-parts-market-olamaboro",
+          "coordinates": {
+            "lat": 7.18655,
+            "lng": 7.41271
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "local_name": "Adum Machine Parts"
+        },
+        {
+          "name": "Afor Market, Olamaboro",
+          "slug": "afor-market-olamaboro",
+          "coordinates": {
+            "lat": 7.16778,
+            "lng": 7.58605
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "local_name": "Afor"
+        },
+        {
+          "name": "Afor Offa Market, Olamaboro",
+          "slug": "afor-offa-market-olamaboro",
+          "coordinates": {
+            "lat": 7.1784,
+            "lng": 7.65213
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "local_name": "Afor Offa"
+        },
+        {
+          "name": "Afor Ugbamaka, Olamaboro",
+          "slug": "afor-ugbamaka-olamaboro",
+          "coordinates": {
+            "lat": 7.24013,
+            "lng": 7.47446
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "local_name": "Afor Ugbamaka"
+        },
+        {
+          "name": "Alagani Market, Olamaboro",
+          "slug": "alagani-market-olamaboro",
+          "coordinates": {
+            "lat": 7.25673,
+            "lng": 7.56769
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "local_name": "Alagani"
+        },
+        {
+          "name": "Eke Market Ofode, Olamaboro",
+          "slug": "eke-market-ofode-olamaboro",
+          "coordinates": {
+            "lat": 7.1692,
+            "lng": 7.38075
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "local_name": "Eke Ofode"
+        },
+        {
+          "name": "Etieke Market, Olamaboro",
+          "slug": "etieke-market-olamaboro",
+          "coordinates": {
+            "lat": 7.24744,
+            "lng": 7.69358
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "local_name": "Etieke"
+        },
+        {
+          "name": "Etukwo Efofe, Olamaboro",
+          "slug": "etukwo-efofe-olamaboro",
+          "coordinates": {
+            "lat": 7.16005,
+            "lng": 7.58267
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "local_name": "Etukwo-efofe"
+        },
+        {
+          "name": "Etukwo I Market, Olamaboro",
+          "slug": "etukwo-i-market-olamaboro",
+          "coordinates": {
+            "lat": 7.22154,
+            "lng": 7.64154
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "local_name": "Etukwo 1"
+        },
+        {
+          "name": "Ikem Market Eke, Olamaboro",
+          "slug": "ikem-market-eke-olamaboro",
+          "coordinates": {
+            "lat": 7.20443,
+            "lng": 7.36347
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "local_name": "Ikem Eke"
+        },
+        {
+          "name": "Nkwo Market Emagabai, Olamaboro",
+          "slug": "nkwo-market-emagabai-olamaboro",
+          "coordinates": {
+            "lat": 7.12207,
+            "lng": 7.53339
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "local_name": "Nkwo- Emagabai"
+        },
+        {
+          "name": "Ogugu Market, Olamaboro",
+          "slug": "ogugu-market-olamaboro",
+          "coordinates": {
+            "lat": 7.15232,
+            "lng": 7.47471
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "local_name": "Ogugu"
+        },
+        {
+          "name": "Ore Amaja Market, Olamaboro",
+          "slug": "ore-amaja-market-olamaboro",
+          "coordinates": {
+            "lat": 7.04249,
+            "lng": 7.52517
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "frequency": "Other",
+          "type": "Mixed",
+          "local_name": "Ore Amaja",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Ukwo Market, Olamaboro",
+          "slug": "ukwo-market-olamaboro",
+          "coordinates": {
+            "lat": 7.28556,
+            "lng": 7.76417
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "local_name": "Ukwo"
+        }
+      ]
     },
     {
       "name": "Omala",
@@ -110,12 +551,114 @@
     {
       "name": "Yagba East",
       "slug": "kogi-yagba-east",
-      "markets": []
+      "markets": [
+        {
+          "name": "Ejuku Modern Market, Yagba East",
+          "slug": "ejuku-modern-market-yagba-east",
+          "coordinates": {
+            "lat": 8.06255,
+            "lng": 5.76004
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "local_name": "Ejuku Modern"
+        },
+        {
+          "name": "Ife Olukotun Central Market, Yagba East",
+          "slug": "ife-olukotun-central-market-yagba-east",
+          "coordinates": {
+            "lat": 7.91262,
+            "lng": 5.77052
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ife-olukotun Central"
+        },
+        {
+          "name": "Makutu Central Market, Yagba East",
+          "slug": "makutu-central-market-yagba-east",
+          "coordinates": {
+            "lat": 8.27965,
+            "lng": 5.80552
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Makutu Central"
+        },
+        {
+          "name": "Obada Market, Yagba East",
+          "slug": "obada-market-yagba-east",
+          "coordinates": {
+            "lat": 8.27302,
+            "lng": 5.80509
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Obada"
+        },
+        {
+          "name": "Oja Ore Market, Yagba East",
+          "slug": "oja-ore-market-yagba-east",
+          "coordinates": {
+            "lat": 7.98079,
+            "lng": 5.71059
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Oja Ore"
+        },
+        {
+          "name": "Oke Poyan Central Market, Yagba East",
+          "slug": "oke-poyan-central-market-yagba-east",
+          "coordinates": {
+            "lat": 7.9636,
+            "lng": 5.72383
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Oke-poyan Central"
+        }
+      ]
     },
     {
       "name": "Yagba West",
       "slug": "kogi-yagba-west",
-      "markets": []
+      "markets": [
+        {
+          "name": "Abu Market, Yagba West",
+          "slug": "abu-market-yagba-west",
+          "coordinates": {
+            "lat": 8.21526,
+            "lng": 5.50845
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Abu"
+        },
+        {
+          "name": "Araromi Market, Yagba West",
+          "slug": "araromi-market-yagba-west",
+          "coordinates": {
+            "lat": 8.30133,
+            "lng": 5.63169
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Araromi"
+        },
+        {
+          "name": "Egbe Central Market, Yagba West",
+          "slug": "egbe-central-market-yagba-west",
+          "coordinates": {
+            "lat": 8.23018,
+            "lng": 5.50973
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Egbe Central"
+        },
+        {
+          "name": "Odo Ere Central Market, Yagba West",
+          "slug": "odo-ere-central-market-yagba-west",
+          "coordinates": {
+            "lat": 8.2597,
+            "lng": 5.55673
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Odo Ere Central"
+        }
+      ]
     }
   ]
 }

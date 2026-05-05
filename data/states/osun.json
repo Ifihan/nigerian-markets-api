@@ -5,102 +5,2621 @@
     {
       "name": "Aiyedaade",
       "slug": "osun-aiyedaade",
-      "markets": []
+      "markets": [
+        {
+          "name": "Gbongan Junction Market, Aiyedaade",
+          "slug": "gbongan-junction-market-aiyedaade",
+          "coordinates": {
+            "lat": 7.46745358,
+            "lng": 4.328835351
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Food Stuff",
+          "local_name": "Gbongan Junction",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kajola Ode Omu Market, Aiyedaade",
+          "slug": "kajola-ode-omu-market-aiyedaade",
+          "coordinates": {
+            "lat": 7.562277001,
+            "lng": 4.406082699
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Kajola Ode Omu",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Oja Obada, Aiyedaade",
+          "slug": "oja-obada-aiyedaade",
+          "coordinates": {
+            "lat": 7.552976746,
+            "lng": 4.401118682
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Oja Obada",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Olufi Market Gbongan, Aiyedaade",
+          "slug": "olufi-market-gbongan-aiyedaade",
+          "coordinates": {
+            "lat": 7.47478,
+            "lng": 4.3599
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Olufi Gbongan"
+        },
+        {
+          "name": "Olufi Market, Aiyedaade",
+          "slug": "olufi-market-aiyedaade",
+          "coordinates": {
+            "lat": 7.476250572,
+            "lng": 4.362069998
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Olufi",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Oluwatedo Cow Market Oogi, Aiyedaade",
+          "slug": "oluwatedo-cow-market-oogi-aiyedaade",
+          "coordinates": {
+            "lat": 7.584697304,
+            "lng": 4.417057676
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Oluwatedo Cow Oogi",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Orisunmi Bare Market Oogi, Aiyedaade",
+          "slug": "orisunmi-bare-market-oogi-aiyedaade",
+          "coordinates": {
+            "lat": 7.585609077,
+            "lng": 4.418045093
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Orisunmi Bare Oogi",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        }
+      ]
     },
     {
       "name": "Aiyedire",
       "slug": "osun-aiyedire",
-      "markets": []
+      "markets": [
+        {
+          "name": "Araromi Market Oluponwa, Aiyedire",
+          "slug": "araromi-market-oluponwa-aiyedire",
+          "coordinates": {
+            "lat": 7.60131,
+            "lng": 4.18765
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Araromi Oluponwa"
+        },
+        {
+          "name": "Araromi Market, Aiyedire",
+          "slug": "araromi-market-aiyedire",
+          "coordinates": {
+            "lat": 7.601271402,
+            "lng": 4.187587136
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Araromi",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Mosun Market, Aiyedire",
+          "slug": "mosun-market-aiyedire",
+          "coordinates": {
+            "lat": 7.645240632,
+            "lng": 4.28814319
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Mosun",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Obada Market Kuta, Aiyedire",
+          "slug": "obada-market-kuta-aiyedire",
+          "coordinates": {
+            "lat": 7.64546,
+            "lng": 4.28764
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Obada Kuta"
+        },
+        {
+          "name": "Ojomode Market, Aiyedire",
+          "slug": "ojomode-market-aiyedire",
+          "coordinates": {
+            "lat": 7.62229,
+            "lng": 4.24175
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ojomode"
+        }
+      ]
     },
     {
       "name": "Atakunmosa East",
       "slug": "osun-atakunmosa-east",
-      "markets": []
+      "markets": [
+        {
+          "name": "Ajido Market, Atakunmosa East",
+          "slug": "ajido-market-atakunmosa-east",
+          "coordinates": {
+            "lat": 7.463866695,
+            "lng": 4.762654414
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Ajido Village",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Akaani Market, Atakunmosa East",
+          "slug": "akaani-market-atakunmosa-east",
+          "coordinates": {
+            "lat": 7.453719005,
+            "lng": 4.791945704
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "frequency": "Other",
+          "type": "Food Stuff",
+          "local_name": "Akaani",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Akanni Market, Atakunmosa East",
+          "slug": "akanni-market-atakunmosa-east",
+          "coordinates": {
+            "lat": 7.45388,
+            "lng": 4.79207
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Akanni"
+        },
+        {
+          "name": "Araromi Olowu Market, Atakunmosa East",
+          "slug": "araromi-olowu-market-atakunmosa-east",
+          "coordinates": {
+            "lat": 7.407464271,
+            "lng": 4.79402309
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Araromi Olowu",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Araromi Otokobo Market, Atakunmosa East",
+          "slug": "araromi-otokobo-market-atakunmosa-east",
+          "coordinates": {
+            "lat": 7.328314997,
+            "lng": 4.713850965
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Araromi Otokobo",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Asaa Market, Atakunmosa East",
+          "slug": "asaa-market-atakunmosa-east",
+          "coordinates": {
+            "lat": 7.446894978,
+            "lng": 4.813042064
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Food Stuff",
+          "local_name": "Asaa",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Bolorunduro Market, Atakunmosa East",
+          "slug": "bolorunduro-market-atakunmosa-east",
+          "coordinates": {
+            "lat": 7.393895588,
+            "lng": 4.815399091
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Bolorunduro",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Eti Oni Market, Atakunmosa East",
+          "slug": "eti-oni-market-atakunmosa-east",
+          "coordinates": {
+            "lat": 7.388182275,
+            "lng": 4.755215468
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Eti Oni",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Igangan Market, Atakunmosa East",
+          "slug": "igangan-market-atakunmosa-east",
+          "coordinates": {
+            "lat": 7.490797925,
+            "lng": 4.726574271
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Igangan",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Iperindo Main Market, Atakunmosa East",
+          "slug": "iperindo-main-market-atakunmosa-east",
+          "coordinates": {
+            "lat": 7.49842,
+            "lng": 4.82376
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Iperindo Main"
+        },
+        {
+          "name": "Kajola Alaago Market, Atakunmosa East",
+          "slug": "kajola-alaago-market-atakunmosa-east",
+          "coordinates": {
+            "lat": 7.398757069,
+            "lng": 4.737794086
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Food Stuff",
+          "local_name": "Kajola Alaago",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Kajola Market Kajola Alaago, Atakunmosa East",
+          "slug": "kajola-market-kajola-alaago-atakunmosa-east",
+          "coordinates": {
+            "lat": 7.39996,
+            "lng": 4.73889
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kajola Kajola Alaago"
+        },
+        {
+          "name": "Oja Ajewole, Atakunmosa East",
+          "slug": "oja-ajewole-atakunmosa-east",
+          "coordinates": {
+            "lat": 7.497846586,
+            "lng": 4.823471033
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Oja Ajewole",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Oja Ife, Atakunmosa East",
+          "slug": "oja-ife-atakunmosa-east",
+          "coordinates": {
+            "lat": 7.466445,
+            "lng": 4.678171667
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Oja Ife",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Oja Oba Market Ifewara, Atakunmosa East",
+          "slug": "oja-oba-market-ifewara-atakunmosa-east",
+          "coordinates": {
+            "lat": 7.46696,
+            "lng": 4.67858
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Oja Oba Ifewara"
+        },
+        {
+          "name": "Owode Market Itapa, Atakunmosa East",
+          "slug": "owode-market-itapa-atakunmosa-east",
+          "coordinates": {
+            "lat": 7.414246902,
+            "lng": 4.763064975
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Food Stuff Mixed",
+          "local_name": "Owode Itapa",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Temidire Market Ifewara, Atakunmosa East",
+          "slug": "temidire-market-ifewara-atakunmosa-east",
+          "coordinates": {
+            "lat": 7.46039,
+            "lng": 4.67734
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Temidire Ifewara"
+        }
+      ]
     },
     {
       "name": "Atakunmosa West",
       "slug": "osun-atakunmosa-west",
-      "markets": []
+      "markets": [
+        {
+          "name": "Araromi Market, Atakunmosa West",
+          "slug": "araromi-market-atakunmosa-west",
+          "coordinates": {
+            "lat": 7.522377229,
+            "lng": 4.62264033
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Araromi",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Ayeyemi Market, Atakunmosa West",
+          "slug": "ayeyemi-market-atakunmosa-west",
+          "coordinates": {
+            "lat": 7.58566,
+            "lng": 4.62023
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ayeyemi"
+        },
+        {
+          "name": "Epe Market, Atakunmosa West",
+          "slug": "epe-market-atakunmosa-west",
+          "coordinates": {
+            "lat": 7.542769483,
+            "lng": 4.693945189
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Epe",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Ibode Market, Atakunmosa West",
+          "slug": "ibode-market-atakunmosa-west",
+          "coordinates": {
+            "lat": 7.69296,
+            "lng": 4.64353
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ibode"
+        },
+        {
+          "name": "Ibodi Market, Atakunmosa West",
+          "slug": "ibodi-market-atakunmosa-west",
+          "coordinates": {
+            "lat": 7.5927,
+            "lng": 4.67935
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ibodi"
+        },
+        {
+          "name": "Ijana Wasare Market, Atakunmosa West",
+          "slug": "ijana-wasare-market-atakunmosa-west",
+          "coordinates": {
+            "lat": 7.555895575,
+            "lng": 4.688619201
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Ijana Wasare",
+          "days": [
+            "Mon",
+            "Tue"
+          ]
+        },
+        {
+          "name": "Iloba Market, Atakunmosa West",
+          "slug": "iloba-market-atakunmosa-west",
+          "coordinates": {
+            "lat": 7.63521,
+            "lng": 4.61942
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Iloba"
+        },
+        {
+          "name": "Itagunmodi Market, Atakunmosa West",
+          "slug": "itagunmodi-market-atakunmosa-west",
+          "coordinates": {
+            "lat": 7.52843,
+            "lng": 4.64791
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Itagunmodi"
+        },
+        {
+          "name": "Iwara Market, Atakunmosa West",
+          "slug": "iwara-market-atakunmosa-west",
+          "coordinates": {
+            "lat": 7.53195,
+            "lng": 4.723971667
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Iwara",
+          "days": [
+            "Mon",
+            "Tue"
+          ]
+        },
+        {
+          "name": "Iyere Market, Atakunmosa West",
+          "slug": "iyere-market-atakunmosa-west",
+          "coordinates": {
+            "lat": 7.565535,
+            "lng": 4.65498
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Iyere",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kajola Market Kajola, Atakunmosa West",
+          "slug": "kajola-market-kajola-atakunmosa-west",
+          "coordinates": {
+            "lat": 7.72226,
+            "lng": 4.63216
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kajola Kajola"
+        },
+        {
+          "name": "Kajola Market, Atakunmosa West",
+          "slug": "kajola-market-atakunmosa-west",
+          "coordinates": {
+            "lat": 7.722255585,
+            "lng": 4.632616525
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Kajola",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Laala Market, Atakunmosa West",
+          "slug": "laala-market-atakunmosa-west",
+          "coordinates": {
+            "lat": 7.670299783,
+            "lng": 4.585809907
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Laala",
+          "days": [
+            "Mon",
+            "Tue"
+          ]
+        },
+        {
+          "name": "Odogbo Community Market, Atakunmosa West",
+          "slug": "odogbo-community-market-atakunmosa-west",
+          "coordinates": {
+            "lat": 7.518809274,
+            "lng": 4.763225468
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Odogbo Community",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Ogunleye Market, Atakunmosa West",
+          "slug": "ogunleye-market-atakunmosa-west",
+          "coordinates": {
+            "lat": 7.582921963,
+            "lng": 4.624434294
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Ogunleye",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Ogunloye Market, Atakunmosa West",
+          "slug": "ogunloye-market-atakunmosa-west",
+          "coordinates": {
+            "lat": 7.58285,
+            "lng": 4.62424
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ogunloye"
+        },
+        {
+          "name": "Oju Oja Market Osu, Atakunmosa West",
+          "slug": "oju-oja-market-osu-atakunmosa-west",
+          "coordinates": {
+            "lat": 7.585718787,
+            "lng": 4.620143731
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Oju Oja Osu",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        }
+      ]
     },
     {
       "name": "Boluwaduro",
       "slug": "osun-boluwaduro",
-      "markets": []
+      "markets": [
+        {
+          "name": "Egbeda Market, Boluwaduro",
+          "slug": "egbeda-market-boluwaduro",
+          "coordinates": {
+            "lat": 7.959213333,
+            "lng": 4.83623
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Food Stuff Mixed",
+          "local_name": "Egbeda",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Iloro Market, Boluwaduro",
+          "slug": "iloro-market-boluwaduro",
+          "coordinates": {
+            "lat": 7.9038574,
+            "lng": 4.820167957
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Iloro",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Obada Market Iresi, Boluwaduro",
+          "slug": "obada-market-iresi-boluwaduro",
+          "coordinates": {
+            "lat": 7.93706,
+            "lng": 4.84322
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Obada Iresi"
+        },
+        {
+          "name": "Obada Market, Boluwaduro",
+          "slug": "obada-market-boluwaduro",
+          "coordinates": {
+            "lat": 7.936993183,
+            "lng": 4.843070774
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Obada",
+          "days": [
+            "Tue"
+          ]
+        }
+      ]
     },
     {
       "name": "Boripe",
       "slug": "osun-boripe",
-      "markets": []
+      "markets": [
+        {
+          "name": "Anaye Market Iragbiji, Boripe",
+          "slug": "anaye-market-iragbiji-boripe",
+          "coordinates": {
+            "lat": 7.89671,
+            "lng": 4.67918
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Anaye Iragbiji"
+        },
+        {
+          "name": "Anaye Market, Boripe",
+          "slug": "anaye-market-boripe",
+          "coordinates": {
+            "lat": 7.897355216,
+            "lng": 4.679876527
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Anaye",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Araromi Market, Boripe",
+          "slug": "araromi-market-boripe",
+          "coordinates": {
+            "lat": 7.902465417,
+            "lng": 4.683389858
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "type": "Mixed",
+          "local_name": "Araromi",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Obada Market Ada, Boripe",
+          "slug": "obada-market-ada-boripe",
+          "coordinates": {
+            "lat": 7.89653,
+            "lng": 4.70833
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Obada Ada"
+        },
+        {
+          "name": "Obada Market Iree, Boripe",
+          "slug": "obada-market-iree-boripe",
+          "coordinates": {
+            "lat": 7.936136628,
+            "lng": 4.72483399
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Iree",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Oja Boripe Market",
+          "slug": "oja-boripe-market",
+          "coordinates": {
+            "lat": 7.900738668,
+            "lng": 4.694539135
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Food Stuff",
+          "local_name": "Oja Boripe",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Oja Oba Market Ikirun, Boripe",
+          "slug": "oja-oba-market-ikirun-boripe",
+          "coordinates": {
+            "lat": 7.91284,
+            "lng": 4.66676
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Oja Oba Ikirun"
+        },
+        {
+          "name": "Oja Oba Market Ororuwo, Boripe",
+          "slug": "oja-oba-market-ororuwo-boripe",
+          "coordinates": {
+            "lat": 7.89308,
+            "lng": 4.69598
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Oja Oba Ororuwo"
+        },
+        {
+          "name": "Oja Oke Market, Boripe",
+          "slug": "oja-oke-market-boripe",
+          "coordinates": {
+            "lat": 7.9114,
+            "lng": 4.66782
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Oja Oke"
+        },
+        {
+          "name": "Oja Oke, Boripe",
+          "slug": "oja-oke-boripe",
+          "coordinates": {
+            "lat": 7.911388133,
+            "lng": 4.668008921
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "frequency": "Weekly",
+          "type": "Livestock Food Stuff",
+          "local_name": "Oja oke",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Oke Osun Market, Boripe",
+          "slug": "oke-osun-market-boripe",
+          "coordinates": {
+            "lat": 7.907714684,
+            "lng": 4.687765516
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Oke Osun",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Olorunda Market Aagba, Boripe",
+          "slug": "olorunda-market-aagba-boripe",
+          "coordinates": {
+            "lat": 7.898613333,
+            "lng": 4.701221667
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Olorunda Aagba",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Saturday Market, Boripe",
+          "slug": "saturday-market-boripe",
+          "coordinates": {
+            "lat": 7.90456,
+            "lng": 4.66703
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Saturday"
+        }
+      ]
     },
     {
       "name": "Ede North",
       "slug": "osun-ede-north",
-      "markets": []
+      "markets": [
+        {
+          "name": "Atapa Market, Ede North",
+          "slug": "atapa-market-ede-north",
+          "coordinates": {
+            "lat": 7.741250723,
+            "lng": 4.433347064
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Atapa",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Baba Sanya Market, Ede North",
+          "slug": "baba-sanya-market-ede-north",
+          "coordinates": {
+            "lat": 7.73173,
+            "lng": 4.43596
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Baba Sanya"
+        },
+        {
+          "name": "Meat Market Slaughter Lab, Ede North",
+          "slug": "meat-market-slaughter-lab-ede-north",
+          "coordinates": {
+            "lat": 7.74685942,
+            "lng": 4.437168238
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Food Stuff",
+          "local_name": "Meat Slaughter Lab",
+          "days": [
+            "Mon",
+            "Tue"
+          ]
+        },
+        {
+          "name": "Meat Market, Ede North",
+          "slug": "meat-market-ede-north",
+          "coordinates": {
+            "lat": 7.749606667,
+            "lng": 4.430508333
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Meat",
+          "days": [
+            "Mon",
+            "Tue"
+          ]
+        },
+        {
+          "name": "Oja Babasanya, Ede North",
+          "slug": "oja-babasanya-ede-north",
+          "coordinates": {
+            "lat": 7.731398118,
+            "lng": 4.435693215
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Oja Babasanya",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Oja Eran Ede, Ede North",
+          "slug": "oja-eran-ede-ede-north",
+          "coordinates": {
+            "lat": 7.73539471,
+            "lng": 4.435217443
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Oja Eran Ede",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Oja Owode, Ede North",
+          "slug": "oja-owode-ede-north",
+          "coordinates": {
+            "lat": 7.713618333,
+            "lng": 4.489648333
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Oja Owode",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Oja Timi Market, Ede North",
+          "slug": "oja-timi-market-ede-north",
+          "coordinates": {
+            "lat": 7.73803,
+            "lng": 4.43261
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Oja Timi"
+        },
+        {
+          "name": "Oja Timi, Ede North",
+          "slug": "oja-timi-ede-north",
+          "coordinates": {
+            "lat": 7.737785215,
+            "lng": 4.432511855
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "type": "Mixed",
+          "local_name": "Oja Timi",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Oje Alaso Market, Ede North",
+          "slug": "oje-alaso-market-ede-north",
+          "coordinates": {
+            "lat": 7.74482,
+            "lng": 4.43438
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Oje Alaso"
+        },
+        {
+          "name": "Oje Market, Ede North",
+          "slug": "oje-market-ede-north",
+          "coordinates": {
+            "lat": 7.744906667,
+            "lng": 4.434435
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Oje",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Ojoro Adejuwon Market, Ede North",
+          "slug": "ojoro-adejuwon-market-ede-north",
+          "coordinates": {
+            "lat": 7.67069,
+            "lng": 4.549253333
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Adejuwon",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Olobe Market, Ede North",
+          "slug": "olobe-market-ede-north",
+          "coordinates": {
+            "lat": 7.745978333,
+            "lng": 4.432926667
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Olobe",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Unique International Market Irewumi, Ede North",
+          "slug": "unique-international-market-irewumi-ede-north",
+          "coordinates": {
+            "lat": 7.721890588,
+            "lng": 4.470117183
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Unique International Irewumi",
+          "days": [
+            "Mon",
+            "Tue"
+          ]
+        }
+      ]
     },
     {
       "name": "Ede South",
       "slug": "osun-ede-south",
-      "markets": []
+      "markets": [
+        {
+          "name": "Alh Jawesola Market, Ede South",
+          "slug": "alh-jawesola-market-ede-south",
+          "coordinates": {
+            "lat": 7.71851,
+            "lng": 4.42448
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Alh Jawesola"
+        },
+        {
+          "name": "Egbeda Cow Market, Ede South",
+          "slug": "egbeda-cow-market-ede-south",
+          "coordinates": {
+            "lat": 7.624024974,
+            "lng": 4.439601641
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Egbeda Cow",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Egbejoda Cow Market Sekona, Ede South",
+          "slug": "egbejoda-cow-market-sekona-ede-south",
+          "coordinates": {
+            "lat": 7.629092679,
+            "lng": 4.441337651
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Egbejoda Cow Sekona",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Jawesola Market, Ede South",
+          "slug": "jawesola-market-ede-south",
+          "coordinates": {
+            "lat": 7.722040585,
+            "lng": 4.437351501
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "frequency": "Other",
+          "type": "Other",
+          "local_name": "Ogberin",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Oba Laminisa Market, Ede South",
+          "slug": "oba-laminisa-market-ede-south",
+          "coordinates": {
+            "lat": 7.7018,
+            "lng": 4.45059
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Oba Laminisa"
+        },
+        {
+          "name": "Ogo Oluwa Market, Ede South",
+          "slug": "ogo-oluwa-market-ede-south",
+          "coordinates": {
+            "lat": 7.642423628,
+            "lng": 4.448686386
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Ogo Oluwa",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Sekona Market Front Of Cherubim Church, Ede South",
+          "slug": "sekona-market-front-of-cherubim-church-ede-south",
+          "coordinates": {
+            "lat": 7.621685,
+            "lng": 4.440015
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Sekona Front Of Cherubim Church",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Sekona Market, Ede South",
+          "slug": "sekona-market-ede-south",
+          "coordinates": {
+            "lat": 7.62144,
+            "lng": 4.44026
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Sekona"
+        }
+      ]
     },
     {
       "name": "Egbedore",
       "slug": "osun-egbedore",
-      "markets": []
+      "markets": [
+        {
+          "name": "Ara Market, Egbedore",
+          "slug": "ara-market-egbedore",
+          "coordinates": {
+            "lat": 7.85393,
+            "lng": 4.38224
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ara"
+        },
+        {
+          "name": "Complex Market, Egbedore",
+          "slug": "complex-market-egbedore",
+          "coordinates": {
+            "lat": 7.782797024,
+            "lng": 4.512665047
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Complex",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Elerin Market, Egbedore",
+          "slug": "elerin-market-egbedore",
+          "coordinates": {
+            "lat": 7.82756,
+            "lng": 4.48328
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Elerin"
+        },
+        {
+          "name": "Okinni Market, Egbedore",
+          "slug": "okinni-market-egbedore",
+          "coordinates": {
+            "lat": 7.83577,
+            "lng": 4.52074
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Okinni"
+        },
+        {
+          "name": "Olorunsogo Market Faroda Adeleke, Egbedore",
+          "slug": "olorunsogo-market-faroda-adeleke-egbedore",
+          "coordinates": {
+            "lat": 7.78594,
+            "lng": 4.52343
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Olorunsogo Faroda Adeleke"
+        },
+        {
+          "name": "Olorunsogo Market, Egbedore",
+          "slug": "olorunsogo-market-egbedore",
+          "coordinates": {
+            "lat": 7.785914715,
+            "lng": 4.523328613
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Olorunsogo",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Omolade Plaza, Egbedore",
+          "slug": "omolade-plaza-egbedore",
+          "coordinates": {
+            "lat": 7.78018,
+            "lng": 4.50205
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Omolade Plaza"
+        },
+        {
+          "name": "Osun State Trade Fair Complex, Egbedore",
+          "slug": "osun-state-trade-fair-complex-egbedore",
+          "coordinates": {
+            "lat": 7.79061,
+            "lng": 4.49998
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Osun State Trade Fair Complex"
+        },
+        {
+          "name": "Owode Market Ojo, Egbedore",
+          "slug": "owode-market-ojo-egbedore",
+          "coordinates": {
+            "lat": 7.81432,
+            "lng": 4.42512
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Owode Ojo"
+        },
+        {
+          "name": "Owode Market, Egbedore",
+          "slug": "owode-market-egbedore",
+          "coordinates": {
+            "lat": 7.813925671,
+            "lng": 4.424986595
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Owode",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Owode Okinni Market, Egbedore",
+          "slug": "owode-okinni-market-egbedore",
+          "coordinates": {
+            "lat": 7.835908264,
+            "lng": 4.520809928
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Owode Okinni",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Road Side Complex, Egbedore",
+          "slug": "road-side-complex-egbedore",
+          "coordinates": {
+            "lat": 7.782491667,
+            "lng": 4.51147
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Road Side Complex",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Super Market, Egbedore",
+          "slug": "super-market-egbedore",
+          "coordinates": {
+            "lat": 7.782228551,
+            "lng": 4.510350257
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Super",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Surulere Shopping Complex, Egbedore",
+          "slug": "surulere-shopping-complex-egbedore",
+          "coordinates": {
+            "lat": 7.783163775,
+            "lng": 4.515078357
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Surulere Shopping Complex",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Trade Fair Market, Egbedore",
+          "slug": "trade-fair-market-egbedore",
+          "coordinates": {
+            "lat": 7.790891763,
+            "lng": 4.499442908
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "type": "Mixed",
+          "local_name": "Trade Fair",
+          "days": [
+            "Mon",
+            "Tue"
+          ]
+        }
+      ]
     },
     {
       "name": "Ejigbo",
       "slug": "osun-ejigbo",
-      "markets": []
+      "markets": [
+        {
+          "name": "Agurodo Market, Ejigbo",
+          "slug": "agurodo-market-ejigbo",
+          "coordinates": {
+            "lat": 7.94484,
+            "lng": 4.27119
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Agurodo"
+        },
+        {
+          "name": "Ajagunlaase Market, Ejigbo",
+          "slug": "ajagunlaase-market-ejigbo",
+          "coordinates": {
+            "lat": 7.829490707,
+            "lng": 4.210852627
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Ajagunlaase",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Alawos Market, Ejigbo",
+          "slug": "alawos-market-ejigbo",
+          "coordinates": {
+            "lat": 7.81325,
+            "lng": 4.27838
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Alawos"
+        },
+        {
+          "name": "Araromi Market Araromi Iwata, Ejigbo",
+          "slug": "araromi-market-araromi-iwata-ejigbo",
+          "coordinates": {
+            "lat": 7.86524,
+            "lng": 4.2888
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Araromi Araromi Iwata"
+        },
+        {
+          "name": "Baara Market, Ejigbo",
+          "slug": "baara-market-ejigbo",
+          "coordinates": {
+            "lat": 7.90411,
+            "lng": 4.31561
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Baara"
+        },
+        {
+          "name": "Elejigbo Market, Ejigbo",
+          "slug": "elejigbo-market-ejigbo",
+          "coordinates": {
+            "lat": 7.903040685,
+            "lng": 4.313575634
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "frequency": "Weekly",
+          "type": "Food Stuff Mixed",
+          "local_name": "Ejigbo",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Gbamage Shopping Complex, Ejigbo",
+          "slug": "gbamage-shopping-complex-ejigbo",
+          "coordinates": {
+            "lat": 7.9016,
+            "lng": 4.31406
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gbamage Shopping Complex"
+        },
+        {
+          "name": "Ikonifin Market, Ejigbo",
+          "slug": "ikonifin-market-ejigbo",
+          "coordinates": {
+            "lat": 7.80488,
+            "lng": 4.14591
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ikonifin"
+        },
+        {
+          "name": "Ilawo Market, Ejigbo",
+          "slug": "ilawo-market-ejigbo",
+          "coordinates": {
+            "lat": 7.81338,
+            "lng": 4.278471667
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Ilawo",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Isundunrin Market, Ejigbo",
+          "slug": "isundunrin-market-ejigbo",
+          "coordinates": {
+            "lat": 7.86543,
+            "lng": 4.26159
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Isundunrin"
+        },
+        {
+          "name": "Iwata Araromi Market, Ejigbo",
+          "slug": "iwata-araromi-market-ejigbo",
+          "coordinates": {
+            "lat": 7.865089087,
+            "lng": 4.288895823
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "frequency": "Other",
+          "type": "Food Stuff",
+          "local_name": "Iwata",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Obada Market Masifa, Ejigbo",
+          "slug": "obada-market-masifa-ejigbo",
+          "coordinates": {
+            "lat": 7.89424,
+            "lng": 4.2581
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Obada Masifa"
+        },
+        {
+          "name": "Obada Market, Ejigbo",
+          "slug": "obada-market-ejigbo",
+          "coordinates": {
+            "lat": 7.894030367,
+            "lng": 4.258104247
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Obada",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Obas Market, Ejigbo",
+          "slug": "obas-market-ejigbo",
+          "coordinates": {
+            "lat": 7.843813333,
+            "lng": 4.134911667
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Oba'S",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Ode Baara Market, Ejigbo",
+          "slug": "ode-baara-market-ejigbo",
+          "coordinates": {
+            "lat": 7.904021383,
+            "lng": 4.3155773
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Ode-baara",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        }
+      ]
     },
     {
       "name": "Ife Central",
       "slug": "osun-ife-central",
-      "markets": []
+      "markets": [
+        {
+          "name": "Apollo Market, Ife Central",
+          "slug": "apollo-market-ife-central",
+          "coordinates": {
+            "lat": 7.494920381,
+            "lng": 4.553340538
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Apollo",
+          "days": [
+            "Mon",
+            "Tue"
+          ]
+        },
+        {
+          "name": "Itakogun Market, Ife Central",
+          "slug": "itakogun-market-ife-central",
+          "coordinates": {
+            "lat": 7.480964754,
+            "lng": 4.556247511
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Itakogun",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Itakoun Market, Ife Central",
+          "slug": "itakoun-market-ife-central",
+          "coordinates": {
+            "lat": 7.48031,
+            "lng": 4.55651
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Itakoun"
+        },
+        {
+          "name": "New Market Sabo Oja Tuntun, Ife Central",
+          "slug": "new-market-sabo-oja-tuntun-ife-central",
+          "coordinates": {
+            "lat": 7.489125274,
+            "lng": 4.555712791
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "New Sabo Oja Tuntun",
+          "days": [
+            "Mon",
+            "Tue"
+          ]
+        },
+        {
+          "name": "New Market Sabo, Ife Central",
+          "slug": "new-market-sabo-ife-central",
+          "coordinates": {
+            "lat": 7.48832,
+            "lng": 4.55357
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "New Sabo"
+        },
+        {
+          "name": "Oau New Market, Ife Central",
+          "slug": "oau-new-market-ife-central",
+          "coordinates": {
+            "lat": 7.516596667,
+            "lng": 4.513023333
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Oau New",
+          "days": [
+            "Mon",
+            "Tue"
+          ]
+        }
+      ]
     },
     {
       "name": "Ife East",
       "slug": "osun-ife-east",
-      "markets": []
+      "markets": [
+        {
+          "name": "Ajape Market, Ife East",
+          "slug": "ajape-market-ife-east",
+          "coordinates": {
+            "lat": 7.465391667,
+            "lng": 4.529448333
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "frequency": "Other",
+          "type": "Food Stuff",
+          "local_name": "Ajape market",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Egbeda, Ife East",
+          "slug": "egbeda-ife-east",
+          "coordinates": {
+            "lat": 7.456775,
+            "lng": 4.633675
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Egbeda",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Iloro Market, Ife East",
+          "slug": "iloro-market-ife-east",
+          "coordinates": {
+            "lat": 7.47043,
+            "lng": 4.56423
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Iloro"
+        },
+        {
+          "name": "Iloro, Ife East",
+          "slug": "iloro-ife-east",
+          "coordinates": {
+            "lat": 7.470173333,
+            "lng": 4.5646
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "type": "Food Stuff",
+          "local_name": "Iloro",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Olorunsogo Market Modakeke, Ife East",
+          "slug": "olorunsogo-market-modakeke-ife-east",
+          "coordinates": {
+            "lat": 7.475753552,
+            "lng": 4.542137066
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "frequency": "Monthly",
+          "type": "Mixed",
+          "local_name": "Olorunsogo Market",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Olorunsogo Market, Ife East",
+          "slug": "olorunsogo-market-ife-east",
+          "coordinates": {
+            "lat": 7.47454,
+            "lng": 4.54357
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Olorunsogo"
+        },
+        {
+          "name": "Urban Day Market, Ife East",
+          "slug": "urban-day-market-ife-east",
+          "coordinates": {
+            "lat": 7.488405736,
+            "lng": 4.532992934
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "frequency": "Other",
+          "type": "Livestock Food Stuff Mixed",
+          "local_name": "Mayfair Settlement Modakeke",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        }
+      ]
     },
     {
       "name": "Ife North",
       "slug": "osun-ife-north",
-      "markets": []
+      "markets": [
+        {
+          "name": "Agunbiade Market, Ife North",
+          "slug": "agunbiade-market-ife-north",
+          "coordinates": {
+            "lat": 7.55525,
+            "lng": 4.44697
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Agunbiade"
+        },
+        {
+          "name": "Akinlalu Market, Ife North",
+          "slug": "akinlalu-market-ife-north",
+          "coordinates": {
+            "lat": 7.46658,
+            "lng": 4.41813
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Akinlalu"
+        },
+        {
+          "name": "Akinola Market, Ife North",
+          "slug": "akinola-market-ife-north",
+          "coordinates": {
+            "lat": 7.499126701,
+            "lng": 4.441495678
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Akinola",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Famia Market, Ife North",
+          "slug": "famia-market-ife-north",
+          "coordinates": {
+            "lat": 7.42401,
+            "lng": 4.44194
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Famia"
+        },
+        {
+          "name": "Ifelodun Market, Ife North",
+          "slug": "ifelodun-market-ife-north",
+          "coordinates": {
+            "lat": 7.53966,
+            "lng": 4.45991
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ifelodun"
+        },
+        {
+          "name": "Ipetumodu Market, Ife North",
+          "slug": "ipetumodu-market-ife-north",
+          "coordinates": {
+            "lat": 7.522054288,
+            "lng": 4.444773733
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Food Stuff",
+          "local_name": "Ipetumodu",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Obada Market Asipa, Ife North",
+          "slug": "obada-market-asipa-ife-north",
+          "coordinates": {
+            "lat": 7.5059,
+            "lng": 4.42777
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Obada Asipa"
+        },
+        {
+          "name": "Oja Oba Ipetumodu, Ife North",
+          "slug": "oja-oba-ipetumodu-ife-north",
+          "coordinates": {
+            "lat": 7.515617355,
+            "lng": 4.444873335
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Oja Oba Ipetumodu",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Oke Gada Main Market, Ife North",
+          "slug": "oke-gada-main-market-ife-north",
+          "coordinates": {
+            "lat": 7.555432361,
+            "lng": 4.447275516
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "frequency": "Other",
+          "type": "Food Stuff",
+          "local_name": "Oke Gada",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Olohunda Market, Ife North",
+          "slug": "olohunda-market-ife-north",
+          "coordinates": {
+            "lat": 7.550076331,
+            "lng": 4.45114899
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Olohunda",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Olorunda Market, Ife North",
+          "slug": "olorunda-market-ife-north",
+          "coordinates": {
+            "lat": 7.258568333,
+            "lng": 4.492733333
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Olorunda",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Oluwada Market, Ife North",
+          "slug": "oluwada-market-ife-north",
+          "coordinates": {
+            "lat": 7.55035,
+            "lng": 4.45446
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Oluwada"
+        },
+        {
+          "name": "Ori Ile Omi Market, Ife North",
+          "slug": "ori-ile-omi-market-ife-north",
+          "coordinates": {
+            "lat": 7.52766,
+            "lng": 4.45124
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ori Ile Omi"
+        },
+        {
+          "name": "Oyere Market, Ife North",
+          "slug": "oyere-market-ife-north",
+          "coordinates": {
+            "lat": 7.25042,
+            "lng": 4.41787
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Oyere"
+        },
+        {
+          "name": "Palace Market Ipetumodu, Ife North",
+          "slug": "palace-market-ipetumodu-ife-north",
+          "coordinates": {
+            "lat": 7.521750588,
+            "lng": 4.444791034
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Palace Ipetumodu",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Palace Market, Ife North",
+          "slug": "palace-market-ife-north",
+          "coordinates": {
+            "lat": 7.52192,
+            "lng": 4.44464
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Palace"
+        }
+      ]
     },
     {
       "name": "Ife South",
       "slug": "osun-ife-south",
-      "markets": []
+      "markets": [
+        {
+          "name": "Amoye Faforiji, Ife South",
+          "slug": "amoye-faforiji-ife-south",
+          "coordinates": {
+            "lat": 7.289585,
+            "lng": 4.704995
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Amoye Faforiji",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Camp Ogunleye Market, Ife South",
+          "slug": "camp-ogunleye-market-ife-south",
+          "coordinates": {
+            "lat": 7.31412,
+            "lng": 4.50593
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Camp Ogunleye"
+        },
+        {
+          "name": "Egbejoda Main Market, Ife South",
+          "slug": "egbejoda-main-market-ife-south",
+          "coordinates": {
+            "lat": 7.22867,
+            "lng": 4.66124
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Egbejoda Main"
+        },
+        {
+          "name": "Egbejoda Market, Ife South",
+          "slug": "egbejoda-market-ife-south",
+          "coordinates": {
+            "lat": 7.228506087,
+            "lng": 4.659982392
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Egbejoda",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Faforiji Market, Ife South",
+          "slug": "faforiji-market-ife-south",
+          "coordinates": {
+            "lat": 7.28904,
+            "lng": 4.70533
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Faforiji"
+        },
+        {
+          "name": "Ifelodun Plank Dealers Market Km 2 Faforiji Road Olode, Ife South",
+          "slug": "ifelodun-plank-dealers-market-km-2-faforiji-road-olode-ife-south",
+          "coordinates": {
+            "lat": 7.261225,
+            "lng": 4.648568333
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Ifelodun Plank Dealers Km 2 Faforiji Road Olode",
+          "days": [
+            "Mon",
+            "Tue"
+          ]
+        },
+        {
+          "name": "Mefoworade Market, Ife South",
+          "slug": "mefoworade-market-ife-south",
+          "coordinates": {
+            "lat": 7.114873616,
+            "lng": 4.613504389
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Mefoworade",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Oba Okunade Market, Ife South",
+          "slug": "oba-okunade-market-ife-south",
+          "coordinates": {
+            "lat": 7.0288,
+            "lng": 4.5452
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Oba Okunade"
+        },
+        {
+          "name": "Ogunleye Camp Market, Ife South",
+          "slug": "ogunleye-camp-market-ife-south",
+          "coordinates": {
+            "lat": 7.314160264,
+            "lng": 4.506063074
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "frequency": "Weekly",
+          "type": "Clothing Food Stuff Other",
+          "local_name": "Kere",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Olode Main Market, Ife South",
+          "slug": "olode-main-market-ife-south",
+          "coordinates": {
+            "lat": 7.26521,
+            "lng": 4.6297
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Olode Main"
+        },
+        {
+          "name": "Olode Market Olode, Ife South",
+          "slug": "olode-market-olode-ife-south",
+          "coordinates": {
+            "lat": 7.264796667,
+            "lng": 4.631256667
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Olode Olode",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Olode Market, Ife South",
+          "slug": "olode-market-ife-south",
+          "coordinates": {
+            "lat": 7.26479952,
+            "lng": 4.630387485
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Olode",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Omifunfun Main Market, Ife South",
+          "slug": "omifunfun-main-market-ife-south",
+          "coordinates": {
+            "lat": 7.18002,
+            "lng": 4.60261
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Omifunfun Main"
+        },
+        {
+          "name": "Omifunfun Market, Ife South",
+          "slug": "omifunfun-market-ife-south",
+          "coordinates": {
+            "lat": 7.179286128,
+            "lng": 4.602222955
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Omifunfun",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Ominla Market, Ife South",
+          "slug": "ominla-market-ife-south",
+          "coordinates": {
+            "lat": 7.23376,
+            "lng": 4.7236
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ominla"
+        },
+        {
+          "name": "Onigbodogi Market, Ife South",
+          "slug": "onigbodogi-market-ife-south",
+          "coordinates": {
+            "lat": 7.14624,
+            "lng": 4.59712
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Onigbodogi"
+        },
+        {
+          "name": "Poika Market, Ife South",
+          "slug": "poika-market-ife-south",
+          "coordinates": {
+            "lat": 7.156956093,
+            "lng": 4.487383378
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Poika",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Poyika Adewumi Market, Ife South",
+          "slug": "poyika-adewumi-market-ife-south",
+          "coordinates": {
+            "lat": 7.1573,
+            "lng": 4.48776
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Poyika Adewumi"
+        },
+        {
+          "name": "Towobaje Market, Ife South",
+          "slug": "towobaje-market-ife-south",
+          "coordinates": {
+            "lat": 7.18103,
+            "lng": 4.69673
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Towobaje"
+        },
+        {
+          "name": "Yinmi Oja Market, Ife South",
+          "slug": "yinmi-oja-market-ife-south",
+          "coordinates": {
+            "lat": 7.18284,
+            "lng": 4.49074
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Yinmi Oja"
+        }
+      ]
     },
     {
       "name": "Ifedayo",
       "slug": "osun-ifedayo",
-      "markets": []
+      "markets": [
+        {
+          "name": "Oyi Ayegunle Market, Ifedayo",
+          "slug": "oyi-ayegunle-market-ifedayo",
+          "coordinates": {
+            "lat": 7.923506667,
+            "lng": 4.945998333
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Oyi Ayegunle",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        }
+      ]
     },
     {
       "name": "Ifelodun",
       "slug": "osun-ifelodun",
-      "markets": []
+      "markets": [
+        {
+          "name": "Alamisi Market, Ifelodun",
+          "slug": "alamisi-market-ifelodun",
+          "coordinates": {
+            "lat": 7.90725,
+            "lng": 4.65581
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Alamisi"
+        },
+        {
+          "name": "Arewa Market, Ifelodun",
+          "slug": "arewa-market-ifelodun",
+          "coordinates": {
+            "lat": 7.919878966,
+            "lng": 4.646436034
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Moboreje",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Ayekale Market, Ifelodun",
+          "slug": "ayekale-market-ifelodun",
+          "coordinates": {
+            "lat": 7.84179,
+            "lng": 4.66309
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Ayekale"
+        },
+        {
+          "name": "Baale Market, Ifelodun",
+          "slug": "baale-market-ifelodun",
+          "coordinates": {
+            "lat": 7.91673,
+            "lng": 4.66964
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Baale"
+        },
+        {
+          "name": "Imori Market, Ifelodun",
+          "slug": "imori-market-ifelodun",
+          "coordinates": {
+            "lat": 7.9254,
+            "lng": 4.67275
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Imori"
+        },
+        {
+          "name": "Monday Market, Ifelodun",
+          "slug": "monday-market-ifelodun",
+          "coordinates": {
+            "lat": 7.91917,
+            "lng": 4.656956
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Monday"
+        },
+        {
+          "name": "Obada Market Aiya Village, Ifelodun",
+          "slug": "obada-market-aiya-village-ifelodun",
+          "coordinates": {
+            "lat": 7.97031,
+            "lng": 4.70396
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Obada Aiya Village"
+        },
+        {
+          "name": "Obada Market Eko Ende, Ifelodun",
+          "slug": "obada-market-eko-ende-ifelodun",
+          "coordinates": {
+            "lat": 7.94446,
+            "lng": 4.59067
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Obada Eko Ende"
+        },
+        {
+          "name": "Obada Market Iba, Ifelodun",
+          "slug": "obada-market-iba-ifelodun",
+          "coordinates": {
+            "lat": 7.970108333,
+            "lng": 4.70399
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "frequency": "Weekly",
+          "type": "Clothing Food Stuff",
+          "local_name": "Obada settlement, Iba, Osun State",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Obada, Ifelodun",
+          "slug": "obada-ifelodun",
+          "coordinates": {
+            "lat": 7.969482597,
+            "lng": 4.703681337
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "frequency": "Other",
+          "type": "Clothing Food Stuff Mixed",
+          "local_name": "Iba",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Oja Baale, Ifelodun",
+          "slug": "oja-baale-ifelodun",
+          "coordinates": {
+            "lat": 7.916691667,
+            "lng": 4.669745
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Oja Baale",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Oja Oba, Ifelodun",
+          "slug": "oja-oba-ifelodun",
+          "coordinates": {
+            "lat": 7.9133,
+            "lng": 4.66705
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "frequency": "Other",
+          "type": "Livestock Food Stuff",
+          "local_name": "Oja oba",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Oja Odebudo Market, Ifelodun",
+          "slug": "oja-odebudo-market-ifelodun",
+          "coordinates": {
+            "lat": 7.86065,
+            "lng": 4.64454
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Oja Odebudo"
+        },
+        {
+          "name": "Olorunda Saturday Market, Ifelodun",
+          "slug": "olorunda-saturday-market-ifelodun",
+          "coordinates": {
+            "lat": 7.944635191,
+            "lng": 4.591938686
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "frequency": "Weekly",
+          "type": "Food Stuff Mixed",
+          "local_name": "Kajola",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Tuesday Market, Ifelodun",
+          "slug": "tuesday-market-ifelodun",
+          "coordinates": {
+            "lat": 7.927582815,
+            "lng": 4.676703238
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Iree Road",
+          "days": [
+            "Tue"
+          ]
+        }
+      ]
     },
     {
       "name": "Ila",
       "slug": "osun-ila",
-      "markets": []
+      "markets": [
+        {
+          "name": "Ajegunle Market, Ila",
+          "slug": "ajegunle-market-ila",
+          "coordinates": {
+            "lat": 8.032777901,
+            "lng": 4.918435423
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Ajegunle",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Elemogun Market, Ila",
+          "slug": "elemogun-market-ila",
+          "coordinates": {
+            "lat": 8.050231512,
+            "lng": 4.950413853
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Elemogun",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Kajola Ajaba Market, Ila",
+          "slug": "kajola-ajaba-market-ila",
+          "coordinates": {
+            "lat": 7.917116967,
+            "lng": 4.900604154
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Kajola Ajaba",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Oja Obi Ila Orangun",
+          "slug": "oja-obi-ila-orangun",
+          "coordinates": {
+            "lat": 8.01767,
+            "lng": 4.90263
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Oja Obi Ila-orangun"
+        },
+        {
+          "name": "Oja Obi Market, Ila",
+          "slug": "oja-obi-market-ila",
+          "coordinates": {
+            "lat": 8.017220238,
+            "lng": 4.9021751
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Oja Obi",
+          "days": [
+            "Tue"
+          ]
+        }
+      ]
     },
     {
       "name": "Ilesa East",
       "slug": "osun-ilesa-east",
-      "markets": []
+      "markets": [
+        {
+          "name": "Orogoji Main Market, Ilesa East",
+          "slug": "orogoji-main-market-ilesa-east",
+          "coordinates": {
+            "lat": 7.58476,
+            "lng": 4.7373
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Orogoji Main"
+        },
+        {
+          "name": "Orogoji Market, Ilesa East",
+          "slug": "orogoji-market-ilesa-east",
+          "coordinates": {
+            "lat": 7.585091275,
+            "lng": 4.737459764
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Orogoji",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Sabo Market, Ilesa East",
+          "slug": "sabo-market-ilesa-east",
+          "coordinates": {
+            "lat": 7.604715,
+            "lng": 4.753451667
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Sabo",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        }
+      ]
     },
     {
       "name": "Ilesa West",
       "slug": "osun-ilesa-west",
-      "markets": []
+      "markets": [
+        {
+          "name": "Atakumosa Market, Ilesa West",
+          "slug": "atakumosa-market-ilesa-west",
+          "coordinates": {
+            "lat": 7.62615,
+            "lng": 4.74075
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Atakumosa"
+        },
+        {
+          "name": "Atakunmosa Market Ilesha, Ilesa West",
+          "slug": "atakunmosa-market-ilesha-ilesa-west",
+          "coordinates": {
+            "lat": 7.625972333,
+            "lng": 4.741756923
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "type": "Mixed",
+          "local_name": "Atakunmosa Ilesha",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Ijofi Market, Ilesa West",
+          "slug": "ijofi-market-ilesa-west",
+          "coordinates": {
+            "lat": 7.61429,
+            "lng": 4.7377
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ijofi"
+        },
+        {
+          "name": "Ilaa Ijesa Market, Ilesa West",
+          "slug": "ilaa-ijesa-market-ilesa-west",
+          "coordinates": {
+            "lat": 7.67097,
+            "lng": 4.66572
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ilaa Ijesa"
+        },
+        {
+          "name": "Irewolede Market, Ilesa West",
+          "slug": "irewolede-market-ilesa-west",
+          "coordinates": {
+            "lat": 7.63364,
+            "lng": 4.7243
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Irewolede"
+        },
+        {
+          "name": "Lejoka Abiola Community Market, Ilesa West",
+          "slug": "lejoka-abiola-community-market-ilesa-west",
+          "coordinates": {
+            "lat": 7.631041667,
+            "lng": 4.758911667
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Food Stuff",
+          "local_name": "Lejoka Abiola Community",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Moroko Garri Market, Ilesa West",
+          "slug": "moroko-garri-market-ilesa-west",
+          "coordinates": {
+            "lat": 7.65237694,
+            "lng": 4.696357066
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Moroko Area",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Oke Omiru Woodstock 2, Ilesa West",
+          "slug": "oke-omiru-woodstock-2-ilesa-west",
+          "coordinates": {
+            "lat": 7.645543714,
+            "lng": 4.744003147
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Oke Omiru Woodstock 2",
+          "days": [
+            "Mon",
+            "Tue"
+          ]
+        },
+        {
+          "name": "Oke Omiru Woodstock, Ilesa West",
+          "slug": "oke-omiru-woodstock-ilesa-west",
+          "coordinates": {
+            "lat": 7.645523159,
+            "lng": 4.74362885
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Oke Omiru Woodstock",
+          "days": [
+            "Mon",
+            "Tue"
+          ]
+        },
+        {
+          "name": "Sabo Market, Ilesa West",
+          "slug": "sabo-market-ilesa-west",
+          "coordinates": {
+            "lat": 7.63033477,
+            "lng": 4.739422136
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Food Stuff Mixed",
+          "local_name": "Sabo",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        }
+      ]
     },
     {
       "name": "Irepodun",
       "slug": "osun-irepodun",
       "markets": [
+        {
+          "name": "Olobu Market, Irepodun",
+          "slug": "olobu-market-irepodun",
+          "coordinates": {
+            "lat": 7.84709,
+            "lng": 4.48314
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Olobu"
+        },
         {
           "name": "Olobu, Irepodun",
           "slug": "olobu-irepodun",
@@ -108,6 +2627,35 @@
             "lat": 7.84094,
             "lng": 4.484643
           }
+        },
+        {
+          "name": "Oodo Eja Plank Market, Irepodun",
+          "slug": "oodo-eja-plank-market-irepodun",
+          "coordinates": {
+            "lat": 7.865865,
+            "lng": 4.482655
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Oodo Eja Plank",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Ore Market, Irepodun",
+          "slug": "ore-market-irepodun",
+          "coordinates": {
+            "lat": 7.962922425,
+            "lng": 4.566632511
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Ore",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
         }
       ]
     },
@@ -116,6 +2664,32 @@
       "slug": "osun-irewole",
       "markets": [
         {
+          "name": "Oba Oyegunle Market Ikire, Irewole",
+          "slug": "oba-oyegunle-market-ikire-irewole",
+          "coordinates": {
+            "lat": 7.37372,
+            "lng": 4.18217
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Oba Oyegunle Ikire"
+        },
+        {
+          "name": "Obada Market, Irewole",
+          "slug": "obada-market-irewole",
+          "coordinates": {
+            "lat": 7.372156896,
+            "lng": 4.182657887
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Ita merin",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
           "name": "Obada, Irewole",
           "slug": "obada-irewole",
           "coordinates": {
@@ -123,38 +2697,833 @@
             "lng": 4.18
           },
           "added_by": "stephenolajire"
+        },
+        {
+          "name": "Oja Ayebaju, Irewole",
+          "slug": "oja-ayebaju-irewole",
+          "coordinates": {
+            "lat": 7.425153333,
+            "lng": 4.189496667
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Food Stuff",
+          "local_name": "Oja Ayebaju",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Orisunbare Market Ikire, Irewole",
+          "slug": "orisunbare-market-ikire-irewole",
+          "coordinates": {
+            "lat": 7.38118,
+            "lng": 4.18041
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Orisunbare Ikire"
+        },
+        {
+          "name": "Orisunbare Market, Irewole",
+          "slug": "orisunbare-market-irewole",
+          "coordinates": {
+            "lat": 7.382002239,
+            "lng": 4.180229975
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Orisunbare",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Waasinmi Market, Irewole",
+          "slug": "waasinmi-market-irewole",
+          "coordinates": {
+            "lat": 7.437035,
+            "lng": 4.262793333
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Waasinmi",
+          "days": [
+            "Wed"
+          ]
         }
       ]
     },
     {
       "name": "Isokan",
       "slug": "osun-isokan",
-      "markets": []
+      "markets": [
+        {
+          "name": "Total Market, Isokan",
+          "slug": "total-market-isokan",
+          "coordinates": {
+            "lat": 7.352656593,
+            "lng": 4.180266807
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Total",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        }
+      ]
     },
     {
       "name": "Iwo",
       "slug": "osun-iwo",
-      "markets": []
+      "markets": [
+        {
+          "name": "Iso Malu Market, Iwo",
+          "slug": "iso-malu-market-iwo",
+          "coordinates": {
+            "lat": 7.645090566,
+            "lng": 4.166350725
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Iso Malu",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Obajoko Market, Iwo",
+          "slug": "obajoko-market-iwo",
+          "coordinates": {
+            "lat": 7.694501884,
+            "lng": 4.087534039
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Obajoko",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Odo Ori Market, Iwo",
+          "slug": "odo-ori-market-iwo",
+          "coordinates": {
+            "lat": 7.65457,
+            "lng": 4.18966
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Odo Ori"
+        },
+        {
+          "name": "Oja Oba Market, Iwo",
+          "slug": "oja-oba-market-iwo",
+          "coordinates": {
+            "lat": 7.634990436,
+            "lng": 4.179922536
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "type": "Food Stuff",
+          "local_name": "Oja Oba",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Oluwo Market, Iwo",
+          "slug": "oluwo-market-iwo",
+          "coordinates": {
+            "lat": 7.624931999,
+            "lng": 4.155071174
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Food Stuff",
+          "local_name": "Oluwo",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        }
+      ]
     },
     {
       "name": "Obokun",
       "slug": "osun-obokun",
-      "markets": []
+      "markets": [
+        {
+          "name": "Ajode Community Market Ayetoro, Obokun",
+          "slug": "ajode-community-market-ayetoro-obokun",
+          "coordinates": {
+            "lat": 7.83733,
+            "lng": 4.90804
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ajode Community Ayetoro"
+        },
+        {
+          "name": "Anaye Market Imesi Ile, Obokun",
+          "slug": "anaye-market-imesi-ile-obokun",
+          "coordinates": {
+            "lat": 7.83644,
+            "lng": 4.84146
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Anaye Imesi Ile"
+        },
+        {
+          "name": "Anaye Market, Obokun",
+          "slug": "anaye-market-obokun",
+          "coordinates": {
+            "lat": 7.836284288,
+            "lng": 4.841494319
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Anaye",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Esa Odo Market, Obokun",
+          "slug": "esa-odo-market-obokun",
+          "coordinates": {
+            "lat": 7.7548,
+            "lng": 4.81953
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Esa Odo"
+        },
+        {
+          "name": "Fabo Market Efon Alaye Road, Obokun",
+          "slug": "fabo-market-efon-alaye-road-obokun",
+          "coordinates": {
+            "lat": 7.699795,
+            "lng": 4.886943333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Erelu Bisi Fayemi market fabo",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Fabo Market, Obokun",
+          "slug": "fabo-market-obokun",
+          "coordinates": {
+            "lat": 7.699828333,
+            "lng": 4.886868333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Fabo matket",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Ibokun Market, Obokun",
+          "slug": "ibokun-market-obokun",
+          "coordinates": {
+            "lat": 7.7902,
+            "lng": 4.72821
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ibokun"
+        },
+        {
+          "name": "Idoka Market, Obokun",
+          "slug": "idoka-market-obokun",
+          "coordinates": {
+            "lat": 7.69826,
+            "lng": 4.70907
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Idoka"
+        },
+        {
+          "name": "Ikinyinwa Market, Obokun",
+          "slug": "ikinyinwa-market-obokun",
+          "coordinates": {
+            "lat": 7.751868478,
+            "lng": 4.71914974
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Ikinyinwa",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Ilahun Main Market, Obokun",
+          "slug": "ilahun-main-market-obokun",
+          "coordinates": {
+            "lat": 7.76068,
+            "lng": 4.76844
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ilahun Main"
+        },
+        {
+          "name": "Ilare Market, Obokun",
+          "slug": "ilare-market-obokun",
+          "coordinates": {
+            "lat": 7.790761667,
+            "lng": 4.78655
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Ilare",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Ilasa Market, Obokun",
+          "slug": "ilasa-market-obokun",
+          "coordinates": {
+            "lat": 7.753087319,
+            "lng": 4.71041486
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Ilasa",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Ilase Market, Obokun",
+          "slug": "ilase-market-obokun",
+          "coordinates": {
+            "lat": 7.75126,
+            "lng": 4.70899
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ilase"
+        },
+        {
+          "name": "Iregun Market, Obokun",
+          "slug": "iregun-market-obokun",
+          "coordinates": {
+            "lat": 7.681271081,
+            "lng": 4.7045454
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Iregun",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Oba Adejoro Otebokaku Market, Obokun",
+          "slug": "oba-adejoro-otebokaku-market-obokun",
+          "coordinates": {
+            "lat": 7.78518,
+            "lng": 4.79192
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Oba Adejoro Otebokaku"
+        },
+        {
+          "name": "Oba Adeteju Adeyeye Market, Obokun",
+          "slug": "oba-adeteju-adeyeye-market-obokun",
+          "coordinates": {
+            "lat": 7.725094489,
+            "lng": 4.713024416
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Oba Adeteju Adeyeye",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Olorunda Cda Market, Obokun",
+          "slug": "olorunda-cda-market-obokun",
+          "coordinates": {
+            "lat": 7.73103,
+            "lng": 4.67607
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Olorunda CDA"
+        },
+        {
+          "name": "Otan Ile Main Market, Obokun",
+          "slug": "otan-ile-main-market-obokun",
+          "coordinates": {
+            "lat": 7.81694,
+            "lng": 4.77802
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Otan Ile Main"
+        },
+        {
+          "name": "Otan Ile Market, Obokun",
+          "slug": "otan-ile-market-obokun",
+          "coordinates": {
+            "lat": 7.816777164,
+            "lng": 4.778187534
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Otan Ile",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Owamiran Market Esa Oke, Obokun",
+          "slug": "owamiran-market-esa-oke-obokun",
+          "coordinates": {
+            "lat": 7.758564855,
+            "lng": 4.89659439
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Owamiran Esa Oke",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Owamiran Market, Obokun",
+          "slug": "owamiran-market-obokun",
+          "coordinates": {
+            "lat": 7.75848,
+            "lng": 4.89664
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Owamiran"
+        }
+      ]
     },
     {
       "name": "Odo Otin",
       "slug": "osun-odo-otin",
-      "markets": []
+      "markets": [
+        {
+          "name": "Asi Market, Odo Otin",
+          "slug": "asi-market-odo-otin",
+          "coordinates": {
+            "lat": 8.05848,
+            "lng": 4.79401
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Asi"
+        },
+        {
+          "name": "Atapa Market, Odo Otin",
+          "slug": "atapa-market-odo-otin",
+          "coordinates": {
+            "lat": 8.05074,
+            "lng": 4.59179
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Atapa"
+        },
+        {
+          "name": "Ekusa Central Market, Odo Otin",
+          "slug": "ekusa-central-market-odo-otin",
+          "coordinates": {
+            "lat": 8.011466144,
+            "lng": 4.65533467
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Ekusa Central",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Faaji Maket, Odo Otin",
+          "slug": "faaji-maket-odo-otin",
+          "coordinates": {
+            "lat": 8.03061,
+            "lng": 4.62548
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Faaji Maket"
+        },
+        {
+          "name": "Igbaye Market, Odo Otin",
+          "slug": "igbaye-market-odo-otin",
+          "coordinates": {
+            "lat": 8.037266791,
+            "lng": 4.646214203
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Igbaye",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kara Market Konta Ijabe, Odo Otin",
+          "slug": "kara-market-konta-ijabe-odo-otin",
+          "coordinates": {
+            "lat": 8.043953858,
+            "lng": 4.690208193
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Kara Konta Ijabe",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Obada Market Igbaye, Odo Otin",
+          "slug": "obada-market-igbaye-odo-otin",
+          "coordinates": {
+            "lat": 8.03633,
+            "lng": 4.64676
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Obada Igbaye"
+        },
+        {
+          "name": "Obada Market Ijabe, Odo Otin",
+          "slug": "obada-market-ijabe-odo-otin",
+          "coordinates": {
+            "lat": 8.03635,
+            "lng": 4.69673
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Obada Ijabe"
+        },
+        {
+          "name": "Orisunbare Market Inisa, Odo Otin",
+          "slug": "orisunbare-market-inisa-odo-otin",
+          "coordinates": {
+            "lat": 7.98385,
+            "lng": 4.64704
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Orisunbare Inisa"
+        },
+        {
+          "name": "Orisunmibare Market Inisa, Odo Otin",
+          "slug": "orisunmibare-market-inisa-odo-otin",
+          "coordinates": {
+            "lat": 7.983970929,
+            "lng": 4.64714
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Orisunmibare Inisa",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Owode Market Oyan, Odo Otin",
+          "slug": "owode-market-oyan-odo-otin",
+          "coordinates": {
+            "lat": 8.04619,
+            "lng": 4.77097
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Owode Oyan"
+        },
+        {
+          "name": "Owode, Odo Otin",
+          "slug": "owode-odo-otin",
+          "coordinates": {
+            "lat": 8.015707154,
+            "lng": 4.672490165
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Owode",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Wednesday Market, Odo Otin",
+          "slug": "wednesday-market-odo-otin",
+          "coordinates": {
+            "lat": 7.968657361,
+            "lng": 4.65743979
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Wednesday",
+          "days": [
+            "Wed"
+          ]
+        }
+      ]
     },
     {
       "name": "Ola Oluwa",
       "slug": "osun-ola-oluwa",
-      "markets": []
+      "markets": [
+        {
+          "name": "Ajoda Ola Oluwa Marketbode Osi",
+          "slug": "ajoda-ola-oluwa-marketbode-osi",
+          "coordinates": {
+            "lat": 7.738010015,
+            "lng": 4.224636405
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Food Stuff Mixed",
+          "local_name": "Ajoda Ola-oluwa bode Osi",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Asa Market, Ola Oluwa",
+          "slug": "asa-market-ola-oluwa",
+          "coordinates": {
+            "lat": 7.794789938,
+            "lng": 4.226924135
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Asa",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Bode Osi Market, Ola Oluwa",
+          "slug": "bode-osi-market-ola-oluwa",
+          "coordinates": {
+            "lat": 7.752257246,
+            "lng": 4.23015974
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Bode Osi",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Obada Market Ogbagba, Ola Oluwa",
+          "slug": "obada-market-ogbagba-ola-oluwa",
+          "coordinates": {
+            "lat": 7.69737,
+            "lng": 4.24915
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Obada Ogbagba"
+        },
+        {
+          "name": "Obada Market Telemu, Ola Oluwa",
+          "slug": "obada-market-telemu-ola-oluwa",
+          "coordinates": {
+            "lat": 7.66951,
+            "lng": 4.26231
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Obada Telemu"
+        },
+        {
+          "name": "Obada Market, Ola Oluwa",
+          "slug": "obada-market-ola-oluwa",
+          "coordinates": {
+            "lat": 7.698065,
+            "lng": 4.249988333
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Obada",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Telemu Market, Ola Oluwa",
+          "slug": "telemu-market-ola-oluwa",
+          "coordinates": {
+            "lat": 7.669633426,
+            "lng": 4.262337794
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Telemu",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        }
+      ]
     },
     {
       "name": "Olorunda",
       "slug": "osun-olorunda",
       "markets": [
+        {
+          "name": "Ayedaade Market, Olorunda",
+          "slug": "ayedaade-market-olorunda",
+          "coordinates": {
+            "lat": 7.8236,
+            "lng": 4.64181
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ayedaade"
+        },
+        {
+          "name": "Ayepe Market, Olorunda",
+          "slug": "ayepe-market-olorunda",
+          "coordinates": {
+            "lat": 7.857671233,
+            "lng": 4.631121034
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Ayepe",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Egbeda Market, Olorunda",
+          "slug": "egbeda-market-olorunda",
+          "coordinates": {
+            "lat": 7.7987,
+            "lng": 4.65383
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Egbeda"
+        },
+        {
+          "name": "Igbokiti Market, Olorunda",
+          "slug": "igbokiti-market-olorunda",
+          "coordinates": {
+            "lat": 7.85944,
+            "lng": 4.54272
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Igbokiti"
+        },
+        {
+          "name": "Igbokiti, Olorunda",
+          "slug": "igbokiti-olorunda",
+          "coordinates": {
+            "lat": 7.859328927,
+            "lng": 4.542417062
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "frequency": "Bi-Weekly",
+          "type": "Mixed",
+          "local_name": "Igbokiti",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Igbona Marekt, Olorunda",
+          "slug": "igbona-marekt-olorunda",
+          "coordinates": {
+            "lat": 7.78086,
+            "lng": 4.55756
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Igbona Marekt"
+        },
+        {
+          "name": "Igbona Market, Olorunda",
+          "slug": "igbona-market-olorunda",
+          "coordinates": {
+            "lat": 7.780648342,
+            "lng": 4.557299743
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Igbona Area",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Irepodun Market Oba Ile, Olorunda",
+          "slug": "irepodun-market-oba-ile-olorunda",
+          "coordinates": {
+            "lat": 7.90928,
+            "lng": 4.57829
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Irepodun Oba Ile"
+        },
+        {
+          "name": "Iso Oloko Market Bishop Road, Olorunda",
+          "slug": "iso-oloko-market-bishop-road-olorunda",
+          "coordinates": {
+            "lat": 7.778038543,
+            "lng": 4.556413093
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Iso-oloko Bishop Road",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Mpt Shopping Complex, Olorunda",
+          "slug": "mpt-shopping-complex-olorunda",
+          "coordinates": {
+            "lat": 7.811588192,
+            "lng": 4.584695656
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "MPT Shopping Complex",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Obada Market, Olorunda",
+          "slug": "obada-market-olorunda",
+          "coordinates": {
+            "lat": 7.906446816,
+            "lng": 4.579594458
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Obada",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Oja Aro Market, Olorunda",
+          "slug": "oja-aro-market-olorunda",
+          "coordinates": {
+            "lat": 7.823650077,
+            "lng": 4.641731713
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Oja Aro",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
         {
           "name": "Oja Igbona, Olorunda",
           "slug": "oja-igbona-olorunda",
@@ -164,24 +3533,405 @@
           }
         },
         {
+          "name": "Oluode Market, Olorunda",
+          "slug": "oluode-market-olorunda",
+          "coordinates": {
+            "lat": 7.868050321,
+            "lng": 4.599294319
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "frequency": "Other",
+          "type": "Mixed",
+          "local_name": "Oluode",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
           "name": "Orisumbare, Olorunda",
           "slug": "orisumbare-olorunda",
           "coordinates": {
             "lat": 7.782899,
             "lng": 4.542488
           }
+        },
+        {
+          "name": "Otaefun Market, Olorunda",
+          "slug": "otaefun-market-olorunda",
+          "coordinates": {
+            "lat": 7.818528978,
+            "lng": 4.587612134
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Otaefun",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Owode Market Oba Oke, Olorunda",
+          "slug": "owode-market-oba-oke-olorunda",
+          "coordinates": {
+            "lat": 7.90199,
+            "lng": 4.57846
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Owode Oba Oke"
+        },
+        {
+          "name": "Owode Market, Olorunda",
+          "slug": "owode-market-olorunda",
+          "coordinates": {
+            "lat": 7.902108333,
+            "lng": 4.57842
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Owode",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Saara Ayepe Market, Olorunda",
+          "slug": "saara-ayepe-market-olorunda",
+          "coordinates": {
+            "lat": 7.827083341,
+            "lng": 4.661964226
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Food Stuff Mixed",
+          "local_name": "Saara Ayepe",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "St John Anglican Shopping Complex, Olorunda",
+          "slug": "st-john-anglican-shopping-complex-olorunda",
+          "coordinates": {
+            "lat": 7.90499,
+            "lng": 4.58149
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "St John Anglican Shopping Complex"
         }
       ]
     },
     {
       "name": "Oriade",
       "slug": "osun-oriade",
-      "markets": []
+      "markets": [
+        {
+          "name": "Anayes Market, Oriade",
+          "slug": "anayes-market-oriade",
+          "coordinates": {
+            "lat": 7.560934048,
+            "lng": 4.879365021
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Food Stuff",
+          "local_name": "Anaye",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Apoti Market, Oriade",
+          "slug": "apoti-market-oriade",
+          "coordinates": {
+            "lat": 7.37934,
+            "lng": 4.89191
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Apoti"
+        },
+        {
+          "name": "Erin Ijesa Market, Oriade",
+          "slug": "erin-ijesa-market-oriade",
+          "coordinates": {
+            "lat": 7.56847,
+            "lng": 4.89363
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Erin Ijesa"
+        },
+        {
+          "name": "Erin Oke Market, Oriade",
+          "slug": "erin-oke-market-oriade",
+          "coordinates": {
+            "lat": 7.55109,
+            "lng": 4.88297
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Erin Oke"
+        },
+        {
+          "name": "Erinmo Ijesa Market, Oriade",
+          "slug": "erinmo-ijesa-market-oriade",
+          "coordinates": {
+            "lat": 7.623935,
+            "lng": 4.857016667
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Erinmo Ijesa",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Erinmo Market, Oriade",
+          "slug": "erinmo-market-oriade",
+          "coordinates": {
+            "lat": 7.62375,
+            "lng": 4.856808333
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Food Stuff Mixed",
+          "local_name": "Erinmo",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Ijebu Ijesa Odogo International Market, Oriade",
+          "slug": "ijebu-ijesa-odogo-international-market-oriade",
+          "coordinates": {
+            "lat": 7.68783,
+            "lng": 4.83275
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Ijebu-ijesa Odogo International"
+        },
+        {
+          "name": "Ijebu Jesa Market, Oriade",
+          "slug": "ijebu-jesa-market-oriade",
+          "coordinates": {
+            "lat": 7.682507034,
+            "lng": 4.81567122
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Ijebu Jesa",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Ijeda Market, Oriade",
+          "slug": "ijeda-market-oriade",
+          "coordinates": {
+            "lat": 7.65599,
+            "lng": 4.83693
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Ijeda"
+        },
+        {
+          "name": "Ikeji Arakeji Market, Oriade",
+          "slug": "ikeji-arakeji-market-oriade",
+          "coordinates": {
+            "lat": 7.4296,
+            "lng": 4.94961
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ikeji Arakeji"
+        },
+        {
+          "name": "Ikeji Ile Market, Oriade",
+          "slug": "ikeji-ile-market-oriade",
+          "coordinates": {
+            "lat": 7.48537,
+            "lng": 4.92431
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ikeji Ile"
+        },
+        {
+          "name": "Iloko Market, Oriade",
+          "slug": "iloko-market-oriade",
+          "coordinates": {
+            "lat": 7.64699,
+            "lng": 4.81651
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Iloko"
+        },
+        {
+          "name": "Ipetu Ijesa 8 Day Market, Oriade",
+          "slug": "ipetu-ijesa-8-day-market-oriade",
+          "coordinates": {
+            "lat": 7.464227996,
+            "lng": 4.89000847
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Ipetu Ijesa 8 Day",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Iwoye Ijesa Market, Oriade",
+          "slug": "iwoye-ijesa-market-oriade",
+          "coordinates": {
+            "lat": 7.691085,
+            "lng": 4.816498333
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "frequency": "Other",
+          "type": "Clothing Livestock Food Stuff Mixed Other",
+          "local_name": "Iwoye ijesa",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Monday Market Near Total Filling Station, Oriade",
+          "slug": "monday-market-near-total-filling-station-oriade",
+          "coordinates": {
+            "lat": 7.468955,
+            "lng": 4.891163333
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Food Stuff",
+          "local_name": "Monday Near Total Filling Station",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Odo Oja Ijeda Near Obas Palace, Oriade",
+          "slug": "odo-oja-ijeda-near-obas-palace-oriade",
+          "coordinates": {
+            "lat": 7.655856381,
+            "lng": 4.836865984
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Odo Oja Ijeda Near Obas Palace",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Oja Oba Ilupeju Market, Oriade",
+          "slug": "oja-oba-ilupeju-market-oriade",
+          "coordinates": {
+            "lat": 7.426863385,
+            "lng": 4.868696005
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Food Stuff",
+          "local_name": "Oja Oba Ilupeju",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Oja Oba Market, Oriade",
+          "slug": "oja-oba-market-oriade",
+          "coordinates": {
+            "lat": 7.601241667,
+            "lng": 4.863445
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Oja Oba",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Olorunda Market Erin Oke Akure Express Road, Oriade",
+          "slug": "olorunda-market-erin-oke-akure-express-road-oriade",
+          "coordinates": {
+            "lat": 7.55132613,
+            "lng": 4.882575706
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Food Stuff",
+          "local_name": "Olorunda Erin Oke Akure Express Road",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Omo Ijema Market, Oriade",
+          "slug": "omo-ijema-market-oriade",
+          "coordinates": {
+            "lat": 7.60118,
+            "lng": 4.86345
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Omo Ijema"
+        },
+        {
+          "name": "Omo Ijesa Market, Oriade",
+          "slug": "omo-ijesa-market-oriade",
+          "coordinates": {
+            "lat": 7.601831667,
+            "lng": 4.865646667
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Omo Ijesa",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Onikoko Market, Oriade",
+          "slug": "onikoko-market-oriade",
+          "coordinates": {
+            "lat": 7.40365,
+            "lng": 4.87985
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Onikoko"
+        },
+        {
+          "name": "Three Days Market, Oriade",
+          "slug": "three-days-market-oriade",
+          "coordinates": {
+            "lat": 7.68198,
+            "lng": 4.81577
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Three Days"
+        },
+        {
+          "name": "Twoye Market, Oriade",
+          "slug": "twoye-market-oriade",
+          "coordinates": {
+            "lat": 7.69163,
+            "lng": 4.81643
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Twoye"
+        }
+      ]
     },
     {
       "name": "Orolu",
       "slug": "osun-orolu",
       "markets": [
+        {
+          "name": "Gboro Planks Market, Orolu",
+          "slug": "gboro-planks-market-orolu",
+          "coordinates": {
+            "lat": 7.859163378,
+            "lng": 4.480739505
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Gboro Planks",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
         {
           "name": "Ifon, Orolu",
           "slug": "ifon-orolu",
@@ -189,6 +3939,16 @@
             "lat": 7.853902,
             "lng": 4.431178
           }
+        },
+        {
+          "name": "Obada Olufun Market, Orolu",
+          "slug": "obada-olufun-market-orolu",
+          "coordinates": {
+            "lat": 7.85342,
+            "lng": 4.47599
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Obada Olufun"
         }
       ]
     },
@@ -196,6 +3956,118 @@
       "name": "Osogbo",
       "slug": "osun-osogbo",
       "markets": [
+        {
+          "name": "Ajegunle Spare Part Market, Osogbo",
+          "slug": "ajegunle-spare-part-market-osogbo",
+          "coordinates": {
+            "lat": 7.78106,
+            "lng": 4.55142
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Ajegunle"
+        },
+        {
+          "name": "Akintedo Market, Osogbo",
+          "slug": "akintedo-market-osogbo",
+          "coordinates": {
+            "lat": 7.77675,
+            "lng": 4.54428
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Akintedo"
+        },
+        {
+          "name": "Alekuwodo Market, Osogbo",
+          "slug": "alekuwodo-market-osogbo",
+          "coordinates": {
+            "lat": 7.777140867,
+            "lng": 4.544247043
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "local_name": "Alekuwodo",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Anaye Market, Osogbo",
+          "slug": "anaye-market-osogbo",
+          "coordinates": {
+            "lat": 7.792218045,
+            "lng": 4.558127439
+          },
+          "added_by": "GRID3 (najib.adam)",
+          "type": "Mixed",
+          "local_name": "Anaye",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Ayegbaju International Market, Osogbo",
+          "slug": "ayegbaju-international-market-osogbo",
+          "coordinates": {
+            "lat": 7.765429941,
+            "lng": 4.537673408
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "type": "Mixed",
+          "local_name": "Ayegbaju",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Betty Market Ajiborisa, Osogbo",
+          "slug": "betty-market-ajiborisa-osogbo",
+          "coordinates": {
+            "lat": 7.78537,
+            "lng": 4.54543
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Betty Ajiborisa"
+        },
+        {
+          "name": "Hamed Omidiran Sasa Main Market, Osogbo",
+          "slug": "hamed-omidiran-sasa-main-market-osogbo",
+          "coordinates": {
+            "lat": 7.769611521,
+            "lng": 4.582991548
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Hamed Omidiran Sasa Main",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Hammed Omidiran Sasa International Main Market, Osogbo",
+          "slug": "hammed-omidiran-sasa-international-main-market-osogbo",
+          "coordinates": {
+            "lat": 7.769388333,
+            "lng": 4.58282
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "type": "Mixed",
+          "local_name": "Hammed Omidiran Sasa International Main",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Matanmi Market, Osogbo",
+          "slug": "matanmi-market-osogbo",
+          "coordinates": {
+            "lat": 7.77347,
+            "lng": 4.55088
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Matanmi"
+        },
         {
           "name": "Oja Oba, Osogbo",
           "slug": "oja-oba-osogbo",
