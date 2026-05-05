@@ -64,6 +64,17 @@ export const HomePage: FC<HomeProps> = ({
             Iya Oloja is a community-powered API and directory for markets across all 36 states and the FCT.
             Search, explore, and contribute to Nigeria's open market data.
           </p>
+          <p class="source-note">
+            Some market records are sourced from{' '}
+            <a
+              href="https://data.grid3.org/datasets/38201adf2211405989d83c546a58c8fb_0/explore?location=9.027920%2C8.672295%2C6"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GRID3
+            </a>
+            .
+          </p>
 
           <div class="hero-actions">
             <a href="/docs" class="btn btn-glow">

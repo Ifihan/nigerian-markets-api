@@ -515,6 +515,34 @@ components:
           type:
             - number
             - "null"
+        added_by:
+          type:
+            - string
+            - "null"
+          description: Contributor or source attribution label
+        frequency:
+          type:
+            - string
+            - "null"
+          description: Market trading frequency when known
+        days:
+          type:
+            - array
+            - "null"
+          description: Trading days derived from explicit day flags in the source dataset
+          items:
+            type: string
+            enum: [Mon, Tue, Wed, Thu, Fri, Sat, Sun]
+        type:
+          type:
+            - string
+            - "null"
+          description: Market type/category when available
+        local_name:
+          type:
+            - string
+            - "null"
+          description: Local or settlement market name from the source dataset
     MarketSearchResult:
       allOf:
         - $ref: "#/components/schemas/Market"

@@ -19,6 +19,10 @@ export interface Market {
   lat: number | null;
   lng: number | null;
   added_by: string | null;
+  frequency?: string | null;
+  days?: string[] | null;
+  type?: string | null;
+  local_name?: string | null;
 }
 
 // Data file types (JSON structure in data/states/*.json)
@@ -27,6 +31,10 @@ export interface MarketData {
   slug: string;
   coordinates?: { lat: number; lng: number };
   added_by?: string;
+  frequency?: string;
+  days?: string[];
+  type?: string;
+  local_name?: string;
 }
 
 export interface LGAData {

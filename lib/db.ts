@@ -1,5 +1,36 @@
 import type { State, LGA, Market } from '../types';
 
+function parseDays(days: string | null | undefined): string[] | null {
+  if (!days) return null;
+
+  try {
+    const parsed = JSON.parse(days);
+    if (Array.isArray(parsed) && parsed.every((value) => typeof value === 'string')) {
+      return parsed;
+    }
+  } catch {
+    return null;
+  }
+
+  return null;
+}
+
+function mapMarketRow(row: Record<string, unknown>): Market {
+  return {
+    id: Number(row.id),
+    lga_id: Number(row.lga_id),
+    name: String(row.name),
+    slug: String(row.slug),
+    lat: typeof row.lat === 'number' ? row.lat : row.lat == null ? null : Number(row.lat),
+    lng: typeof row.lng === 'number' ? row.lng : row.lng == null ? null : Number(row.lng),
+    added_by: typeof row.added_by === 'string' ? row.added_by : null,
+    frequency: typeof row.frequency === 'string' ? row.frequency : null,
+    days: typeof row.days === 'string' || row.days == null ? parseDays(row.days as string | null) : null,
+    type: typeof row.type === 'string' ? row.type : null,
+    local_name: typeof row.local_name === 'string' ? row.local_name : null,
+  };
+}
+
 export async function getStates(db: D1Database): Promise<State[]> {
   const { results } = await db.prepare('SELECT * FROM states ORDER BY name').all<State>();
   return results;
@@ -94,11 +125,13 @@ export async function getLGABySlug(
   };
 
   if (opts.includeMarkets) {
-    const { results: markets } = await db
-      .prepare('SELECT id, lga_id, name, slug, lat, lng, added_by FROM markets WHERE lga_id = ? ORDER BY name')
+    const { results } = await db
+      .prepare(
+        'SELECT id, lga_id, name, slug, lat, lng, added_by, frequency, days, type, local_name FROM markets WHERE lga_id = ? ORDER BY name'
+      )
       .bind(lga.id)
-      .all<Market>();
-    data.markets = markets;
+      .all();
+    data.markets = (results ?? []).map((row) => mapMarketRow(row as Record<string, unknown>));
   }
 
   return data;
@@ -151,7 +184,8 @@ export async function getMarkets(
 
   const { results: markets } = await db
     .prepare(
-      `SELECT m.id, m.lga_id, m.name, m.slug, m.lat, m.lng, l.name as lga_name, l.slug as lga_slug, s.name as state_name, s.slug as state_slug
+      `SELECT m.id, m.lga_id, m.name, m.slug, m.lat, m.lng, m.added_by, m.frequency, m.days, m.type, m.local_name,
+              l.name as lga_name, l.slug as lga_slug, s.name as state_name, s.slug as state_slug
        FROM markets m
        JOIN lgas l ON m.lga_id = l.id
        JOIN states s ON l.state_id = s.id
@@ -162,7 +196,16 @@ export async function getMarkets(
     .bind(...bindings, opts.limit, opts.offset)
     .all();
 
-  return { markets, total };
+  return {
+    markets: (markets ?? []).map((row) => ({
+      ...mapMarketRow(row as Record<string, unknown>),
+      lga_name: row.lga_name,
+      lga_slug: row.lga_slug,
+      state_name: row.state_name,
+      state_slug: row.state_slug,
+    })),
+    total,
+  };
 }
 
 export async function getCoverageSummary(db: D1Database) {

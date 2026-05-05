@@ -5,107 +5,4388 @@
     {
       "name": "Demsa",
       "slug": "adamawa-demsa",
-      "markets": []
+      "markets": [
+        {
+          "name": "Bariki Market, Demsa",
+          "slug": "bariki-market-demsa",
+          "coordinates": {
+            "lat": 9.251181,
+            "lng": 11.69021
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Bariki"
+        },
+        {
+          "name": "Bille Main Market, Demsa",
+          "slug": "bille-main-market-demsa",
+          "coordinates": {
+            "lat": 9.258478,
+            "lng": 11.89812
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Bille Main"
+        },
+        {
+          "name": "Borrong Market, Demsa",
+          "slug": "borrong-market-demsa",
+          "coordinates": {
+            "lat": 9.538976,
+            "lng": 12.17885
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Borrong"
+        },
+        {
+          "name": "Green Village Market, Demsa",
+          "slug": "green-village-market-demsa",
+          "coordinates": {
+            "lat": 9.450184465,
+            "lng": 12.03629973
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Green Village"
+        },
+        {
+          "name": "Kasuwan Dong, Demsa",
+          "slug": "kasuwan-dong-demsa",
+          "coordinates": {
+            "lat": 9.401628,
+            "lng": 11.91569
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Dong"
+        },
+        {
+          "name": "Kasuwan Konah, Demsa",
+          "slug": "kasuwan-konah-demsa",
+          "coordinates": {
+            "lat": 9.369699,
+            "lng": 11.93156
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Konah"
+        },
+        {
+          "name": "Kasuwar Dwam Dakanta, Demsa",
+          "slug": "kasuwar-dwam-dakanta-demsa",
+          "coordinates": {
+            "lat": 9.45322,
+            "lng": 12.06807
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Dwam Dakanta"
+        },
+        {
+          "name": "Kasuwar Gadina, Demsa",
+          "slug": "kasuwar-gadina-demsa",
+          "coordinates": {
+            "lat": 9.44761,
+            "lng": 12.03545
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Gadina"
+        },
+        {
+          "name": "Kasuwar Gidan Rimi, Demsa",
+          "slug": "kasuwar-gidan-rimi-demsa",
+          "coordinates": {
+            "lat": 9.31622,
+            "lng": 11.81491
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Gidan Rimi"
+        },
+        {
+          "name": "Katin Gushi Market, Demsa",
+          "slug": "katin-gushi-market-demsa",
+          "coordinates": {
+            "lat": 9.533659,
+            "lng": 12.18998
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Katin Gushi"
+        },
+        {
+          "name": "Kwabba Wakka Market, Demsa",
+          "slug": "kwabba-wakka-market-demsa",
+          "coordinates": {
+            "lat": 9.335509,
+            "lng": 11.86292
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kwabba Wakka"
+        },
+        {
+          "name": "Mararaba Market, Demsa",
+          "slug": "mararaba-market-demsa",
+          "coordinates": {
+            "lat": 9.451934,
+            "lng": 12.06557
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Mararaba"
+        },
+        {
+          "name": "New Market Numan, Demsa",
+          "slug": "new-market-numan-demsa",
+          "coordinates": {
+            "lat": 9.466169726,
+            "lng": 12.03670656
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "New Numan"
+        },
+        {
+          "name": "Numukela Bakin Kasuwa Market, Demsa",
+          "slug": "numukela-bakin-kasuwa-market-demsa",
+          "coordinates": {
+            "lat": 9.302731,
+            "lng": 11.76258
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Numukela Bakin Kasuwa"
+        },
+        {
+          "name": "Tagombali Market, Demsa",
+          "slug": "tagombali-market-demsa",
+          "coordinates": {
+            "lat": 9.329267,
+            "lng": 11.83965
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Tagombali"
+        },
+        {
+          "name": "Tereh Market, Demsa",
+          "slug": "tereh-market-demsa",
+          "coordinates": {
+            "lat": 9.248412,
+            "lng": 11.85811
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Tereh"
+        },
+        {
+          "name": "Yungur Market, Demsa",
+          "slug": "yungur-market-demsa",
+          "coordinates": {
+            "lat": 9.540756,
+            "lng": 12.1791
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Yungur"
+        }
+      ]
     },
     {
       "name": "Fufore",
       "slug": "adamawa-fufore",
-      "markets": []
+      "markets": [
+        {
+          "name": "Chigari Market, Fufore",
+          "slug": "chigari-market-fufore",
+          "coordinates": {
+            "lat": 9.06638858,
+            "lng": 12.66122437
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Chigari",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Chikito Market, Fufore",
+          "slug": "chikito-market-fufore",
+          "coordinates": {
+            "lat": 9.24230072,
+            "lng": 12.87395141
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Chikito"
+        },
+        {
+          "name": "Fufore New Market",
+          "slug": "fufore-new-market",
+          "coordinates": {
+            "lat": 9.21636535,
+            "lng": 12.64431444
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Fufore New",
+          "days": [
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Gurin New Market, Fufore",
+          "slug": "gurin-new-market-fufore",
+          "coordinates": {
+            "lat": 9.11244815,
+            "lng": 12.87670101
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gurin New",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Jauro Sardauna Kabillo Market, Fufore",
+          "slug": "jauro-sardauna-kabillo-market-fufore",
+          "coordinates": {
+            "lat": 9.03000898,
+            "lng": 12.21112332
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Jauro Sardauna Kabillo",
+          "days": [
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kadarbu Market, Fufore",
+          "slug": "kadarbu-market-fufore",
+          "coordinates": {
+            "lat": 9.51002498,
+            "lng": 12.70056804
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kadarbu",
+          "days": [
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kasuwan Farang, Fufore",
+          "slug": "kasuwan-farang-fufore",
+          "coordinates": {
+            "lat": 9.57609944,
+            "lng": 12.90540336
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Farang"
+        },
+        {
+          "name": "Kasuwan Jili, Fufore",
+          "slug": "kasuwan-jili-fufore",
+          "coordinates": {
+            "lat": 9.08664379,
+            "lng": 12.38584098
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Jili",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Kasuwan Karlahi, Fufore",
+          "slug": "kasuwan-karlahi-fufore",
+          "coordinates": {
+            "lat": 8.84453783,
+            "lng": 12.57494273
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Karlahi"
+        },
+        {
+          "name": "Kasuwan Lumore Lugga, Fufore",
+          "slug": "kasuwan-lumore-lugga-fufore",
+          "coordinates": {
+            "lat": 8.8717959,
+            "lng": 12.32280682
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Lumore Lugga"
+        },
+        {
+          "name": "Kasuwan Lumore, Fufore",
+          "slug": "kasuwan-lumore-fufore",
+          "coordinates": {
+            "lat": 8.91711418,
+            "lng": 12.30787533
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Lumore",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Kasuwan Maoga, Fufore",
+          "slug": "kasuwan-maoga-fufore",
+          "coordinates": {
+            "lat": 8.99480001,
+            "lng": 12.39695546
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Maoga",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Kasuwan Mayo Sadi, Fufore",
+          "slug": "kasuwan-mayo-sadi-fufore",
+          "coordinates": {
+            "lat": 9.0143063,
+            "lng": 12.2908487
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Mayo Sadi"
+        },
+        {
+          "name": "Kasuwan Ribadu, Fufore",
+          "slug": "kasuwan-ribadu-fufore",
+          "coordinates": {
+            "lat": 9.64367594,
+            "lng": 12.86299519
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Ribadu",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Kasuwan Yadim, Fufore",
+          "slug": "kasuwan-yadim-fufore",
+          "coordinates": {
+            "lat": 8.97349072,
+            "lng": 12.40490024
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Yadim",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Kasuwar Bilachi Bwatye, Fufore",
+          "slug": "kasuwar-bilachi-bwatye-fufore",
+          "coordinates": {
+            "lat": 9.37704,
+            "lng": 12.85483
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Bilachi Bwatye"
+        },
+        {
+          "name": "Kasuwar Dasin Hausa, Fufore",
+          "slug": "kasuwar-dasin-hausa-fufore",
+          "coordinates": {
+            "lat": 9.27517,
+            "lng": 12.658
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Dasin Hausa"
+        },
+        {
+          "name": "Kasuwar Dasin Lumore, Fufore",
+          "slug": "kasuwar-dasin-lumore-fufore",
+          "coordinates": {
+            "lat": 9.39867,
+            "lng": 12.842505
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Dasin Lumore",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kasuwar Wurobokki, Fufore",
+          "slug": "kasuwar-wurobokki-fufore",
+          "coordinates": {
+            "lat": 9.385948333,
+            "lng": 12.79392167
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Wurobokki",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Mayo Ine Market, Fufore",
+          "slug": "mayo-ine-market-fufore",
+          "coordinates": {
+            "lat": 9.11336783,
+            "lng": 12.22740885
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Mayo Ine",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Mayo Sadi Market, Fufore",
+          "slug": "mayo-sadi-market-fufore",
+          "coordinates": {
+            "lat": 9.02181186,
+            "lng": 12.29363605
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Mayo Sadi"
+        },
+        {
+          "name": "Mbilla, Fufore",
+          "slug": "mbilla-fufore",
+          "coordinates": {
+            "lat": 9.59308937,
+            "lng": 13.04890466
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Mbilla",
+          "days": [
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Mubako, Fufore",
+          "slug": "mubako-fufore",
+          "coordinates": {
+            "lat": 9.57768306,
+            "lng": 12.99564642
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Mubako"
+        },
+        {
+          "name": "New Market Malabu, Fufore",
+          "slug": "new-market-malabu-fufore",
+          "coordinates": {
+            "lat": 9.55360568,
+            "lng": 12.78113682
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "New Malabu",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Old Market Fufore",
+          "slug": "old-market-fufore",
+          "coordinates": {
+            "lat": 9.21948188,
+            "lng": 12.65116049
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Old Fufore",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Pariya Market, Fufore",
+          "slug": "pariya-market-fufore",
+          "coordinates": {
+            "lat": 9.37624746,
+            "lng": 12.69922558
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Pariya",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Shuwari Market, Fufore",
+          "slug": "shuwari-market-fufore",
+          "coordinates": {
+            "lat": 8.98627559,
+            "lng": 12.26154218
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Shuwari",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Tike Market, Fufore",
+          "slug": "tike-market-fufore",
+          "coordinates": {
+            "lat": 9.06468779,
+            "lng": 12.66293583
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Tike",
+          "days": [
+            "Tue"
+          ]
+        }
+      ]
     },
     {
       "name": "Ganye",
       "slug": "adamawa-ganye",
-      "markets": []
+      "markets": [
+        {
+          "name": "Bankuren Market, Ganye",
+          "slug": "bankuren-market-ganye",
+          "coordinates": {
+            "lat": 8.548661,
+            "lng": 11.97291
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Bankuren"
+        },
+        {
+          "name": "Daksam B Market, Ganye",
+          "slug": "daksam-b-market-ganye",
+          "coordinates": {
+            "lat": 8.470726,
+            "lng": 11.94543
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Daksam B"
+        },
+        {
+          "name": "Gang Banen Market, Ganye",
+          "slug": "gang-banen-market-ganye",
+          "coordinates": {
+            "lat": 8.241343,
+            "lng": 12.19174
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gang Banen"
+        },
+        {
+          "name": "Ganglaso Mini Market, Ganye",
+          "slug": "ganglaso-mini-market-ganye",
+          "coordinates": {
+            "lat": 8.434831,
+            "lng": 12.06067
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ganglaso Mini"
+        },
+        {
+          "name": "Jarandi Market, Ganye",
+          "slug": "jarandi-market-ganye",
+          "coordinates": {
+            "lat": 8.53737,
+            "lng": 11.91518
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Jarandi"
+        },
+        {
+          "name": "John Holt Anguwan Hamashehu Market, Ganye",
+          "slug": "john-holt-anguwan-hamashehu-market-ganye",
+          "coordinates": {
+            "lat": 8.437035,
+            "lng": 12.0797
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "John Holt Anguwan Hamashehu"
+        },
+        {
+          "name": "Kaika Market, Ganye",
+          "slug": "kaika-market-ganye",
+          "coordinates": {
+            "lat": 8.553026,
+            "lng": 11.84587
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kaika"
+        },
+        {
+          "name": "Kasuwan Gamu, Ganye",
+          "slug": "kasuwan-gamu-ganye",
+          "coordinates": {
+            "lat": 8.270206,
+            "lng": 12.06867
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Gamu"
+        },
+        {
+          "name": "Kasuwan Mata, Ganye",
+          "slug": "kasuwan-mata-ganye",
+          "coordinates": {
+            "lat": 8.434911,
+            "lng": 12.04433
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Mata"
+        },
+        {
+          "name": "Kasuwan Mayanka, Ganye",
+          "slug": "kasuwan-mayanka-ganye",
+          "coordinates": {
+            "lat": 8.429072,
+            "lng": 12.0416
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Mayanka"
+        },
+        {
+          "name": "Kasuwan Tike, Ganye",
+          "slug": "kasuwan-tike-ganye",
+          "coordinates": {
+            "lat": 8.440965,
+            "lng": 12.04302
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Tike"
+        },
+        {
+          "name": "Kasuwar Ganye Central",
+          "slug": "kasuwar-ganye-central",
+          "coordinates": {
+            "lat": 8.45656,
+            "lng": 12.04616
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Ganye Central"
+        },
+        {
+          "name": "Kauwan Sugu, Ganye",
+          "slug": "kauwan-sugu-ganye",
+          "coordinates": {
+            "lat": 8.371152,
+            "lng": 12.06539
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kauwan Sugu"
+        },
+        {
+          "name": "Ngurore Yebbi Market, Ganye",
+          "slug": "ngurore-yebbi-market-ganye",
+          "coordinates": {
+            "lat": 8.576753,
+            "lng": 11.95483
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ngurore Yebbi"
+        },
+        {
+          "name": "Sabon Kasuwa, Ganye",
+          "slug": "sabon-kasuwa-ganye",
+          "coordinates": {
+            "lat": 8.455044,
+            "lng": 12.04514
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Sabon Kasuwa"
+        },
+        {
+          "name": "Timkolba Market, Ganye",
+          "slug": "timkolba-market-ganye",
+          "coordinates": {
+            "lat": 8.323393,
+            "lng": 11.97861
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Timkolba"
+        },
+        {
+          "name": "Unguwan Shakata, Ganye",
+          "slug": "unguwan-shakata-ganye",
+          "coordinates": {
+            "lat": 8.4326,
+            "lng": 12.04216
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Unguwan Shakata"
+        },
+        {
+          "name": "Wuro Ahmadu Market, Ganye",
+          "slug": "wuro-ahmadu-market-ganye",
+          "coordinates": {
+            "lat": 8.498162,
+            "lng": 12.14902
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Wuro Ahmadu"
+        },
+        {
+          "name": "Yelwa Market, Ganye",
+          "slug": "yelwa-market-ganye",
+          "coordinates": {
+            "lat": 8.506785,
+            "lng": 11.97966
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Yelwa"
+        }
+      ]
     },
     {
-      "name": "Gayuk",
-      "slug": "adamawa-gayuk",
-      "markets": []
+      "name": "Guyuk",
+      "slug": "adamawa-guyuk",
+      "markets": [
+        {
+          "name": "Bobini Market, Guyuk",
+          "slug": "bobini-market-guyuk",
+          "coordinates": {
+            "lat": 9.99525358,
+            "lng": 11.90114563
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Bobini",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Bodeno Market, Guyuk",
+          "slug": "bodeno-market-guyuk",
+          "coordinates": {
+            "lat": 10.02959066,
+            "lng": 11.97107771
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Bodeno"
+        },
+        {
+          "name": "Bolokim Market, Guyuk",
+          "slug": "bolokim-market-guyuk",
+          "coordinates": {
+            "lat": 9.90690561,
+            "lng": 11.93107826
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Bolokim",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Dangir Kasa Market, Guyuk",
+          "slug": "dangir-kasa-market-guyuk",
+          "coordinates": {
+            "lat": 9.77223404,
+            "lng": 11.96613873
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Dangir Kasa",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Falu Market, Guyuk",
+          "slug": "falu-market-guyuk",
+          "coordinates": {
+            "lat": 9.86601161,
+            "lng": 11.84628136
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Falu",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Gunda Mini Market, Guyuk",
+          "slug": "gunda-mini-market-guyuk",
+          "coordinates": {
+            "lat": 9.82434673,
+            "lng": 11.92270775
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gunda Mini",
+          "days": [
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Gwalam Market, Guyuk",
+          "slug": "gwalam-market-guyuk",
+          "coordinates": {
+            "lat": 9.98314927,
+            "lng": 11.83098709
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gwalam",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Kasuwan Boshikiri, Guyuk",
+          "slug": "kasuwan-boshikiri-guyuk",
+          "coordinates": {
+            "lat": 9.64513818,
+            "lng": 11.83446927
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Boshikiri",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Kasuwar Benji Ram, Guyuk",
+          "slug": "kasuwar-benji-ram-guyuk",
+          "coordinates": {
+            "lat": 9.78945,
+            "lng": 11.96334
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Benji Ram"
+        },
+        {
+          "name": "Kasuwar Guyuk",
+          "slug": "kasuwar-guyuk",
+          "coordinates": {
+            "lat": 9.64474,
+            "lng": 11.83481
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Guyuk"
+        },
+        {
+          "name": "Kasuwar Kalkira, Guyuk",
+          "slug": "kasuwar-kalkira-guyuk",
+          "coordinates": {
+            "lat": 9.784044266,
+            "lng": 11.91061687
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Kalkira"
+        },
+        {
+          "name": "Kerau Market, Guyuk",
+          "slug": "kerau-market-guyuk",
+          "coordinates": {
+            "lat": 9.68861209,
+            "lng": 11.89716367
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kerau",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Kola Market, Guyuk",
+          "slug": "kola-market-guyuk",
+          "coordinates": {
+            "lat": 9.70486652,
+            "lng": 11.92766893
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kola",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Lamza Market, Guyuk",
+          "slug": "lamza-market-guyuk",
+          "coordinates": {
+            "lat": 9.84197148,
+            "lng": 11.8861786
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Lamza",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Lokoro Mini Market, Guyuk",
+          "slug": "lokoro-mini-market-guyuk",
+          "coordinates": {
+            "lat": 9.85446506,
+            "lng": 11.92945137
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Lokoro Mini"
+        },
+        {
+          "name": "Mada Market, Guyuk",
+          "slug": "mada-market-guyuk",
+          "coordinates": {
+            "lat": 9.98878702,
+            "lng": 11.96027503
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Mada",
+          "days": [
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Waja Market, Guyuk",
+          "slug": "waja-market-guyuk",
+          "coordinates": {
+            "lat": 9.98126624,
+            "lng": 11.83384439
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Waja",
+          "days": [
+            "Sat",
+            "Sun"
+          ]
+        }
+      ]
     },
     {
       "name": "Gombi",
       "slug": "adamawa-gombi",
-      "markets": []
+      "markets": [
+        {
+          "name": "Dadware Market, Gombi",
+          "slug": "dadware-market-gombi",
+          "coordinates": {
+            "lat": 10.12402626,
+            "lng": 12.51873027
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Dadware",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Duwa Market, Gombi",
+          "slug": "duwa-market-gombi",
+          "coordinates": {
+            "lat": 10.05351584,
+            "lng": 12.25754291
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Duwa",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Dzangola Market, Gombi",
+          "slug": "dzangola-market-gombi",
+          "coordinates": {
+            "lat": 10.29846901,
+            "lng": 12.77182854
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Dzangola",
+          "days": [
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Fotta Kasua Gari, Gombi",
+          "slug": "fotta-kasua-gari-gombi",
+          "coordinates": {
+            "lat": 10.09622018,
+            "lng": 12.33493248
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Fotta Kasua Gari",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Humsa Mini Market, Gombi",
+          "slug": "humsa-mini-market-gombi",
+          "coordinates": {
+            "lat": 10.1513263,
+            "lng": 12.43199958
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Humsa Mini",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Jebre Market, Gombi",
+          "slug": "jebre-market-gombi",
+          "coordinates": {
+            "lat": 10.15292119,
+            "lng": 12.34903008
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Jebre",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Kasuwar Gombi",
+          "slug": "kasuwar-gombi",
+          "coordinates": {
+            "lat": 10.15067,
+            "lng": 12.74695
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Gombi"
+        },
+        {
+          "name": "Njebjeba Market, Gombi",
+          "slug": "njebjeba-market-gombi",
+          "coordinates": {
+            "lat": 10.14882764,
+            "lng": 12.47743456
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Njebjeba",
+          "days": [
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Riji, Gombi",
+          "slug": "riji-gombi",
+          "coordinates": {
+            "lat": 10.06088991,
+            "lng": 12.29258485
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Riji",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Sabon Gari A Market, Gombi",
+          "slug": "sabon-gari-a-market-gombi",
+          "coordinates": {
+            "lat": 10.28789147,
+            "lng": 12.47039251
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Sabon Gari A",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Sabon Gari B, Gombi",
+          "slug": "sabon-gari-b-gombi",
+          "coordinates": {
+            "lat": 10.28820591,
+            "lng": 12.46949739
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Sabon Gari B",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Shime Market, Gombi",
+          "slug": "shime-market-gombi",
+          "coordinates": {
+            "lat": 10.08026798,
+            "lng": 12.46677106
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Shime"
+        },
+        {
+          "name": "Tiken Animal Market, Gombi",
+          "slug": "tiken-animal-market-gombi",
+          "coordinates": {
+            "lat": 10.28769133,
+            "lng": 12.46815183
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Tiken Animal",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Zangra Market, Gombi",
+          "slug": "zangra-market-gombi",
+          "coordinates": {
+            "lat": 10.02209843,
+            "lng": 12.44447746
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Zangra",
+          "days": [
+            "Mon"
+          ]
+        }
+      ]
     },
     {
-      "name": "Grie",
-      "slug": "adamawa-grie",
-      "markets": []
+      "name": "Girei",
+      "slug": "adamawa-girei",
+      "markets": [
+        {
+          "name": "Anguwan Borehole Market, Girei",
+          "slug": "anguwan-borehole-market-girei",
+          "coordinates": {
+            "lat": 9.30128728,
+            "lng": 12.47602282
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Anguwan Borehole",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Bati Koh Market, Girei",
+          "slug": "bati-koh-market-girei",
+          "coordinates": {
+            "lat": 9.45867016,
+            "lng": 12.35759212
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Bati Koh",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Gerrang Market, Girei",
+          "slug": "gerrang-market-girei",
+          "coordinates": {
+            "lat": 9.49069384,
+            "lng": 12.3038558
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gerrang",
+          "days": [
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Jagajaga Market, Girei",
+          "slug": "jagajaga-market-girei",
+          "coordinates": {
+            "lat": 9.34120595,
+            "lng": 12.50690819
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Jagajaga",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kasuwar Gerbu, Girei",
+          "slug": "kasuwar-gerbu-girei",
+          "coordinates": {
+            "lat": 9.53655,
+            "lng": 12.31769
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Gerbu"
+        },
+        {
+          "name": "Kasuwar Giret, Girei",
+          "slug": "kasuwar-giret-girei",
+          "coordinates": {
+            "lat": 9.3589,
+            "lng": 12.54702
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Giret"
+        },
+        {
+          "name": "Kasuwar Goron, Girei",
+          "slug": "kasuwar-goron-girei",
+          "coordinates": {
+            "lat": 9.49067,
+            "lng": 12.30399
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Goron"
+        },
+        {
+          "name": "Kasuwar Jabbi Lamba, Girei",
+          "slug": "kasuwar-jabbi-lamba-girei",
+          "coordinates": {
+            "lat": 9.5021844,
+            "lng": 12.57723539
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Jabbi Lamba"
+        },
+        {
+          "name": "Kasuwar Tambo Jimoh, Girei",
+          "slug": "kasuwar-tambo-jimoh-girei",
+          "coordinates": {
+            "lat": 9.53591,
+            "lng": 12.38244
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Tambo Jimoh"
+        },
+        {
+          "name": "Labondo, Girei",
+          "slug": "labondo-girei",
+          "coordinates": {
+            "lat": 9.36962827,
+            "lng": 12.40095879
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Labondo",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Lainde Market, Girei",
+          "slug": "lainde-market-girei",
+          "coordinates": {
+            "lat": 9.31213343,
+            "lng": 12.46528313
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Lainde",
+          "days": [
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Makarahata Mini Market, Girei",
+          "slug": "makarahata-mini-market-girei",
+          "coordinates": {
+            "lat": 9.29402858,
+            "lng": 12.48911167
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Makarahata Mini",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Vunuklang Mini Market, Girei",
+          "slug": "vunuklang-mini-market-girei",
+          "coordinates": {
+            "lat": 9.30011879,
+            "lng": 12.47970859
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Vunuklang Mini",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        }
+      ]
     },
     {
       "name": "Hong",
       "slug": "adamawa-hong",
-      "markets": []
+      "markets": [
+        {
+          "name": "Bakin Market, Hong",
+          "slug": "bakin-market-hong",
+          "coordinates": {
+            "lat": 10.13956688,
+            "lng": 12.98567151
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Bakin",
+          "days": [
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Chika Dimas Market, Hong",
+          "slug": "chika-dimas-market-hong",
+          "coordinates": {
+            "lat": 10.40492967,
+            "lng": 13.04619036
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Chika Dimas",
+          "days": [
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Gahara Market, Hong",
+          "slug": "gahara-market-hong",
+          "coordinates": {
+            "lat": 10.36501635,
+            "lng": 12.86764927
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gahara",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Gashala Dzigba Market, Hong",
+          "slug": "gashala-dzigba-market-hong",
+          "coordinates": {
+            "lat": 10.37664597,
+            "lng": 13.08733554
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gashala Dzigba"
+        },
+        {
+          "name": "Gashala Migzil Market, Hong",
+          "slug": "gashala-migzil-market-hong",
+          "coordinates": {
+            "lat": 10.33133543,
+            "lng": 13.08268912
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gashala Migzil",
+          "days": [
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Hildi Market, Hong",
+          "slug": "hildi-market-hong",
+          "coordinates": {
+            "lat": 10.39908881,
+            "lng": 13.17297049
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Hildi",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Jabbire Tike Market, Hong",
+          "slug": "jabbire-tike-market-hong",
+          "coordinates": {
+            "lat": 10.44755945,
+            "lng": 13.2159038
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Jabbire Tike",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Kalaa Market, Hong",
+          "slug": "kalaa-market-hong",
+          "coordinates": {
+            "lat": 10.25253617,
+            "lng": 13.02383036
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kala'A",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Kasuwa Ardo Mulla, Hong",
+          "slug": "kasuwa-ardo-mulla-hong",
+          "coordinates": {
+            "lat": 10.14525036,
+            "lng": 13.07621714
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwa Ardo Mulla",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Kasuwar Mararanmubi, Hong",
+          "slug": "kasuwar-mararanmubi-hong",
+          "coordinates": {
+            "lat": 10.31159,
+            "lng": 13.16346
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Mararanmubi"
+        },
+        {
+          "name": "Kasuwar Pella, Hong",
+          "slug": "kasuwar-pella-hong",
+          "coordinates": {
+            "lat": 10.14912,
+            "lng": 12.92587
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Pella"
+        },
+        {
+          "name": "Korlea Market, Hong",
+          "slug": "korlea-market-hong",
+          "coordinates": {
+            "lat": 10.30483953,
+            "lng": 12.80774566
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Korlea",
+          "days": [
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kwapre Market, Hong",
+          "slug": "kwapre-market-hong",
+          "coordinates": {
+            "lat": 10.46590505,
+            "lng": 12.84606928
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kwapre",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Maki Market, Hong",
+          "slug": "maki-market-hong",
+          "coordinates": {
+            "lat": 10.38347535,
+            "lng": 13.03973891
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Maki",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Mararaba Central Market, Hong",
+          "slug": "mararaba-central-market-hong",
+          "coordinates": {
+            "lat": 10.31243575,
+            "lng": 13.16374218
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Mararaba Central",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Mbolinyi Market, Hong",
+          "slug": "mbolinyi-market-hong",
+          "coordinates": {
+            "lat": 10.09437086,
+            "lng": 12.95604764
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Mbolinyi"
+        },
+        {
+          "name": "Mubang Market, Hong",
+          "slug": "mubang-market-hong",
+          "coordinates": {
+            "lat": 10.39669048,
+            "lng": 12.74445938
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Mubang",
+          "days": [
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Munga Market, Hong",
+          "slug": "munga-market-hong",
+          "coordinates": {
+            "lat": 10.29883346,
+            "lng": 12.88778344
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Munga",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Mutuku Market, Hong",
+          "slug": "mutuku-market-hong",
+          "coordinates": {
+            "lat": 10.3155779,
+            "lng": 12.96776275
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Mutuku",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Shashau Market, Hong",
+          "slug": "shashau-market-hong",
+          "coordinates": {
+            "lat": 10.32379948,
+            "lng": 12.85493887
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Shashau",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Wazhemayi Market, Hong",
+          "slug": "wazhemayi-market-hong",
+          "coordinates": {
+            "lat": 10.39742728,
+            "lng": 12.94160729
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Wazhemayi",
+          "days": [
+            "Mon"
+          ]
+        }
+      ]
     },
     {
       "name": "Jada",
       "slug": "adamawa-jada",
-      "markets": []
+      "markets": [
+        {
+          "name": "Delli Kasuwa, Jada",
+          "slug": "delli-kasuwa-jada",
+          "coordinates": {
+            "lat": 8.80456536,
+            "lng": 12.75773801
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Delli Kasuwa",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Kasuwar Danshen, Jada",
+          "slug": "kasuwar-danshen-jada",
+          "coordinates": {
+            "lat": 8.58082,
+            "lng": 12.13576
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Danshen"
+        },
+        {
+          "name": "Kasuwar Pola, Jada",
+          "slug": "kasuwar-pola-jada",
+          "coordinates": {
+            "lat": 8.65694,
+            "lng": 11.90161
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Pola"
+        }
+      ]
     },
     {
       "name": "Lamurde",
       "slug": "adamawa-lamurde",
-      "markets": []
+      "markets": [
+        {
+          "name": "Anguwar Wurkun Market, Lamurde",
+          "slug": "anguwar-wurkun-market-lamurde",
+          "coordinates": {
+            "lat": 9.566533,
+            "lng": 11.88729
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Anguwar Wurkun"
+        },
+        {
+          "name": "Balaifi A Market, Lamurde",
+          "slug": "balaifi-a-market-lamurde",
+          "coordinates": {
+            "lat": 9.503515,
+            "lng": 11.46622
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Balaifi A"
+        },
+        {
+          "name": "Gyawana Market, Lamurde",
+          "slug": "gyawana-market-lamurde",
+          "coordinates": {
+            "lat": 9.565073,
+            "lng": 11.88556
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gyawana"
+        },
+        {
+          "name": "Kasuwar Lafiyamain, Lamurde",
+          "slug": "kasuwar-lafiyamain-lamurde",
+          "coordinates": {
+            "lat": 9.6525,
+            "lng": 11.82253
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Lafiyamain"
+        },
+        {
+          "name": "Kasuwar Lamurde",
+          "slug": "kasuwar-lamurde",
+          "coordinates": {
+            "lat": 9.6097,
+            "lng": 11.79404
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Lamurde"
+        },
+        {
+          "name": "Kasuwar Tingno Rice, Lamurde",
+          "slug": "kasuwar-tingno-rice-lamurde",
+          "coordinates": {
+            "lat": 9.54594,
+            "lng": 11.69276
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Tingno Rice"
+        },
+        {
+          "name": "Kupte Cattle Market, Lamurde",
+          "slug": "kupte-cattle-market-lamurde",
+          "coordinates": {
+            "lat": 9.648118,
+            "lng": 11.82455
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kupte Cattle"
+        },
+        {
+          "name": "Mere Market, Lamurde",
+          "slug": "mere-market-lamurde",
+          "coordinates": {
+            "lat": 9.652588,
+            "lng": 11.82227
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Mere"
+        },
+        {
+          "name": "New Market, Lamurde",
+          "slug": "new-market-lamurde",
+          "coordinates": {
+            "lat": 9.545024,
+            "lng": 11.69329
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "New"
+        },
+        {
+          "name": "Ngbakauto Market, Lamurde",
+          "slug": "ngbakauto-market-lamurde",
+          "coordinates": {
+            "lat": 9.569128,
+            "lng": 11.83371
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ngbakauto"
+        },
+        {
+          "name": "Tsohon Tasha Market, Lamurde",
+          "slug": "tsohon-tasha-market-lamurde",
+          "coordinates": {
+            "lat": 9.56569,
+            "lng": 11.8879
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Tsohon Tasha"
+        }
+      ]
     },
     {
       "name": "Madagali",
       "slug": "adamawa-madagali",
-      "markets": []
+      "markets": [
+        {
+          "name": "Biridagu Market, Madagali",
+          "slug": "biridagu-market-madagali",
+          "coordinates": {
+            "lat": 10.72205,
+            "lng": 13.49506
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Biridagu"
+        },
+        {
+          "name": "Duhu Market, Madagali",
+          "slug": "duhu-market-madagali",
+          "coordinates": {
+            "lat": 10.78867,
+            "lng": 13.44154
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Duhu"
+        },
+        {
+          "name": "Ghumfe Market, Madagali",
+          "slug": "ghumfe-market-madagali",
+          "coordinates": {
+            "lat": 10.72461508,
+            "lng": 13.62002902
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ghumfe"
+        },
+        {
+          "name": "Gulak Market, Madagali",
+          "slug": "gulak-market-madagali",
+          "coordinates": {
+            "lat": 10.8052,
+            "lng": 13.45943
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gulak"
+        },
+        {
+          "name": "Hulunkwa Market, Madagali",
+          "slug": "hulunkwa-market-madagali",
+          "coordinates": {
+            "lat": 10.74001,
+            "lng": 13.63341
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Hulunkwa"
+        },
+        {
+          "name": "Hyambula Market, Madagali",
+          "slug": "hyambula-market-madagali",
+          "coordinates": {
+            "lat": 10.8655,
+            "lng": 13.51722
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Hyambula"
+        },
+        {
+          "name": "Kafin Hausa Market, Madagali",
+          "slug": "kafin-hausa-market-madagali",
+          "coordinates": {
+            "lat": 10.87386,
+            "lng": 13.53896
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kafin Hausa"
+        },
+        {
+          "name": "Kasuwar Guzuka, Madagali",
+          "slug": "kasuwar-guzuka-madagali",
+          "coordinates": {
+            "lat": 10.74776,
+            "lng": 13.58119
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Guzuka"
+        },
+        {
+          "name": "Kasuwar Madagali",
+          "slug": "kasuwar-madagali",
+          "coordinates": {
+            "lat": 10.88991,
+            "lng": 13.62737
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Madagali"
+        },
+        {
+          "name": "Kasuwar Mafer, Madagali",
+          "slug": "kasuwar-mafer-madagali",
+          "coordinates": {
+            "lat": 10.79804,
+            "lng": 13.5719
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Mafer"
+        },
+        {
+          "name": "Kasuwar Nduyel, Madagali",
+          "slug": "kasuwar-nduyel-madagali",
+          "coordinates": {
+            "lat": 10.75962,
+            "lng": 13.49705
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Nduyel"
+        },
+        {
+          "name": "Kasuwar Wurongaiandi, Madagali",
+          "slug": "kasuwar-wurongaiandi-madagali",
+          "coordinates": {
+            "lat": 10.7086,
+            "lng": 13.3856
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Wurongaiandi"
+        },
+        {
+          "name": "Kyalde Markey, Madagali",
+          "slug": "kyalde-markey-madagali",
+          "coordinates": {
+            "lat": 10.71831,
+            "lng": 13.56111
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kyalde Markey"
+        },
+        {
+          "name": "Madagali Main Market",
+          "slug": "madagali-main-market",
+          "coordinates": {
+            "lat": 10.89,
+            "lng": 13.62821
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Madagali Main"
+        },
+        {
+          "name": "Madagali Main Market Bruham",
+          "slug": "madagali-main-market-bruham",
+          "coordinates": {
+            "lat": 10.88979,
+            "lng": 13.62787
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Madagali Main Bruham"
+        },
+        {
+          "name": "Mayowandu Market, Madagali",
+          "slug": "mayowandu-market-madagali",
+          "coordinates": {
+            "lat": 10.69369,
+            "lng": 13.45478
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Mayowandu"
+        },
+        {
+          "name": "Midlu Market, Madagali",
+          "slug": "midlu-market-madagali",
+          "coordinates": {
+            "lat": 10.79796,
+            "lng": 13.57224
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Midlu"
+        },
+        {
+          "name": "Ngur Pallam Market, Madagali",
+          "slug": "ngur-pallam-market-madagali",
+          "coordinates": {
+            "lat": 10.72010988,
+            "lng": 13.49173703
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ngur Pallam"
+        },
+        {
+          "name": "Pallam Market, Madagali",
+          "slug": "pallam-market-madagali",
+          "coordinates": {
+            "lat": 10.73538,
+            "lng": 13.48732
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Pallam"
+        },
+        {
+          "name": "Shuwa Sunday Mini Market, Madagali",
+          "slug": "shuwa-sunday-mini-market-madagali",
+          "coordinates": {
+            "lat": 10.74665,
+            "lng": 13.41224
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Shuwa Sunday Mini"
+        },
+        {
+          "name": "Shuwa Town Market, Madagali",
+          "slug": "shuwa-town-market-madagali",
+          "coordinates": {
+            "lat": 10.74641,
+            "lng": 13.41242
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Shuwa Town"
+        }
+      ]
     },
     {
       "name": "Maiha",
       "slug": "adamawa-maiha",
-      "markets": []
+      "markets": [
+        {
+          "name": "Belel Central Market, Maiha",
+          "slug": "belel-central-market-maiha",
+          "coordinates": {
+            "lat": 9.657752,
+            "lng": 13.22397
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Belel Central"
+        },
+        {
+          "name": "Boken Market, Maiha",
+          "slug": "boken-market-maiha",
+          "coordinates": {
+            "lat": 10.00125,
+            "lng": 13.24571
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Boken"
+        },
+        {
+          "name": "Domayo Market, Maiha",
+          "slug": "domayo-market-maiha",
+          "coordinates": {
+            "lat": 9.987355,
+            "lng": 13.2724
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Domayo"
+        },
+        {
+          "name": "Gengeng Market, Maiha",
+          "slug": "gengeng-market-maiha",
+          "coordinates": {
+            "lat": 10.11051,
+            "lng": 13.21689
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gengeng"
+        },
+        {
+          "name": "Jantari Sangaya Market, Maiha",
+          "slug": "jantari-sangaya-market-maiha",
+          "coordinates": {
+            "lat": 9.555515,
+            "lng": 13.16379
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Jantari Sangaya"
+        },
+        {
+          "name": "Kapule Market, Maiha",
+          "slug": "kapule-market-maiha",
+          "coordinates": {
+            "lat": 10.12883,
+            "lng": 13.10578
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kapule"
+        },
+        {
+          "name": "Kasuwan Maiha",
+          "slug": "kasuwan-maiha",
+          "coordinates": {
+            "lat": 10.06214,
+            "lng": 13.18217
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Maiha"
+        },
+        {
+          "name": "Kasuwar Salma Koli, Maiha",
+          "slug": "kasuwar-salma-koli-maiha",
+          "coordinates": {
+            "lat": 10.01665,
+            "lng": 13.09774
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Salma Koli"
+        },
+        {
+          "name": "Kasuwar Sorau, Maiha",
+          "slug": "kasuwar-sorau-maiha",
+          "coordinates": {
+            "lat": 9.74998,
+            "lng": 13.24981
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Sorau"
+        },
+        {
+          "name": "Kasuwar Tahokawala, Maiha",
+          "slug": "kasuwar-tahokawala-maiha",
+          "coordinates": {
+            "lat": 9.56214,
+            "lng": 13.10613
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Tahokawala"
+        },
+        {
+          "name": "Kindagirma Market, Maiha",
+          "slug": "kindagirma-market-maiha",
+          "coordinates": {
+            "lat": 9.561871,
+            "lng": 13.10616
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kindagirma"
+        },
+        {
+          "name": "Kongoli Market, Maiha",
+          "slug": "kongoli-market-maiha",
+          "coordinates": {
+            "lat": 9.789755,
+            "lng": 13.10599
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kongoli"
+        },
+        {
+          "name": "Konkol Market, Maiha",
+          "slug": "konkol-market-maiha",
+          "coordinates": {
+            "lat": 9.650524,
+            "lng": 13.10205
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Konkol"
+        },
+        {
+          "name": "Koransa A Market, Maiha",
+          "slug": "koransa-a-market-maiha",
+          "coordinates": {
+            "lat": 9.878914,
+            "lng": 13.09364
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Koransa A"
+        },
+        {
+          "name": "Kwagol Market, Maiha",
+          "slug": "kwagol-market-maiha",
+          "coordinates": {
+            "lat": 9.969017,
+            "lng": 13.1177
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kwagol"
+        },
+        {
+          "name": "Murkumchi Market, Maiha",
+          "slug": "murkumchi-market-maiha",
+          "coordinates": {
+            "lat": 10.15161,
+            "lng": 13.11636
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Murkumchi"
+        },
+        {
+          "name": "Njilan Central Market, Maiha",
+          "slug": "njilan-central-market-maiha",
+          "coordinates": {
+            "lat": 9.978879,
+            "lng": 13.09423
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Njilan Central"
+        },
+        {
+          "name": "Sagal Tapare Market, Maiha",
+          "slug": "sagal-tapare-market-maiha",
+          "coordinates": {
+            "lat": 9.800497,
+            "lng": 13.16707
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Sagal Tapare"
+        },
+        {
+          "name": "Unguwa Michika, Maiha",
+          "slug": "unguwa-michika-maiha",
+          "coordinates": {
+            "lat": 10.12141,
+            "lng": 13.14696
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Unguwa Michika"
+        },
+        {
+          "name": "Wuro Alh Ardo, Maiha",
+          "slug": "wuro-alh-ardo-maiha",
+          "coordinates": {
+            "lat": 9.922627,
+            "lng": 13.23562
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Wuro Alh Ardo"
+        },
+        {
+          "name": "Wuro Alhaji, Maiha",
+          "slug": "wuro-alhaji-maiha",
+          "coordinates": {
+            "lat": 9.925067,
+            "lng": 13.23462
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Wuro Alhaji"
+        },
+        {
+          "name": "Wuro Ladde B Market, Maiha",
+          "slug": "wuro-ladde-b-market-maiha",
+          "coordinates": {
+            "lat": 9.889606,
+            "lng": 13.20252
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Wuro Ladde B"
+        }
+      ]
     },
     {
       "name": "Mayo-Belwa",
       "slug": "adamawa-mayo-belwa",
-      "markets": []
+      "markets": [
+        {
+          "name": "Alamisayel Market, Mayo-Belwa",
+          "slug": "alamisayel-market-mayo-belwa",
+          "coordinates": {
+            "lat": 8.97614059,
+            "lng": 12.13134106
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Alamisayel",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Gengle, Mayo-Belwa",
+          "slug": "gengle-mayo-belwa",
+          "coordinates": {
+            "lat": 9.14349182,
+            "lng": 11.91492312
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gengle",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Kudaku Market, Mayo-Belwa",
+          "slug": "kudaku-market-mayo-belwa",
+          "coordinates": {
+            "lat": 9.08443824,
+            "lng": 11.77189307
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kudaku",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Mayo Lanja Wuro Yahya Mini Market, Mayo-Belwa",
+          "slug": "mayo-lanja-wuro-yahya-mini-market-mayo-belwa",
+          "coordinates": {
+            "lat": 8.98210816,
+            "lng": 11.96525304
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Mayo Lanja Wuro Yahya Mini",
+          "days": [
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Sakpani Market, Mayo-Belwa",
+          "slug": "sakpani-market-mayo-belwa",
+          "coordinates": {
+            "lat": 9.17262714,
+            "lng": 11.70087967
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Sakpani",
+          "days": [
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Ubakka Wagadale Market, Mayo-Belwa",
+          "slug": "ubakka-wagadale-market-mayo-belwa",
+          "coordinates": {
+            "lat": 9.19875023,
+            "lng": 11.72278853
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ubakka Wagadale",
+          "days": [
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Wakka Market, Mayo-Belwa",
+          "slug": "wakka-market-mayo-belwa",
+          "coordinates": {
+            "lat": 9.15791197,
+            "lng": 11.81023821
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Wakka",
+          "days": [
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Wayere Market, Mayo-Belwa",
+          "slug": "wayere-market-mayo-belwa",
+          "coordinates": {
+            "lat": 9.075164,
+            "lng": 11.84774556
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Wayere",
+          "days": [
+            "Sat",
+            "Sun"
+          ]
+        }
+      ]
     },
     {
       "name": "Michika",
       "slug": "adamawa-michika",
-      "markets": []
+      "markets": [
+        {
+          "name": "Bazza Market, Michika",
+          "slug": "bazza-market-michika",
+          "coordinates": {
+            "lat": 10.56915,
+            "lng": 13.32191
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Bazza"
+        },
+        {
+          "name": "Billi Market, Michika",
+          "slug": "billi-market-michika",
+          "coordinates": {
+            "lat": 10.4766,
+            "lng": 13.49623
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Billi"
+        },
+        {
+          "name": "Chichi Central Market, Michika",
+          "slug": "chichi-central-market-michika",
+          "coordinates": {
+            "lat": 10.51216,
+            "lng": 13.45332
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Chichi Central"
+        },
+        {
+          "name": "Chole, Michika",
+          "slug": "chole-michika",
+          "coordinates": {
+            "lat": 10.50573,
+            "lng": 13.46958
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Chole"
+        },
+        {
+          "name": "Dilichm Market, Michika",
+          "slug": "dilichm-market-michika",
+          "coordinates": {
+            "lat": 10.54001,
+            "lng": 13.28914
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Dilichm"
+        },
+        {
+          "name": "Direya Market Muldakwa 1, Michika",
+          "slug": "direya-market-muldakwa-1-michika",
+          "coordinates": {
+            "lat": 10.53106,
+            "lng": 13.27842
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Direya Muldakwa 1"
+        },
+        {
+          "name": "Dlinyi Market, Michika",
+          "slug": "dlinyi-market-michika",
+          "coordinates": {
+            "lat": 10.49094,
+            "lng": 13.4969
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Dlinyi"
+        },
+        {
+          "name": "Garri Mini Market, Michika",
+          "slug": "garri-mini-market-michika",
+          "coordinates": {
+            "lat": 10.60586,
+            "lng": 13.41157
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Garri Mini"
+        },
+        {
+          "name": "Ghere Market, Michika",
+          "slug": "ghere-market-michika",
+          "coordinates": {
+            "lat": 10.61463,
+            "lng": 13.49433
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ghere"
+        },
+        {
+          "name": "Ghumchi Monday Market, Michika",
+          "slug": "ghumchi-monday-market-michika",
+          "coordinates": {
+            "lat": 10.64667,
+            "lng": 13.48357
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ghumchi Monday"
+        },
+        {
+          "name": "Gretia Kashude Market, Michika",
+          "slug": "gretia-kashude-market-michika",
+          "coordinates": {
+            "lat": 10.46963,
+            "lng": 13.49107
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gretia Kashude"
+        },
+        {
+          "name": "Gretia Market, Michika",
+          "slug": "gretia-market-michika",
+          "coordinates": {
+            "lat": 10.4655,
+            "lng": 13.48929
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gretia"
+        },
+        {
+          "name": "Kali Kassa, Michika",
+          "slug": "kali-kassa-michika",
+          "coordinates": {
+            "lat": 10.46789,
+            "lng": 13.39663
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kali Kassa"
+        },
+        {
+          "name": "Kamalegu Market, Michika",
+          "slug": "kamalegu-market-michika",
+          "coordinates": {
+            "lat": 10.64047,
+            "lng": 13.54624
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kamalegu"
+        },
+        {
+          "name": "Kankalia Godo Market, Michika",
+          "slug": "kankalia-godo-market-michika",
+          "coordinates": {
+            "lat": 10.60405,
+            "lng": 13.28376
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kankalia Godo"
+        },
+        {
+          "name": "Kara Sude Market, Michika",
+          "slug": "kara-sude-market-michika",
+          "coordinates": {
+            "lat": 10.42822,
+            "lng": 13.47806
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kara Sude"
+        },
+        {
+          "name": "Karampika Central Market, Michika",
+          "slug": "karampika-central-market-michika",
+          "coordinates": {
+            "lat": 10.59902,
+            "lng": 13.45846
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Karampika Central"
+        },
+        {
+          "name": "Kasuwar Garta, Michika",
+          "slug": "kasuwar-garta-michika",
+          "coordinates": {
+            "lat": 10.61499,
+            "lng": 13.49418
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Garta"
+        },
+        {
+          "name": "Kasuwar Kubishosho, Michika",
+          "slug": "kasuwar-kubishosho-michika",
+          "coordinates": {
+            "lat": 10.66281,
+            "lng": 13.29967
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Kubishosho"
+        },
+        {
+          "name": "Kasuwar Mbite, Michika",
+          "slug": "kasuwar-mbite-michika",
+          "coordinates": {
+            "lat": 10.59228,
+            "lng": 13.38326
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Mbite"
+        },
+        {
+          "name": "Kulyembulye Market, Michika",
+          "slug": "kulyembulye-market-michika",
+          "coordinates": {
+            "lat": 10.58156,
+            "lng": 13.42262
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kulyembulye"
+        },
+        {
+          "name": "Mampe Kassa Market, Michika",
+          "slug": "mampe-kassa-market-michika",
+          "coordinates": {
+            "lat": 10.484,
+            "lng": 13.37392
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Mampe Kassa"
+        },
+        {
+          "name": "Michika Main Market",
+          "slug": "michika-main-market",
+          "coordinates": {
+            "lat": 10.61992,
+            "lng": 13.39011
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Michika Main"
+        },
+        {
+          "name": "Mintife Vulli Market, Michika",
+          "slug": "mintife-vulli-market-michika",
+          "coordinates": {
+            "lat": 10.57754,
+            "lng": 13.40833
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Mintife Vulli"
+        },
+        {
+          "name": "Mundzaye Market, Michika",
+          "slug": "mundzaye-market-michika",
+          "coordinates": {
+            "lat": 10.54429,
+            "lng": 13.47536
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Mundzaye"
+        },
+        {
+          "name": "Nstoki Market, Michika",
+          "slug": "nstoki-market-michika",
+          "coordinates": {
+            "lat": 10.56732,
+            "lng": 13.4554
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Nstoki"
+        },
+        {
+          "name": "Nyiburi Vadile Main Market, Michika",
+          "slug": "nyiburi-vadile-main-market-michika",
+          "coordinates": {
+            "lat": 10.60008,
+            "lng": 13.53439
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Nyiburi Vadile Main"
+        },
+        {
+          "name": "Sina Kwande Market, Michika",
+          "slug": "sina-kwande-market-michika",
+          "coordinates": {
+            "lat": 10.56627,
+            "lng": 13.5304
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Sina-kwande"
+        },
+        {
+          "name": "Sina Mala Market, Michika",
+          "slug": "sina-mala-market-michika",
+          "coordinates": {
+            "lat": 10.51826,
+            "lng": 13.52108
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Sina Mala"
+        },
+        {
+          "name": "Tasha Market, Michika",
+          "slug": "tasha-market-michika",
+          "coordinates": {
+            "lat": 10.56181,
+            "lng": 13.53
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Tasha"
+        },
+        {
+          "name": "Thuku Market, Michika",
+          "slug": "thuku-market-michika",
+          "coordinates": {
+            "lat": 10.48776,
+            "lng": 13.45033
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Thuku"
+        },
+        {
+          "name": "Tili Miya B Market, Michika",
+          "slug": "tili-miya-b-market-michika",
+          "coordinates": {
+            "lat": 10.56313,
+            "lng": 13.42957
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Tili Miya B"
+        },
+        {
+          "name": "Turi Market, Michika",
+          "slug": "turi-market-michika",
+          "coordinates": {
+            "lat": 10.57068,
+            "lng": 13.45877
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Turi"
+        },
+        {
+          "name": "Vi Market, Michika",
+          "slug": "vi-market-michika",
+          "coordinates": {
+            "lat": 10.557,
+            "lng": 13.38896
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Vi"
+        },
+        {
+          "name": "Warkanza Boku Market, Michika",
+          "slug": "warkanza-boku-market-michika",
+          "coordinates": {
+            "lat": 10.56781,
+            "lng": 13.3875
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Warkanza Boku"
+        },
+        {
+          "name": "Whamildu Market, Michika",
+          "slug": "whamildu-market-michika",
+          "coordinates": {
+            "lat": 10.54237,
+            "lng": 13.34862
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Whamildu"
+        },
+        {
+          "name": "Wummu Market, Michika",
+          "slug": "wummu-market-michika",
+          "coordinates": {
+            "lat": 10.51028,
+            "lng": 13.28041
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Wummu"
+        },
+        {
+          "name": "Zhawa Market Square, Michika",
+          "slug": "zhawa-market-square-michika",
+          "coordinates": {
+            "lat": 10.52125,
+            "lng": 13.52836
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Zhawa Square"
+        }
+      ]
     },
     {
       "name": "Mubi North",
       "slug": "adamawa-mubi-north",
-      "markets": []
+      "markets": [
+        {
+          "name": "Bagira Hutiya Market, Mubi North",
+          "slug": "bagira-hutiya-market-mubi-north",
+          "coordinates": {
+            "lat": 10.32033,
+            "lng": 13.399
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Bagira Hutiya"
+        },
+        {
+          "name": "Bagira Sama Market, Mubi North",
+          "slug": "bagira-sama-market-mubi-north",
+          "coordinates": {
+            "lat": 10.32091,
+            "lng": 13.41868
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Bagira Sama"
+        },
+        {
+          "name": "Bazare Market, Mubi North",
+          "slug": "bazare-market-mubi-north",
+          "coordinates": {
+            "lat": 10.37134,
+            "lng": 13.22158
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Bazare"
+        },
+        {
+          "name": "Betso Market, Mubi North",
+          "slug": "betso-market-mubi-north",
+          "coordinates": {
+            "lat": 10.50092,
+            "lng": 13.32396
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Betso"
+        },
+        {
+          "name": "Blamari Market, Mubi North",
+          "slug": "blamari-market-mubi-north",
+          "coordinates": {
+            "lat": 10.3508,
+            "lng": 13.24108
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Blamari"
+        },
+        {
+          "name": "Blue House Market, Mubi North",
+          "slug": "blue-house-market-mubi-north",
+          "coordinates": {
+            "lat": 10.29169,
+            "lng": 13.3138
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Blue House"
+        },
+        {
+          "name": "Bukkaji Market, Mubi North",
+          "slug": "bukkaji-market-mubi-north",
+          "coordinates": {
+            "lat": 10.33552,
+            "lng": 13.25093
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Bukkaji"
+        },
+        {
+          "name": "Dagu Heri Market, Mubi North",
+          "slug": "dagu-heri-market-mubi-north",
+          "coordinates": {
+            "lat": 10.48318,
+            "lng": 13.35299
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Dagu Heri"
+        },
+        {
+          "name": "Didif Fulani Market, Mubi North",
+          "slug": "didif-fulani-market-mubi-north",
+          "coordinates": {
+            "lat": 10.37564,
+            "lng": 13.22881
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Didif-fulani"
+        },
+        {
+          "name": "Digil Market, Mubi North",
+          "slug": "digil-market-mubi-north",
+          "coordinates": {
+            "lat": 10.31768,
+            "lng": 13.26532
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Digil"
+        },
+        {
+          "name": "Dugulduma Market, Mubi North",
+          "slug": "dugulduma-market-mubi-north",
+          "coordinates": {
+            "lat": 10.37046,
+            "lng": 13.23704
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Dugulduma"
+        },
+        {
+          "name": "Duwun Market, Mubi North",
+          "slug": "duwun-market-mubi-north",
+          "coordinates": {
+            "lat": 10.37021,
+            "lng": 13.33471
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Duwun"
+        },
+        {
+          "name": "Gazha Market, Mubi North",
+          "slug": "gazha-market-mubi-north",
+          "coordinates": {
+            "lat": 10.43115,
+            "lng": 13.41855
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gazha"
+        },
+        {
+          "name": "Guranga Market, Mubi North",
+          "slug": "guranga-market-mubi-north",
+          "coordinates": {
+            "lat": 10.2526,
+            "lng": 13.41067
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Guranga"
+        },
+        {
+          "name": "Juma Market Lira, Mubi North",
+          "slug": "juma-market-lira-mubi-north",
+          "coordinates": {
+            "lat": 10.38168,
+            "lng": 13.48043
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Juma Lira"
+        },
+        {
+          "name": "Kasuwar Mubi, Mubi North",
+          "slug": "kasuwar-mubi-mubi-north",
+          "coordinates": {
+            "lat": 10.26966,
+            "lng": 13.24991
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Mubi"
+        },
+        {
+          "name": "Kasuwar Muva, Mubi North",
+          "slug": "kasuwar-muva-mubi-north",
+          "coordinates": {
+            "lat": 10.42649,
+            "lng": 13.30231
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Muva"
+        },
+        {
+          "name": "Kasuwar Old Mubi, Mubi North",
+          "slug": "kasuwar-old-mubi-mubi-north",
+          "coordinates": {
+            "lat": 10.2704,
+            "lng": 13.26814
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Old Mubi"
+        },
+        {
+          "name": "Kolere New Market, Mubi North",
+          "slug": "kolere-new-market-mubi-north",
+          "coordinates": {
+            "lat": 10.26658759,
+            "lng": 13.27317312
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kolere New"
+        },
+        {
+          "name": "Majalisar Market, Mubi North",
+          "slug": "majalisar-market-mubi-north",
+          "coordinates": {
+            "lat": 10.35898,
+            "lng": 13.36457
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Majalisar"
+        },
+        {
+          "name": "Miskiti Market, Mubi North",
+          "slug": "miskiti-market-mubi-north",
+          "coordinates": {
+            "lat": 10.33304,
+            "lng": 13.2703
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Miskiti"
+        },
+        {
+          "name": "Mubi Main Market, Mubi North",
+          "slug": "mubi-main-market-mubi-north",
+          "coordinates": {
+            "lat": 10.26983,
+            "lng": 13.26699
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Mubi Main"
+        },
+        {
+          "name": "Mubi Market, Mubi North",
+          "slug": "mubi-market-mubi-north",
+          "coordinates": {
+            "lat": 10.26968,
+            "lng": 13.26524
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Mubi"
+        },
+        {
+          "name": "Muchala Monday Market, Mubi North",
+          "slug": "muchala-monday-market-mubi-north",
+          "coordinates": {
+            "lat": 10.35855,
+            "lng": 13.37756
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Muchala Monday"
+        },
+        {
+          "name": "Muchalare Market, Mubi North",
+          "slug": "muchalare-market-mubi-north",
+          "coordinates": {
+            "lat": 10.38002,
+            "lng": 13.22596
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Muchalare"
+        },
+        {
+          "name": "Muvur Market, Mubi North",
+          "slug": "muvur-market-mubi-north",
+          "coordinates": {
+            "lat": 10.41017,
+            "lng": 13.3067
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Muvur"
+        },
+        {
+          "name": "Ngorguwol Market, Mubi North",
+          "slug": "ngorguwol-market-mubi-north",
+          "coordinates": {
+            "lat": 10.39101,
+            "lng": 13.27982
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ngorguwol"
+        },
+        {
+          "name": "Sabo Market, Mubi North",
+          "slug": "sabo-market-mubi-north",
+          "coordinates": {
+            "lat": 10.49337,
+            "lng": 13.36048
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Sabo"
+        },
+        {
+          "name": "Wuba Market, Mubi North",
+          "slug": "wuba-market-mubi-north",
+          "coordinates": {
+            "lat": 10.36576,
+            "lng": 13.37546
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Wuba"
+        },
+        {
+          "name": "Wuro Gie Market, Mubi North",
+          "slug": "wuro-gie-market-mubi-north",
+          "coordinates": {
+            "lat": 10.34638,
+            "lng": 13.24518
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Wuro Gie"
+        }
+      ]
     },
     {
       "name": "Mubi South",
       "slug": "adamawa-mubi-south",
-      "markets": []
+      "markets": [
+        {
+          "name": "Bariki Central Market, Mubi South",
+          "slug": "bariki-central-market-mubi-south",
+          "coordinates": {
+            "lat": 10.19312,
+            "lng": 13.40631
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Bariki Central"
+        },
+        {
+          "name": "Boni Shopping Complex, Mubi South",
+          "slug": "boni-shopping-complex-mubi-south",
+          "coordinates": {
+            "lat": 10.26918,
+            "lng": 13.2512
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Boni Shopping Complex"
+        },
+        {
+          "name": "Buladega, Mubi South",
+          "slug": "buladega-mubi-south",
+          "coordinates": {
+            "lat": 10.21377,
+            "lng": 13.22918
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Buladega"
+        },
+        {
+          "name": "Gandira Market, Mubi South",
+          "slug": "gandira-market-mubi-south",
+          "coordinates": {
+            "lat": 10.16334,
+            "lng": 13.44615
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gandira"
+        },
+        {
+          "name": "Gella Main Market, Mubi South",
+          "slug": "gella-main-market-mubi-south",
+          "coordinates": {
+            "lat": 10.15782,
+            "lng": 13.30009
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gella Main"
+        },
+        {
+          "name": "Kabang Market, Mubi South",
+          "slug": "kabang-market-mubi-south",
+          "coordinates": {
+            "lat": 10.26383,
+            "lng": 13.25893
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kabang"
+        },
+        {
+          "name": "Kalafur Market, Mubi South",
+          "slug": "kalafur-market-mubi-south",
+          "coordinates": {
+            "lat": 10.19551,
+            "lng": 13.32453
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kalafur"
+        },
+        {
+          "name": "Kasuwar Shanu Mubi, Mubi South",
+          "slug": "kasuwar-shanu-mubi-mubi-south",
+          "coordinates": {
+            "lat": 10.26142,
+            "lng": 13.2634
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Shanu Mubi"
+        },
+        {
+          "name": "Kolere Market, Mubi South",
+          "slug": "kolere-market-mubi-south",
+          "coordinates": {
+            "lat": 10.19831,
+            "lng": 13.30894
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kolere"
+        },
+        {
+          "name": "Kwaja Market, Mubi South",
+          "slug": "kwaja-market-mubi-south",
+          "coordinates": {
+            "lat": 10.10622,
+            "lng": 13.31696
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kwaja"
+        },
+        {
+          "name": "Lema Tes Central Market, Mubi South",
+          "slug": "lema-tes-central-market-mubi-south",
+          "coordinates": {
+            "lat": 10.19745,
+            "lng": 13.41398
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Lema Tes Central"
+        },
+        {
+          "name": "Lumore Market, Mubi South",
+          "slug": "lumore-market-mubi-south",
+          "coordinates": {
+            "lat": 10.1318,
+            "lng": 13.36349
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Lumore"
+        },
+        {
+          "name": "Manawachi Market, Mubi South",
+          "slug": "manawachi-market-mubi-south",
+          "coordinates": {
+            "lat": 10.26287,
+            "lng": 13.32064
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Manawachi"
+        },
+        {
+          "name": "Monduva B Market, Mubi South",
+          "slug": "monduva-b-market-mubi-south",
+          "coordinates": {
+            "lat": 10.23008,
+            "lng": 13.3167
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Monduva B"
+        },
+        {
+          "name": "Mujara South Market, Mubi South",
+          "slug": "mujara-south-market-mubi-south",
+          "coordinates": {
+            "lat": 10.17159,
+            "lng": 13.37059
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Mujara South"
+        },
+        {
+          "name": "Ngavahi Market, Mubi South",
+          "slug": "ngavahi-market-mubi-south",
+          "coordinates": {
+            "lat": 10.20835,
+            "lng": 13.28758
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ngavahi"
+        },
+        {
+          "name": "Sahuda Monday Market, Mubi South",
+          "slug": "sahuda-monday-market-mubi-south",
+          "coordinates": {
+            "lat": 10.14152,
+            "lng": 13.41717
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Sahuda Monday"
+        },
+        {
+          "name": "Tashar Gella Market, Mubi South",
+          "slug": "tashar-gella-market-mubi-south",
+          "coordinates": {
+            "lat": 10.25621,
+            "lng": 13.2764
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Tashar Gella"
+        },
+        {
+          "name": "Tike Cow Market, Mubi South",
+          "slug": "tike-cow-market-mubi-south",
+          "coordinates": {
+            "lat": 10.26134,
+            "lng": 13.26406
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Tike Cow"
+        },
+        {
+          "name": "Tike Market Gaya, Mubi South",
+          "slug": "tike-market-gaya-mubi-south",
+          "coordinates": {
+            "lat": 10.2615,
+            "lng": 13.26343
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Tike Gaya"
+        },
+        {
+          "name": "Wood Market Kasuwar Katako, Mubi South",
+          "slug": "wood-market-kasuwar-katako-mubi-south",
+          "coordinates": {
+            "lat": 10.24889,
+            "lng": 13.25373
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Wood - Kasuwar Katako"
+        },
+        {
+          "name": "Zniva Market, Mubi South",
+          "slug": "zniva-market-mubi-south",
+          "coordinates": {
+            "lat": 10.13123,
+            "lng": 13.35529
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Zniva"
+        }
+      ]
     },
     {
       "name": "Numan",
       "slug": "adamawa-numan",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwan Bujum, Numan",
+          "slug": "kasuwan-bujum-numan",
+          "coordinates": {
+            "lat": 9.308168,
+            "lng": 11.62128
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Bujum"
+        },
+        {
+          "name": "Kasuwan Gwari, Numan",
+          "slug": "kasuwan-gwari-numan",
+          "coordinates": {
+            "lat": 9.482083,
+            "lng": 12.0311
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Gwari"
+        },
+        {
+          "name": "Kasuwan Ladi, Numan",
+          "slug": "kasuwan-ladi-numan",
+          "coordinates": {
+            "lat": 9.306424,
+            "lng": 11.60384
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Ladi"
+        },
+        {
+          "name": "Kasuwan Ngbalang, Numan",
+          "slug": "kasuwan-ngbalang-numan",
+          "coordinates": {
+            "lat": 9.521897,
+            "lng": 12.01741
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Ngbalang"
+        },
+        {
+          "name": "Makera Market, Numan",
+          "slug": "makera-market-numan",
+          "coordinates": {
+            "lat": 9.466074,
+            "lng": 12.02825
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Makera"
+        },
+        {
+          "name": "Naira Market, Numan",
+          "slug": "naira-market-numan",
+          "coordinates": {
+            "lat": 9.525141,
+            "lng": 12.01434
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Naira"
+        },
+        {
+          "name": "Ngyllah Market, Numan",
+          "slug": "ngyllah-market-numan",
+          "coordinates": {
+            "lat": 9.598028,
+            "lng": 12.04499
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ngyllah"
+        },
+        {
+          "name": "Roundabout Market Dong Close, Numan",
+          "slug": "roundabout-market-dong-close-numan",
+          "coordinates": {
+            "lat": 9.457273,
+            "lng": 12.0362
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Roundabout Dong Close"
+        }
+      ]
     },
     {
       "name": "Shelleng",
       "slug": "adamawa-shelleng",
-      "markets": []
+      "markets": [
+        {
+          "name": "Angwan Bako Market, Shelleng",
+          "slug": "angwan-bako-market-shelleng",
+          "coordinates": {
+            "lat": 9.669238,
+            "lng": 12.07757
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Angwan Bako"
+        },
+        {
+          "name": "Bakta Mini Market, Shelleng",
+          "slug": "bakta-mini-market-shelleng",
+          "coordinates": {
+            "lat": 9.849467,
+            "lng": 12.17358
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Bakta Mini"
+        },
+        {
+          "name": "Bode Market, Shelleng",
+          "slug": "bode-market-shelleng",
+          "coordinates": {
+            "lat": 10.00466,
+            "lng": 12.05775
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Bode"
+        },
+        {
+          "name": "Dalwa Market, Shelleng",
+          "slug": "dalwa-market-shelleng",
+          "coordinates": {
+            "lat": 9.968653,
+            "lng": 12.04939
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Dalwa"
+        },
+        {
+          "name": "Dandatam Market, Shelleng",
+          "slug": "dandatam-market-shelleng",
+          "coordinates": {
+            "lat": 9.957126,
+            "lng": 11.99199
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Dandatam"
+        },
+        {
+          "name": "Gombeyel Market, Shelleng",
+          "slug": "gombeyel-market-shelleng",
+          "coordinates": {
+            "lat": 9.802491,
+            "lng": 12.05509
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gombeyel"
+        },
+        {
+          "name": "Gotel Market, Shelleng",
+          "slug": "gotel-market-shelleng",
+          "coordinates": {
+            "lat": 9.682398,
+            "lng": 12.10157
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gotel"
+        },
+        {
+          "name": "Jakindo Market, Shelleng",
+          "slug": "jakindo-market-shelleng",
+          "coordinates": {
+            "lat": 9.809643,
+            "lng": 12.14725
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Jakindo"
+        },
+        {
+          "name": "Jimbo Market, Shelleng",
+          "slug": "jimbo-market-shelleng",
+          "coordinates": {
+            "lat": 9.882252,
+            "lng": 12.12895
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Jimbo"
+        },
+        {
+          "name": "Kambilam Hamadu Market, Shelleng",
+          "slug": "kambilam-hamadu-market-shelleng",
+          "coordinates": {
+            "lat": 9.736208,
+            "lng": 12.12276
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kambilam Hamadu"
+        },
+        {
+          "name": "Karlaje Market, Shelleng",
+          "slug": "karlaje-market-shelleng",
+          "coordinates": {
+            "lat": 10.04312,
+            "lng": 12.04819
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Karlaje"
+        },
+        {
+          "name": "Kasuwan Biri, Shelleng",
+          "slug": "kasuwan-biri-shelleng",
+          "coordinates": {
+            "lat": 9.704892,
+            "lng": 12.16784
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Biri"
+        },
+        {
+          "name": "Kasuwan Dabewo Jauro Habibu, Shelleng",
+          "slug": "kasuwan-dabewo-jauro-habibu-shelleng",
+          "coordinates": {
+            "lat": 10.0102,
+            "lng": 12.00478
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Dabewo Jauro Habibu"
+        },
+        {
+          "name": "Kasuwan Gondong Bura, Shelleng",
+          "slug": "kasuwan-gondong-bura-shelleng",
+          "coordinates": {
+            "lat": 10.02554,
+            "lng": 12.0156
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Gondong Bura"
+        },
+        {
+          "name": "Kasuwan Wadata, Shelleng",
+          "slug": "kasuwan-wadata-shelleng",
+          "coordinates": {
+            "lat": 9.68867,
+            "lng": 12.08135
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Wadata"
+        },
+        {
+          "name": "Kasuwan Wuroyanka, Shelleng",
+          "slug": "kasuwan-wuroyanka-shelleng",
+          "coordinates": {
+            "lat": 9.684947,
+            "lng": 12.10257
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Wuroyanka"
+        },
+        {
+          "name": "Kem Market, Shelleng",
+          "slug": "kem-market-shelleng",
+          "coordinates": {
+            "lat": 9.643153,
+            "lng": 11.97559
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kem"
+        },
+        {
+          "name": "Kiri Market, Shelleng",
+          "slug": "kiri-market-shelleng",
+          "coordinates": {
+            "lat": 9.6846,
+            "lng": 12.00071
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kiri"
+        },
+        {
+          "name": "Kula Tuesday Market, Shelleng",
+          "slug": "kula-tuesday-market-shelleng",
+          "coordinates": {
+            "lat": 9.812226,
+            "lng": 12.10335
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kula Tuesday"
+        },
+        {
+          "name": "Labau Market, Shelleng",
+          "slug": "labau-market-shelleng",
+          "coordinates": {
+            "lat": 10.04705,
+            "lng": 12.01419
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Laba'U"
+        },
+        {
+          "name": "Lazang Market, Shelleng",
+          "slug": "lazang-market-shelleng",
+          "coordinates": {
+            "lat": 9.678338,
+            "lng": 12.06478
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Lazang"
+        },
+        {
+          "name": "Nafada Monday Market, Shelleng",
+          "slug": "nafada-monday-market-shelleng",
+          "coordinates": {
+            "lat": 10.16553,
+            "lng": 12.11939
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Nafada Monday"
+        },
+        {
+          "name": "Sekonde Market, Shelleng",
+          "slug": "sekonde-market-shelleng",
+          "coordinates": {
+            "lat": 9.683148,
+            "lng": 12.07384
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Sekonde"
+        },
+        {
+          "name": "Shelleng Main Market",
+          "slug": "shelleng-main-market",
+          "coordinates": {
+            "lat": 9.896028,
+            "lng": 12.00455
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Shelleng Main"
+        },
+        {
+          "name": "Tsohon Kasuwar Damilo, Shelleng",
+          "slug": "tsohon-kasuwar-damilo-shelleng",
+          "coordinates": {
+            "lat": 9.645395,
+            "lng": 11.9779
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Tsohon Kasuwar Damilo"
+        }
+      ]
     },
     {
       "name": "Song",
       "slug": "adamawa-song",
-      "markets": []
+      "markets": [
+        {
+          "name": "Angwar Gargijik Market, Song",
+          "slug": "angwar-gargijik-market-song",
+          "coordinates": {
+            "lat": 9.70826,
+            "lng": 12.21493
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Angwar Gargijik"
+        },
+        {
+          "name": "Batum Market, Song",
+          "slug": "batum-market-song",
+          "coordinates": {
+            "lat": 9.85210817,
+            "lng": 12.35898823
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Batum",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Central Market Song",
+          "slug": "central-market-song",
+          "coordinates": {
+            "lat": 9.82536053,
+            "lng": 12.61976683
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Central Song",
+          "days": [
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Dande Market, Song",
+          "slug": "dande-market-song",
+          "coordinates": {
+            "lat": 9.76763898,
+            "lng": 12.70955826
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Dande",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Gban Market, Song",
+          "slug": "gban-market-song",
+          "coordinates": {
+            "lat": 9.83234946,
+            "lng": 12.26313028
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gban"
+        },
+        {
+          "name": "Kasuwan Bariki Market, Song",
+          "slug": "kasuwan-bariki-market-song",
+          "coordinates": {
+            "lat": 9.65529525,
+            "lng": 12.55647725
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Bariki",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Kasuwan Degereji, Song",
+          "slug": "kasuwan-degereji-song",
+          "coordinates": {
+            "lat": 9.96858141,
+            "lng": 12.85461193
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Degereji",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Kasuwan Gulgul, Song",
+          "slug": "kasuwan-gulgul-song",
+          "coordinates": {
+            "lat": 9.94869695,
+            "lng": 12.52674526
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Gulgul",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Kasuwan Zumo, Song",
+          "slug": "kasuwan-zumo-song",
+          "coordinates": {
+            "lat": 9.85885177,
+            "lng": 12.95041233
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Zumo",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Kasuwar Bakopi, Song",
+          "slug": "kasuwar-bakopi-song",
+          "coordinates": {
+            "lat": 9.56845,
+            "lng": 12.25253
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Bakopi"
+        },
+        {
+          "name": "Kasuwar Geledi, Song",
+          "slug": "kasuwar-geledi-song",
+          "coordinates": {
+            "lat": 9.7635,
+            "lng": 12.70748
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Geledi"
+        },
+        {
+          "name": "Sabongari Market, Song",
+          "slug": "sabongari-market-song",
+          "coordinates": {
+            "lat": 9.694323333,
+            "lng": 12.72776667
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Sabongari",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Salasa Market, Song",
+          "slug": "salasa-market-song",
+          "coordinates": {
+            "lat": 9.63506504,
+            "lng": 12.4440756
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Salasa",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Shuire Market, Song",
+          "slug": "shuire-market-song",
+          "coordinates": {
+            "lat": 9.84419178,
+            "lng": 12.28763516
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Shuire",
+          "days": [
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Tasu Market, Song",
+          "slug": "tasu-market-song",
+          "coordinates": {
+            "lat": 9.64879,
+            "lng": 12.74573
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Tasu",
+          "days": [
+            "Tue"
+          ]
+        }
+      ]
     },
     {
       "name": "Toungo",
       "slug": "adamawa-toungo",
-      "markets": []
+      "markets": [
+        {
+          "name": "Buspan Market, Toungo",
+          "slug": "buspan-market-toungo",
+          "coordinates": {
+            "lat": 8.009339,
+            "lng": 12.16051
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Buspan"
+        },
+        {
+          "name": "Dadiri Market, Toungo",
+          "slug": "dadiri-market-toungo",
+          "coordinates": {
+            "lat": 7.81069,
+            "lng": 11.68097
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Dadiri"
+        },
+        {
+          "name": "Dasu Market, Toungo",
+          "slug": "dasu-market-toungo",
+          "coordinates": {
+            "lat": 8.033603,
+            "lng": 11.74342
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Dasu"
+        },
+        {
+          "name": "Dasu, Toungo",
+          "slug": "dasu-toungo",
+          "coordinates": {
+            "lat": 8.033455,
+            "lng": 11.74365
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Dasu"
+        },
+        {
+          "name": "Gangzamanu B Market, Toungo",
+          "slug": "gangzamanu-b-market-toungo",
+          "coordinates": {
+            "lat": 8.217773,
+            "lng": 12.09794
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gangzamanu B"
+        },
+        {
+          "name": "Gobirawa Market, Toungo",
+          "slug": "gobirawa-market-toungo",
+          "coordinates": {
+            "lat": 8.226287,
+            "lng": 12.18307
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gobirawa"
+        },
+        {
+          "name": "Kasuwa Jangla Sama, Toungo",
+          "slug": "kasuwa-jangla-sama-toungo",
+          "coordinates": {
+            "lat": 8.359124,
+            "lng": 11.73634
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwa Jangla Sama"
+        },
+        {
+          "name": "Kasuwa Tsugo, Toungo",
+          "slug": "kasuwa-tsugo-toungo",
+          "coordinates": {
+            "lat": 8.194843,
+            "lng": 11.99948
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwa Tsugo"
+        },
+        {
+          "name": "Kasuwan Kiri, Toungo",
+          "slug": "kasuwan-kiri-toungo",
+          "coordinates": {
+            "lat": 8.145929,
+            "lng": 11.95001
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Kiri"
+        },
+        {
+          "name": "Kasuwan Neksiri, Toungo",
+          "slug": "kasuwan-neksiri-toungo",
+          "coordinates": {
+            "lat": 8.091662,
+            "lng": 11.6064
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Neksiri"
+        },
+        {
+          "name": "Kasuwar Main Nadu, Toungo",
+          "slug": "kasuwar-main-nadu-toungo",
+          "coordinates": {
+            "lat": 8.20905,
+            "lng": 12.14764
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Main Nadu"
+        },
+        {
+          "name": "Kasuwar Nayena, Toungo",
+          "slug": "kasuwar-nayena-toungo",
+          "coordinates": {
+            "lat": 8.190638,
+            "lng": 11.98066
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Nayena"
+        },
+        {
+          "name": "Kilalai Market, Toungo",
+          "slug": "kilalai-market-toungo",
+          "coordinates": {
+            "lat": 7.91412,
+            "lng": 11.87913
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kilalai"
+        },
+        {
+          "name": "Kodore Market, Toungo",
+          "slug": "kodore-market-toungo",
+          "coordinates": {
+            "lat": 8.242243,
+            "lng": 11.96149
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kodore"
+        },
+        {
+          "name": "Kogin Baba Main Market, Toungo",
+          "slug": "kogin-baba-main-market-toungo",
+          "coordinates": {
+            "lat": 7.902842,
+            "lng": 11.53204
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kogin Baba Main"
+        },
+        {
+          "name": "Lainde Chitta Market, Toungo",
+          "slug": "lainde-chitta-market-toungo",
+          "coordinates": {
+            "lat": 8.117905,
+            "lng": 12.09923
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Lainde Chitta"
+        },
+        {
+          "name": "Lapo A Market, Toungo",
+          "slug": "lapo-a-market-toungo",
+          "coordinates": {
+            "lat": 8.207356,
+            "lng": 12.13213
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Lapo A"
+        },
+        {
+          "name": "Mabaji Market, Toungo",
+          "slug": "mabaji-market-toungo",
+          "coordinates": {
+            "lat": 8.001249,
+            "lng": 11.83115
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Mabaji"
+        },
+        {
+          "name": "Maihula Market, Toungo",
+          "slug": "maihula-market-toungo",
+          "coordinates": {
+            "lat": 8.198604,
+            "lng": 12.12579
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Maihula"
+        },
+        {
+          "name": "Mayogbagba Mini Market, Toungo",
+          "slug": "mayogbagba-mini-market-toungo",
+          "coordinates": {
+            "lat": 8.077197,
+            "lng": 12.06334
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Mayogbagba Mini"
+        },
+        {
+          "name": "Nyaza B Market, Toungo",
+          "slug": "nyaza-b-market-toungo",
+          "coordinates": {
+            "lat": 8.203287,
+            "lng": 12.15871
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Nyaza B"
+        },
+        {
+          "name": "Old Market, Toungo",
+          "slug": "old-market-toungo",
+          "coordinates": {
+            "lat": 8.118273,
+            "lng": 12.04628
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Old"
+        },
+        {
+          "name": "Timpha Market, Toungo",
+          "slug": "timpha-market-toungo",
+          "coordinates": {
+            "lat": 8.023895,
+            "lng": 11.56654
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Timpha"
+        },
+        {
+          "name": "Yeliso Market, Toungo",
+          "slug": "yeliso-market-toungo",
+          "coordinates": {
+            "lat": 8.234318,
+            "lng": 12.12231
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Yeliso"
+        }
+      ]
     },
     {
       "name": "Yola North",
       "slug": "adamawa-yola-north",
-      "markets": []
+      "markets": [
+        {
+          "name": "Anguwa Chamba Market, Yola North",
+          "slug": "anguwa-chamba-market-yola-north",
+          "coordinates": {
+            "lat": 9.27226346,
+            "lng": 12.4491377
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Anguwa Chamba",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Gwari Market, Yola North",
+          "slug": "gwari-market-yola-north",
+          "coordinates": {
+            "lat": 9.28713452,
+            "lng": 12.4348821
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gwari",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Jambutu Market, Yola North",
+          "slug": "jambutu-market-yola-north",
+          "coordinates": {
+            "lat": 9.28822289,
+            "lng": 12.42333147
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Jambutu",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Jimeta Shopping Complex, Yola North",
+          "slug": "jimeta-shopping-complex-yola-north",
+          "coordinates": {
+            "lat": 9.27541,
+            "lng": 12.45354
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Jimeta Shopping Complex"
+        },
+        {
+          "name": "Kasuwa Tashan Fulani, Yola North",
+          "slug": "kasuwa-tashan-fulani-yola-north",
+          "coordinates": {
+            "lat": 9.28534696,
+            "lng": 12.4602682
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwa Tashan Fulani",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kasuwar Jimet Old, Yola North",
+          "slug": "kasuwar-jimet-old-yola-north",
+          "coordinates": {
+            "lat": 9.27934,
+            "lng": 12.45848
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Jimet Old"
+        },
+        {
+          "name": "Kasuwar Jimeta Modern, Yola North",
+          "slug": "kasuwar-jimeta-modern-yola-north",
+          "coordinates": {
+            "lat": 9.2742,
+            "lng": 12.43665
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Jimeta Modern"
+        },
+        {
+          "name": "Kasuwar Palluju, Yola North",
+          "slug": "kasuwar-palluju-yola-north",
+          "coordinates": {
+            "lat": 9.27869,
+            "lng": 12.43757
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Palluju"
+        },
+        {
+          "name": "Nyakore Market, Yola North",
+          "slug": "nyakore-market-yola-north",
+          "coordinates": {
+            "lat": 9.29052914,
+            "lng": 12.41684811
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Nyakore",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        }
+      ]
     },
     {
       "name": "Yola South",
       "slug": "adamawa-yola-south",
-      "markets": []
+      "markets": [
+        {
+          "name": "Baban Labbo Market, Yola South",
+          "slug": "baban-labbo-market-yola-south",
+          "coordinates": {
+            "lat": 9.21192321,
+            "lng": 12.47988482
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Baban Labbo",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Dabdu Market, Yola South",
+          "slug": "dabdu-market-yola-south",
+          "coordinates": {
+            "lat": 9.20756072,
+            "lng": 12.4745827
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Dabdu",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kaigama Market, Yola South",
+          "slug": "kaigama-market-yola-south",
+          "coordinates": {
+            "lat": 9.13608535,
+            "lng": 12.50970286
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kaigama",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Kasuwa Toungo, Yola South",
+          "slug": "kasuwa-toungo-yola-south",
+          "coordinates": {
+            "lat": 9.29207454,
+            "lng": 12.24475436
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwa Toungo",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kasuwan Njoboliyo, Yola South",
+          "slug": "kasuwan-njoboliyo-yola-south",
+          "coordinates": {
+            "lat": 9.2277905,
+            "lng": 12.58265373
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Njoboliyo",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Kasuwar Goduwo, Yola South",
+          "slug": "kasuwar-goduwo-yola-south",
+          "coordinates": {
+            "lat": 9.40024,
+            "lng": 12.31182
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Goduwo"
+        },
+        {
+          "name": "Kasuwar Wuro Yanka, Yola South",
+          "slug": "kasuwar-wuro-yanka-yola-south",
+          "coordinates": {
+            "lat": 9.28983,
+            "lng": 12.23331
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Wuro Yanka"
+        },
+        {
+          "name": "Kasuwar Yola, Yola South",
+          "slug": "kasuwar-yola-yola-south",
+          "coordinates": {
+            "lat": 9.20531,
+            "lng": 12.48342
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Yola"
+        },
+        {
+          "name": "Kusuwan Njoboli, Yola South",
+          "slug": "kusuwan-njoboli-yola-south",
+          "coordinates": {
+            "lat": 9.20740082,
+            "lng": 12.58833658
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kusuwan Njoboli",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Lomogira Market, Yola South",
+          "slug": "lomogira-market-yola-south",
+          "coordinates": {
+            "lat": 9.20823535,
+            "lng": 12.47721615
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Lomogira",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Malam Yakubu Market, Yola South",
+          "slug": "malam-yakubu-market-yola-south",
+          "coordinates": {
+            "lat": 9.2136674,
+            "lng": 12.47602558
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Malam Yakubu",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Sabon Tasha, Yola South",
+          "slug": "sabon-tasha-yola-south",
+          "coordinates": {
+            "lat": 9.21587468,
+            "lng": 12.45839002
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Sabon Tasha",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Toungo Market, Yola South",
+          "slug": "toungo-market-yola-south",
+          "coordinates": {
+            "lat": 9.20501327,
+            "lng": 12.48386847
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Toungo"
+        },
+        {
+          "name": "Yanka Kasuwa, Yola South",
+          "slug": "yanka-kasuwa-yola-south",
+          "coordinates": {
+            "lat": 9.29093352,
+            "lng": 12.2342242
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Yanka Kasuwa",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Yola Central Market, Yola South",
+          "slug": "yola-central-market-yola-south",
+          "coordinates": {
+            "lat": 9.20493275,
+            "lng": 12.48343404
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Yola Central",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        }
+      ]
     }
   ]
 }

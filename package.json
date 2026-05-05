@@ -15,6 +15,7 @@
     "seed": "pnpm exec tsx scripts/seed-states.ts",
     "validate": "pnpm exec tsx scripts/validate-data.ts",
     "sync": "pnpm exec tsx scripts/sync-to-d1.ts",
+    "import:grid3": "pnpm exec tsx scripts/import-grid3-markets.ts",
     "db:migrate": "wrangler d1 execute iya-oloja --local --file=migrations/0001_create_tables.sql"
   },
   "dependencies": {

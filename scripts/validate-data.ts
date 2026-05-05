@@ -4,6 +4,7 @@ import type { StateData } from '../types';
 
 const dataDir = join(process.cwd(), 'data', 'states');
 const files = readdirSync(dataDir).filter((f) => f.endsWith('.json'));
+const VALID_DAY_LABELS = new Set(['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']);
 
 let errors: string[] = [];
 const allSlugs = new Set<string>();
@@ -82,6 +83,30 @@ for (const file of files) {
           errors.push(`${mContext}: coordinates must be numbers`);
         } else {
           validateCoordinates(market.coordinates.lat, market.coordinates.lng, mContext);
+        }
+      }
+
+      if (market.frequency != null && typeof market.frequency !== 'string') {
+        errors.push(`${mContext}: frequency must be a string when present`);
+      }
+
+      if (market.type != null && typeof market.type !== 'string') {
+        errors.push(`${mContext}: type must be a string when present`);
+      }
+
+      if (market.local_name != null && typeof market.local_name !== 'string') {
+        errors.push(`${mContext}: local_name must be a string when present`);
+      }
+
+      if (market.days != null) {
+        if (!Array.isArray(market.days)) {
+          errors.push(`${mContext}: days must be an array when present`);
+        } else {
+          for (const day of market.days) {
+            if (typeof day !== 'string' || !VALID_DAY_LABELS.has(day)) {
+              errors.push(`${mContext}: invalid market day "${String(day)}"`);
+            }
+          }
         }
       }
     }

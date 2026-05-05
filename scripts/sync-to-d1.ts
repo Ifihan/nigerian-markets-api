@@ -181,14 +181,18 @@ async function main() {
     for (const lga of state.lgas) {
       for (const market of lga.markets) {
         marketStmts.push({
-          sql: `INSERT INTO markets (lga_id, name, slug, lat, lng, added_by)
-                VALUES ((SELECT id FROM lgas WHERE slug = ?), ?, ?, ?, ?, ?)
+          sql: `INSERT INTO markets (lga_id, name, slug, lat, lng, added_by, frequency, days, type, local_name)
+                VALUES ((SELECT id FROM lgas WHERE slug = ?), ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 ON CONFLICT(slug) DO UPDATE SET
                   name = excluded.name,
                   lga_id = excluded.lga_id,
                   lat = excluded.lat,
                   lng = excluded.lng,
-                  added_by = excluded.added_by`,
+                  added_by = excluded.added_by,
+                  frequency = excluded.frequency,
+                  days = excluded.days,
+                  type = excluded.type,
+                  local_name = excluded.local_name`,
           params: [
             lga.slug,
             market.name,
@@ -196,6 +200,10 @@ async function main() {
             market.coordinates?.lat ?? null,
             market.coordinates?.lng ?? null,
             market.added_by ?? null,
+            market.frequency ?? null,
+            market.days ? JSON.stringify(market.days) : null,
+            market.type ?? null,
+            market.local_name ?? null,
           ],
         });
       }

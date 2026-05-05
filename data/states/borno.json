@@ -5,108 +5,2203 @@
     {
       "name": "Abadam",
       "slug": "borno-abadam",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwar Abadam",
+          "slug": "kasuwar-abadam",
+          "coordinates": {
+            "lat": 13.61764,
+            "lng": 13.26457
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Abadam"
+        },
+        {
+          "name": "Kasuwar Arege, Abadam",
+          "slug": "kasuwar-arege-abadam",
+          "coordinates": {
+            "lat": 13.48856,
+            "lng": 13.32677
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Arege"
+        },
+        {
+          "name": "Kasuwar Fish Market Mallam Fatori, Abadam",
+          "slug": "kasuwar-fish-market-mallam-fatori-abadam",
+          "coordinates": {
+            "lat": 13.67864,
+            "lng": 13.34659
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Fish Mallam Fatori"
+        },
+        {
+          "name": "Kasuwar Garere, Abadam",
+          "slug": "kasuwar-garere-abadam",
+          "coordinates": {
+            "lat": 13.19665,
+            "lng": 13.26726
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Garere"
+        },
+        {
+          "name": "Kasuwar Jabullam, Abadam",
+          "slug": "kasuwar-jabullam-abadam",
+          "coordinates": {
+            "lat": 13.51714,
+            "lng": 13.08032
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Jabullam"
+        },
+        {
+          "name": "Kasuwar Mallam Fatori, Abadam",
+          "slug": "kasuwar-mallam-fatori-abadam",
+          "coordinates": {
+            "lat": 13.67458,
+            "lng": 13.33596
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Mallam Fatori"
+        },
+        {
+          "name": "Kasuwar Metele, Abadam",
+          "slug": "kasuwar-metele-abadam",
+          "coordinates": {
+            "lat": 13.35885,
+            "lng": 13.42664
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Metele"
+        },
+        {
+          "name": "Kasuwar Njawa, Abadam",
+          "slug": "kasuwar-njawa-abadam",
+          "coordinates": {
+            "lat": 13.50903,
+            "lng": 13.15922
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Njawa"
+        },
+        {
+          "name": "Kasuwar Talatam Ngam, Abadam",
+          "slug": "kasuwar-talatam-ngam-abadam",
+          "coordinates": {
+            "lat": 13.49638,
+            "lng": 12.94542
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Talatam Ngam"
+        }
+      ]
     },
     {
       "name": "Askira/Uba",
       "slug": "borno-askira-uba",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwar Alagarno, Askira/Uba",
+          "slug": "kasuwar-alagarno-askira-uba",
+          "coordinates": {
+            "lat": 10.70979,
+            "lng": 12.73881
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Alagarno",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Kasuwar Askira, Askira/Uba",
+          "slug": "kasuwar-askira-askira-uba",
+          "coordinates": {
+            "lat": 10.64852,
+            "lng": 12.90383
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Askira",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Kasuwar Bdagu, Askira/Uba",
+          "slug": "kasuwar-bdagu-askira-uba",
+          "coordinates": {
+            "lat": 10.85338,
+            "lng": 13.27753
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Bdagu",
+          "days": [
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kasuwar Chul, Askira/Uba",
+          "slug": "kasuwar-chul-askira-uba",
+          "coordinates": {
+            "lat": 10.61787,
+            "lng": 13.13354
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Chul",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Kasuwar Dille, Askira/Uba",
+          "slug": "kasuwar-dille-askira-uba",
+          "coordinates": {
+            "lat": 10.74749,
+            "lng": 13.22195
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Dille",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Kasuwar Gajele, Askira/Uba",
+          "slug": "kasuwar-gajele-askira-uba",
+          "coordinates": {
+            "lat": 10.57874,
+            "lng": 13.17717
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Gajele",
+          "days": [
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kasuwar Huyim, Askira/Uba",
+          "slug": "kasuwar-huyim-askira-uba",
+          "coordinates": {
+            "lat": 10.76911,
+            "lng": 13.14667
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Huyim",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Kasuwar Kidlindila, Askira/Uba",
+          "slug": "kasuwar-kidlindila-askira-uba",
+          "coordinates": {
+            "lat": 10.65025,
+            "lng": 13.1185
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Kidlindila",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Kasuwar Lassa, Askira/Uba",
+          "slug": "kasuwar-lassa-askira-uba",
+          "coordinates": {
+            "lat": 10.6844,
+            "lng": 13.27071
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Lassa",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Kasuwar Mussa, Askira/Uba",
+          "slug": "kasuwar-mussa-askira-uba",
+          "coordinates": {
+            "lat": 10.73693,
+            "lng": 13.13001
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Mussa",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Kasuwar Pumbum, Askira/Uba",
+          "slug": "kasuwar-pumbum-askira-uba",
+          "coordinates": {
+            "lat": 10.81586,
+            "lng": 13.19164
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Pumbum",
+          "days": [
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kasuwar Rumirgo, Askira/Uba",
+          "slug": "kasuwar-rumirgo-askira-uba",
+          "coordinates": {
+            "lat": 10.60485,
+            "lng": 13.02887
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Rumirgo"
+        },
+        {
+          "name": "Kasuwar Sabon Gari, Askira/Uba",
+          "slug": "kasuwar-sabon-gari-askira-uba",
+          "coordinates": {
+            "lat": 10.63118,
+            "lng": 13.19589
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Sabon Gari"
+        },
+        {
+          "name": "Kasuwar Tampul, Askira/Uba",
+          "slug": "kasuwar-tampul-askira-uba",
+          "coordinates": {
+            "lat": 10.57747,
+            "lng": 13.22316
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Tampul",
+          "days": [
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kasuwar Walafa Wamdeo, Askira/Uba",
+          "slug": "kasuwar-walafa-wamdeo-askira-uba",
+          "coordinates": {
+            "lat": 10.5601,
+            "lng": 13.16704
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Walafa Wamdeo",
+          "days": [
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kasuwar Wamdeo, Askira/Uba",
+          "slug": "kasuwar-wamdeo-askira-uba",
+          "coordinates": {
+            "lat": 10.52657,
+            "lng": 13.13153
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Wamdeo"
+        },
+        {
+          "name": "Para Kasuwa, Askira/Uba",
+          "slug": "para-kasuwa-askira-uba",
+          "coordinates": {
+            "lat": 10.45423106,
+            "lng": 13.22502547
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Para Kasuwa",
+          "days": [
+            "Thu"
+          ]
+        }
+      ]
     },
     {
       "name": "Bama",
       "slug": "borno-bama",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwar Banki, Bama",
+          "slug": "kasuwar-banki-bama",
+          "coordinates": {
+            "lat": 11.25499,
+            "lng": 14.15168
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Banki"
+        },
+        {
+          "name": "Kasuwar Bem Bem, Bama",
+          "slug": "kasuwar-bem-bem-bama",
+          "coordinates": {
+            "lat": 11.41379,
+            "lng": 14.32275
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Bem Bem"
+        },
+        {
+          "name": "Kasuwar Bolingo, Bama",
+          "slug": "kasuwar-bolingo-bama",
+          "coordinates": {
+            "lat": 11.4331,
+            "lng": 13.79322
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Bolingo"
+        },
+        {
+          "name": "Kasuwar Cattle Market Bama",
+          "slug": "kasuwar-cattle-market-bama",
+          "coordinates": {
+            "lat": 11.54049,
+            "lng": 13.68643
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Cattle Bama"
+        },
+        {
+          "name": "Kasuwar Gulumba, Bama",
+          "slug": "kasuwar-gulumba-bama",
+          "coordinates": {
+            "lat": 11.64968,
+            "lng": 14.10293
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Gulumba"
+        },
+        {
+          "name": "Kasuwar Jebra, Bama",
+          "slug": "kasuwar-jebra-bama",
+          "coordinates": {
+            "lat": 11.39856,
+            "lng": 13.76427
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Jebra"
+        },
+        {
+          "name": "Kasuwar Jere, Bama",
+          "slug": "kasuwar-jere-bama",
+          "coordinates": {
+            "lat": 11.38876,
+            "lng": 13.94662
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Jere"
+        },
+        {
+          "name": "Kasuwar Kalamugdo, Bama",
+          "slug": "kasuwar-kalamugdo-bama",
+          "coordinates": {
+            "lat": 11.4721,
+            "lng": 14.46656
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Kalamugdo"
+        },
+        {
+          "name": "Kasuwar Kashimiri, Bama",
+          "slug": "kasuwar-kashimiri-bama",
+          "coordinates": {
+            "lat": 11.61014,
+            "lng": 13.95728
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Kashimiri"
+        },
+        {
+          "name": "Kasuwar Kote Mamman, Bama",
+          "slug": "kasuwar-kote-mamman-bama",
+          "coordinates": {
+            "lat": 11.41608,
+            "lng": 14.04844
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Kote Mamman"
+        },
+        {
+          "name": "Kasuwar Kumshe, Bama",
+          "slug": "kasuwar-kumshe-bama",
+          "coordinates": {
+            "lat": 11.35472,
+            "lng": 14.21093
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Kumshe"
+        },
+        {
+          "name": "Kasuwar Mayanti, Bama",
+          "slug": "kasuwar-mayanti-bama",
+          "coordinates": {
+            "lat": 11.37668,
+            "lng": 13.87504
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Mayanti"
+        },
+        {
+          "name": "Kasuwar Ngusuwa, Bama",
+          "slug": "kasuwar-ngusuwa-bama",
+          "coordinates": {
+            "lat": 11.63783,
+            "lng": 13.88881
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Ngusuwa"
+        },
+        {
+          "name": "Kasuwar Tofa, Bama",
+          "slug": "kasuwar-tofa-bama",
+          "coordinates": {
+            "lat": 11.30557,
+            "lng": 14.03522
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Tofa"
+        },
+        {
+          "name": "Kasuwar Walasa, Bama",
+          "slug": "kasuwar-walasa-bama",
+          "coordinates": {
+            "lat": 11.57394,
+            "lng": 14.23868
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Walasa"
+        },
+        {
+          "name": "Kasuwar Yale Garu, Bama",
+          "slug": "kasuwar-yale-garu-bama",
+          "coordinates": {
+            "lat": 11.70715,
+            "lng": 13.70674
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Yale Garu"
+        }
+      ]
     },
     {
       "name": "Bayo",
       "slug": "borno-bayo",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwar Briyel, Bayo",
+          "slug": "kasuwar-briyel-bayo",
+          "coordinates": {
+            "lat": 10.34609,
+            "lng": 11.60891
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Briyel"
+        },
+        {
+          "name": "Kasuwar Garin Gado, Bayo",
+          "slug": "kasuwar-garin-gado-bayo",
+          "coordinates": {
+            "lat": 10.49028,
+            "lng": 11.66096
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Garin Gado"
+        },
+        {
+          "name": "Kasuwar Zange, Bayo",
+          "slug": "kasuwar-zange-bayo",
+          "coordinates": {
+            "lat": 10.2777,
+            "lng": 11.76427
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Zange"
+        }
+      ]
     },
     {
       "name": "Biu",
       "slug": "borno-biu",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwar Biu",
+          "slug": "kasuwar-biu",
+          "coordinates": {
+            "lat": 10.6203,
+            "lng": 12.18124
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Biu"
+        },
+        {
+          "name": "Kasuwar Buratai, Biu",
+          "slug": "kasuwar-buratai-biu",
+          "coordinates": {
+            "lat": 10.90587,
+            "lng": 12.08543
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Buratai"
+        },
+        {
+          "name": "Kasuwar Debiro, Biu",
+          "slug": "kasuwar-debiro-biu",
+          "coordinates": {
+            "lat": 10.57888,
+            "lng": 12.43532
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Debiro"
+        },
+        {
+          "name": "Kasuwar Mandagirau, Biu",
+          "slug": "kasuwar-mandagirau-biu",
+          "coordinates": {
+            "lat": 10.69439,
+            "lng": 12.33029
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Mandagirau"
+        },
+        {
+          "name": "Kasuwar Mirnga, Biu",
+          "slug": "kasuwar-mirnga-biu",
+          "coordinates": {
+            "lat": 10.73142,
+            "lng": 12.14075
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Mirnga"
+        },
+        {
+          "name": "Kasuwar Sabon Gari B, Biu",
+          "slug": "kasuwar-sabon-gari-b-biu",
+          "coordinates": {
+            "lat": 10.86622,
+            "lng": 12.22431
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Sabon Gari B"
+        }
+      ]
     },
     {
       "name": "Chibok",
       "slug": "borno-chibok",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwar Chibok",
+          "slug": "kasuwar-chibok",
+          "coordinates": {
+            "lat": 10.87018,
+            "lng": 12.84612
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Chibok",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Kasuwar Korogilim A, Chibok",
+          "slug": "kasuwar-korogilim-a-chibok",
+          "coordinates": {
+            "lat": 10.86608,
+            "lng": 12.70927
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Korogilim A",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Kasuwar Kuburivu, Chibok",
+          "slug": "kasuwar-kuburivu-chibok",
+          "coordinates": {
+            "lat": 10.92578,
+            "lng": 13.0233
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Kuburivu"
+        },
+        {
+          "name": "Kasuwar Kuburumbula, Chibok",
+          "slug": "kasuwar-kuburumbula-chibok",
+          "coordinates": {
+            "lat": 10.87453,
+            "lng": 12.92465
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Kuburumbula"
+        },
+        {
+          "name": "Kasuwar Kwada, Chibok",
+          "slug": "kasuwar-kwada-chibok",
+          "coordinates": {
+            "lat": 10.84721,
+            "lng": 12.97566
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Kwada"
+        },
+        {
+          "name": "Kasuwar Mbalala, Chibok",
+          "slug": "kasuwar-mbalala-chibok",
+          "coordinates": {
+            "lat": 10.77469,
+            "lng": 12.87542
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Mbalala",
+          "days": [
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kasuwar Nchiha A, Chibok",
+          "slug": "kasuwar-nchiha-a-chibok",
+          "coordinates": {
+            "lat": 10.84564,
+            "lng": 12.74902
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Nchiha A"
+        },
+        {
+          "name": "Kasuwar Shikakir, Chibok",
+          "slug": "kasuwar-shikakir-chibok",
+          "coordinates": {
+            "lat": 10.80293,
+            "lng": 12.77937
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Shikakir",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Kasuwar Takulashi, Chibok",
+          "slug": "kasuwar-takulashi-chibok",
+          "coordinates": {
+            "lat": 10.79389,
+            "lng": 12.72402
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Takulashi"
+        },
+        {
+          "name": "Kasuwar Thilaikama, Chibok",
+          "slug": "kasuwar-thilaikama-chibok",
+          "coordinates": {
+            "lat": 10.73179,
+            "lng": 12.99742
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Thilaikama",
+          "days": [
+            "Sat",
+            "Sun"
+          ]
+        }
+      ]
     },
     {
       "name": "Damboa",
       "slug": "borno-damboa",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwar Ajigin, Damboa",
+          "slug": "kasuwar-ajigin-damboa",
+          "coordinates": {
+            "lat": 11.16989,
+            "lng": 12.27981
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Ajigin"
+        },
+        {
+          "name": "Kasuwar Baale, Damboa",
+          "slug": "kasuwar-baale-damboa",
+          "coordinates": {
+            "lat": 11.20071,
+            "lng": 13.06888
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Baale"
+        },
+        {
+          "name": "Kasuwar Buk, Damboa",
+          "slug": "kasuwar-buk-damboa",
+          "coordinates": {
+            "lat": 11.23599,
+            "lng": 12.38488
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Buk"
+        },
+        {
+          "name": "Kasuwar Bulakar A, Damboa",
+          "slug": "kasuwar-bulakar-a-damboa",
+          "coordinates": {
+            "lat": 10.98625,
+            "lng": 12.97418
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Bulakar A"
+        },
+        {
+          "name": "Kasuwar Chilaria, Damboa",
+          "slug": "kasuwar-chilaria-damboa",
+          "coordinates": {
+            "lat": 11.14551,
+            "lng": 12.36454
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Chilaria"
+        },
+        {
+          "name": "Kasuwar Damboa",
+          "slug": "kasuwar-damboa",
+          "coordinates": {
+            "lat": 11.14918,
+            "lng": 12.7583
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Damboa"
+        },
+        {
+          "name": "Kasuwar Gartang, Damboa",
+          "slug": "kasuwar-gartang-damboa",
+          "coordinates": {
+            "lat": 11.02186,
+            "lng": 12.79638
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Gartang"
+        },
+        {
+          "name": "Kasuwar Gorgore, Damboa",
+          "slug": "kasuwar-gorgore-damboa",
+          "coordinates": {
+            "lat": 11.24545,
+            "lng": 12.11982
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Gorgore"
+        },
+        {
+          "name": "Kasuwar Kafa, Damboa",
+          "slug": "kasuwar-kafa-damboa",
+          "coordinates": {
+            "lat": 11.31292,
+            "lng": 12.4749
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Kafa"
+        },
+        {
+          "name": "Kasuwar Kauji A, Damboa",
+          "slug": "kasuwar-kauji-a-damboa",
+          "coordinates": {
+            "lat": 11.04388,
+            "lng": 12.70446
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Kauji A"
+        },
+        {
+          "name": "Kasuwar Kaya B, Damboa",
+          "slug": "kasuwar-kaya-b-damboa",
+          "coordinates": {
+            "lat": 11.01627,
+            "lng": 12.89699
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Kaya B"
+        },
+        {
+          "name": "Kasuwar Kopchi, Damboa",
+          "slug": "kasuwar-kopchi-damboa",
+          "coordinates": {
+            "lat": 10.86561,
+            "lng": 13.15969
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Kopchi"
+        },
+        {
+          "name": "Kasuwar Korede, Damboa",
+          "slug": "kasuwar-korede-damboa",
+          "coordinates": {
+            "lat": 11.06004,
+            "lng": 12.54112
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Korede"
+        },
+        {
+          "name": "Kasuwar Njaba, Damboa",
+          "slug": "kasuwar-njaba-damboa",
+          "coordinates": {
+            "lat": 11.13426,
+            "lng": 12.95329
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Njaba"
+        },
+        {
+          "name": "Kasuwar Sandiya, Damboa",
+          "slug": "kasuwar-sandiya-damboa",
+          "coordinates": {
+            "lat": 11.22198,
+            "lng": 12.81441
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Sandiya"
+        },
+        {
+          "name": "Kasuwar Shettima Abogu, Damboa",
+          "slug": "kasuwar-shettima-abogu-damboa",
+          "coordinates": {
+            "lat": 11.10211,
+            "lng": 12.28414
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Shettima Abogu"
+        },
+        {
+          "name": "Kasuwar Wajiroko, Damboa",
+          "slug": "kasuwar-wajiroko-damboa",
+          "coordinates": {
+            "lat": 10.93339,
+            "lng": 12.5249
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Wajiroko"
+        }
+      ]
     },
     {
       "name": "Dikwa",
       "slug": "borno-dikwa",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwar Dikko Shopping Complex, Dikwa",
+          "slug": "kasuwar-dikko-shopping-complex-dikwa",
+          "coordinates": {
+            "lat": 12.03932,
+            "lng": 13.91206
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Dikko Shopping Complex"
+        },
+        {
+          "name": "Kasuwar Dikwa",
+          "slug": "kasuwar-dikwa",
+          "coordinates": {
+            "lat": 12.03723,
+            "lng": 13.91312
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Dikwa"
+        },
+        {
+          "name": "Kasuwar Malummaja Abatoir, Dikwa",
+          "slug": "kasuwar-malummaja-abatoir-dikwa",
+          "coordinates": {
+            "lat": 11.98448,
+            "lng": 14.0905
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Malummaja Abatoir"
+        },
+        {
+          "name": "Kasuwar Malummaja, Dikwa",
+          "slug": "kasuwar-malummaja-dikwa",
+          "coordinates": {
+            "lat": 11.98586,
+            "lng": 14.0914
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Malummaja"
+        },
+        {
+          "name": "Kasuwar Masa, Dikwa",
+          "slug": "kasuwar-masa-dikwa",
+          "coordinates": {
+            "lat": 11.79544,
+            "lng": 14.04708
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Masa"
+        },
+        {
+          "name": "Kasuwar Shanu Dikwa",
+          "slug": "kasuwar-shanu-dikwa",
+          "coordinates": {
+            "lat": 12.03375,
+            "lng": 13.92509
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Shanu Dikwa"
+        }
+      ]
     },
     {
       "name": "Gubio",
       "slug": "borno-gubio",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwar Bindidul Kwammari, Gubio",
+          "slug": "kasuwar-bindidul-kwammari-gubio",
+          "coordinates": {
+            "lat": 12.79881,
+            "lng": 12.63635
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Bindidul Kwammari"
+        },
+        {
+          "name": "Kasuwar Gazabure, Gubio",
+          "slug": "kasuwar-gazabure-gubio",
+          "coordinates": {
+            "lat": 12.90013,
+            "lng": 12.81967
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Gazabure"
+        },
+        {
+          "name": "Kasuwar Gubio I",
+          "slug": "kasuwar-gubio-i",
+          "coordinates": {
+            "lat": 12.49765,
+            "lng": 12.78117
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Gubio I"
+        },
+        {
+          "name": "Kasuwar Jilli, Gubio",
+          "slug": "kasuwar-jilli-gubio",
+          "coordinates": {
+            "lat": 12.61428,
+            "lng": 12.46646
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Jilli"
+        },
+        {
+          "name": "Kasuwar Kingowa, Gubio",
+          "slug": "kasuwar-kingowa-gubio",
+          "coordinates": {
+            "lat": 12.60387,
+            "lng": 12.85873
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Kingowa"
+        },
+        {
+          "name": "Kasuwar Mboa Yimirmbula, Gubio",
+          "slug": "kasuwar-mboa-yimirmbula-gubio",
+          "coordinates": {
+            "lat": 12.92598,
+            "lng": 12.77071
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Mboa Yimirmbula",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Kasuwar Shanu Gubio Ii",
+          "slug": "kasuwar-shanu-gubio-ii",
+          "coordinates": {
+            "lat": 12.4935,
+            "lng": 12.7748
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Shanu Gubio Ii"
+        }
+      ]
     },
     {
       "name": "Guzamala",
       "slug": "borno-guzamala",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwar Gudumbali, Guzamala",
+          "slug": "kasuwar-gudumbali-guzamala",
+          "coordinates": {
+            "lat": 12.94467,
+            "lng": 13.17818
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Gudumbali"
+        }
+      ]
     },
     {
       "name": "Gwoza",
       "slug": "borno-gwoza",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwar Agapalawa, Gwoza",
+          "slug": "kasuwar-agapalawa-gwoza",
+          "coordinates": {
+            "lat": 11.1092,
+            "lng": 13.8086
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Agapalawa"
+        },
+        {
+          "name": "Kasuwar Ashigashiya Abbatoir, Gwoza",
+          "slug": "kasuwar-ashigashiya-abbatoir-gwoza",
+          "coordinates": {
+            "lat": 11.13687,
+            "lng": 13.87424
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Ashigashiya Abbatoir"
+        },
+        {
+          "name": "Kasuwar Ashigashiya, Gwoza",
+          "slug": "kasuwar-ashigashiya-gwoza",
+          "coordinates": {
+            "lat": 11.13506,
+            "lng": 13.87609
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Ashigashiya"
+        },
+        {
+          "name": "Kasuwar Barawa Pegi, Gwoza",
+          "slug": "kasuwar-barawa-pegi-gwoza",
+          "coordinates": {
+            "lat": 11.04994,
+            "lng": 13.78438
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Barawa Pegi"
+        },
+        {
+          "name": "Kasuwar Bita, Gwoza",
+          "slug": "kasuwar-bita-gwoza",
+          "coordinates": {
+            "lat": 11.17338,
+            "lng": 13.42831
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Bita"
+        },
+        {
+          "name": "Kasuwar Bokko Ghide, Gwoza",
+          "slug": "kasuwar-bokko-ghide-gwoza",
+          "coordinates": {
+            "lat": 11.19825,
+            "lng": 13.79942
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Bokko Ghide"
+        },
+        {
+          "name": "Kasuwar Butuku, Gwoza",
+          "slug": "kasuwar-butuku-gwoza",
+          "coordinates": {
+            "lat": 10.89779,
+            "lng": 13.38151
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Butuku"
+        },
+        {
+          "name": "Kasuwar Gava, Gwoza",
+          "slug": "kasuwar-gava-gwoza",
+          "coordinates": {
+            "lat": 11.09848,
+            "lng": 13.7669
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Gava"
+        },
+        {
+          "name": "Kasuwar Gudule, Gwoza",
+          "slug": "kasuwar-gudule-gwoza",
+          "coordinates": {
+            "lat": 11.05111,
+            "lng": 13.72133
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Gudule"
+        },
+        {
+          "name": "Kasuwar Gwoza",
+          "slug": "kasuwar-gwoza",
+          "coordinates": {
+            "lat": 11.08832,
+            "lng": 13.69989
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Gwoza"
+        },
+        {
+          "name": "Kasuwar Himbai Dutse, Gwoza",
+          "slug": "kasuwar-himbai-dutse-gwoza",
+          "coordinates": {
+            "lat": 11.04267,
+            "lng": 13.76809
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Himbai Dutse"
+        },
+        {
+          "name": "Kasuwar Hudimcha, Gwoza",
+          "slug": "kasuwar-hudimcha-gwoza",
+          "coordinates": {
+            "lat": 11.05023,
+            "lng": 13.72206
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Hudimcha"
+        },
+        {
+          "name": "Kasuwar Kavili Ii, Gwoza",
+          "slug": "kasuwar-kavili-ii-gwoza",
+          "coordinates": {
+            "lat": 11.2273,
+            "lng": 13.35295
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Kavili Ii"
+        },
+        {
+          "name": "Kasuwar Kirawa, Gwoza",
+          "slug": "kasuwar-kirawa-gwoza",
+          "coordinates": {
+            "lat": 11.19297,
+            "lng": 13.91098
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Kirawa"
+        },
+        {
+          "name": "Kasuwar Kundesana, Gwoza",
+          "slug": "kasuwar-kundesana-gwoza",
+          "coordinates": {
+            "lat": 11.055113,
+            "lng": 13.76177
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Kundesana"
+        },
+        {
+          "name": "Kasuwar Mashido, Gwoza",
+          "slug": "kasuwar-mashido-gwoza",
+          "coordinates": {
+            "lat": 11.22153,
+            "lng": 13.2288
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Mashido"
+        },
+        {
+          "name": "Kasuwar Ndabah Kura, Gwoza",
+          "slug": "kasuwar-ndabah-kura-gwoza",
+          "coordinates": {
+            "lat": 11.26463,
+            "lng": 13.96151
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Ndabah Kura"
+        },
+        {
+          "name": "Kasuwar Ngoshe, Gwoza",
+          "slug": "kasuwar-ngoshe-gwoza",
+          "coordinates": {
+            "lat": 11.1353,
+            "lng": 13.78939
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Ngoshe"
+        },
+        {
+          "name": "Kasuwar Njibiya, Gwoza",
+          "slug": "kasuwar-njibiya-gwoza",
+          "coordinates": {
+            "lat": 11.33425,
+            "lng": 13.56762
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Njibiya"
+        },
+        {
+          "name": "Kasuwar Pulka, Gwoza",
+          "slug": "kasuwar-pulka-gwoza",
+          "coordinates": {
+            "lat": 11.22584,
+            "lng": 13.78132
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Pulka"
+        },
+        {
+          "name": "Kasuwar Ruva, Gwoza",
+          "slug": "kasuwar-ruva-gwoza",
+          "coordinates": {
+            "lat": 11.0503,
+            "lng": 13.72286
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Ruva"
+        },
+        {
+          "name": "Kasuwar Valangide, Gwoza",
+          "slug": "kasuwar-valangide-gwoza",
+          "coordinates": {
+            "lat": 11.04352,
+            "lng": 13.50903
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Valangide"
+        },
+        {
+          "name": "Kasuwar Vreke, Gwoza",
+          "slug": "kasuwar-vreke-gwoza",
+          "coordinates": {
+            "lat": 11.03766,
+            "lng": 13.80169
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Vreke"
+        },
+        {
+          "name": "Kasuwar Warare A, Gwoza",
+          "slug": "kasuwar-warare-a-gwoza",
+          "coordinates": {
+            "lat": 11.1824,
+            "lng": 13.75429
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Warare A"
+        },
+        {
+          "name": "Kasuwar Yamtake, Gwoza",
+          "slug": "kasuwar-yamtake-gwoza",
+          "coordinates": {
+            "lat": 11.10653,
+            "lng": 13.50621
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Yamtake"
+        }
+      ]
     },
     {
       "name": "Hawul",
       "slug": "borno-hawul",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwar Azare, Hawul",
+          "slug": "kasuwar-azare-hawul",
+          "coordinates": {
+            "lat": 10.52592,
+            "lng": 12.29346
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Azare"
+        },
+        {
+          "name": "Kasuwar Ghuma Kabuna, Hawul",
+          "slug": "kasuwar-ghuma-kabuna-hawul",
+          "coordinates": {
+            "lat": 10.52575,
+            "lng": 12.25466
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Ghuma Kabuna"
+        },
+        {
+          "name": "Kasuwar Kukurpu, Hawul",
+          "slug": "kasuwar-kukurpu-hawul",
+          "coordinates": {
+            "lat": 10.39845,
+            "lng": 12.54248
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Kukurpu"
+        },
+        {
+          "name": "Kasuwar Kwajjafa, Hawul",
+          "slug": "kasuwar-kwajjafa-hawul",
+          "coordinates": {
+            "lat": 10.46846,
+            "lng": 12.41623
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Kwajjafa"
+        },
+        {
+          "name": "Kasuwar Kwaya Bura, Hawul",
+          "slug": "kasuwar-kwaya-bura-hawul",
+          "coordinates": {
+            "lat": 10.5436,
+            "lng": 12.12183
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Kwaya Bura"
+        },
+        {
+          "name": "Kasuwar Paklama, Hawul",
+          "slug": "kasuwar-paklama-hawul",
+          "coordinates": {
+            "lat": 10.44362,
+            "lng": 12.15772
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Paklama"
+        },
+        {
+          "name": "Kasuwar Tashan Alade, Hawul",
+          "slug": "kasuwar-tashan-alade-hawul",
+          "coordinates": {
+            "lat": 10.49067,
+            "lng": 12.41967
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Tashan Alade"
+        },
+        {
+          "name": "Kasuwar Tashan Gauta, Hawul",
+          "slug": "kasuwar-tashan-gauta-hawul",
+          "coordinates": {
+            "lat": 10.58054,
+            "lng": 12.032
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Tashan Gauta"
+        },
+        {
+          "name": "Kasuwar Yeraa, Hawul",
+          "slug": "kasuwar-yeraa-hawul",
+          "coordinates": {
+            "lat": 10.47019,
+            "lng": 12.30403
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Yeraa"
+        }
+      ]
     },
     {
       "name": "Jere",
       "slug": "borno-jere",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwar Birbiri, Jere",
+          "slug": "kasuwar-birbiri-jere",
+          "coordinates": {
+            "lat": 11.86927,
+            "lng": 13.24801
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Birbiri"
+        },
+        {
+          "name": "Kasuwar Maimalari Barrack, Jere",
+          "slug": "kasuwar-maimalari-barrack-jere",
+          "coordinates": {
+            "lat": 11.90693,
+            "lng": 13.10019
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Maimalari Barrack"
+        },
+        {
+          "name": "Kasuwar Ngomari, Jere",
+          "slug": "kasuwar-ngomari-jere",
+          "coordinates": {
+            "lat": 11.8347,
+            "lng": 13.08076
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Ngomari"
+        },
+        {
+          "name": "Kasuwar Zabarmari, Jere",
+          "slug": "kasuwar-zabarmari-jere",
+          "coordinates": {
+            "lat": 11.92409,
+            "lng": 13.24172
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Zabarmari"
+        }
+      ]
     },
     {
       "name": "Kaga",
       "slug": "borno-kaga",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwar Abulamamairi, Kaga",
+          "slug": "kasuwar-abulamamairi-kaga",
+          "coordinates": {
+            "lat": 11.37325,
+            "lng": 12.60842
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Abulamamairi"
+        },
+        {
+          "name": "Kasuwar Benisheikh, Kaga",
+          "slug": "kasuwar-benisheikh-kaga",
+          "coordinates": {
+            "lat": 11.80953,
+            "lng": 12.49417
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Benisheikh"
+        },
+        {
+          "name": "Kasuwar Galangi, Kaga",
+          "slug": "kasuwar-galangi-kaga",
+          "coordinates": {
+            "lat": 11.51016,
+            "lng": 12.51582
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Galangi"
+        },
+        {
+          "name": "Kasuwar Karawaru Lawanti, Kaga",
+          "slug": "kasuwar-karawaru-lawanti-kaga",
+          "coordinates": {
+            "lat": 11.90723,
+            "lng": 12.55409
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Karawaru Lawanti"
+        },
+        {
+          "name": "Kasuwar Kodowu, Kaga",
+          "slug": "kasuwar-kodowu-kaga",
+          "coordinates": {
+            "lat": 11.55627,
+            "lng": 12.44234
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Kodowu"
+        },
+        {
+          "name": "Kasuwar Mainok, Kaga",
+          "slug": "kasuwar-mainok-kaga",
+          "coordinates": {
+            "lat": 11.8285,
+            "lng": 12.62677
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Mainok"
+        },
+        {
+          "name": "Kasuwar Marguba, Kaga",
+          "slug": "kasuwar-marguba-kaga",
+          "coordinates": {
+            "lat": 11.69269,
+            "lng": 12.58379
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Marguba"
+        },
+        {
+          "name": "Kasuwar Miryel, Kaga",
+          "slug": "kasuwar-miryel-kaga",
+          "coordinates": {
+            "lat": 11.95198,
+            "lng": 12.33337
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Miryel",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Kasuwar Ngamdu, Kaga",
+          "slug": "kasuwar-ngamdu-kaga",
+          "coordinates": {
+            "lat": 11.76115,
+            "lng": 12.26104
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Ngamdu"
+        },
+        {
+          "name": "Kasuwar Yajiwa, Kaga",
+          "slug": "kasuwar-yajiwa-kaga",
+          "coordinates": {
+            "lat": 11.38591,
+            "lng": 12.71797
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Yajiwa"
+        }
+      ]
     },
     {
       "name": "Kala/Balge",
       "slug": "borno-kala-balge",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwar Gulfo, Kala/Balge",
+          "slug": "kasuwar-gulfo-kala-balge",
+          "coordinates": {
+            "lat": 12.19089,
+            "lng": 14.60022
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Gulfo",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Kasuwar Jarawa, Kala/Balge",
+          "slug": "kasuwar-jarawa-kala-balge",
+          "coordinates": {
+            "lat": 11.95932,
+            "lng": 14.39842
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Jarawa",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Kasuwar Jibe, Kala/Balge",
+          "slug": "kasuwar-jibe-kala-balge",
+          "coordinates": {
+            "lat": 11.91626,
+            "lng": 14.63782
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Jibe"
+        },
+        {
+          "name": "Kasuwar Kala, Kala/Balge",
+          "slug": "kasuwar-kala-kala-balge",
+          "coordinates": {
+            "lat": 12.08406,
+            "lng": 14.46632
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Kala",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Kasuwar Rann, Kala/Balge",
+          "slug": "kasuwar-rann-kala-balge",
+          "coordinates": {
+            "lat": 12.26953,
+            "lng": 14.46377
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Rann",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Kasuwar Sigal, Kala/Balge",
+          "slug": "kasuwar-sigal-kala-balge",
+          "coordinates": {
+            "lat": 12.28737,
+            "lng": 14.53581
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Sigal",
+          "days": [
+            "Sat",
+            "Sun"
+          ]
+        }
+      ]
     },
     {
       "name": "Konduga",
       "slug": "borno-konduga",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwar Bulabilin Tasha, Konduga",
+          "slug": "kasuwar-bulabilin-tasha-konduga",
+          "coordinates": {
+            "lat": 11.39344,
+            "lng": 12.90689
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Bulabilin Tasha"
+        },
+        {
+          "name": "Kasuwar Dalwa West, Konduga",
+          "slug": "kasuwar-dalwa-west-konduga",
+          "coordinates": {
+            "lat": 11.65821,
+            "lng": 13.03177
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Dalwa West"
+        },
+        {
+          "name": "Kasuwar Konduga",
+          "slug": "kasuwar-konduga",
+          "coordinates": {
+            "lat": 11.65153,
+            "lng": 13.41548
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Konduga"
+        },
+        {
+          "name": "Kasuwar Malari B, Konduga",
+          "slug": "kasuwar-malari-b-konduga",
+          "coordinates": {
+            "lat": 11.69659,
+            "lng": 13.3446
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Malari B"
+        },
+        {
+          "name": "Kasuwar Modu Kawuri, Konduga",
+          "slug": "kasuwar-modu-kawuri-konduga",
+          "coordinates": {
+            "lat": 11.57336,
+            "lng": 13.53617
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Modu Kawuri"
+        },
+        {
+          "name": "Kasuwar Tungushe Limanti Bulama, Konduga",
+          "slug": "kasuwar-tungushe-limanti-bulama-konduga",
+          "coordinates": {
+            "lat": 12.03654,
+            "lng": 13.07008
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Tungushe Limanti Bulama"
+        }
+      ]
     },
     {
       "name": "Kukawa",
       "slug": "borno-kukawa",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwar Baga, Kukawa",
+          "slug": "kasuwar-baga-kukawa",
+          "coordinates": {
+            "lat": 13.09153,
+            "lng": 13.81585
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Baga"
+        },
+        {
+          "name": "Kasuwar Cross Kukawa",
+          "slug": "kasuwar-cross-kukawa",
+          "coordinates": {
+            "lat": 12.94603,
+            "lng": 13.67268
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Cross Kukawa"
+        },
+        {
+          "name": "Kasuwar Dabar Masara, Kukawa",
+          "slug": "kasuwar-dabar-masara-kukawa",
+          "coordinates": {
+            "lat": 12.80433,
+            "lng": 13.83651
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Dabar Masara",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Kasuwar Doron Baga, Kukawa",
+          "slug": "kasuwar-doron-baga-kukawa",
+          "coordinates": {
+            "lat": 13.11426,
+            "lng": 13.85182
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Doron Baga"
+        },
+        {
+          "name": "Kasuwar Kangarwa, Kukawa",
+          "slug": "kasuwar-kangarwa-kukawa",
+          "coordinates": {
+            "lat": 13.31021,
+            "lng": 13.50745
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Kangarwa",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Kasuwar Kukawa",
+          "slug": "kasuwar-kukawa",
+          "coordinates": {
+            "lat": 12.92456,
+            "lng": 13.55816
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Kukawa"
+        },
+        {
+          "name": "Kasuwar Madari Ali Sherifti, Kukawa",
+          "slug": "kasuwar-madari-ali-sherifti-kukawa",
+          "coordinates": {
+            "lat": 12.85928,
+            "lng": 13.8567
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Madari Ali Sherifti"
+        },
+        {
+          "name": "Kasuwar Madayi Fish Market, Kukawa",
+          "slug": "kasuwar-madayi-fish-market-kukawa",
+          "coordinates": {
+            "lat": 13.41406,
+            "lng": 13.79847
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Madayi Fish"
+        },
+        {
+          "name": "Kasuwar Madayi, Kukawa",
+          "slug": "kasuwar-madayi-kukawa",
+          "coordinates": {
+            "lat": 13.41253,
+            "lng": 13.79758
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Madayi"
+        },
+        {
+          "name": "Kasuwar Mile 90, Kukawa",
+          "slug": "kasuwar-mile-90-kukawa",
+          "coordinates": {
+            "lat": 12.77716,
+            "lng": 13.66316
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Mile 90"
+        },
+        {
+          "name": "Kasuwar Shuwaram, Kukawa",
+          "slug": "kasuwar-shuwaram-kukawa",
+          "coordinates": {
+            "lat": 13.35511,
+            "lng": 13.68213
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Shuwaram",
+          "days": [
+            "Mon"
+          ]
+        }
+      ]
     },
     {
       "name": "Kwaya Kusar",
       "slug": "borno-kwaya-kusar",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwar Gusi Poli Barka, Kwaya Kusar",
+          "slug": "kasuwar-gusi-poli-barka-kwaya-kusar",
+          "coordinates": {
+            "lat": 10.39946,
+            "lng": 12.01531
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Gusi Poli Barka"
+        },
+        {
+          "name": "Kasuwar Kwaya Kusar",
+          "slug": "kasuwar-kwaya-kusar",
+          "coordinates": {
+            "lat": 10.5035,
+            "lng": 11.84379
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Kwaya Kusar"
+        },
+        {
+          "name": "Kasuwar Peta, Kwaya Kusar",
+          "slug": "kasuwar-peta-kwaya-kusar",
+          "coordinates": {
+            "lat": 10.34148,
+            "lng": 11.92518
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Peta"
+        },
+        {
+          "name": "Kasuwar Wandali, Kwaya Kusar",
+          "slug": "kasuwar-wandali-kwaya-kusar",
+          "coordinates": {
+            "lat": 10.56699,
+            "lng": 11.95418
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Wandali"
+        }
+      ]
     },
     {
       "name": "Mafa",
       "slug": "borno-mafa",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwar Dongo, Mafa",
+          "slug": "kasuwar-dongo-mafa",
+          "coordinates": {
+            "lat": 12.07939,
+            "lng": 13.49534
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Dongo"
+        },
+        {
+          "name": "Kasuwar Gowzari, Mafa",
+          "slug": "kasuwar-gowzari-mafa",
+          "coordinates": {
+            "lat": 11.92563,
+            "lng": 13.605
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Gowzari"
+        },
+        {
+          "name": "Kasuwar Mafa",
+          "slug": "kasuwar-mafa",
+          "coordinates": {
+            "lat": 11.9259,
+            "lng": 13.60339
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Mafa"
+        }
+      ]
     },
     {
       "name": "Magumeri",
       "slug": "borno-magumeri",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwar Ardoram, Magumeri",
+          "slug": "kasuwar-ardoram-magumeri",
+          "coordinates": {
+            "lat": 12.24854,
+            "lng": 12.7376
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Ardoram"
+        },
+        {
+          "name": "Kasuwar Borno Yesu Shopping Complex, Magumeri",
+          "slug": "kasuwar-borno-yesu-shopping-complex-magumeri",
+          "coordinates": {
+            "lat": 12.27004,
+            "lng": 12.58075
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Borno Yesu Shopping Complex"
+        },
+        {
+          "name": "Kasuwar Borno Yesu, Magumeri",
+          "slug": "kasuwar-borno-yesu-magumeri",
+          "coordinates": {
+            "lat": 12.26975,
+            "lng": 12.58025
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Borno Yesu"
+        },
+        {
+          "name": "Kasuwar Dannari Zainami, Magumeri",
+          "slug": "kasuwar-dannari-zainami-magumeri",
+          "coordinates": {
+            "lat": 12.04051,
+            "lng": 12.71101
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Dannari Zainami",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Kasuwar Gajiganna Shopping Complex, Magumeri",
+          "slug": "kasuwar-gajiganna-shopping-complex-magumeri",
+          "coordinates": {
+            "lat": 12.25663,
+            "lng": 13.10946
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Gajiganna Shopping Complex"
+        },
+        {
+          "name": "Kasuwar Gajiganna, Magumeri",
+          "slug": "kasuwar-gajiganna-magumeri",
+          "coordinates": {
+            "lat": 12.25879,
+            "lng": 13.11022
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Gajiganna"
+        },
+        {
+          "name": "Kasuwar Kadauri Kaajiya, Magumeri",
+          "slug": "kasuwar-kadauri-kaajiya-magumeri",
+          "coordinates": {
+            "lat": 12.05167,
+            "lng": 12.83063
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Kadauri Kaajiya",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Kasuwar Ladi Isaye, Magumeri",
+          "slug": "kasuwar-ladi-isaye-magumeri",
+          "coordinates": {
+            "lat": 12.12566,
+            "lng": 12.34332
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Ladi Isaye",
+          "days": [
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kasuwar Lowolti Abbatoir, Magumeri",
+          "slug": "kasuwar-lowolti-abbatoir-magumeri",
+          "coordinates": {
+            "lat": 11.9843,
+            "lng": 12.50571
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Lowolti Abbatoir"
+        },
+        {
+          "name": "Kasuwar Lowolti, Magumeri",
+          "slug": "kasuwar-lowolti-magumeri",
+          "coordinates": {
+            "lat": 11.98205,
+            "lng": 12.50671
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Lowolti",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Kasuwar Magumeri",
+          "slug": "kasuwar-magumeri",
+          "coordinates": {
+            "lat": 12.11426,
+            "lng": 12.82532
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Magumeri",
+          "days": [
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kasuwar Malari, Magumeri",
+          "slug": "kasuwar-malari-magumeri",
+          "coordinates": {
+            "lat": 12.36983,
+            "lng": 12.57598
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Malari"
+        },
+        {
+          "name": "Kasuwar Ngamma, Magumeri",
+          "slug": "kasuwar-ngamma-magumeri",
+          "coordinates": {
+            "lat": 12.37782,
+            "lng": 12.67804
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Ngamma"
+        },
+        {
+          "name": "Kasuwar Nguwala, Magumeri",
+          "slug": "kasuwar-nguwala-magumeri",
+          "coordinates": {
+            "lat": 12.44339,
+            "lng": 12.54049
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Nguwala"
+        }
+      ]
     },
     {
       "name": "Maiduguri",
       "slug": "borno-maiduguri",
       "markets": [
-         {
+        {
+          "name": "Kasuwar Baga Timber Market, Maiduguri",
+          "slug": "kasuwar-baga-timber-market-maiduguri",
+          "coordinates": {
+            "lat": 11.87247,
+            "lng": 13.11867
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Baga Timber"
+        },
+        {
+          "name": "Kasuwar Bolori, Maiduguri",
+          "slug": "kasuwar-bolori-maiduguri",
+          "coordinates": {
+            "lat": 11.85675,
+            "lng": 13.1323
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Bolori"
+        },
+        {
+          "name": "Kasuwar Bulabulin Ngarnam, Maiduguri",
+          "slug": "kasuwar-bulabulin-ngarnam-maiduguri",
+          "coordinates": {
+            "lat": 11.89436,
+            "lng": 13.14829
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Bulabulin Ngarnam"
+        },
+        {
+          "name": "Kasuwar Bulabulin Yerwa, Maiduguri",
+          "slug": "kasuwar-bulabulin-yerwa-maiduguri",
+          "coordinates": {
+            "lat": 11.83377,
+            "lng": 13.15406
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Bulabulin Yerwa"
+        },
+        {
+          "name": "Kasuwar Bulumkutu Yam Market, Maiduguri",
+          "slug": "kasuwar-bulumkutu-yam-market-maiduguri",
+          "coordinates": {
+            "lat": 11.82599879,
+            "lng": 13.11376707
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Bulumkutu Yam"
+        },
+        {
+          "name": "Kasuwar Bulumkutu, Maiduguri",
+          "slug": "kasuwar-bulumkutu-maiduguri",
+          "coordinates": {
+            "lat": 11.8256,
+            "lng": 13.1139
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Bulumkutu"
+        },
+        {
+          "name": "Kasuwar Gamboru Cattle Market, Maiduguri",
+          "slug": "kasuwar-gamboru-cattle-market-maiduguri",
+          "coordinates": {
+            "lat": 11.85869,
+            "lng": 13.17548
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Gamboru Cattle"
+        },
+        {
+          "name": "Kasuwar Gamboru Liberty, Maiduguri",
+          "slug": "kasuwar-gamboru-liberty-maiduguri",
+          "coordinates": {
+            "lat": 11.85419,
+            "lng": 13.1741
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Gamboru Liberty"
+        },
+        {
+          "name": "Kasuwar Gonidamgari, Maiduguri",
+          "slug": "kasuwar-gonidamgari-maiduguri",
+          "coordinates": {
+            "lat": 11.86604,
+            "lng": 13.15187
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Gonidamgari"
+        },
+        {
+          "name": "Kasuwar Wulari, Maiduguri",
+          "slug": "kasuwar-wulari-maiduguri",
+          "coordinates": {
+            "lat": 11.84868,
+            "lng": 13.13784
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Wulari"
+        },
+        {
+          "name": "Kasuwar Zajeri, Maiduguri",
+          "slug": "kasuwar-zajeri-maiduguri",
+          "coordinates": {
+            "lat": 11.8688,
+            "lng": 13.12314
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Zajeri"
+        },
+        {
+          "name": "Kasuwar Zango, Maiduguri",
+          "slug": "kasuwar-zango-maiduguri",
+          "coordinates": {
+            "lat": 11.83651,
+            "lng": 13.15516
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Zango",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
           "name": "Monday Market, Maiduguri",
           "slug": "monday-market",
           "coordinates": {
@@ -120,32 +2215,428 @@
     {
       "name": "Marte",
       "slug": "borno-marte",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwar Abbaganaram, Marte",
+          "slug": "kasuwar-abbaganaram-marte",
+          "coordinates": {
+            "lat": 12.66014,
+            "lng": 14.07229
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Abbaganaram"
+        },
+        {
+          "name": "Kasuwar Alinwa Masallachi, Marte",
+          "slug": "kasuwar-alinwa-masallachi-marte",
+          "coordinates": {
+            "lat": 12.62281,
+            "lng": 13.97417
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Alinwa Masallachi"
+        },
+        {
+          "name": "Kasuwar Badairi, Marte",
+          "slug": "kasuwar-badairi-marte",
+          "coordinates": {
+            "lat": 12.53543,
+            "lng": 13.8513
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Badairi"
+        },
+        {
+          "name": "Kasuwar Garadai, Marte",
+          "slug": "kasuwar-garadai-marte",
+          "coordinates": {
+            "lat": 12.24739,
+            "lng": 13.87316
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Garadai"
+        },
+        {
+          "name": "Kasuwar Kirenowa, Marte",
+          "slug": "kasuwar-kirenowa-marte",
+          "coordinates": {
+            "lat": 12.42633,
+            "lng": 13.93578
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Kirenowa"
+        },
+        {
+          "name": "Kasuwar Koloram, Marte",
+          "slug": "kasuwar-koloram-marte",
+          "coordinates": {
+            "lat": 12.66973,
+            "lng": 13.95827
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Koloram"
+        },
+        {
+          "name": "Kasuwar Kulli, Marte",
+          "slug": "kasuwar-kulli-marte",
+          "coordinates": {
+            "lat": 12.31543,
+            "lng": 13.61889
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Kulli"
+        },
+        {
+          "name": "Kasuwar Marte",
+          "slug": "kasuwar-marte",
+          "coordinates": {
+            "lat": 12.36432,
+            "lng": 13.82721
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Marte"
+        },
+        {
+          "name": "Kasuwar Sigir, Marte",
+          "slug": "kasuwar-sigir-marte",
+          "coordinates": {
+            "lat": 12.76142,
+            "lng": 14.14816
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Sigir"
+        }
+      ]
     },
     {
       "name": "Mobbar",
       "slug": "borno-mobbar",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwar Asaga, Mobbar",
+          "slug": "kasuwar-asaga-mobbar",
+          "coordinates": {
+            "lat": 13.30558,
+            "lng": 12.70978
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Asaga"
+        },
+        {
+          "name": "Kasuwar Damasak, Mobbar",
+          "slug": "kasuwar-damasak-mobbar",
+          "coordinates": {
+            "lat": 13.10156,
+            "lng": 12.50814
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Damasak"
+        },
+        {
+          "name": "Kasuwar Duji, Mobbar",
+          "slug": "kasuwar-duji-mobbar",
+          "coordinates": {
+            "lat": 13.26137,
+            "lng": 12.61221
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Duji"
+        },
+        {
+          "name": "Kasuwar Gashigar, Mobbar",
+          "slug": "kasuwar-gashigar-mobbar",
+          "coordinates": {
+            "lat": 13.37507,
+            "lng": 12.79312
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Gashigar"
+        },
+        {
+          "name": "Kasuwar Jumaacheri, Mobbar",
+          "slug": "kasuwar-jumaacheri-mobbar",
+          "coordinates": {
+            "lat": 13.16788,
+            "lng": 12.98273
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Jumaacheri"
+        },
+        {
+          "name": "Kasuwar Kareto, Mobbar",
+          "slug": "kasuwar-kareto-mobbar",
+          "coordinates": {
+            "lat": 12.88527,
+            "lng": 12.50346
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Kareto"
+        },
+        {
+          "name": "Kasuwar Kauwa Lawanti, Mobbar",
+          "slug": "kasuwar-kauwa-lawanti-mobbar",
+          "coordinates": {
+            "lat": 12.9351,
+            "lng": 12.42494
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Kauwa Lawanti"
+        },
+        {
+          "name": "Kasuwar Zari, Mobbar",
+          "slug": "kasuwar-zari-mobbar",
+          "coordinates": {
+            "lat": 13.08959,
+            "lng": 12.73703
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Zari"
+        }
+      ]
     },
     {
       "name": "Monguno",
       "slug": "borno-monguno",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwar Bida, Monguno",
+          "slug": "kasuwar-bida-monguno",
+          "coordinates": {
+            "lat": 12.34577,
+            "lng": 13.45462
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Bida"
+        },
+        {
+          "name": "Kasuwar Jiburillaram, Monguno",
+          "slug": "kasuwar-jiburillaram-monguno",
+          "coordinates": {
+            "lat": 12.71646,
+            "lng": 13.97213
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Jiburillaram"
+        },
+        {
+          "name": "Kasuwar Kerta, Monguno",
+          "slug": "kasuwar-kerta-monguno",
+          "coordinates": {
+            "lat": 12.79171,
+            "lng": 14.12212
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Kerta"
+        },
+        {
+          "name": "Kasuwar Monguno",
+          "slug": "kasuwar-monguno",
+          "coordinates": {
+            "lat": 12.66986,
+            "lng": 13.61138
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Monguno"
+        }
+      ]
     },
     {
       "name": "Ngala",
       "slug": "borno-ngala",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwar Chuku Ngodowa, Ngala",
+          "slug": "kasuwar-chuku-ngodowa-ngala",
+          "coordinates": {
+            "lat": 12.55129,
+            "lng": 14.06564
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Chuku Ngodowa"
+        },
+        {
+          "name": "Kasuwar Danbaure, Ngala",
+          "slug": "kasuwar-danbaure-ngala",
+          "coordinates": {
+            "lat": 12.51981,
+            "lng": 14.19657
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Danbaure"
+        },
+        {
+          "name": "Kasuwar Gamboru Town, Ngala",
+          "slug": "kasuwar-gamboru-town-ngala",
+          "coordinates": {
+            "lat": 12.37237,
+            "lng": 14.21469
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Gamboru Town"
+        },
+        {
+          "name": "Kasuwar Ndufu, Ngala",
+          "slug": "kasuwar-ndufu-ngala",
+          "coordinates": {
+            "lat": 12.21058,
+            "lng": 14.29858
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Ndufu"
+        },
+        {
+          "name": "Kasuwar Wulgo, Ngala",
+          "slug": "kasuwar-wulgo-ngala",
+          "coordinates": {
+            "lat": 12.48324,
+            "lng": 14.17965
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Wulgo"
+        }
+      ]
     },
     {
       "name": "Nganzai",
       "slug": "borno-nganzai",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwar Badu, Nganzai",
+          "slug": "kasuwar-badu-nganzai",
+          "coordinates": {
+            "lat": 12.70326,
+            "lng": 13.21797
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Badu"
+        },
+        {
+          "name": "Kasuwar Damsure, Nganzai",
+          "slug": "kasuwar-damsure-nganzai",
+          "coordinates": {
+            "lat": 12.41461,
+            "lng": 13.08892
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Damsure"
+        },
+        {
+          "name": "Kasuwar Gadai, Nganzai",
+          "slug": "kasuwar-gadai-nganzai",
+          "coordinates": {
+            "lat": 12.39802,
+            "lng": 12.9472
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Gadai"
+        },
+        {
+          "name": "Kasuwar Gajiram, Nganzai",
+          "slug": "kasuwar-gajiram-nganzai",
+          "coordinates": {
+            "lat": 12.49041,
+            "lng": 13.21624
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Gajiram"
+        }
+      ]
     },
     {
       "name": "Shani",
       "slug": "borno-shani",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kasuwar Bargu, Shani",
+          "slug": "kasuwar-bargu-shani",
+          "coordinates": {
+            "lat": 10.08883,
+            "lng": 11.96269
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Bargu"
+        },
+        {
+          "name": "Kasuwar Buma, Shani",
+          "slug": "kasuwar-buma-shani",
+          "coordinates": {
+            "lat": 10.3299,
+            "lng": 12.17916
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Buma"
+        },
+        {
+          "name": "Kasuwar Gwaskara, Shani",
+          "slug": "kasuwar-gwaskara-shani",
+          "coordinates": {
+            "lat": 10.27756,
+            "lng": 12.14215
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Gwaskara"
+        },
+        {
+          "name": "Kasuwar Kashim, Shani",
+          "slug": "kasuwar-kashim-shani",
+          "coordinates": {
+            "lat": 10.13336,
+            "lng": 12.06344
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Kashim"
+        },
+        {
+          "name": "Kasuwar Koburut, Shani",
+          "slug": "kasuwar-koburut-shani",
+          "coordinates": {
+            "lat": 10.21051,
+            "lng": 11.7337
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Koburut"
+        },
+        {
+          "name": "Kasuwar Kombo, Shani",
+          "slug": "kasuwar-kombo-shani",
+          "coordinates": {
+            "lat": 10.06125,
+            "lng": 11.8276
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Kombo"
+        },
+        {
+          "name": "Kasuwar Kubo, Shani",
+          "slug": "kasuwar-kubo-shani",
+          "coordinates": {
+            "lat": 10.10111,
+            "lng": 12.02895
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Kubo"
+        },
+        {
+          "name": "Kasuwar Lakundum, Shani",
+          "slug": "kasuwar-lakundum-shani",
+          "coordinates": {
+            "lat": 10.18406,
+            "lng": 11.96219
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Lakundum"
+        },
+        {
+          "name": "Kasuwar Shani",
+          "slug": "kasuwar-shani",
+          "coordinates": {
+            "lat": 10.22185,
+            "lng": 12.05595
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwar Shani"
+        }
+      ]
     }
   ]
 }
