@@ -5,27 +5,447 @@
     {
       "name": "Asa",
       "slug": "kwara-asa",
-      "markets": []
+      "markets": [
+        {
+          "name": "Mandala Market, Asa",
+          "slug": "mandala-market-asa",
+          "coordinates": {
+            "lat": 8.55264,
+            "lng": 4.46721
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Mandala"
+        }
+      ]
     },
     {
       "name": "Baruten",
       "slug": "kwara-baruten",
-      "markets": []
+      "markets": [
+        {
+          "name": "Ajuba Central Market, Baruten",
+          "slug": "ajuba-central-market-baruten",
+          "coordinates": {
+            "lat": 8.84936,
+            "lng": 3.28146
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ajuba Central"
+        },
+        {
+          "name": "Bankubu Market, Baruten",
+          "slug": "bankubu-market-baruten",
+          "coordinates": {
+            "lat": 9.13514,
+            "lng": 3.26256
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Bankubu"
+        },
+        {
+          "name": "Boriya Central Market, Baruten",
+          "slug": "boriya-central-market-baruten",
+          "coordinates": {
+            "lat": 9.41137,
+            "lng": 3.15827
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Boriya Central"
+        },
+        {
+          "name": "Bweru Market, Baruten",
+          "slug": "bweru-market-baruten",
+          "coordinates": {
+            "lat": 9.66674,
+            "lng": 3.44259
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Bweru"
+        },
+        {
+          "name": "Chikanda Markets, Baruten",
+          "slug": "chikanda-markets-baruten",
+          "coordinates": {
+            "lat": 9.82404625,
+            "lng": 3.366250989
+          },
+          "added_by": "GRID3 (kevin.ukueku)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Chikanda",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Gure Market, Baruten",
+          "slug": "gure-market-baruten",
+          "coordinates": {
+            "lat": 9.62451,
+            "lng": 3.28926
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gure"
+        },
+        {
+          "name": "Gwane Market, Baruten",
+          "slug": "gwane-market-baruten",
+          "coordinates": {
+            "lat": 9.52384,
+            "lng": 3.33689
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gwane"
+        },
+        {
+          "name": "Gwasoro Market, Baruten",
+          "slug": "gwasoro-market-baruten",
+          "coordinates": {
+            "lat": 9.483125,
+            "lng": 3.513353333
+          },
+          "added_by": "GRID3 (kevin.ukueku)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Gwasoro",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Gwette Market, Baruten",
+          "slug": "gwette-market-baruten",
+          "coordinates": {
+            "lat": 9.836237282,
+            "lng": 3.482461354
+          },
+          "added_by": "GRID3 (kevin.ukueku)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Gwette",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Kara Market Ilesha Baruba, Baruten",
+          "slug": "kara-market-ilesha-baruba-baruten",
+          "coordinates": {
+            "lat": 8.91132,
+            "lng": 3.42601
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kara Ilesha Baruba"
+        },
+        {
+          "name": "Kenu Market, Baruten",
+          "slug": "kenu-market-baruten",
+          "coordinates": {
+            "lat": 9.10661,
+            "lng": 3.11003
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kenu"
+        },
+        {
+          "name": "Kosubosu Market, Baruten",
+          "slug": "kosubosu-market-baruten",
+          "coordinates": {
+            "lat": 9.55256,
+            "lng": 3.22689
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kosubosu"
+        },
+        {
+          "name": "Shiya Central Market, Baruten",
+          "slug": "shiya-central-market-baruten",
+          "coordinates": {
+            "lat": 9.46961,
+            "lng": 3.18207
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Shiya Central"
+        },
+        {
+          "name": "Sinawu Central Market, Baruten",
+          "slug": "sinawu-central-market-baruten",
+          "coordinates": {
+            "lat": 9.03322,
+            "lng": 3.34583
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Sinawu Central"
+        },
+        {
+          "name": "Teberu Market, Baruten",
+          "slug": "teberu-market-baruten",
+          "coordinates": {
+            "lat": 9.05961,
+            "lng": 2.92927
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Teberu"
+        },
+        {
+          "name": "Tumbuyan Main Market, Baruten",
+          "slug": "tumbuyan-main-market-baruten",
+          "coordinates": {
+            "lat": 8.92139,
+            "lng": 3.3066
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Tumbuyan Main"
+        },
+        {
+          "name": "Woruwurenen Kparu Central Market, Baruten",
+          "slug": "woruwurenen-kparu-central-market-baruten",
+          "coordinates": {
+            "lat": 9.4133,
+            "lng": 3.2909
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Woruwurenen Kparu Central"
+        },
+        {
+          "name": "Yakiru Market, Baruten",
+          "slug": "yakiru-market-baruten",
+          "coordinates": {
+            "lat": 8.99411,
+            "lng": 3.07709
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Yakiru"
+        },
+        {
+          "name": "Yanbereku Central Market, Baruten",
+          "slug": "yanbereku-central-market-baruten",
+          "coordinates": {
+            "lat": 9.08419,
+            "lng": 3.12732
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Yanbereku Central"
+        },
+        {
+          "name": "Yanbuwa Central Market, Baruten",
+          "slug": "yanbuwa-central-market-baruten",
+          "coordinates": {
+            "lat": 8.96821,
+            "lng": 2.79204
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Yanbuwa Central"
+        },
+        {
+          "name": "Yanri Central Market, Baruten",
+          "slug": "yanri-central-market-baruten",
+          "coordinates": {
+            "lat": 9.58421,
+            "lng": 3.24932
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Yanri Central"
+        }
+      ]
     },
     {
       "name": "Edu",
       "slug": "kwara-edu",
-      "markets": []
+      "markets": [
+        {
+          "name": "Bacita Market, Edu",
+          "slug": "bacita-market-edu",
+          "coordinates": {
+            "lat": 9.06712,
+            "lng": 4.9518
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Bacita"
+        },
+        {
+          "name": "Gbugbu Central Market, Edu",
+          "slug": "gbugbu-central-market-edu",
+          "coordinates": {
+            "lat": 8.78533,
+            "lng": 5.2938
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gbugbu Central"
+        },
+        {
+          "name": "Lafiagi Ultra Modern Market, Edu",
+          "slug": "lafiagi-ultra-modern-market-edu",
+          "coordinates": {
+            "lat": 8.8578,
+            "lng": 5.40764
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Lafiagi Ultra Modern"
+        },
+        {
+          "name": "Shonga Central Market, Edu",
+          "slug": "shonga-central-market-edu",
+          "coordinates": {
+            "lat": 9.02112,
+            "lng": 5.15138
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Shonga Central"
+        },
+        {
+          "name": "Tada Central Market, Edu",
+          "slug": "tada-central-market-edu",
+          "coordinates": {
+            "lat": 9.08629,
+            "lng": 5.16453
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Tada Central"
+        },
+        {
+          "name": "Tsaragi Market, Edu",
+          "slug": "tsaragi-market-edu",
+          "coordinates": {
+            "lat": 8.83147,
+            "lng": 4.97939
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Tsaragi"
+        }
+      ]
     },
     {
       "name": "Ekiti",
       "slug": "kwara-ekiti",
-      "markets": []
+      "markets": [
+        {
+          "name": "Etan Market, Ekiti",
+          "slug": "etan-market-ekiti",
+          "coordinates": {
+            "lat": 8.03782,
+            "lng": 5.21447
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Etan"
+        },
+        {
+          "name": "Isapa Market, Ekiti",
+          "slug": "isapa-market-ekiti",
+          "coordinates": {
+            "lat": 8.1402,
+            "lng": 5.32847
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Isapa"
+        },
+        {
+          "name": "Isoloopin Central Market, Ekiti",
+          "slug": "isoloopin-central-market-ekiti",
+          "coordinates": {
+            "lat": 8.07798,
+            "lng": 5.25006
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Isoloopin Central"
+        },
+        {
+          "name": "Obbo Ile Centre Market, Ekiti",
+          "slug": "obbo-ile-centre-market-ekiti",
+          "coordinates": {
+            "lat": 8.07645,
+            "lng": 5.31822
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Obbo Ile Center"
+        },
+        {
+          "name": "Obbo Market, Ekiti",
+          "slug": "obbo-market-ekiti",
+          "coordinates": {
+            "lat": 8.02135,
+            "lng": 5.26886
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Obbo"
+        },
+        {
+          "name": "Osi Market, Ekiti",
+          "slug": "osi-market-ekiti",
+          "coordinates": {
+            "lat": 8.07827,
+            "lng": 5.23062
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Osi"
+        }
+      ]
     },
     {
       "name": "Ifelodun",
       "slug": "kwara-ifelodun",
-      "markets": []
+      "markets": [
+        {
+          "name": "Agunjin Market, Ifelodun",
+          "slug": "agunjin-market-ifelodun",
+          "coordinates": {
+            "lat": 8.46874,
+            "lng": 4.97393
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Agunjin"
+        },
+        {
+          "name": "Ajegunle Market, Ifelodun",
+          "slug": "ajegunle-market-ifelodun",
+          "coordinates": {
+            "lat": 8.28722,
+            "lng": 5.21521
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ajegunle"
+        },
+        {
+          "name": "Balogun Oja Market, Ifelodun",
+          "slug": "balogun-oja-market-ifelodun",
+          "coordinates": {
+            "lat": 8.4659,
+            "lng": 4.82757
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Balogun Oja"
+        },
+        {
+          "name": "Oro Ago Market, Ifelodun",
+          "slug": "oro-ago-market-ifelodun",
+          "coordinates": {
+            "lat": 8.33336,
+            "lng": 5.23346
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Oro Ago"
+        },
+        {
+          "name": "Oyatedo Market, Ifelodun",
+          "slug": "oyatedo-market-ifelodun",
+          "coordinates": {
+            "lat": 8.33101,
+            "lng": 5.24477
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Oyatedo"
+        },
+        {
+          "name": "Yari Market, Ifelodun",
+          "slug": "yari-market-ifelodun",
+          "coordinates": {
+            "lat": 8.46478,
+            "lng": 4.8838
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Yari"
+        }
+      ]
     },
     {
       "name": "Ilorin East",
@@ -39,18 +459,89 @@
             "lng": 4.564951
           },
           "added_by": "clrzr"
+        },
+        {
+          "name": "Marafa Community Market, Ilorin East",
+          "slug": "marafa-community-market-ilorin-east",
+          "coordinates": {
+            "lat": 8.63154,
+            "lng": 4.89496
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Marafa Community"
         }
       ]
     },
     {
       "name": "Ilorin South",
       "slug": "kwara-ilorin-south",
-      "markets": []
+      "markets": [
+        {
+          "name": "Aiyelabowo Shopping Complex, Ilorin South",
+          "slug": "aiyelabowo-shopping-complex-ilorin-south",
+          "coordinates": {
+            "lat": 8.45486,
+            "lng": 4.58037
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Aiyelabowo Shopping Complex"
+        },
+        {
+          "name": "Mami Market Sobi, Ilorin South",
+          "slug": "mami-market-sobi-ilorin-south",
+          "coordinates": {
+            "lat": 8.56998,
+            "lng": 4.55592
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Mami Sobi"
+        },
+        {
+          "name": "Okoolowo Market, Ilorin South",
+          "slug": "okoolowo-market-ilorin-south",
+          "coordinates": {
+            "lat": 8.53385,
+            "lng": 4.48709
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Okoolowo"
+        },
+        {
+          "name": "Unilorin Motor Park And Mini Market, Ilorin South",
+          "slug": "unilorin-motor-park-and-mini-market-ilorin-south",
+          "coordinates": {
+            "lat": 8.479311667,
+            "lng": 4.671405
+          },
+          "added_by": "GRID3 (kevin.ukueku)",
+          "frequency": "Other",
+          "type": "Mixed",
+          "local_name": "UNILORIN MOTOR PARK MARKET",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ]
+        }
+      ]
     },
     {
       "name": "Ilorin West",
       "slug": "kwara-ilorin-west",
-      "markets": []
+      "markets": [
+        {
+          "name": "Baboko Market, Ilorin West",
+          "slug": "baboko-market-ilorin-west",
+          "coordinates": {
+            "lat": 8.48901,
+            "lng": 4.53636
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Baboko"
+        }
+      ]
     },
     {
       "name": "Irepodun",
@@ -60,37 +551,569 @@
     {
       "name": "Isin",
       "slug": "kwara-isin",
-      "markets": []
+      "markets": [
+        {
+          "name": "Alla Central Market, Isin",
+          "slug": "alla-central-market-isin",
+          "coordinates": {
+            "lat": 8.275366667,
+            "lng": 4.954283333
+          },
+          "added_by": "GRID3 (kevin.ukueku)",
+          "frequency": "Bi-Weekly",
+          "type": "Clothing Food Stuff",
+          "local_name": "Alla",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Owa Onire Market, Isin",
+          "slug": "owa-onire-market-isin",
+          "coordinates": {
+            "lat": 8.30496,
+            "lng": 5.10522
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Owa Onire"
+        }
+      ]
     },
     {
       "name": "Kaiama",
       "slug": "kwara-kaiama",
-      "markets": []
+      "markets": [
+        {
+          "name": "Aboki Central Market, Kaiama",
+          "slug": "aboki-central-market-kaiama",
+          "coordinates": {
+            "lat": 9.52528,
+            "lng": 3.91012
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Aboki Central"
+        },
+        {
+          "name": "Aderan Community Market, Kaiama",
+          "slug": "aderan-community-market-kaiama",
+          "coordinates": {
+            "lat": 9.07606,
+            "lng": 4.70673
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Aderan Community"
+        },
+        {
+          "name": "Adogun, Kaiama",
+          "slug": "adogun-kaiama",
+          "coordinates": {
+            "lat": 9.092515756,
+            "lng": 4.564758228
+          },
+          "added_by": "GRID3 (kevin.ukueku)",
+          "frequency": "Weekly",
+          "type": "Food Stuff Mixed",
+          "local_name": "Adogun",
+          "days": [
+            "Mon",
+            "Wed",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Bani Central Market, Kaiama",
+          "slug": "bani-central-market-kaiama",
+          "coordinates": {
+            "lat": 9.00637,
+            "lng": 4.19328
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Bani Central"
+        },
+        {
+          "name": "Camp Market, Kaiama",
+          "slug": "camp-market-kaiama",
+          "coordinates": {
+            "lat": 9.5817467,
+            "lng": 3.8248117
+          },
+          "added_by": "GRID3 (kevin.ukueku)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Adamu Seriki Samu Wojibe",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Daba Market, Kaiama",
+          "slug": "daba-market-kaiama",
+          "coordinates": {
+            "lat": 9.555681667,
+            "lng": 3.867071667
+          },
+          "added_by": "GRID3 (kevin.ukueku)",
+          "frequency": "Other",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Daba",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Fobera Market, Kaiama",
+          "slug": "fobera-market-kaiama",
+          "coordinates": {
+            "lat": 9.383792991,
+            "lng": 3.936034895
+          },
+          "added_by": "GRID3 (kevin.ukueku)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Fobera",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Gada Changa Maje Market, Kaiama",
+          "slug": "gada-changa-maje-market-kaiama",
+          "coordinates": {
+            "lat": 9.601791667,
+            "lng": 3.938178333
+          },
+          "added_by": "GRID3 (kevin.ukueku)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Gada changa maje",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Gwanabe Market, Kaiama",
+          "slug": "gwanabe-market-kaiama",
+          "coordinates": {
+            "lat": 9.56449,
+            "lng": 4.02851
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gwanabe"
+        },
+        {
+          "name": "Gwaria Market, Kaiama",
+          "slug": "gwaria-market-kaiama",
+          "coordinates": {
+            "lat": 9.38984347,
+            "lng": 3.854795523
+          },
+          "added_by": "GRID3 (kevin.ukueku)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff Mixed",
+          "local_name": "Gwaria",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kaiama Central Market",
+          "slug": "kaiama-central-market",
+          "coordinates": {
+            "lat": 9.60204,
+            "lng": 3.93768
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kaiama Central"
+        },
+        {
+          "name": "Kara Market Kaiama",
+          "slug": "kara-market-kaiama",
+          "coordinates": {
+            "lat": 9.58846,
+            "lng": 3.93131
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kara Kaiama"
+        },
+        {
+          "name": "Kemanji Central Market, Kaiama",
+          "slug": "kemanji-central-market-kaiama",
+          "coordinates": {
+            "lat": 9.69201,
+            "lng": 3.9026
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kemanji Central"
+        },
+        {
+          "name": "Maje Market, Kaiama",
+          "slug": "maje-market-kaiama",
+          "coordinates": {
+            "lat": 9.700246667,
+            "lng": 4.064053333
+          },
+          "added_by": "GRID3 (kevin.ukueku)",
+          "frequency": "Weekly",
+          "type": "Livestock Food Stuff",
+          "local_name": "Maje market",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Moshi Gada Market, Kaiama",
+          "slug": "moshi-gada-market-kaiama",
+          "coordinates": {
+            "lat": 9.21334,
+            "lng": 3.86415
+          },
+          "added_by": "GRID3 (kevin.ukueku)",
+          "frequency": "Bi-Weekly",
+          "type": "Mixed",
+          "local_name": "Moshi Gada",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Nanu Central Market, Kaiama",
+          "slug": "nanu-central-market-kaiama",
+          "coordinates": {
+            "lat": 9.71873,
+            "lng": 3.74564
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Nanu Central"
+        },
+        {
+          "name": "Nuku Central Market, Kaiama",
+          "slug": "nuku-central-market-kaiama",
+          "coordinates": {
+            "lat": 9.73902,
+            "lng": 4.14537
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Nuku Central"
+        },
+        {
+          "name": "Woro Market, Kaiama",
+          "slug": "woro-market-kaiama",
+          "coordinates": {
+            "lat": 9.74038,
+            "lng": 4.20743
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Woro"
+        }
+      ]
     },
     {
       "name": "Moro",
       "slug": "kwara-moro",
-      "markets": []
+      "markets": [
+        {
+          "name": "Agbaku Central Market, Moro",
+          "slug": "agbaku-central-market-moro",
+          "coordinates": {
+            "lat": 8.60159,
+            "lng": 4.46887
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Agbaku Central"
+        },
+        {
+          "name": "Babaloke Central Market, Moro",
+          "slug": "babaloke-central-market-moro",
+          "coordinates": {
+            "lat": 8.84689,
+            "lng": 4.27691
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Babaloke Central"
+        },
+        {
+          "name": "Bode Saadu Market, Moro",
+          "slug": "bode-saadu-market-moro",
+          "coordinates": {
+            "lat": 8.938435948,
+            "lng": 4.784541197
+          },
+          "added_by": "GRID3 (kevin.ukueku)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff Mixed",
+          "local_name": "Bode Saadu",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Ejindongari Central Market, Moro",
+          "slug": "ejindongari-central-market-moro",
+          "coordinates": {
+            "lat": 8.90294,
+            "lng": 4.64922
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ejindongari Central"
+        },
+        {
+          "name": "Elemere Central Market, Moro",
+          "slug": "elemere-central-market-moro",
+          "coordinates": {
+            "lat": 8.6908,
+            "lng": 4.5139
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Elemere Central"
+        },
+        {
+          "name": "Garka Market, Moro",
+          "slug": "garka-market-moro",
+          "coordinates": {
+            "lat": 9.0694039,
+            "lng": 4.815571
+          },
+          "added_by": "GRID3 (kevin.ukueku)",
+          "frequency": "Other",
+          "type": "Clothing Electronic Spare Parts Food Stuff",
+          "local_name": "Sabon Gida",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kara Cattle Market, Moro",
+          "slug": "kara-cattle-market-moro",
+          "coordinates": {
+            "lat": 8.94386,
+            "lng": 4.78289
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kara Cattle"
+        },
+        {
+          "name": "Karibuje Market, Moro",
+          "slug": "karibuje-market-moro",
+          "coordinates": {
+            "lat": 8.888,
+            "lng": 4.39439
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Karibuje"
+        },
+        {
+          "name": "Malete Market, Moro",
+          "slug": "malete-market-moro",
+          "coordinates": {
+            "lat": 8.710582048,
+            "lng": 4.464567604
+          },
+          "added_by": "GRID3 (kevin.ukueku)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Malete",
+          "days": [
+            "Mon",
+            "Wed",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Mann Market, Moro",
+          "slug": "mann-market-moro",
+          "coordinates": {
+            "lat": 8.59886,
+            "lng": 4.55032
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Mann"
+        },
+        {
+          "name": "Market Jeun Kunnu, Moro",
+          "slug": "market-jeun-kunnu-moro",
+          "coordinates": {
+            "lat": 8.76109,
+            "lng": 4.44914
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Jeun Kunnu"
+        },
+        {
+          "name": "Market Malete, Moro",
+          "slug": "market-malete-moro",
+          "coordinates": {
+            "lat": 8.71046,
+            "lng": 4.46449
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Malete"
+        },
+        {
+          "name": "Megida Ipaiye Central Market, Moro",
+          "slug": "megida-ipaiye-central-market-moro",
+          "coordinates": {
+            "lat": 8.75794,
+            "lng": 4.31163
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Megida Ipaiye Central"
+        },
+        {
+          "name": "Ogun Edun Market, Moro",
+          "slug": "ogun-edun-market-moro",
+          "coordinates": {
+            "lat": 8.70484,
+            "lng": 4.61463
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ogun Edun"
+        },
+        {
+          "name": "Oloru Central Market, Moro",
+          "slug": "oloru-central-market-moro",
+          "coordinates": {
+            "lat": 8.66197,
+            "lng": 4.59173
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Oloru Central"
+        },
+        {
+          "name": "Olowu Market, Moro",
+          "slug": "olowu-market-moro",
+          "coordinates": {
+            "lat": 8.84477,
+            "lng": 4.39049
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Olowu"
+        }
+      ]
     },
     {
       "name": "Offa",
       "slug": "kwara-offa",
-      "markets": []
+      "markets": [
+        {
+          "name": "Owode Market, Offa",
+          "slug": "owode-market-offa",
+          "coordinates": {
+            "lat": 8.15943,
+            "lng": 4.72483
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Owode"
+        }
+      ]
     },
     {
       "name": "Oke Ero",
       "slug": "kwara-oke-ero",
-      "markets": []
+      "markets": [
+        {
+          "name": "Idofinwa Market, Oke Ero",
+          "slug": "idofinwa-market-oke-ero",
+          "coordinates": {
+            "lat": 8.199,
+            "lng": 5.25849
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Idofinwa"
+        }
+      ]
     },
     {
       "name": "Oyun",
       "slug": "kwara-oyun",
-      "markets": []
+      "markets": [
+        {
+          "name": "Igbonna Market, Oyun",
+          "slug": "igbonna-market-oyun",
+          "coordinates": {
+            "lat": 8.19079,
+            "lng": 4.60723
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Igbonna"
+        },
+        {
+          "name": "Ijagbo Market, Oyun",
+          "slug": "ijagbo-market-oyun",
+          "coordinates": {
+            "lat": 8.17128,
+            "lng": 4.73495
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ijagbo"
+        },
+        {
+          "name": "Karaal Market, Oyun",
+          "slug": "karaal-market-oyun",
+          "coordinates": {
+            "lat": 8.0754,
+            "lng": 4.7023
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Karaal"
+        },
+        {
+          "name": "Ojoku Market, Oyun",
+          "slug": "ojoku-market-oyun",
+          "coordinates": {
+            "lat": 8.25423,
+            "lng": 4.65781
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ojoku"
+        }
+      ]
     },
     {
       "name": "Pategi",
       "slug": "kwara-pategi",
-      "markets": []
+      "markets": [
+        {
+          "name": "Kpada Market, Pategi",
+          "slug": "kpada-market-pategi",
+          "coordinates": {
+            "lat": 8.65275,
+            "lng": 6.08909
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kpada"
+        },
+        {
+          "name": "Kusogi Market, Pategi",
+          "slug": "kusogi-market-pategi",
+          "coordinates": {
+            "lat": 8.71817,
+            "lng": 5.92864
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kusogi"
+        }
+      ]
     }
   ]
 }

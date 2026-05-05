@@ -44,6 +44,30 @@ const LGA_OVERRIDES: Record<string, Record<string, string>> = {
   fct: {
     'Municipal Area Council': 'Abuja Municipal',
   },
+  kebbi: {
+    Bagudu: 'Bagudo',
+  },
+  kogi: {
+    Kogi: 'Koton Karfe',
+  },
+  lagos: {
+    'Ifako/Ijaye': 'Ifako-Ijaiye',
+  },
+  nasarawa: {
+    'Nasarawa Egon': 'Nasarawa Eggon',
+  },
+  niger: {
+    Munya: 'Moya',
+  },
+  ogun: {
+    Shagamu: 'Sagamu',
+  },
+  osun: {
+    Ayedade: 'Aiyedaade',
+    Ayedire: 'Aiyedire',
+    'Ilesha East': 'Ilesa East',
+    'Ilesha West': 'Ilesa West',
+  },
 };
 
 // Maps CSV statename values to JSON state names where they differ
