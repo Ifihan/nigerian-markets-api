@@ -5,87 +5,6687 @@
     {
       "name": "Barkin Ladi",
       "slug": "plateau-barkin-ladi",
-      "markets": []
+      "markets": [
+        {
+          "name": "Bakin Kogi Market, Barkin Ladi",
+          "slug": "bakin-kogi-market-barkin-ladi",
+          "coordinates": {
+            "lat": 9.662133333,
+            "lng": 9.06467
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Bakin kogi",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Bakin Ladin Central Market, Barkin Ladi",
+          "slug": "bakin-ladin-central-market-barkin-ladi",
+          "coordinates": {
+            "lat": 9.540005,
+            "lng": 8.894536667
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Gwari",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Barkin Central Market, Barkin Ladi",
+          "slug": "barkin-central-market-barkin-ladi",
+          "coordinates": {
+            "lat": 9.54012,
+            "lng": 8.89355
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Barkin Central"
+        },
+        {
+          "name": "Barkin Kogi Market, Barkin Ladi",
+          "slug": "barkin-kogi-market-barkin-ladi",
+          "coordinates": {
+            "lat": 9.66255,
+            "lng": 9.06505
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Barkin Kogi"
+        },
+        {
+          "name": "Central Market Marit, Barkin Ladi",
+          "slug": "central-market-marit-barkin-ladi",
+          "coordinates": {
+            "lat": 9.47196,
+            "lng": 8.99221
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Central Marit"
+        },
+        {
+          "name": "Dorowa Tsho Market, Barkin Ladi",
+          "slug": "dorowa-tsho-market-barkin-ladi",
+          "coordinates": {
+            "lat": 9.57797,
+            "lng": 9.04866
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Dorowa Tsho"
+        },
+        {
+          "name": "Hang Farmers Market Yow Heipang, Barkin Ladi",
+          "slug": "hang-farmers-market-yow-heipang-barkin-ladi",
+          "coordinates": {
+            "lat": 9.681645505,
+            "lng": 8.891399364
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Yow Heipang",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kakuruk Central Market, Barkin Ladi",
+          "slug": "kakuruk-central-market-barkin-ladi",
+          "coordinates": {
+            "lat": 9.449435,
+            "lng": 8.769488333
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Kakuruk",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Kakuruk Market Square, Barkin Ladi",
+          "slug": "kakuruk-market-square-barkin-ladi",
+          "coordinates": {
+            "lat": 9.44928,
+            "lng": 8.76935
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kakuruk Square"
+        },
+        {
+          "name": "Kasuwan Gwari, Barkin Ladi",
+          "slug": "kasuwan-gwari-barkin-ladi",
+          "coordinates": {
+            "lat": 9.540685,
+            "lng": 8.893048333
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Kasuwa tasha settlement",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Kasuwan Kuba, Barkin Ladi",
+          "slug": "kasuwan-kuba-barkin-ladi",
+          "coordinates": {
+            "lat": 9.4158017,
+            "lng": 8.9278017
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Other",
+          "type": "Other",
+          "local_name": "Kuba Market",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kurra Falls Market, Barkin Ladi",
+          "slug": "kurra-falls-market-barkin-ladi",
+          "coordinates": {
+            "lat": 9.39977,
+            "lng": 8.741518333
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Kurra Falls",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Maraban Foron Tomatoes Market, Barkin Ladi",
+          "slug": "maraban-foron-tomatoes-market-barkin-ladi",
+          "coordinates": {
+            "lat": 9.687875,
+            "lng": 8.893183333
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Kasuwan Tumatur",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Marit Market, Barkin Ladi",
+          "slug": "marit-market-barkin-ladi",
+          "coordinates": {
+            "lat": 9.472274087,
+            "lng": 8.992194463
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Other",
+          "type": "Mixed",
+          "local_name": "Marit",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Matthias John Magga, Barkin Ladi",
+          "slug": "matthias-john-magga-barkin-ladi",
+          "coordinates": {
+            "lat": 9.7171101,
+            "lng": 8.9878309
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Mai Idon Taro Market",
+          "days": [
+            "Tue"
+          ]
+        }
+      ]
     },
     {
       "name": "Bassa",
       "slug": "plateau-bassa",
-      "markets": []
+      "markets": [
+        {
+          "name": "Binchi Market, Bassa",
+          "slug": "binchi-market-bassa",
+          "coordinates": {
+            "lat": 10.00872,
+            "lng": 8.700813333
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Binchi",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Central Market Jengre, Bassa",
+          "slug": "central-market-jengre-bassa",
+          "coordinates": {
+            "lat": 10.24313,
+            "lng": 8.79824
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Central Jengre"
+        },
+        {
+          "name": "Central Market Miango, Bassa",
+          "slug": "central-market-miango-bassa",
+          "coordinates": {
+            "lat": 9.84984,
+            "lng": 8.68257
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Central Miango"
+        },
+        {
+          "name": "Dutsen Kura Market, Bassa",
+          "slug": "dutsen-kura-market-bassa",
+          "coordinates": {
+            "lat": 9.919355,
+            "lng": 8.790248333
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Other",
+          "type": "Food Stuff",
+          "local_name": "Dutsen Kura",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Fuskar Mata Market, Bassa",
+          "slug": "fuskar-mata-market-bassa",
+          "coordinates": {
+            "lat": 10.1864483,
+            "lng": 8.89723
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Zement Trah Mercy",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Jebbu Market, Bassa",
+          "slug": "jebbu-market-bassa",
+          "coordinates": {
+            "lat": 9.9475318,
+            "lng": 8.7591585
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "New Layout",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Jengre Main Market, Bassa",
+          "slug": "jengre-main-market-bassa",
+          "coordinates": {
+            "lat": 10.24288835,
+            "lng": 8.797394344
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Jengre Town",
+          "days": [
+            "Thu",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kasuwan Rimi, Bassa",
+          "slug": "kasuwan-rimi-bassa",
+          "coordinates": {
+            "lat": 10.32546,
+            "lng": 8.818281667
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Rimi",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kawam Market, Bassa",
+          "slug": "kawam-market-bassa",
+          "coordinates": {
+            "lat": 10.18030167,
+            "lng": 8.711051667
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Other",
+          "type": "Food Stuff Mixed",
+          "local_name": "Kawam",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Marraba Zallaki Market, Bassa",
+          "slug": "marraba-zallaki-market-bassa",
+          "coordinates": {
+            "lat": 10.170475,
+            "lng": 8.89004
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Other",
+          "type": "Food Stuff",
+          "local_name": "Zement Trah Mercy",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Miango Central Market, Bassa",
+          "slug": "miango-central-market-bassa",
+          "coordinates": {
+            "lat": 9.850187647,
+            "lng": 8.68310226
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Bedi",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Mr Ali Central Merket, Bassa",
+          "slug": "mr-ali-central-merket-bassa",
+          "coordinates": {
+            "lat": 10.0293983,
+            "lng": 8.8512233
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "The market is functional and by the road side",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Old Binchi Market, Bassa",
+          "slug": "old-binchi-market-bassa",
+          "coordinates": {
+            "lat": 10.01047167,
+            "lng": 8.701383333
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Other",
+          "type": "Food Stuff Mixed",
+          "local_name": "It is located within Binchi settlement",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Tashan Bakinkogi Market, Bassa",
+          "slug": "tashan-bakinkogi-market-bassa",
+          "coordinates": {
+            "lat": 10.27231,
+            "lng": 8.8596433
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Other",
+          "type": "Mixed",
+          "local_name": "Lemoro Bakinkogi",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Zallaki Market, Bassa",
+          "slug": "zallaki-market-bassa",
+          "coordinates": {
+            "lat": 10.13456,
+            "lng": 8.970345
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Zallaki",
+          "days": [
+            "Tue",
+            "Fri"
+          ]
+        }
+      ]
     },
     {
       "name": "Bokkos",
       "slug": "plateau-bokkos",
-      "markets": []
+      "markets": [
+        {
+          "name": "Bokkos Central Market",
+          "slug": "bokkos-central-market",
+          "coordinates": {
+            "lat": 9.296848333,
+            "lng": 8.994018333
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Bokkos Town",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Forkurdep Market, Bokkos",
+          "slug": "forkurdep-market-bokkos",
+          "coordinates": {
+            "lat": 9.028231667,
+            "lng": 9.060051667
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Forkurdep",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Hokk Market, Bokkos",
+          "slug": "hokk-market-bokkos",
+          "coordinates": {
+            "lat": 9.080215,
+            "lng": 9.057518333
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Hokk",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Ikngwakap Community Market, Bokkos",
+          "slug": "ikngwakap-community-market-bokkos",
+          "coordinates": {
+            "lat": 9.170708333,
+            "lng": 9.052775
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Ikngwakap Market",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Kanger Central Market, Bokkos",
+          "slug": "kanger-central-market-bokkos",
+          "coordinates": {
+            "lat": 9.139119253,
+            "lng": 9.117525154
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Kanger 2",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Kasuwan Maikatako, Bokkos",
+          "slug": "kasuwan-maikatako-bokkos",
+          "coordinates": {
+            "lat": 9.407442388,
+            "lng": 8.950146008
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Maikatako",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Kawel Central Market, Bokkos",
+          "slug": "kawel-central-market-bokkos",
+          "coordinates": {
+            "lat": 9.203838333,
+            "lng": 9.06681
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Kewel",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Kulere Market, Bokkos",
+          "slug": "kulere-market-bokkos",
+          "coordinates": {
+            "lat": 9.098494515,
+            "lng": 8.86691562
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Kukut",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Mangar Market, Bokkos",
+          "slug": "mangar-market-bokkos",
+          "coordinates": {
+            "lat": 9.16618,
+            "lng": 8.9498881
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Mangar",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Mbar Market, Bokkos",
+          "slug": "mbar-market-bokkos",
+          "coordinates": {
+            "lat": 9.270695,
+            "lng": 8.9416417
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Mbar Near Primary School",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Mushu Central Market, Bokkos",
+          "slug": "mushu-central-market-bokkos",
+          "coordinates": {
+            "lat": 9.287936669,
+            "lng": 9.092337893
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Mushu",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Sabon Kasuwa Daffo Market, Bokkos",
+          "slug": "sabon-kasuwa-daffo-market-bokkos",
+          "coordinates": {
+            "lat": 9.219638333,
+            "lng": 8.843265
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Sabon Kasuwa",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Tadai Market, Bokkos",
+          "slug": "tadai-market-bokkos",
+          "coordinates": {
+            "lat": 9.320908274,
+            "lng": 8.813389849
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Tadai",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Toff Market, Bokkos",
+          "slug": "toff-market-bokkos",
+          "coordinates": {
+            "lat": 9.099300431,
+            "lng": 8.792863398
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Toff",
+          "days": [
+            "Wed"
+          ]
+        }
+      ]
     },
     {
       "name": "Jos East",
       "slug": "plateau-jos-east",
-      "markets": []
+      "markets": [
+        {
+          "name": "Federe Monday Market, Jos East",
+          "slug": "federe-monday-market-jos-east",
+          "coordinates": {
+            "lat": 9.9170267,
+            "lng": 9.110315
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Federe",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Fewit Market, Jos East",
+          "slug": "fewit-market-jos-east",
+          "coordinates": {
+            "lat": 9.7608983,
+            "lng": 9.0340067
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Fewit",
+          "days": [
+            "Mon",
+            "Thu",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Fursa Market, Jos East",
+          "slug": "fursa-market-jos-east",
+          "coordinates": {
+            "lat": 9.768137402,
+            "lng": 9.000755072
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Fursa",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Gada Market, Jos East",
+          "slug": "gada-market-jos-east",
+          "coordinates": {
+            "lat": 10.03842568,
+            "lng": 9.110635274
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Gada",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Maijuju Market Square, Jos East",
+          "slug": "maijuju-market-square-jos-east",
+          "coordinates": {
+            "lat": 9.75401,
+            "lng": 9.14627
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Maijuju Square"
+        },
+        {
+          "name": "Maijuju Market, Jos East",
+          "slug": "maijuju-market-jos-east",
+          "coordinates": {
+            "lat": 9.754166667,
+            "lng": 9.145963333
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Maijuju",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "New Fobur Market, Jos East",
+          "slug": "new-fobur-market-jos-east",
+          "coordinates": {
+            "lat": 9.856333333,
+            "lng": 9.021853333
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "New Fobur",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Rish Market, Jos East",
+          "slug": "rish-market-jos-east",
+          "coordinates": {
+            "lat": 9.7857,
+            "lng": 9.2090933
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Rish",
+          "days": [
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Shere Ekan Market Square, Jos East",
+          "slug": "shere-ekan-market-square-jos-east",
+          "coordinates": {
+            "lat": 9.984079582,
+            "lng": 9.040808151
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Shere Ekan",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Zandi Market, Jos East",
+          "slug": "zandi-market-jos-east",
+          "coordinates": {
+            "lat": 9.84471,
+            "lng": 9.2489067
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Zandi",
+          "days": [
+            "Wed"
+          ]
+        }
+      ]
     },
     {
       "name": "Jos North",
       "slug": "plateau-jos-north",
-      "markets": []
+      "markets": [
+        {
+          "name": "Abuja Market Jos, Jos North",
+          "slug": "abuja-market-jos-jos-north",
+          "coordinates": {
+            "lat": 9.919825378,
+            "lng": 8.890398443
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Other",
+          "type": "Mixed",
+          "local_name": "Behind Ahmadu bello way",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Algadama Timber Shed, Jos North",
+          "slug": "algadama-timber-shed-jos-north",
+          "coordinates": {
+            "lat": 9.907304347,
+            "lng": 8.894311691
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Other",
+          "local_name": "Gangare",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Celebrigde Tomatoes Market Furaka, Jos North",
+          "slug": "celebrigde-tomatoes-market-furaka-jos-north",
+          "coordinates": {
+            "lat": 9.91284293,
+            "lng": 8.912440777
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Other",
+          "type": "Food Stuff",
+          "local_name": "Celebrigde Furaka",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Chobe Market, Jos North",
+          "slug": "chobe-market-jos-north",
+          "coordinates": {
+            "lat": 9.932972229,
+            "lng": 8.881751366
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Chobe junction",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Gadabiu Market, Jos North",
+          "slug": "gadabiu-market-jos-north",
+          "coordinates": {
+            "lat": 9.9291817,
+            "lng": 8.87146
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Gadabiu",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Gsm Market, Jos North",
+          "slug": "gsm-market-jos-north",
+          "coordinates": {
+            "lat": 9.94661,
+            "lng": 8.88991
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gsm"
+        },
+        {
+          "name": "Gura Ld Duyet Market Square, Jos North",
+          "slug": "gura-ld-duyet-market-square-jos-north",
+          "coordinates": {
+            "lat": 9.92833,
+            "lng": 8.86389
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gura Ld Duyet Square"
+        },
+        {
+          "name": "Jos Main Market, Jos North",
+          "slug": "jos-main-market-jos-north",
+          "coordinates": {
+            "lat": 9.92053,
+            "lng": 8.89393
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Jos Main"
+        },
+        {
+          "name": "Kabong Satellite Market, Jos North",
+          "slug": "kabong-satellite-market-jos-north",
+          "coordinates": {
+            "lat": 9.928446035,
+            "lng": 8.865463947
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Alama",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Kasuwan Kaji, Jos North",
+          "slug": "kasuwan-kaji-jos-north",
+          "coordinates": {
+            "lat": 9.93694,
+            "lng": 8.88775
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Kaji"
+        },
+        {
+          "name": "Kasuwan Nama, Jos North",
+          "slug": "kasuwan-nama-jos-north",
+          "coordinates": {
+            "lat": 9.93745,
+            "lng": 8.88595
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Nama"
+        },
+        {
+          "name": "Kasuwan Yan Doya, Jos North",
+          "slug": "kasuwan-yan-doya-jos-north",
+          "coordinates": {
+            "lat": 9.91901,
+            "lng": 8.89473
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Yan Doya"
+        },
+        {
+          "name": "Laranto Market, Jos North",
+          "slug": "laranto-market-jos-north",
+          "coordinates": {
+            "lat": 9.94399,
+            "lng": 8.87785
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Laranto"
+        },
+        {
+          "name": "Mahauta Market Yan Shanu, Jos North",
+          "slug": "mahauta-market-yan-shanu-jos-north",
+          "coordinates": {
+            "lat": 9.921369164,
+            "lng": 8.900128927
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Livestock",
+          "local_name": "Yan shanu",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sun"
+          ]
+        },
+        {
+          "name": "New Market Jos, Jos North",
+          "slug": "new-market-jos-jos-north",
+          "coordinates": {
+            "lat": 9.93345,
+            "lng": 8.88888
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "New Jos"
+        },
+        {
+          "name": "New Market, Jos North",
+          "slug": "new-market-jos-north",
+          "coordinates": {
+            "lat": 9.933735,
+            "lng": 8.89142
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "School lane",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Railway Market, Jos North",
+          "slug": "railway-market-jos-north",
+          "coordinates": {
+            "lat": 9.916551278,
+            "lng": 8.890014743
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Other",
+          "type": "Mixed",
+          "local_name": "Cikin railway",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Rishari Ruturah Market Agwa Rukuba, Jos North",
+          "slug": "rishari-ruturah-market-agwa-rukuba-jos-north",
+          "coordinates": {
+            "lat": 9.935160836,
+            "lng": 8.908388952
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Other",
+          "local_name": "Angwa Rukuba",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Terminus Market, Jos North",
+          "slug": "terminus-market-jos-north",
+          "coordinates": {
+            "lat": 9.920131011,
+            "lng": 8.894478076
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Other",
+          "type": "Mixed",
+          "local_name": "Nasarawa",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Timber Shed Market, Jos North",
+          "slug": "timber-shed-market-jos-north",
+          "coordinates": {
+            "lat": 9.90726,
+            "lng": 8.89385
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Timber Shed"
+        },
+        {
+          "name": "Tinka Market, Jos North",
+          "slug": "tinka-market-jos-north",
+          "coordinates": {
+            "lat": 9.92231,
+            "lng": 8.89548
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Tinka"
+        },
+        {
+          "name": "Tomato Market Agingi, Jos North",
+          "slug": "tomato-market-agingi-jos-north",
+          "coordinates": {
+            "lat": 9.9257177,
+            "lng": 8.8154704
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Other",
+          "type": "Food Stuff",
+          "local_name": "Agingi",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Tomatoe Market, Jos North",
+          "slug": "tomatoe-market-jos-north",
+          "coordinates": {
+            "lat": 9.92539,
+            "lng": 8.8159
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Tomatoe"
+        },
+        {
+          "name": "Tomatoes Market Farin Gada, Jos North",
+          "slug": "tomatoes-market-farin-gada-jos-north",
+          "coordinates": {
+            "lat": 9.958625,
+            "lng": 8.866695
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Other",
+          "type": "Food Stuff",
+          "local_name": "Farin Gada",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "University Of Jos Market, Jos North",
+          "slug": "university-of-jos-market-jos-north",
+          "coordinates": {
+            "lat": 9.964590164,
+            "lng": 8.881652757
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Other",
+          "type": "Mixed",
+          "local_name": "University of Jos",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Yan Tinka Market, Jos North",
+          "slug": "yan-tinka-market-jos-north",
+          "coordinates": {
+            "lat": 9.922090487,
+            "lng": 8.896236618
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Other",
+          "type": "Mixed",
+          "local_name": "Gangare",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Yandoya Market, Jos North",
+          "slug": "yandoya-market-jos-north",
+          "coordinates": {
+            "lat": 9.919655914,
+            "lng": 8.894577458
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Other",
+          "type": "Food Stuff",
+          "local_name": "Yandoya",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Yankaji Market, Jos North",
+          "slug": "yankaji-market-jos-north",
+          "coordinates": {
+            "lat": 9.935626667,
+            "lng": 8.887401667
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Livestock",
+          "local_name": "Yankaji",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        }
+      ]
     },
     {
       "name": "Jos South",
       "slug": "plateau-jos-south",
-      "markets": []
+      "markets": [
+        {
+          "name": "Abattoir Market, Jos South",
+          "slug": "abattoir-market-jos-south",
+          "coordinates": {
+            "lat": 9.888891667,
+            "lng": 8.887821667
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Abattoir",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Abbatour Market, Jos South",
+          "slug": "abbatour-market-jos-south",
+          "coordinates": {
+            "lat": 9.88805,
+            "lng": 8.88757
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Abbatour"
+        },
+        {
+          "name": "Bakura Imarket Square, Jos South",
+          "slug": "bakura-imarket-square-jos-south",
+          "coordinates": {
+            "lat": 9.79266,
+            "lng": 8.86457
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Bakura Imarket Square"
+        },
+        {
+          "name": "Building Material Market, Jos South",
+          "slug": "building-material-market-jos-south",
+          "coordinates": {
+            "lat": 9.8356,
+            "lng": 8.86495
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Building Material"
+        },
+        {
+          "name": "Bukuru Central Market, Jos South",
+          "slug": "bukuru-central-market-jos-south",
+          "coordinates": {
+            "lat": 9.791173333,
+            "lng": 8.864621667
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Bukuru Central",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Dadin Kowa Market, Jos South",
+          "slug": "dadin-kowa-market-jos-south",
+          "coordinates": {
+            "lat": 9.855775937,
+            "lng": 8.862226782
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Dadin kowa",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Dawurung Market, Jos South",
+          "slug": "dawurung-market-jos-south",
+          "coordinates": {
+            "lat": 9.649486667,
+            "lng": 8.772708333
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Dawurung",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Dog Market, Jos South",
+          "slug": "dog-market-jos-south",
+          "coordinates": {
+            "lat": 9.810545,
+            "lng": 8.862685
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Livestock",
+          "local_name": "Angwan Kare fagul",
+          "days": [
+            "Mon",
+            "Wed",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Esther Vow, Jos South",
+          "slug": "esther-vow-jos-south",
+          "coordinates": {
+            "lat": 9.669845,
+            "lng": 8.78699
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Monthly",
+          "type": "Mixed",
+          "local_name": "Daholpya market",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Farin Lamba Market, Jos South",
+          "slug": "farin-lamba-market-jos-south",
+          "coordinates": {
+            "lat": 9.675318333,
+            "lng": 8.78414
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Farin lamba",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Felle Market, Jos South",
+          "slug": "felle-market-jos-south",
+          "coordinates": {
+            "lat": 9.747886667,
+            "lng": 8.856128333
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Other",
+          "type": "Livestock",
+          "local_name": "Dahwak",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Fruiths Market, Jos South",
+          "slug": "fruiths-market-jos-south",
+          "coordinates": {
+            "lat": 9.7253517,
+            "lng": 8.8653217
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff Mixed",
+          "local_name": "Maraban Jama'a Bukuru federal road",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Gyel Market Square, Jos South",
+          "slug": "gyel-market-square-jos-south",
+          "coordinates": {
+            "lat": 9.79079,
+            "lng": 8.85389
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gyel Square"
+        },
+        {
+          "name": "Gyel Market, Jos South",
+          "slug": "gyel-market-jos-south",
+          "coordinates": {
+            "lat": 9.792201667,
+            "lng": 8.85333
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Gafang",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Hwolshe Tero Market, Jos South",
+          "slug": "hwolshe-tero-market-jos-south",
+          "coordinates": {
+            "lat": 9.881858333,
+            "lng": 8.872168333
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Hwolshe Tero",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Jang Farmers Market, Jos South",
+          "slug": "jang-farmers-market-jos-south",
+          "coordinates": {
+            "lat": 9.67413,
+            "lng": 8.782105
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Dakunji ,",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Jos South Lga Model Market",
+          "slug": "jos-south-lga-model-market",
+          "coordinates": {
+            "lat": 9.88781,
+            "lng": 8.8862
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Jos South Lga Model"
+        },
+        {
+          "name": "Jos South Local Government Area Model Market Abattoir",
+          "slug": "jos-south-local-government-area-model-market-abattoir",
+          "coordinates": {
+            "lat": 9.887823644,
+            "lng": 8.886630332
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Abattoir",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "K Vom Potato And Vegetable Market, Jos South",
+          "slug": "k-vom-potato-and-vegetable-market-jos-south",
+          "coordinates": {
+            "lat": 9.7155983,
+            "lng": 8.7923067
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Monthly",
+          "type": "Food Stuff",
+          "local_name": "Potato and vegetable market Van in K vom",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kadima Market, Jos South",
+          "slug": "kadima-market-jos-south",
+          "coordinates": {
+            "lat": 9.881253333,
+            "lng": 8.86835
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Pam Dung Jik Street Or Kadima",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kaduna Vom Market, Jos South",
+          "slug": "kaduna-vom-market-jos-south",
+          "coordinates": {
+            "lat": 9.724106023,
+            "lng": 8.796995752
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Kaduna Vom",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kalwa Market, Jos South",
+          "slug": "kalwa-market-jos-south",
+          "coordinates": {
+            "lat": 9.84778,
+            "lng": 8.8691
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kalwa"
+        },
+        {
+          "name": "Kugiya Market, Jos South",
+          "slug": "kugiya-market-jos-south",
+          "coordinates": {
+            "lat": 9.78805,
+            "lng": 8.865553333
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Bukuru",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kwata Zawan Vom Road, Jos South",
+          "slug": "kwata-zawan-vom-road-jos-south",
+          "coordinates": {
+            "lat": 9.75529,
+            "lng": 8.8436133
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Monthly",
+          "type": "Mixed",
+          "local_name": "Kwata zawan",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Ladura Du Market, Jos South",
+          "slug": "ladura-du-market-jos-south",
+          "coordinates": {
+            "lat": 9.760095,
+            "lng": 8.888295
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Ladura Du",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Larong Market, Jos South",
+          "slug": "larong-market-jos-south",
+          "coordinates": {
+            "lat": 9.744506724,
+            "lng": 8.835790158
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Other",
+          "type": "Food Stuff",
+          "local_name": "Hwak",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Loh Pam Diyed Market, Jos South",
+          "slug": "loh-pam-diyed-market-jos-south",
+          "coordinates": {
+            "lat": 9.82551,
+            "lng": 8.91925
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Loh Pam Diyed",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Mai Yadiko Market, Jos South",
+          "slug": "mai-yadiko-market-jos-south",
+          "coordinates": {
+            "lat": 9.830963333,
+            "lng": 8.891488333
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Rayfield",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Mrs Marry Steven Dati, Jos South",
+          "slug": "mrs-marry-steven-dati-jos-south",
+          "coordinates": {
+            "lat": 9.67411,
+            "lng": 8.7825283
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Monthly",
+          "type": "Food Stuff",
+          "local_name": "Turu B",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "New Potatoe Market Dahwolpya, Jos South",
+          "slug": "new-potatoe-market-dahwolpya-jos-south",
+          "coordinates": {
+            "lat": 9.67403,
+            "lng": 8.78223
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "New Potatoe Dahwolpya"
+        },
+        {
+          "name": "Pam Yakubu Davou, Jos South",
+          "slug": "pam-yakubu-davou-jos-south",
+          "coordinates": {
+            "lat": 9.6979783,
+            "lng": 8.7343817
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Monthly",
+          "type": "Mixed",
+          "local_name": "Darangi market",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Proposed Bukuru New Market, Jos South",
+          "slug": "proposed-bukuru-new-market-jos-south",
+          "coordinates": {
+            "lat": 9.784205,
+            "lng": 8.868551667
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Dahwol Dangong",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Rantya Market, Jos South",
+          "slug": "rantya-market-jos-south",
+          "coordinates": {
+            "lat": 9.869736667,
+            "lng": 8.849658333
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Other",
+          "type": "Mixed",
+          "local_name": "Rantya",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Vwang Market, Jos South",
+          "slug": "vwang-market-jos-south",
+          "coordinates": {
+            "lat": 9.68777,
+            "lng": 8.746583333
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Vom",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Zarmaganda Market, Jos South",
+          "slug": "zarmaganda-market-jos-south",
+          "coordinates": {
+            "lat": 9.849452604,
+            "lng": 8.867725149
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Zarmaganda",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Zek Market, Jos South",
+          "slug": "zek-market-jos-south",
+          "coordinates": {
+            "lat": 9.755413333,
+            "lng": 8.876406667
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Zek",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        }
+      ]
     },
     {
       "name": "Kanam",
       "slug": "plateau-kanam",
-      "markets": []
+      "markets": [
+        {
+          "name": "Bagyar Market, Kanam",
+          "slug": "bagyar-market-kanam",
+          "coordinates": {
+            "lat": 9.35245,
+            "lng": 10.026435
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff Mixed",
+          "local_name": "Bagyar",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Bagyir Market, Kanam",
+          "slug": "bagyir-market-kanam",
+          "coordinates": {
+            "lat": 9.3525,
+            "lng": 10.02634
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Bagyir"
+        },
+        {
+          "name": "Dada Market, Kanam",
+          "slug": "dada-market-kanam",
+          "coordinates": {
+            "lat": 9.5405137,
+            "lng": 10.3871047
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Dada market",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Dam Anguwan Hakimi Market, Kanam",
+          "slug": "dam-anguwan-hakimi-market-kanam",
+          "coordinates": {
+            "lat": 9.6096383,
+            "lng": 9.9639133
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Dam Anguwan Hakimi",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu"
+          ]
+        },
+        {
+          "name": "Dogon Ruwa Market, Kanam",
+          "slug": "dogon-ruwa-market-kanam",
+          "coordinates": {
+            "lat": 9.59866,
+            "lng": 10.09752833
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Dogon Ruwa",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Dumka Market, Kanam",
+          "slug": "dumka-market-kanam",
+          "coordinates": {
+            "lat": 9.2237531,
+            "lng": 9.9108458
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Other",
+          "local_name": "Dumka market",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Furyam Market, Kanam",
+          "slug": "furyam-market-kanam",
+          "coordinates": {
+            "lat": 9.47981,
+            "lng": 10.0981
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Furyam"
+        },
+        {
+          "name": "Gai Gar Market, Kanam",
+          "slug": "gai-gar-market-kanam",
+          "coordinates": {
+            "lat": 9.34858,
+            "lng": 9.8751933
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Gar",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Garga Central Market, Kanam",
+          "slug": "garga-central-market-kanam",
+          "coordinates": {
+            "lat": 9.4965017,
+            "lng": 10.3129767
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Unguwan Wambai And Wakili",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Garga Market, Kanam",
+          "slug": "garga-market-kanam",
+          "coordinates": {
+            "lat": 9.49604,
+            "lng": 10.3129117
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Ungwan Wambai Garga",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Gidgid Market, Kanam",
+          "slug": "gidgid-market-kanam",
+          "coordinates": {
+            "lat": 9.471965724,
+            "lng": 9.783084789
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Gidgid",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Gomgom Pada Market, Kanam",
+          "slug": "gomgom-pada-market-kanam",
+          "coordinates": {
+            "lat": 9.272905,
+            "lng": 9.874991667
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Gomgom",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Gwaman Market, Kanam",
+          "slug": "gwaman-market-kanam",
+          "coordinates": {
+            "lat": 9.64949,
+            "lng": 10.0313
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Gwaman",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Gyangyan Market, Kanam",
+          "slug": "gyangyan-market-kanam",
+          "coordinates": {
+            "lat": 9.5780116,
+            "lng": 9.8201483
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Gyangyan",
+          "days": [
+            "Tue",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Jarmai Market, Kanam",
+          "slug": "jarmai-market-kanam",
+          "coordinates": {
+            "lat": 9.36119,
+            "lng": 10.07764
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Jarmai"
+        },
+        {
+          "name": "Kafel Market, Kanam",
+          "slug": "kafel-market-kanam",
+          "coordinates": {
+            "lat": 9.22663,
+            "lng": 9.91506
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kafel"
+        },
+        {
+          "name": "Kantana Market, Kanam",
+          "slug": "kantana-market-kanam",
+          "coordinates": {
+            "lat": 9.503515,
+            "lng": 10.11248
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Kantana",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kasuwan Dengi, Kanam",
+          "slug": "kasuwan-dengi-kanam",
+          "coordinates": {
+            "lat": 9.3669917,
+            "lng": 9.9615217
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Kasuwan Dengi",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Kasuwan Guzuk, Kanam",
+          "slug": "kasuwan-guzuk-kanam",
+          "coordinates": {
+            "lat": 9.41756,
+            "lng": 9.79041
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kasuwan Guzuk"
+        },
+        {
+          "name": "Kasuwan Shanu Jarmai, Kanam",
+          "slug": "kasuwan-shanu-jarmai-kanam",
+          "coordinates": {
+            "lat": 9.362008333,
+            "lng": 10.08555333
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Other",
+          "local_name": "Ungwan Dull",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Kasuwan Zalli, Kanam",
+          "slug": "kasuwan-zalli-kanam",
+          "coordinates": {
+            "lat": 9.672683333,
+            "lng": 10.174115
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Garga,mamalak,Hangar,Pakigum,Bun,gaji",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Kukawa Market, Kanam",
+          "slug": "kukawa-market-kanam",
+          "coordinates": {
+            "lat": 9.428323333,
+            "lng": 10.37697667
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Kukawa",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Kyamsangi Market, Kanam",
+          "slug": "kyamsangi-market-kanam",
+          "coordinates": {
+            "lat": 9.37391,
+            "lng": 10.04027
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kyamsangi"
+        },
+        {
+          "name": "Kyaram Market, Kanam",
+          "slug": "kyaram-market-kanam",
+          "coordinates": {
+            "lat": 9.47075,
+            "lng": 10.35659
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kyaram"
+        },
+        {
+          "name": "Marked Kancrosse, Kanam",
+          "slug": "marked-kancrosse-kanam",
+          "coordinates": {
+            "lat": 9.53214,
+            "lng": 10.2323867
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Cross market",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Market Barking Kasuwa, Kanam",
+          "slug": "market-barking-kasuwa-kanam",
+          "coordinates": {
+            "lat": 9.4175663,
+            "lng": 9.7903095
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Barking kasuwa",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Namaram Bakin Kasuwa Market, Kanam",
+          "slug": "namaram-bakin-kasuwa-market-kanam",
+          "coordinates": {
+            "lat": 9.275638333,
+            "lng": 9.887571667
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Namaram",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Police Market, Kanam",
+          "slug": "police-market-kanam",
+          "coordinates": {
+            "lat": 9.60949,
+            "lng": 9.96399
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Police"
+        },
+        {
+          "name": "Takwar Market, Kanam",
+          "slug": "takwar-market-kanam",
+          "coordinates": {
+            "lat": 9.50343,
+            "lng": 10.11243
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Takwar"
+        },
+        {
+          "name": "Tuttung Market, Kanam",
+          "slug": "tuttung-market-kanam",
+          "coordinates": {
+            "lat": 9.28704,
+            "lng": 9.97538
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Tuttung"
+        },
+        {
+          "name": "Tutung Market, Kanam",
+          "slug": "tutung-market-kanam",
+          "coordinates": {
+            "lat": 9.285373333,
+            "lng": 9.97085
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Tutung",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Wase Road Market, Kanam",
+          "slug": "wase-road-market-kanam",
+          "coordinates": {
+            "lat": 9.3646783,
+            "lng": 9.96021
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Wase Road Market",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Wum Market, Kanam",
+          "slug": "wum-market-kanam",
+          "coordinates": {
+            "lat": 9.2872,
+            "lng": 9.954008
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Wum"
+        },
+        {
+          "name": "Yamini Market, Kanam",
+          "slug": "yamini-market-kanam",
+          "coordinates": {
+            "lat": 9.400621667,
+            "lng": 9.852723333
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Yamini",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Yipmong Market, Kanam",
+          "slug": "yipmong-market-kanam",
+          "coordinates": {
+            "lat": 9.240386667,
+            "lng": 9.9955
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Yipmong",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Zalli Market, Kanam",
+          "slug": "zalli-market-kanam",
+          "coordinates": {
+            "lat": 9.67312,
+            "lng": 10.17413
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Zalli"
+        }
+      ]
     },
     {
       "name": "Kanke",
       "slug": "plateau-kanke",
-      "markets": []
+      "markets": [
+        {
+          "name": "Anka Market, Kanke",
+          "slug": "anka-market-kanke",
+          "coordinates": {
+            "lat": 9.352610537,
+            "lng": 9.706007644
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Livestock",
+          "local_name": "Amper",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Chika, Kanke",
+          "slug": "chika-kanke",
+          "coordinates": {
+            "lat": 9.3552233,
+            "lng": 9.7010283
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Other",
+          "type": "Mixed",
+          "local_name": "Chika Maket",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Dawaki Market, Kanke",
+          "slug": "dawaki-market-kanke",
+          "coordinates": {
+            "lat": 9.42989,
+            "lng": 9.57193
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Dawaki"
+        },
+        {
+          "name": "Dimdul Gugur Market, Kanke",
+          "slug": "dimdul-gugur-market-kanke",
+          "coordinates": {
+            "lat": 9.242708629,
+            "lng": 9.701415118
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Dachi Gugur",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Gammuni Market, Kanke",
+          "slug": "gammuni-market-kanke",
+          "coordinates": {
+            "lat": 9.296566773,
+            "lng": 9.558134375
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Munok Market",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Jemut Kabwir Market, Kanke",
+          "slug": "jemut-kabwir-market-kanke",
+          "coordinates": {
+            "lat": 9.39557,
+            "lng": 9.57149
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Jemut Kabwir"
+        },
+        {
+          "name": "Kwangwallam Markrt, Kanke",
+          "slug": "kwangwallam-markrt-kanke",
+          "coordinates": {
+            "lat": 9.4233283,
+            "lng": 9.5727433
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Other",
+          "type": "Mixed",
+          "local_name": "Kwangwallam Market",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Langshi Market, Kanke",
+          "slug": "langshi-market-kanke",
+          "coordinates": {
+            "lat": 9.28263,
+            "lng": 9.55555
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Langshi"
+        },
+        {
+          "name": "Myet Market, Kanke",
+          "slug": "myet-market-kanke",
+          "coordinates": {
+            "lat": 9.4687067,
+            "lng": 9.5567817
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Myet",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "New Market Langshi, Kanke",
+          "slug": "new-market-langshi-kanke",
+          "coordinates": {
+            "lat": 9.283593491,
+            "lng": 9.55130333
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Langshi New Market",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Nyayit Market, Kanke",
+          "slug": "nyayit-market-kanke",
+          "coordinates": {
+            "lat": 9.22536382,
+            "lng": 9.515322758
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Nyayit",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Old Dawaki Market, Kanke",
+          "slug": "old-dawaki-market-kanke",
+          "coordinates": {
+            "lat": 9.4301017,
+            "lng": 9.5735983
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Dawaki",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Old Market Amper, Kanke",
+          "slug": "old-market-amper-kanke",
+          "coordinates": {
+            "lat": 9.35534,
+            "lng": 9.70047
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Old Amper"
+        },
+        {
+          "name": "Old Market Langshi, Kanke",
+          "slug": "old-market-langshi-kanke",
+          "coordinates": {
+            "lat": 9.282690173,
+            "lng": 9.555487775
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Electronic Spare Parts Mixed",
+          "local_name": "Langshi",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Pada Kabwir Market, Kanke",
+          "slug": "pada-kabwir-market-kanke",
+          "coordinates": {
+            "lat": 9.389231711,
+            "lng": 9.565894895
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Other",
+          "type": "Mixed",
+          "local_name": "Pada Kabwir",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Pogor Market, Kanke",
+          "slug": "pogor-market-kanke",
+          "coordinates": {
+            "lat": 9.331679798,
+            "lng": 9.580894804
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Pogor",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Tomtom Market, Kanke",
+          "slug": "tomtom-market-kanke",
+          "coordinates": {
+            "lat": 9.201501101,
+            "lng": 9.504177138
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Tomtom",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Tomtur Market, Kanke",
+          "slug": "tomtur-market-kanke",
+          "coordinates": {
+            "lat": 9.20137,
+            "lng": 9.50409
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Tomtur"
+        },
+        {
+          "name": "Tuesday Market, Kanke",
+          "slug": "tuesday-market-kanke",
+          "coordinates": {
+            "lat": 9.292406894,
+            "lng": 9.760546641
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Dankang Tuesday market",
+          "days": [
+            "Tue"
+          ]
+        }
+      ]
     },
     {
       "name": "Langtang North",
       "slug": "plateau-langtang-north",
-      "markets": []
+      "markets": [
+        {
+          "name": "Bido Market Pajat, Langtang North",
+          "slug": "bido-market-pajat-langtang-north",
+          "coordinates": {
+            "lat": 9.154814847,
+            "lng": 9.80310529
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Pajat",
+          "days": [
+            "Tue",
+            "Thu"
+          ]
+        },
+        {
+          "name": "Dadur Market, Langtang North",
+          "slug": "dadur-market-langtang-north",
+          "coordinates": {
+            "lat": 9.225084279,
+            "lng": 9.830638828
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Dadur",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Dingjor Market, Langtang North",
+          "slug": "dingjor-market-langtang-north",
+          "coordinates": {
+            "lat": 9.056389658,
+            "lng": 9.893216671
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Dingjor",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Kwanpe Market, Langtang North",
+          "slug": "kwanpe-market-langtang-north",
+          "coordinates": {
+            "lat": 9.181781543,
+            "lng": 9.803535278
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Kwanpe",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Lala Kodong Market, Langtang North",
+          "slug": "lala-kodong-market-langtang-north",
+          "coordinates": {
+            "lat": 9.2249,
+            "lng": 9.8305
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Lala Kodong"
+        },
+        {
+          "name": "Langtang North Main Market",
+          "slug": "langtang-north-main-market",
+          "coordinates": {
+            "lat": 9.135197817,
+            "lng": 9.784532026
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Lazhan",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Lohmak Main Market, Langtang North",
+          "slug": "lohmak-main-market-langtang-north",
+          "coordinates": {
+            "lat": 9.247712976,
+            "lng": 9.795432618
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Lohmak",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Lukui Market, Langtang North",
+          "slug": "lukui-market-langtang-north",
+          "coordinates": {
+            "lat": 9.256444176,
+            "lng": 9.839324618
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff Mixed",
+          "local_name": "Lukui",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Mban Market, Langtang North",
+          "slug": "mban-market-langtang-north",
+          "coordinates": {
+            "lat": 8.989355038,
+            "lng": 9.873889794
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Mban",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Old Langtang Market, Langtang North",
+          "slug": "old-langtang-market-langtang-north",
+          "coordinates": {
+            "lat": 9.141007817,
+            "lng": 9.790030326
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Other",
+          "type": "Mixed",
+          "local_name": "Kuffen Old Motor Park",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Old Pilgani Market, Langtang North",
+          "slug": "old-pilgani-market-langtang-north",
+          "coordinates": {
+            "lat": 9.191622295,
+            "lng": 9.891317576
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Other",
+          "type": "Food Stuff Mixed",
+          "local_name": "Ungwan Roundabout",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Pil Gani Market, Langtang North",
+          "slug": "pil-gani-market-langtang-north",
+          "coordinates": {
+            "lat": 9.191782295,
+            "lng": 9.894260976
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "New Pil-gani",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Pyal Market, Langtang North",
+          "slug": "pyal-market-langtang-north",
+          "coordinates": {
+            "lat": 9.15056318,
+            "lng": 9.78656029
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Pyal",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Talbut Market, Langtang North",
+          "slug": "talbut-market-langtang-north",
+          "coordinates": {
+            "lat": 8.884140722,
+            "lng": 9.832640014
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Talbut North",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Warok Market, Langtang North",
+          "slug": "warok-market-langtang-north",
+          "coordinates": {
+            "lat": 9.199907166,
+            "lng": 9.724975648
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff Mixed",
+          "local_name": "Warok",
+          "days": [
+            "Tue",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Zambanjik Market, Langtang North",
+          "slug": "zambanjik-market-langtang-north",
+          "coordinates": {
+            "lat": 9.111262062,
+            "lng": 9.876980961
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Zambanjik",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Zamko Market, Langtang North",
+          "slug": "zamko-market-langtang-north",
+          "coordinates": {
+            "lat": 8.99486937,
+            "lng": 9.847092295
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Junction Zamko",
+          "days": [
+            "Fri"
+          ]
+        }
+      ]
     },
     {
       "name": "Langtang South",
       "slug": "plateau-langtang-south",
-      "markets": []
+      "markets": [
+        {
+          "name": "Ajikamai Market, Langtang South",
+          "slug": "ajikamai-market-langtang-south",
+          "coordinates": {
+            "lat": 8.676040587,
+            "lng": 9.658873959
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Ajikamai",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Barack Market, Langtang South",
+          "slug": "barack-market-langtang-south",
+          "coordinates": {
+            "lat": 8.380350943,
+            "lng": 9.755802681
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Barack",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Bolgang Market, Langtang South",
+          "slug": "bolgang-market-langtang-south",
+          "coordinates": {
+            "lat": 8.475460294,
+            "lng": 9.72545655
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Bolgang Settlement",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Congo Market, Langtang South",
+          "slug": "congo-market-langtang-south",
+          "coordinates": {
+            "lat": 8.730733708,
+            "lng": 9.7858719
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Bi-Weekly",
+          "type": "Food Stuff",
+          "local_name": "Agwan Chiroma",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Damuna Market Maje Biyu, Langtang South",
+          "slug": "damuna-market-maje-biyu-langtang-south",
+          "coordinates": {
+            "lat": 8.48125,
+            "lng": 9.87657
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Maje Biyu",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Doruwa Market, Langtang South",
+          "slug": "doruwa-market-langtang-south",
+          "coordinates": {
+            "lat": 8.636377068,
+            "lng": 9.720282944
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Doruwa",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Fajul Market, Langtang South",
+          "slug": "fajul-market-langtang-south",
+          "coordinates": {
+            "lat": 8.621176961,
+            "lng": 9.991300123
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Fajul",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Gamakai Market, Langtang South",
+          "slug": "gamakai-market-langtang-south",
+          "coordinates": {
+            "lat": 8.666382423,
+            "lng": 9.842844228
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Gamakai",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Gangnim Market, Langtang South",
+          "slug": "gangnim-market-langtang-south",
+          "coordinates": {
+            "lat": 8.664805587,
+            "lng": 9.676973959
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Gangnim",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Gidan Abada Market, Langtang South",
+          "slug": "gidan-abada-market-langtang-south",
+          "coordinates": {
+            "lat": 8.49563762,
+            "lng": 9.839710605
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Gidan Abada",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Gina Rumbu Market, Langtang South",
+          "slug": "gina-rumbu-market-langtang-south",
+          "coordinates": {
+            "lat": 8.789067823,
+            "lng": 9.846879367
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Gina Rumbu",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Jemkur Market, Langtang South",
+          "slug": "jemkur-market-langtang-south",
+          "coordinates": {
+            "lat": 8.481442055,
+            "lng": 9.815461966
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Jemkur",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Jumaa Market Nagane, Langtang South",
+          "slug": "jumaa-market-nagane-langtang-south",
+          "coordinates": {
+            "lat": 8.752684654,
+            "lng": 9.840283268
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Nagane Settlement",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Kanana Market, Langtang South",
+          "slug": "kanana-market-langtang-south",
+          "coordinates": {
+            "lat": 8.644470402,
+            "lng": 9.67423961
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Kanana",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Kasuwan Doya, Langtang South",
+          "slug": "kasuwan-doya-langtang-south",
+          "coordinates": {
+            "lat": 8.72970632,
+            "lng": 9.781424934
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Bi-Weekly",
+          "type": "Food Stuff",
+          "local_name": "Galadima",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Larba Market, Langtang South",
+          "slug": "larba-market-langtang-south",
+          "coordinates": {
+            "lat": 8.413419243,
+            "lng": 9.833799314
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Gwantim",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Lohkang Market, Langtang South",
+          "slug": "lohkang-market-langtang-south",
+          "coordinates": {
+            "lat": 8.69867632,
+            "lng": 9.763264934
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Lohkang",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Mabudi Main Market, Langtang South",
+          "slug": "mabudi-main-market-langtang-south",
+          "coordinates": {
+            "lat": 8.725007987,
+            "lng": 9.784969901
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Angwan Galadima",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Mabudi Yam Market, Langtang South",
+          "slug": "mabudi-yam-market-langtang-south",
+          "coordinates": {
+            "lat": 8.7291,
+            "lng": 9.78083
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Mabudi Yam"
+        },
+        {
+          "name": "Magama Market, Langtang South",
+          "slug": "magama-market-langtang-south",
+          "coordinates": {
+            "lat": 8.497270261,
+            "lng": 9.73178825
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Magama",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Mangwang Market, Langtang South",
+          "slug": "mangwang-market-langtang-south",
+          "coordinates": {
+            "lat": 8.770854214,
+            "lng": 9.788415275
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Mangwang",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Mile Four Market, Langtang South",
+          "slug": "mile-four-market-langtang-south",
+          "coordinates": {
+            "lat": 8.663689935,
+            "lng": 9.710388377
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Mile Four",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Ndingshan Market, Langtang South",
+          "slug": "ndingshan-market-langtang-south",
+          "coordinates": {
+            "lat": 8.580912423,
+            "lng": 9.863712562
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Bi-Weekly",
+          "type": "Mixed",
+          "local_name": "Ndingshan",
+          "days": [
+            "Thu",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Sabongida Market, Langtang South",
+          "slug": "sabongida-market-langtang-south",
+          "coordinates": {
+            "lat": 8.735175587,
+            "lng": 9.714260626
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Sabongida Settlement",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Sabongida Old Market, Langtang South",
+          "slug": "sabongida-old-market-langtang-south",
+          "coordinates": {
+            "lat": 8.727962254,
+            "lng": 9.713037293
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Sabongida Settlement",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Talgwang Market, Langtang South",
+          "slug": "talgwang-market-langtang-south",
+          "coordinates": {
+            "lat": 8.770932547,
+            "lng": 9.799046942
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Talgwang",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Timbol Market Ngwan Korto, Langtang South",
+          "slug": "timbol-market-ngwan-korto-langtang-south",
+          "coordinates": {
+            "lat": 8.534805,
+            "lng": 9.820266667
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Ngwan Korto Timbol",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Timchang Market, Langtang South",
+          "slug": "timchang-market-langtang-south",
+          "coordinates": {
+            "lat": 8.660727987,
+            "lng": 9.760218268
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Timchang",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Timfim Market, Langtang South",
+          "slug": "timfim-market-langtang-south",
+          "coordinates": {
+            "lat": 8.796284214,
+            "lng": 9.803665242
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Timfim",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Timjul Market, Langtang South",
+          "slug": "timjul-market-langtang-south",
+          "coordinates": {
+            "lat": 8.394024243,
+            "lng": 9.748666014
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Timjul",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Timloh Market, Langtang South",
+          "slug": "timloh-market-langtang-south",
+          "coordinates": {
+            "lat": 8.525430994,
+            "lng": 9.95139669
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Timloh",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Timzing Market, Langtang South",
+          "slug": "timzing-market-langtang-south",
+          "coordinates": {
+            "lat": 8.607417509,
+            "lng": 9.914395771
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Timzing",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Turaki Market, Langtang South",
+          "slug": "turaki-market-langtang-south",
+          "coordinates": {
+            "lat": 8.609337068,
+            "lng": 9.708137944
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Turaki",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Walnim Market, Langtang South",
+          "slug": "walnim-market-langtang-south",
+          "coordinates": {
+            "lat": 8.724838815,
+            "lng": 9.900346585
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Walnim",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Zamchang Fumang Market, Langtang South",
+          "slug": "zamchang-fumang-market-langtang-south",
+          "coordinates": {
+            "lat": 8.608030842,
+            "lng": 9.949439104
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Zamchang Fumang",
+          "days": [
+            "Tue"
+          ]
+        }
+      ]
     },
     {
       "name": "Mangu",
       "slug": "plateau-mangu",
-      "markets": []
+      "markets": [
+        {
+          "name": "Ampang West Market, Mangu",
+          "slug": "ampang-west-market-mangu",
+          "coordinates": {
+            "lat": 9.29875,
+            "lng": 9.18782
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ampang West"
+        },
+        {
+          "name": "Bwonpe Market, Mangu",
+          "slug": "bwonpe-market-mangu",
+          "coordinates": {
+            "lat": 9.297687773,
+            "lng": 9.219139486
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Bwonpe",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Kadunu Market Square, Mangu",
+          "slug": "kadunu-market-square-mangu",
+          "coordinates": {
+            "lat": 9.67625,
+            "lng": 9.15352
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kadunu Square"
+        },
+        {
+          "name": "Kadunu Market, Mangu",
+          "slug": "kadunu-market-mangu",
+          "coordinates": {
+            "lat": 9.675440551,
+            "lng": 9.156022075
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Kadunu Town",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Kasuwan Chakfem, Mangu",
+          "slug": "kasuwan-chakfem-mangu",
+          "coordinates": {
+            "lat": 9.096924026,
+            "lng": 9.16894503
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Tim Chakfem",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Kerang Market Square, Mangu",
+          "slug": "kerang-market-square-mangu",
+          "coordinates": {
+            "lat": 9.33389,
+            "lng": 9.19957
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kerang Square"
+        },
+        {
+          "name": "Kerang Market, Mangu",
+          "slug": "kerang-market-mangu",
+          "coordinates": {
+            "lat": 9.333823174,
+            "lng": 9.199442462
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Kerang",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Langai Market, Mangu",
+          "slug": "langai-market-mangu",
+          "coordinates": {
+            "lat": 9.628251815,
+            "lng": 9.214480626
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Anguwan Sarki",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Mangu Market",
+          "slug": "mangu-market",
+          "coordinates": {
+            "lat": 9.49045,
+            "lng": 9.13774
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Mangu"
+        },
+        {
+          "name": "Marish Market, Mangu",
+          "slug": "marish-market-mangu",
+          "coordinates": {
+            "lat": 9.4286533,
+            "lng": 9.0281033
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Marish Market",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Nahoros Market, Mangu",
+          "slug": "nahoros-market-mangu",
+          "coordinates": {
+            "lat": 9.133621197,
+            "lng": 9.142291234
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Nahoros",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "New Mangun Market",
+          "slug": "new-mangun-market",
+          "coordinates": {
+            "lat": 9.222681174,
+            "lng": 9.151500859
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Sharform",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "New Market Square Gindiri, Mangu",
+          "slug": "new-market-square-gindiri-mangu",
+          "coordinates": {
+            "lat": 9.59486,
+            "lng": 9.23237
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "New Square Gindiri"
+        },
+        {
+          "name": "Panyam Market, Mangu",
+          "slug": "panyam-market-mangu",
+          "coordinates": {
+            "lat": 9.407684538,
+            "lng": 9.215388117
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Panyam main town",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Payam Market Square, Mangu",
+          "slug": "payam-market-square-mangu",
+          "coordinates": {
+            "lat": 9.40773,
+            "lng": 9.21559
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Payam Square"
+        },
+        {
+          "name": "Pushit Market, Mangu",
+          "slug": "pushit-market-mangu",
+          "coordinates": {
+            "lat": 9.40371,
+            "lng": 9.2738
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Pushit"
+        },
+        {
+          "name": "Pyamgiji Market, Mangu",
+          "slug": "pyamgiji-market-mangu",
+          "coordinates": {
+            "lat": 9.557840425,
+            "lng": 9.286258449
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Pyamgiji Market",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Sabon Barriki Merket, Mangu",
+          "slug": "sabon-barriki-merket-mangu",
+          "coordinates": {
+            "lat": 9.576233939,
+            "lng": 9.196209833
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Other",
+          "type": "Mixed",
+          "local_name": "Sabon Barriki merket",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Tokung Market, Mangu",
+          "slug": "tokung-market-mangu",
+          "coordinates": {
+            "lat": 9.222299896,
+            "lng": 9.151090023
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Tokung",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Tsofon Kasuwa, Mangu",
+          "slug": "tsofon-kasuwa-mangu",
+          "coordinates": {
+            "lat": 9.343216507,
+            "lng": 9.208474128
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Other",
+          "type": "Food Stuff Mixed",
+          "local_name": "Jwak'ngang",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Tsoho Kasuwa, Mangu",
+          "slug": "tsoho-kasuwa-mangu",
+          "coordinates": {
+            "lat": 9.595,
+            "lng": 9.228211667
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Hakimi",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        }
+      ]
     },
     {
       "name": "Mikang",
       "slug": "plateau-mikang",
-      "markets": []
+      "markets": [
+        {
+          "name": "Central Market Piapung, Mikang",
+          "slug": "central-market-piapung-mikang",
+          "coordinates": {
+            "lat": 9.02314,
+            "lng": 9.48481
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Central Piapung"
+        },
+        {
+          "name": "Dungzar Market, Mikang",
+          "slug": "dungzar-market-mikang",
+          "coordinates": {
+            "lat": 9.009405,
+            "lng": 9.74698
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Dungzar",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Garkawa Central Market, Mikang",
+          "slug": "garkawa-central-market-mikang",
+          "coordinates": {
+            "lat": 8.936870834,
+            "lng": 9.800059259
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Angwan Pitup",
+          "days": [
+            "Tue",
+            "Thu"
+          ]
+        },
+        {
+          "name": "Garkawa Market, Mikang",
+          "slug": "garkawa-market-mikang",
+          "coordinates": {
+            "lat": 8.93689,
+            "lng": 9.80019
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Garkawa"
+        },
+        {
+          "name": "Haske Market, Mikang",
+          "slug": "haske-market-mikang",
+          "coordinates": {
+            "lat": 8.971,
+            "lng": 9.7194217
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Haske",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kies Market, Mikang",
+          "slug": "kies-market-mikang",
+          "coordinates": {
+            "lat": 9.014869239,
+            "lng": 9.441813137
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Kies",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Koetes Market, Mikang",
+          "slug": "koetes-market-mikang",
+          "coordinates": {
+            "lat": 9.054358273,
+            "lng": 9.514666363
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Koetes",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Kongo Market Garkawa, Mikang",
+          "slug": "kongo-market-garkawa-mikang",
+          "coordinates": {
+            "lat": 8.939887483,
+            "lng": 9.802388468
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Other",
+          "type": "Mixed",
+          "local_name": "Kongo",
+          "days": [
+            "Mon",
+            "Wed",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Lahil Market, Mikang",
+          "slug": "lahil-market-mikang",
+          "coordinates": {
+            "lat": 8.983492499,
+            "lng": 9.834485457
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Lahil",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Lalin New Market, Mikang",
+          "slug": "lalin-new-market-mikang",
+          "coordinates": {
+            "lat": 9.071043947,
+            "lng": 9.679169406
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Lalin A",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Longmil Market, Mikang",
+          "slug": "longmil-market-mikang",
+          "coordinates": {
+            "lat": 9.00934107,
+            "lng": 9.571769114
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Longmil",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Nanmi Market, Mikang",
+          "slug": "nanmi-market-mikang",
+          "coordinates": {
+            "lat": 8.97662,
+            "lng": 9.64568
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Kopkampe",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Pangpit Market, Mikang",
+          "slug": "pangpit-market-mikang",
+          "coordinates": {
+            "lat": 8.96513277,
+            "lng": 9.513775814
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Pangpit",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Piapung Market, Mikang",
+          "slug": "piapung-market-mikang",
+          "coordinates": {
+            "lat": 9.023621058,
+            "lng": 9.484061038
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Piapung",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Piapung New Market, Mikang",
+          "slug": "piapung-new-market-mikang",
+          "coordinates": {
+            "lat": 9.018484001,
+            "lng": 9.484351993
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Piaber",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Puyung Market, Mikang",
+          "slug": "puyung-market-mikang",
+          "coordinates": {
+            "lat": 8.9970583,
+            "lng": 9.67487
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Puyung",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Shang Market, Mikang",
+          "slug": "shang-market-mikang",
+          "coordinates": {
+            "lat": 9.019625962,
+            "lng": 9.535132905
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Shang",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Shulur Market, Mikang",
+          "slug": "shulur-market-mikang",
+          "coordinates": {
+            "lat": 8.95310925,
+            "lng": 9.762362893
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Shulur",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Taptang Market, Mikang",
+          "slug": "taptang-market-mikang",
+          "coordinates": {
+            "lat": 9.0057,
+            "lng": 9.6643367
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Taptang",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Tunkus Market, Mikang",
+          "slug": "tunkus-market-mikang",
+          "coordinates": {
+            "lat": 9.02175,
+            "lng": 9.61581
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Tunkus"
+        },
+        {
+          "name": "Zamkong Market, Mikang",
+          "slug": "zamkong-market-mikang",
+          "coordinates": {
+            "lat": 8.9851,
+            "lng": 9.7710467
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Zamkong Market",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Zamzeli Market, Mikang",
+          "slug": "zamzeli-market-mikang",
+          "coordinates": {
+            "lat": 8.952315,
+            "lng": 9.521618333
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Zamzeli",
+          "days": [
+            "Fri"
+          ]
+        }
+      ]
     },
     {
       "name": "Pankshin",
       "slug": "plateau-pankshin",
-      "markets": []
+      "markets": [
+        {
+          "name": "Abwor Dyis Market, Pankshin",
+          "slug": "abwor-dyis-market-pankshin",
+          "coordinates": {
+            "lat": 9.25838,
+            "lng": 9.2840667
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Juplik",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Dokpai Market, Pankshin",
+          "slug": "dokpai-market-pankshin",
+          "coordinates": {
+            "lat": 9.226112443,
+            "lng": 9.625633583
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff Mixed",
+          "local_name": "Dokpai",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Gungun Market, Pankshin",
+          "slug": "gungun-market-pankshin",
+          "coordinates": {
+            "lat": 9.198375776,
+            "lng": 9.691295249
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Gungun Settlement",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kurum Point Market, Pankshin",
+          "slug": "kurum-point-market-pankshin",
+          "coordinates": {
+            "lat": 9.3222083,
+            "lng": 9.4476867
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Kurum",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Kwalla Market, Pankshin",
+          "slug": "kwalla-market-pankshin",
+          "coordinates": {
+            "lat": 9.1898,
+            "lng": 9.381498333
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Kwalla",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Langwat Market, Pankshin",
+          "slug": "langwat-market-pankshin",
+          "coordinates": {
+            "lat": 9.369142844,
+            "lng": 9.451884402
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Ballang Kalep",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Monday Market, Pankshin",
+          "slug": "monday-market-pankshin",
+          "coordinates": {
+            "lat": 9.329883171,
+            "lng": 9.42670776
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Angwan Vel",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Mudel Market, Pankshin",
+          "slug": "mudel-market-pankshin",
+          "coordinates": {
+            "lat": 9.412029213,
+            "lng": 9.463176098
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Mudel",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Nyelleng Market, Pankshin",
+          "slug": "nyelleng-market-pankshin",
+          "coordinates": {
+            "lat": 9.43347088,
+            "lng": 9.449384431
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Nyelleng",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Pangnifur Market, Pankshin",
+          "slug": "pangnifur-market-pankshin",
+          "coordinates": {
+            "lat": 9.230628076,
+            "lng": 9.691379816
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Pangnifur",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Yong Market, Pankshin",
+          "slug": "yong-market-pankshin",
+          "coordinates": {
+            "lat": 9.107849945,
+            "lng": 9.512526891
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Livestock",
+          "local_name": "Yong",
+          "days": [
+            "Thu"
+          ]
+        }
+      ]
     },
     {
       "name": "Qua'an Pan",
       "slug": "plateau-qua-an-pan",
-      "markets": []
+      "markets": [
+        {
+          "name": "Angwan Langem Market, Qua'an Pan",
+          "slug": "angwan-langem-market-qua-an-pan",
+          "coordinates": {
+            "lat": 8.609102208,
+            "lng": 9.154667963
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Angwan Langem",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Bakin Ciyawa Market, Qua'an Pan",
+          "slug": "bakin-ciyawa-market-qua-an-pan",
+          "coordinates": {
+            "lat": 8.61386,
+            "lng": 9.28819
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Bakin Ciyawa"
+        },
+        {
+          "name": "Bakinchiawa Luukwu Market, Qua'an Pan",
+          "slug": "bakinchiawa-luukwu-market-qua-an-pan",
+          "coordinates": {
+            "lat": 8.613563859,
+            "lng": 9.288964478
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Bakinchiawa",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Cogo Market Janyaro, Qua'an Pan",
+          "slug": "cogo-market-janyaro-qua-an-pan",
+          "coordinates": {
+            "lat": 8.581883333,
+            "lng": 9.26736
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Janyaro",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Dasuwaru Market, Qua'an Pan",
+          "slug": "dasuwaru-market-qua-an-pan",
+          "coordinates": {
+            "lat": 8.631888478,
+            "lng": 9.210106908
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Angwan-damen",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Dindagoon Market, Qua'an Pan",
+          "slug": "dindagoon-market-qua-an-pan",
+          "coordinates": {
+            "lat": 8.841737731,
+            "lng": 9.320651459
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Dindagoon Settlement",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Doemak Main Market, Qua'an Pan",
+          "slug": "doemak-main-market-qua-an-pan",
+          "coordinates": {
+            "lat": 8.948856667,
+            "lng": 9.244093333
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Doemak market",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Dokan Kasuwa Market, Qua'an Pan",
+          "slug": "dokan-kasuwa-market-qua-an-pan",
+          "coordinates": {
+            "lat": 9.095311667,
+            "lng": 9.320568333
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Dakan Kasuwa",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Dungras Market Square, Qua'an Pan",
+          "slug": "dungras-market-square-qua-an-pan",
+          "coordinates": {
+            "lat": 8.89234,
+            "lng": 9.05585
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Dungras Square"
+        },
+        {
+          "name": "Duwe Market, Qua'an Pan",
+          "slug": "duwe-market-qua-an-pan",
+          "coordinates": {
+            "lat": 8.615815542,
+            "lng": 9.074242963
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Duwe",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Gidan Dabat Yam Market, Qua'an Pan",
+          "slug": "gidan-dabat-yam-market-qua-an-pan",
+          "coordinates": {
+            "lat": 8.7173,
+            "lng": 9.2328
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gidan Dabat Yam"
+        },
+        {
+          "name": "Goepil Bwall Market, Qua'an Pan",
+          "slug": "goepil-bwall-market-qua-an-pan",
+          "coordinates": {
+            "lat": 8.931195205,
+            "lng": 9.154598555
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Goepil Bwall",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Janta Central Market, Qua'an Pan",
+          "slug": "janta-central-market-qua-an-pan",
+          "coordinates": {
+            "lat": 8.538417425,
+            "lng": 9.004029659
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Janta Town",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Kopswaass Market, Qua'an Pan",
+          "slug": "kopswaass-market-qua-an-pan",
+          "coordinates": {
+            "lat": 8.639293875,
+            "lng": 9.114796296
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Bi-Weekly",
+          "type": "Food Stuff",
+          "local_name": "Kopswaass",
+          "days": [
+            "Fri",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kundum Market, Qua'an Pan",
+          "slug": "kundum-market-qua-an-pan",
+          "coordinates": {
+            "lat": 8.489528333,
+            "lng": 9.207426667
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Kundum",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kurgwi Market, Qua'an Pan",
+          "slug": "kurgwi-market-qua-an-pan",
+          "coordinates": {
+            "lat": 8.7809,
+            "lng": 9.29055
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kurgwi"
+        },
+        {
+          "name": "Kurgwi Yam Market, Qua'an Pan",
+          "slug": "kurgwi-yam-market-qua-an-pan",
+          "coordinates": {
+            "lat": 8.77594,
+            "lng": 9.29918
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kurgwi Yam"
+        },
+        {
+          "name": "Lankaku Market, Qua'an Pan",
+          "slug": "lankaku-market-qua-an-pan",
+          "coordinates": {
+            "lat": 8.549229675,
+            "lng": 9.139336096
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Lankaku",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Lashing Market, Qua'an Pan",
+          "slug": "lashing-market-qua-an-pan",
+          "coordinates": {
+            "lat": 8.833255,
+            "lng": 9.238305
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Lashing",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Leotuk Kwalla Market, Qua'an Pan",
+          "slug": "leotuk-kwalla-market-qua-an-pan",
+          "coordinates": {
+            "lat": 8.912981031,
+            "lng": 9.286373159
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Kwalla",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Madachi Market, Qua'an Pan",
+          "slug": "madachi-market-qua-an-pan",
+          "coordinates": {
+            "lat": 8.838570205,
+            "lng": 9.128960221
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Madachi Market",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Mangoro Uku Mini Market, Qua'an Pan",
+          "slug": "mangoro-uku-mini-market-qua-an-pan",
+          "coordinates": {
+            "lat": 8.711013553,
+            "lng": 9.167872046
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Mini Market Mangoro Uku",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Mangye Gamji Market, Qua'an Pan",
+          "slug": "mangye-gamji-market-qua-an-pan",
+          "coordinates": {
+            "lat": 8.640673307,
+            "lng": 9.351620679
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Livestock",
+          "local_name": "Mangye gamji Market",
+          "days": [
+            "Thu",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Misan Yam Market, Qua'an Pan",
+          "slug": "misan-yam-market-qua-an-pan",
+          "coordinates": {
+            "lat": 8.721632106,
+            "lng": 9.226449484
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Gidan Bubai",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Nagang Market, Qua'an Pan",
+          "slug": "nagang-market-qua-an-pan",
+          "coordinates": {
+            "lat": 8.880391872,
+            "lng": 9.107263555
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Nagand",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Namu Central Market, Qua'an Pan",
+          "slug": "namu-central-market-qua-an-pan",
+          "coordinates": {
+            "lat": 8.68511,
+            "lng": 9.09224
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Namu Central"
+        },
+        {
+          "name": "New Market Kurgwe, Qua'an Pan",
+          "slug": "new-market-kurgwe-qua-an-pan",
+          "coordinates": {
+            "lat": 8.779942413,
+            "lng": 9.290393124
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Sabin Kasuwa",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Ntoeroem Market, Qua'an Pan",
+          "slug": "ntoeroem-market-qua-an-pan",
+          "coordinates": {
+            "lat": 8.822831141,
+            "lng": 9.140568663
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Ntoeroem",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Pamdong Market, Qua'an Pan",
+          "slug": "pamdong-market-qua-an-pan",
+          "coordinates": {
+            "lat": 8.779094474,
+            "lng": 9.09487363
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Pamdong",
+          "days": [
+            "Wed",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Pandam Market, Qua'an Pan",
+          "slug": "pandam-market-qua-an-pan",
+          "coordinates": {
+            "lat": 8.642517825,
+            "lng": 8.979839926
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Pandam Towm",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Shang Fuup Yam Market, Qua'an Pan",
+          "slug": "shang-fuup-yam-market-qua-an-pan",
+          "coordinates": {
+            "lat": 8.91351,
+            "lng": 9.28617
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Shang Fuup Yam"
+        }
+      ]
     },
     {
       "name": "Riyom",
       "slug": "plateau-riyom",
-      "markets": []
+      "markets": [
+        {
+          "name": "Central Market Square Dantse, Riyom",
+          "slug": "central-market-square-dantse-riyom",
+          "coordinates": {
+            "lat": 9.65364,
+            "lng": 8.63686
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Central Square Dantse"
+        },
+        {
+          "name": "Daily Market, Riyom",
+          "slug": "daily-market-riyom",
+          "coordinates": {
+            "lat": 9.608912555,
+            "lng": 8.654666368
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Other",
+          "type": "Food Stuff",
+          "local_name": "Ahom",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Gwong Road Market, Riyom",
+          "slug": "gwong-road-market-riyom",
+          "coordinates": {
+            "lat": 9.600301977,
+            "lng": 8.712937167
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Other",
+          "type": "Mixed",
+          "local_name": "Gwong Ta Hoss",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Hoss Market Square, Riyom",
+          "slug": "hoss-market-square-riyom",
+          "coordinates": {
+            "lat": 9.61355,
+            "lng": 8.72927
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Hoss Square"
+        },
+        {
+          "name": "Hoss Market, Riyom",
+          "slug": "hoss-market-riyom",
+          "coordinates": {
+            "lat": 9.61371555,
+            "lng": 8.729696756
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Kwogo Hoss",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Koroda Market, Riyom",
+          "slug": "koroda-market-riyom",
+          "coordinates": {
+            "lat": 9.692153653,
+            "lng": 8.639069683
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Jummai Francis Ayiku",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Market, Riyom",
+          "slug": "market-riyom",
+          "coordinates": {
+            "lat": 9.692340235,
+            "lng": 8.639586465
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Other",
+          "type": "Mixed",
+          "local_name": "Fangroi",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        }
+      ]
     },
     {
       "name": "Shendam",
       "slug": "plateau-shendam",
-      "markets": []
+      "markets": [
+        {
+          "name": "Along Yelwa Shendam Road",
+          "slug": "along-yelwa-shendam-road",
+          "coordinates": {
+            "lat": 8.812525,
+            "lng": 9.652555
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Nshar",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Angwan Clement Market, Shendam",
+          "slug": "angwan-clement-market-shendam",
+          "coordinates": {
+            "lat": 8.470671813,
+            "lng": 9.573233782
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Angwan Clement",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Angwan Kira Community Market, Shendam",
+          "slug": "angwan-kira-community-market-shendam",
+          "coordinates": {
+            "lat": 8.40070642,
+            "lng": 9.606984782
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Angwan Kira",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Angwan Merniang Market, Shendam",
+          "slug": "angwan-merniang-market-shendam",
+          "coordinates": {
+            "lat": 8.784640277,
+            "lng": 9.508387712
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Angwan Merniang",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Angwan Muryang Kasuwan Doya Zomo, Shendam",
+          "slug": "angwan-muryang-kasuwan-doya-zomo-shendam",
+          "coordinates": {
+            "lat": 8.97354422,
+            "lng": 9.421767917
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Angwan Muryang zomo",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Angwan Shailong Community Market, Shendam",
+          "slug": "angwan-shailong-community-market-shendam",
+          "coordinates": {
+            "lat": 8.454251244,
+            "lng": 9.612013908
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Angwan Shailong community",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Angwan Zam Market, Shendam",
+          "slug": "angwan-zam-market-shendam",
+          "coordinates": {
+            "lat": 8.774089253,
+            "lng": 9.574934327
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Angwan Zam",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Biem Biem Market, Shendam",
+          "slug": "biem-biem-market-shendam",
+          "coordinates": {
+            "lat": 8.594997333,
+            "lng": 9.407712607
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Biem Biem",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Bumpi Market, Shendam",
+          "slug": "bumpi-market-shendam",
+          "coordinates": {
+            "lat": 8.810432858,
+            "lng": 9.588623031
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Dungba village",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Central Market Square Yamini, Shendam",
+          "slug": "central-market-square-yamini-shendam",
+          "coordinates": {
+            "lat": 8.52353,
+            "lng": 9.66123
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Central Square Yamini"
+        },
+        {
+          "name": "Demshin Market, Shendam",
+          "slug": "demshin-market-shendam",
+          "coordinates": {
+            "lat": 8.686030692,
+            "lng": 9.448722041
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Demshin",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Dungba Market, Shendam",
+          "slug": "dungba-market-shendam",
+          "coordinates": {
+            "lat": 8.807282858,
+            "lng": 9.585908031
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Dungba community",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Dunghushin Market, Shendam",
+          "slug": "dunghushin-market-shendam",
+          "coordinates": {
+            "lat": 8.86868227,
+            "lng": 9.76700517
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Dunghushin",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Filing Ball Market, Shendam",
+          "slug": "filing-ball-market-shendam",
+          "coordinates": {
+            "lat": 8.747276522,
+            "lng": 9.404553289
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Filling Ball",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Gaklang Market, Shendam",
+          "slug": "gaklang-market-shendam",
+          "coordinates": {
+            "lat": 8.88172,
+            "lng": 9.72658
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gaklang"
+        },
+        {
+          "name": "Gidan Adamu Community Market, Shendam",
+          "slug": "gidan-adamu-community-market-shendam",
+          "coordinates": {
+            "lat": 8.93184592,
+            "lng": 9.456784617
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Gidan Adamu Shendam",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Gongvel Market, Shendam",
+          "slug": "gongvel-market-shendam",
+          "coordinates": {
+            "lat": 8.751725919,
+            "lng": 9.507955994
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Gongvel",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Kasuwa Congo, Shendam",
+          "slug": "kasuwa-congo-shendam",
+          "coordinates": {
+            "lat": 8.712799253,
+            "lng": 9.50933766
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Angwan Kanai",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kasuwan Angwan Tsoro, Shendam",
+          "slug": "kasuwan-angwan-tsoro-shendam",
+          "coordinates": {
+            "lat": 8.832645244,
+            "lng": 9.519054412
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Angwan Tsoro community",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Kasuwan Dere Market, Shendam",
+          "slug": "kasuwan-dere-market-shendam",
+          "coordinates": {
+            "lat": 8.8912717,
+            "lng": 9.5382033
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Other",
+          "type": "Food Stuff",
+          "local_name": "Kasuwan Dere",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kasuwan Kare Market, Shendam",
+          "slug": "kasuwan-kare-market-shendam",
+          "coordinates": {
+            "lat": 8.789306191,
+            "lng": 9.596919698
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Kwapkilik",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Kasuwan Komidep, Shendam",
+          "slug": "kasuwan-komidep-shendam",
+          "coordinates": {
+            "lat": 8.6976962,
+            "lng": 9.3492043
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Kopmidep",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Kasuwan Maldrid, Shendam",
+          "slug": "kasuwan-maldrid-shendam",
+          "coordinates": {
+            "lat": 8.96307092,
+            "lng": 9.472412917
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Nbeet",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kasuwan Tanzet, Shendam",
+          "slug": "kasuwan-tanzet-shendam",
+          "coordinates": {
+            "lat": 8.90628922,
+            "lng": 9.505512917
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Tanzet",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kasuwan Zomo, Shendam",
+          "slug": "kasuwan-zomo-shendam",
+          "coordinates": {
+            "lat": 8.97521922,
+            "lng": 9.421309617
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Angwan Muryang Zomo",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Kawo Market, Shendam",
+          "slug": "kawo-market-shendam",
+          "coordinates": {
+            "lat": 8.840613527,
+            "lng": 9.631433621
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Kawo",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Kuka Main Market, Shendam",
+          "slug": "kuka-main-market-shendam",
+          "coordinates": {
+            "lat": 8.448677498,
+            "lng": 9.695343462
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Kuka",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kuka Market Square, Shendam",
+          "slug": "kuka-market-square-shendam",
+          "coordinates": {
+            "lat": 8.44797,
+            "lng": 9.69525
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kuka Square"
+        },
+        {
+          "name": "Kupyilban Merket, Shendam",
+          "slug": "kupyilban-merket-shendam",
+          "coordinates": {
+            "lat": 8.805398611,
+            "lng": 9.538986045
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Kupyilban kanhawa market",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Kurum Laza Market, Shendam",
+          "slug": "kurum-laza-market-shendam",
+          "coordinates": {
+            "lat": 8.944928898,
+            "lng": 9.573892108
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Kurum",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kwantau Market, Shendam",
+          "slug": "kwantau-market-shendam",
+          "coordinates": {
+            "lat": 8.862770351,
+            "lng": 9.674461103
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Kwantau",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Kwapsake Market, Shendam",
+          "slug": "kwapsake-market-shendam",
+          "coordinates": {
+            "lat": 8.895597038,
+            "lng": 9.636580041
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Kurumbur B Kwapsake",
+          "days": [
+            "Tue",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Kwapsake Weekly Market, Shendam",
+          "slug": "kwapsake-weekly-market-shendam",
+          "coordinates": {
+            "lat": 8.902671667,
+            "lng": 9.648355
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Kwapsake",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Lakung Market 2, Shendam",
+          "slug": "lakung-market-2-shendam",
+          "coordinates": {
+            "lat": 8.806687237,
+            "lng": 9.72771517
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Lakung",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Lakung Market, Shendam",
+          "slug": "lakung-market-shendam",
+          "coordinates": {
+            "lat": 8.810627237,
+            "lng": 9.72922017
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Lakung",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Longvel Market Square, Shendam",
+          "slug": "longvel-market-square-shendam",
+          "coordinates": {
+            "lat": 8.857369525,
+            "lng": 9.595576364
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Longvel",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Luutinghen Market, Shendam",
+          "slug": "luutinghen-market-shendam",
+          "coordinates": {
+            "lat": 8.854338494,
+            "lng": 9.667180288
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Bi-Weekly",
+          "type": "Food Stuff",
+          "local_name": "Luu-tinghen",
+          "days": [
+            "Tue",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Makera Agu Market Square, Shendam",
+          "slug": "makera-agu-market-square-shendam",
+          "coordinates": {
+            "lat": 8.49849,
+            "lng": 9.44164
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Makera Agu Square"
+        },
+        {
+          "name": "Makera Market, Shendam",
+          "slug": "makera-market-shendam",
+          "coordinates": {
+            "lat": 8.498037254,
+            "lng": 9.441432715
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Makera",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Mambial Market Square, Shendam",
+          "slug": "mambial-market-square-shendam",
+          "coordinates": {
+            "lat": 8.59492,
+            "lng": 9.40783
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Mambial Square"
+        },
+        {
+          "name": "Mararaba Demshin Market, Shendam",
+          "slug": "mararaba-demshin-market-shendam",
+          "coordinates": {
+            "lat": 8.804805,
+            "lng": 9.371646667
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Marara Demshin",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Mararaba Demshin Pang Kwonlop Yam Market, Shendam",
+          "slug": "mararaba-demshin-pang-kwonlop-yam-market-shendam",
+          "coordinates": {
+            "lat": 8.802742856,
+            "lng": 9.370296106
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Bi-Weekly",
+          "type": "Food Stuff",
+          "local_name": "Mararaba Demshin",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Meokat Market Square, Shendam",
+          "slug": "meokat-market-square-shendam",
+          "coordinates": {
+            "lat": 8.570462254,
+            "lng": 9.567942715
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Moekat",
+          "days": [
+            "Tue",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Nashar Market, Shendam",
+          "slug": "nashar-market-shendam",
+          "coordinates": {
+            "lat": 8.81723,
+            "lng": 9.64438
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Nashar"
+        },
+        {
+          "name": "Nbet Market, Shendam",
+          "slug": "nbet-market-shendam",
+          "coordinates": {
+            "lat": 8.95871422,
+            "lng": 9.469422917
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Nbet",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Ngootlong Demshin Market Square, Shendam",
+          "slug": "ngootlong-demshin-market-square-shendam",
+          "coordinates": {
+            "lat": 8.68612,
+            "lng": 9.44832
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ngootlong Demshin Square"
+        },
+        {
+          "name": "Npol Market, Shendam",
+          "slug": "npol-market-shendam",
+          "coordinates": {
+            "lat": 8.536592254,
+            "lng": 9.612051048
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Npol",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Nshar Market, Shendam",
+          "slug": "nshar-market-shendam",
+          "coordinates": {
+            "lat": 8.812818333,
+            "lng": 9.652428333
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Nshar",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Old Yam Market Kuka, Shendam",
+          "slug": "old-yam-market-kuka-shendam",
+          "coordinates": {
+            "lat": 8.443875,
+            "lng": 9.70021
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Old yam market kuka",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Pang Kwonlop Yam Market, Shendam",
+          "slug": "pang-kwonlop-yam-market-shendam",
+          "coordinates": {
+            "lat": 8.80268,
+            "lng": 9.37006
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Pang Kwonlop Yam"
+        },
+        {
+          "name": "Pangmalang Market, Shendam",
+          "slug": "pangmalang-market-shendam",
+          "coordinates": {
+            "lat": 8.88926092,
+            "lng": 9.486262917
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Pangmalang",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Pangshom Market, Shendam",
+          "slug": "pangshom-market-shendam",
+          "coordinates": {
+            "lat": 8.960537951,
+            "lng": 9.482186986
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Pangshom",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Pankum Market, Shendam",
+          "slug": "pankum-market-shendam",
+          "coordinates": {
+            "lat": 8.768734286,
+            "lng": 9.486031027
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Pangkum",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Peoship Market, Shendam",
+          "slug": "peoship-market-shendam",
+          "coordinates": {
+            "lat": 8.8145,
+            "lng": 9.44751
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Peoship"
+        },
+        {
+          "name": "Poediel Market, Shendam",
+          "slug": "poediel-market-shendam",
+          "coordinates": {
+            "lat": 8.879190887,
+            "lng": 9.454672917
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Poediel",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Poeship Market Square, Shendam",
+          "slug": "poeship-market-square-shendam",
+          "coordinates": {
+            "lat": 8.814520716,
+            "lng": 9.447564912
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Poeship Barkin Kogi",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Rijiyan Giwa Market, Shendam",
+          "slug": "rijiyan-giwa-market-shendam",
+          "coordinates": {
+            "lat": 8.42797422,
+            "lng": 9.564514976
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Rijiyan Giwa Market",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Sabin Line Market, Shendam",
+          "slug": "sabin-line-market-shendam",
+          "coordinates": {
+            "lat": 8.582655022,
+            "lng": 9.628618833
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Sabin Line",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Sabon Kasuwa, Shendam",
+          "slug": "sabon-kasuwa-shendam",
+          "coordinates": {
+            "lat": 8.874488235,
+            "lng": 9.522517894
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Sabon Kasuwa",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Shargang Market, Shendam",
+          "slug": "shargang-market-shendam",
+          "coordinates": {
+            "lat": 8.742490922,
+            "lng": 9.457228389
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Shargan Central Market",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Shendam Market",
+          "slug": "shendam-market",
+          "coordinates": {
+            "lat": 8.87945,
+            "lng": 9.53422
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Shendam"
+        },
+        {
+          "name": "Shepwan Market, Shendam",
+          "slug": "shepwan-market-shendam",
+          "coordinates": {
+            "lat": 8.81673277,
+            "lng": 9.3985593
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Shepwan",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Shimankar Market Square, Shendam",
+          "slug": "shimankar-market-square-shendam",
+          "coordinates": {
+            "lat": 8.62814,
+            "lng": 9.5246
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Shimankar Square"
+        },
+        {
+          "name": "Shimankar Market, Shendam",
+          "slug": "shimankar-market-shendam",
+          "coordinates": {
+            "lat": 8.628064149,
+            "lng": 9.524646678
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Shimankar",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Sohon Kurwat Market, Shendam",
+          "slug": "sohon-kurwat-market-shendam",
+          "coordinates": {
+            "lat": 8.823233644,
+            "lng": 9.506156012
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Sohon Kurwat",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Soka Ka Huta Market, Shendam",
+          "slug": "soka-ka-huta-market-shendam",
+          "coordinates": {
+            "lat": 8.808494558,
+            "lng": 9.569258031
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Dungba",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Takbol Market, Shendam",
+          "slug": "takbol-market-shendam",
+          "coordinates": {
+            "lat": 8.421099276,
+            "lng": 9.732962681
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Takbol",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Tudun Doruwa Market, Shendam",
+          "slug": "tudun-doruwa-market-shendam",
+          "coordinates": {
+            "lat": 8.45851198,
+            "lng": 9.5957613
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Tudun Doruwa",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Turniang Market, Shendam",
+          "slug": "turniang-market-shendam",
+          "coordinates": {
+            "lat": 8.689708355,
+            "lng": 9.382418251
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Turniang",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Yak Market, Shendam",
+          "slug": "yak-market-shendam",
+          "coordinates": {
+            "lat": 8.835091608,
+            "lng": 9.737213896
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Yak",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Yam Zone Market, Shendam",
+          "slug": "yam-zone-market-shendam",
+          "coordinates": {
+            "lat": 8.445646667,
+            "lng": 9.687506667
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Angwan Damulak",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Yamini Market Square, Shendam",
+          "slug": "yamini-market-square-shendam",
+          "coordinates": {
+            "lat": 8.523513704,
+            "lng": 9.661145041
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Yamini",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Yamini Yam Market, Shendam",
+          "slug": "yamini-yam-market-shendam",
+          "coordinates": {
+            "lat": 8.527771861,
+            "lng": 9.660353621
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Yamini",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Yandoya Sabon Kasuwa Zango Market, Shendam",
+          "slug": "yandoya-sabon-kasuwa-zango-market-shendam",
+          "coordinates": {
+            "lat": 8.799239254,
+            "lng": 9.662319167
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Angwan Zango yandoya market",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Zamlong Market, Shendam",
+          "slug": "zamlong-market-shendam",
+          "coordinates": {
+            "lat": 8.840452257,
+            "lng": 9.475963907
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Zamlong",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Zango Market, Shendam",
+          "slug": "zango-market-shendam",
+          "coordinates": {
+            "lat": 8.801228333,
+            "lng": 9.661435
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Livestock",
+          "local_name": "Angwan Zango",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Zokwai Market, Shendam",
+          "slug": "zokwai-market-shendam",
+          "coordinates": {
+            "lat": 8.957575,
+            "lng": 9.5036733
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Zokwai",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Zomo Yam Market, Shendam",
+          "slug": "zomo-yam-market-shendam",
+          "coordinates": {
+            "lat": 8.98055422,
+            "lng": 9.417061217
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff Mixed",
+          "local_name": "Zomo",
+          "days": [
+            "Tue"
+          ]
+        }
+      ]
     },
     {
       "name": "Wase",
       "slug": "plateau-wase",
-      "markets": []
+      "markets": [
+        {
+          "name": "Bashaar Market, Wase",
+          "slug": "bashaar-market-wase",
+          "coordinates": {
+            "lat": 9.312568513,
+            "lng": 10.16376951
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Bashaar Market",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Bashar Market Square, Wase",
+          "slug": "bashar-market-square-wase",
+          "coordinates": {
+            "lat": 9.31252,
+            "lng": 10.16374
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Bashar Square"
+        },
+        {
+          "name": "Burkutu Market, Wase",
+          "slug": "burkutu-market-wase",
+          "coordinates": {
+            "lat": 8.896497747,
+            "lng": 10.03114589
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Unguwan Barrack",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Cattle Market Mavo, Wase",
+          "slug": "cattle-market-mavo-wase",
+          "coordinates": {
+            "lat": 9.07546,
+            "lng": 10.06808
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Cattle Mavo"
+        },
+        {
+          "name": "Chapkwai Market, Wase",
+          "slug": "chapkwai-market-wase",
+          "coordinates": {
+            "lat": 8.888441978,
+            "lng": 9.906109639
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Chapkwai",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Chuwi Market Square, Wase",
+          "slug": "chuwi-market-square-wase",
+          "coordinates": {
+            "lat": 9.02218,
+            "lng": 9.99662
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Chuwi Square"
+        },
+        {
+          "name": "Community Market, Wase",
+          "slug": "community-market-wase",
+          "coordinates": {
+            "lat": 8.888303311,
+            "lng": 9.905605706
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Bi-Weekly",
+          "type": "Food Stuff",
+          "local_name": "Chikwai",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Danyam Market, Wase",
+          "slug": "danyam-market-wase",
+          "coordinates": {
+            "lat": 9.295921214,
+            "lng": 10.04081387
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Danyam",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Faya Market, Wase",
+          "slug": "faya-market-wase",
+          "coordinates": {
+            "lat": 8.645556667,
+            "lng": 9.952506667
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Faya Market",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Gabbari Market, Wase",
+          "slug": "gabbari-market-wase",
+          "coordinates": {
+            "lat": 8.883136742,
+            "lng": 10.20718473
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Gabbari",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Gaji Market Square, Wase",
+          "slug": "gaji-market-square-wase",
+          "coordinates": {
+            "lat": 9.29037,
+            "lng": 10.31335
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gaji Square"
+        },
+        {
+          "name": "Gaji Market, Wase",
+          "slug": "gaji-market-wase",
+          "coordinates": {
+            "lat": 9.290229938,
+            "lng": 10.21331181
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Gaji",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Ganjuwa Market, Wase",
+          "slug": "ganjuwa-market-wase",
+          "coordinates": {
+            "lat": 9.44709,
+            "lng": 10.28176
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ganjuwa"
+        },
+        {
+          "name": "Ganua Market, Wase",
+          "slug": "ganua-market-wase",
+          "coordinates": {
+            "lat": 9.12142329,
+            "lng": 9.98011471
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Ganua",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Gimbi Market Square, Wase",
+          "slug": "gimbi-market-square-wase",
+          "coordinates": {
+            "lat": 8.95589,
+            "lng": 10.26288
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gimbi Square"
+        },
+        {
+          "name": "Gimbi Market, Wase",
+          "slug": "gimbi-market-wase",
+          "coordinates": {
+            "lat": 8.955988408,
+            "lng": 10.26291308
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Gimbi",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Guiwan Kogi Market Square, Wase",
+          "slug": "guiwan-kogi-market-square-wase",
+          "coordinates": {
+            "lat": 9.01741,
+            "lng": 9.89275
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Guiwan Kogi Square"
+        },
+        {
+          "name": "Gwangtim Market, Wase",
+          "slug": "gwangtim-market-wase",
+          "coordinates": {
+            "lat": 8.935872823,
+            "lng": 9.956013499
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Twangtim",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Gwiwan Kogi Market, Wase",
+          "slug": "gwiwan-kogi-market-wase",
+          "coordinates": {
+            "lat": 9.011033644,
+            "lng": 9.890781306
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Gwiwan Kogi",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Kadarko Maket, Wase",
+          "slug": "kadarko-maket-wase",
+          "coordinates": {
+            "lat": 8.907602747,
+            "lng": 10.02115919
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Kadarko",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Kampani Market Square, Wase",
+          "slug": "kampani-market-square-wase",
+          "coordinates": {
+            "lat": 9.23858,
+            "lng": 10.57359
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kampani Square"
+        },
+        {
+          "name": "Kampani Market, Wase",
+          "slug": "kampani-market-wase",
+          "coordinates": {
+            "lat": 9.2390333,
+            "lng": 10.5753017
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Other",
+          "type": "Mixed",
+          "local_name": "Anguwan madaki",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kan Yashi Market, Wase",
+          "slug": "kan-yashi-market-wase",
+          "coordinates": {
+            "lat": 9.394479326,
+            "lng": 10.27105261
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Yuli",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Kasuwa Shanu Along Langtang Road, Wase",
+          "slug": "kasuwa-shanu-along-langtang-road-wase",
+          "coordinates": {
+            "lat": 9.069486978,
+            "lng": 9.942947973
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Livestock",
+          "local_name": "Kumbur",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Kurmi Market, Wase",
+          "slug": "kurmi-market-wase",
+          "coordinates": {
+            "lat": 8.696623333,
+            "lng": 10.08771667
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Kurmi Sauri",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Kwanan Mangwaro Market, Wase",
+          "slug": "kwanan-mangwaro-market-wase",
+          "coordinates": {
+            "lat": 8.934653408,
+            "lng": 10.33917807
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Other",
+          "local_name": "Kwanan mangwaro",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Lamba Market Lamba, Wase",
+          "slug": "lamba-market-lamba-wase",
+          "coordinates": {
+            "lat": 9.220447478,
+            "lng": 10.00312724
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Lamba",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Lamba Market Square, Wase",
+          "slug": "lamba-market-square-wase",
+          "coordinates": {
+            "lat": 9.22058,
+            "lng": 10.0034
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Lamba Square"
+        },
+        {
+          "name": "Luli Market Square, Wase",
+          "slug": "luli-market-square-wase",
+          "coordinates": {
+            "lat": 9.39681,
+            "lng": 10.27204
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Luli Square"
+        },
+        {
+          "name": "Mavo Market Square, Wase",
+          "slug": "mavo-market-square-wase",
+          "coordinates": {
+            "lat": 9.07536,
+            "lng": 10.06075
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Mavo Square"
+        },
+        {
+          "name": "Nahuta Yik Market, Wase",
+          "slug": "nahuta-yik-market-wase",
+          "coordinates": {
+            "lat": 8.825296978,
+            "lng": 9.901596306
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Clothing",
+          "local_name": "Nahuta Yik",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Sabon Layi Market Square, Wase",
+          "slug": "sabon-layi-market-square-wase",
+          "coordinates": {
+            "lat": 9.28242,
+            "lng": 10.24987
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Sabon Layi Square"
+        },
+        {
+          "name": "Safiyo Market Square, Wase",
+          "slug": "safiyo-market-square-wase",
+          "coordinates": {
+            "lat": 9.19037,
+            "lng": 10.26762
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Safiyo Square"
+        },
+        {
+          "name": "Safiyo Market, Wase",
+          "slug": "safiyo-market-wase",
+          "coordinates": {
+            "lat": 9.192874938,
+            "lng": 10.26678518
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Safiyo",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Wadatan Arewa Burukutu Bearmarket, Wase",
+          "slug": "wadatan-arewa-burukutu-bearmarket-wase",
+          "coordinates": {
+            "lat": 8.799005,
+            "lng": 9.989035
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Other",
+          "type": "Other",
+          "local_name": "Wadatan arewa",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Wadatan Kasuwa Market, Wase",
+          "slug": "wadatan-kasuwa-market-wase",
+          "coordinates": {
+            "lat": 8.749486667,
+            "lng": 9.99168
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Wadatan Kasuwa market",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Wase Market Square",
+          "slug": "wase-market-square",
+          "coordinates": {
+            "lat": 9.093135476,
+            "lng": 9.955137865
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Kuyanbana",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Wuri Hirna Market Guram, Wase",
+          "slug": "wuri-hirna-market-guram-wase",
+          "coordinates": {
+            "lat": 9.243523333,
+            "lng": 10.17173667
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Guram",
+          "days": [
+            "Tue",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Yuli Market, Wase",
+          "slug": "yuli-market-wase",
+          "coordinates": {
+            "lat": 9.396872659,
+            "lng": 10.27223927
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Yuli",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Zamdul Market, Wase",
+          "slug": "zamdul-market-wase",
+          "coordinates": {
+            "lat": 9.06004627,
+            "lng": 9.975067146
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Angwan zamdul",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Zamju Market, Wase",
+          "slug": "zamju-market-wase",
+          "coordinates": {
+            "lat": 8.803152994,
+            "lng": 10.09920319
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Dam One",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Zanbang Market, Wase",
+          "slug": "zanbang-market-wase",
+          "coordinates": {
+            "lat": 9.028528644,
+            "lng": 9.889779639
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Zambang Market",
+          "days": [
+            "Sun"
+          ]
+        }
+      ]
     }
   ]
 }

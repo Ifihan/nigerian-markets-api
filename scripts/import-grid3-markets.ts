@@ -68,6 +68,18 @@ const LGA_OVERRIDES: Record<string, Record<string, string>> = {
     'Ilesha East': 'Ilesa East',
     'Ilesha West': 'Ilesa West',
   },
+  rivers: {
+    Emuoha: 'Emohua',
+    Omumma: 'Omuma',
+    'Port-Harcourt': 'Port Harcourt',
+    'Akuku Toru': 'Akuku-Toru',
+  },
+  sokoto: {
+    Wamakko: 'Wamako',
+  },
+  taraba: {
+    'Ardo-Kola': 'Ardo Kola',
+  },
 };
 
 // Maps CSV statename values to JSON state names where they differ
