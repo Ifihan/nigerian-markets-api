@@ -10,17 +10,362 @@
     {
       "name": "Ahoada East",
       "slug": "rivers-ahoada-east",
-      "markets": []
+      "markets": [
+        {
+          "name": "Alocha Market, Ahoada East",
+          "slug": "alocha-market-ahoada-east",
+          "coordinates": {
+            "lat": 5.17476,
+            "lng": 6.61881
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Alocha"
+        },
+        {
+          "name": "Community Market Abarikpo, Ahoada East",
+          "slug": "community-market-abarikpo-ahoada-east",
+          "coordinates": {
+            "lat": 5.15602,
+            "lng": 6.63442
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Abarikpo"
+        },
+        {
+          "name": "Community Market Ehuda Igbuoshi, Ahoada East",
+          "slug": "community-market-ehuda-igbuoshi-ahoada-east",
+          "coordinates": {
+            "lat": 5.07473,
+            "lng": 6.65645
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ehuda Igbuoshi"
+        },
+        {
+          "name": "Community Market Ihuaje, Ahoada East",
+          "slug": "community-market-ihuaje-ahoada-east",
+          "coordinates": {
+            "lat": 5.19213,
+            "lng": 6.63815
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ihuaje"
+        },
+        {
+          "name": "Community Market Ihugbogo, Ahoada East",
+          "slug": "community-market-ihugbogo-ahoada-east",
+          "coordinates": {
+            "lat": 5.14122,
+            "lng": 6.6654
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ihugbogo"
+        },
+        {
+          "name": "Community Market Obumeze, Ahoada East",
+          "slug": "community-market-obumeze-ahoada-east",
+          "coordinates": {
+            "lat": 4.94,
+            "lng": 6.6411
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Obumeze"
+        },
+        {
+          "name": "Community Market Ogbo, Ahoada East",
+          "slug": "community-market-ogbo-ahoada-east",
+          "coordinates": {
+            "lat": 5.13003,
+            "lng": 6.62598
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ogbo"
+        },
+        {
+          "name": "Community Market Ula Ehuda, Ahoada East",
+          "slug": "community-market-ula-ehuda-ahoada-east",
+          "coordinates": {
+            "lat": 5.10533,
+            "lng": 6.62745
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ula Ehuda"
+        },
+        {
+          "name": "Daily Market Anwunugbokor, Ahoada East",
+          "slug": "daily-market-anwunugbokor-ahoada-east",
+          "coordinates": {
+            "lat": 5.15162,
+            "lng": 6.5976
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Daily Anwunugbokor"
+        },
+        {
+          "name": "Obiedi Community Mini Market Erema, Ahoada East",
+          "slug": "obiedi-community-mini-market-erema-ahoada-east",
+          "coordinates": {
+            "lat": 5.18216,
+            "lng": 6.66331
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Mixed",
+          "local_name": "Erema",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Odiokwu Market, Ahoada East",
+          "slug": "odiokwu-market-ahoada-east",
+          "coordinates": {
+            "lat": 5.11826,
+            "lng": 6.59765
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Odiokwu"
+        },
+        {
+          "name": "Ogoda Market, Ahoada East",
+          "slug": "ogoda-market-ahoada-east",
+          "coordinates": {
+            "lat": 5.11596,
+            "lng": 6.57399
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ogoda"
+        },
+        {
+          "name": "Okpo Rowo Communitymarket, Ahoada East",
+          "slug": "okpo-rowo-communitymarket-ahoada-east",
+          "coordinates": {
+            "lat": 4.96575,
+            "lng": 6.634
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Okpo Rowo Communitymarket"
+        },
+        {
+          "name": "Ubeta Market, Ahoada East",
+          "slug": "ubeta-market-ahoada-east",
+          "coordinates": {
+            "lat": 5.16538,
+            "lng": 6.58438
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ubeta"
+        }
+      ]
     },
     {
       "name": "Ahoada West",
       "slug": "rivers-ahoada-west",
-      "markets": []
+      "markets": [
+        {
+          "name": "Ahia Nembe Market, Ahoada West",
+          "slug": "ahia-nembe-market-ahoada-west",
+          "coordinates": {
+            "lat": 5.08608,
+            "lng": 6.57185
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Ahia Nembe"
+        },
+        {
+          "name": "Akala Olu Market, Ahoada West",
+          "slug": "akala-olu-market-ahoada-west",
+          "coordinates": {
+            "lat": 5.10572,
+            "lng": 6.5038
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Akala-olu"
+        },
+        {
+          "name": "Central Market Odiereke Ubie, Ahoada West",
+          "slug": "central-market-odiereke-ubie-ahoada-west",
+          "coordinates": {
+            "lat": 5.18437,
+            "lng": 6.54968
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Central Odiereke Ubie"
+        },
+        {
+          "name": "Daily Market Usuru Jk1, Ahoada West",
+          "slug": "daily-market-usuru-jk1-ahoada-west",
+          "coordinates": {
+            "lat": 5.1573,
+            "lng": 6.48944
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Daily Usuru Jk1"
+        },
+        {
+          "name": "Ebiriba Market, Ahoada West",
+          "slug": "ebiriba-market-ahoada-west",
+          "coordinates": {
+            "lat": 5.143,
+            "lng": 6.53952
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Ebiriba"
+        },
+        {
+          "name": "Eliabi Town Market, Ahoada West",
+          "slug": "eliabi-town-market-ahoada-west",
+          "coordinates": {
+            "lat": 5.08653,
+            "lng": 6.46824
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Eliabi Town"
+        },
+        {
+          "name": "Idu Ekpeye Market, Ahoada West",
+          "slug": "idu-ekpeye-market-ahoada-west",
+          "coordinates": {
+            "lat": 5.10392,
+            "lng": 6.5483
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Idu-ekpeye"
+        },
+        {
+          "name": "Ihuechi Market, Ahoada West",
+          "slug": "ihuechi-market-ahoada-west",
+          "coordinates": {
+            "lat": 5.17545,
+            "lng": 6.56758
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Ihuechi"
+        },
+        {
+          "name": "Mbiama Central Market, Ahoada West",
+          "slug": "mbiama-central-market-ahoada-west",
+          "coordinates": {
+            "lat": 5.06377,
+            "lng": 6.4485
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Mbiama Central"
+        },
+        {
+          "name": "Ogbede Market, Ahoada West",
+          "slug": "ogbede-market-ahoada-west",
+          "coordinates": {
+            "lat": 5.04437,
+            "lng": 6.51077
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Ogbede"
+        },
+        {
+          "name": "Okarki Central Market, Ahoada West",
+          "slug": "okarki-central-market-ahoada-west",
+          "coordinates": {
+            "lat": 4.98502,
+            "lng": 6.42961
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Okarki Central"
+        },
+        {
+          "name": "Okogbe Daily Market, Ahoada West",
+          "slug": "okogbe-daily-market-ahoada-west",
+          "coordinates": {
+            "lat": 5.06245,
+            "lng": 6.54037
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Okogbe Daily"
+        },
+        {
+          "name": "Oshie Market, Ahoada West",
+          "slug": "oshie-market-ahoada-west",
+          "coordinates": {
+            "lat": 5.10015,
+            "lng": 6.48536
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Oshie"
+        },
+        {
+          "name": "Ukpeliede Daily Market, Ahoada West",
+          "slug": "ukpeliede-daily-market-ahoada-west",
+          "coordinates": {
+            "lat": 5.0856,
+            "lng": 6.53707
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Ukpeliede Daily"
+        },
+        {
+          "name": "Uyakama Market, Ahoada West",
+          "slug": "uyakama-market-ahoada-west",
+          "coordinates": {
+            "lat": 5.05404,
+            "lng": 6.54067
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Uyakama"
+        }
+      ]
     },
     {
       "name": "Akuku-Toru",
       "slug": "rivers-akuku-toru",
-      "markets": []
+      "markets": [
+        {
+          "name": "Degema Consulate Market, Akuku-Toru",
+          "slug": "degema-consulate-market-akuku-toru",
+          "coordinates": {
+            "lat": 4.750644898,
+            "lng": 6.765616749
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "frequency": "Daily",
+          "type": "Food Stuff",
+          "local_name": "Degema Consulate",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Soku Marketsoku Town, Akuku-Toru",
+          "slug": "soku-marketsoku-town-akuku-toru",
+          "coordinates": {
+            "lat": 4.679641667,
+            "lng": 6.683255
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Soku Town",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        }
+      ]
     },
     {
       "name": "Andoni",
@@ -30,12 +375,65 @@
     {
       "name": "Asari-Toru",
       "slug": "rivers-asari-toru",
-      "markets": []
+      "markets": [
+        {
+          "name": "Buguma Sand Field Market, Asari-Toru",
+          "slug": "buguma-sand-field-market-asari-toru",
+          "coordinates": {
+            "lat": 4.738868134,
+            "lng": 6.859813679
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "frequency": "Daily",
+          "type": "Food Stuff",
+          "local_name": "Buguma Sand Field",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        }
+      ]
     },
     {
       "name": "Bonny",
       "slug": "rivers-bonny",
-      "markets": []
+      "markets": [
+        {
+          "name": "Bonny Main Market",
+          "slug": "bonny-main-market",
+          "coordinates": {
+            "lat": 4.44912,
+            "lng": 7.17026
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Bonny Main"
+        },
+        {
+          "name": "Dappaposie, Bonny",
+          "slug": "dappaposie-bonny",
+          "coordinates": {
+            "lat": 4.44874,
+            "lng": 7.17208
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Dappaposie"
+        },
+        {
+          "name": "Finima Main Market, Bonny",
+          "slug": "finima-main-market-bonny",
+          "coordinates": {
+            "lat": 4.40152,
+            "lng": 7.15707
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Finima Main"
+        }
+      ]
     },
     {
       "name": "Degema",
@@ -45,42 +443,1004 @@
     {
       "name": "Eleme",
       "slug": "rivers-eleme",
-      "markets": []
+      "markets": [
+        {
+          "name": "Alesa Main Market, Eleme",
+          "slug": "alesa-main-market-eleme",
+          "coordinates": {
+            "lat": 4.790443428,
+            "lng": 7.118488308
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "type": "Food Stuff",
+          "local_name": "Alesa Main"
+        },
+        {
+          "name": "Eteo Market, Eleme",
+          "slug": "eteo-market-eleme",
+          "coordinates": {
+            "lat": 4.751075,
+            "lng": 7.183133333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Obolo Eteo",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Nchia Ultra Mordern Market Echieta, Eleme",
+          "slug": "nchia-ultra-mordern-market-echieta-eleme",
+          "coordinates": {
+            "lat": 4.791921667,
+            "lng": 7.119998333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "local_name": "Ogale By Alode",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Ogale Evening Market, Eleme",
+          "slug": "ogale-evening-market-eleme",
+          "coordinates": {
+            "lat": 4.7879,
+            "lng": 7.12552
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ogale Evening"
+        }
+      ]
     },
     {
       "name": "Emohua",
       "slug": "rivers-emohua",
-      "markets": []
+      "markets": [
+        {
+          "name": "Alimini Station Market, Emohua",
+          "slug": "alimini-station-market-emohua",
+          "coordinates": {
+            "lat": 5.0570529,
+            "lng": 6.7339359
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Alimini Station Market",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Community Main Market Oha Itanwo, Emohua",
+          "slug": "community-main-market-oha-itanwo-emohua",
+          "coordinates": {
+            "lat": 4.908944444,
+            "lng": 6.856638889
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Main Oha Itanwo"
+        },
+        {
+          "name": "Community Market Rumuji, Emohua",
+          "slug": "community-market-rumuji-emohua",
+          "coordinates": {
+            "lat": 4.94675,
+            "lng": 6.784361111
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Rumuji"
+        },
+        {
+          "name": "Daily Market Rumuewhor, Emohua",
+          "slug": "daily-market-rumuewhor-emohua",
+          "coordinates": {
+            "lat": 4.906194444,
+            "lng": 6.770777778
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Daily Rumuewhor"
+        },
+        {
+          "name": "Evekwu Market, Emohua",
+          "slug": "evekwu-market-emohua",
+          "coordinates": {
+            "lat": 4.930833333,
+            "lng": 6.822305556
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Evekwu"
+        },
+        {
+          "name": "Main Market New Avenue, Emohua",
+          "slug": "main-market-new-avenue-emohua",
+          "coordinates": {
+            "lat": 4.894,
+            "lng": 6.876055556
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Main New Avenue"
+        },
+        {
+          "name": "Main Market Omofo, Emohua",
+          "slug": "main-market-omofo-emohua",
+          "coordinates": {
+            "lat": 4.960444444,
+            "lng": 6.740527778
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Main Omofo"
+        },
+        {
+          "name": "Mgbuolua Main Market, Emohua",
+          "slug": "mgbuolua-main-market-emohua",
+          "coordinates": {
+            "lat": 4.975027778,
+            "lng": 6.748638889
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Mgbuolua Main"
+        },
+        {
+          "name": "Oduoha Market, Emohua",
+          "slug": "oduoha-market-emohua",
+          "coordinates": {
+            "lat": 4.9125199,
+            "lng": 6.8327153
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "local_name": "Oduoha Community",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Rumuche Daily Market, Emohua",
+          "slug": "rumuche-daily-market-emohua",
+          "coordinates": {
+            "lat": 4.877944444,
+            "lng": 6.862638889
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Rumuche Daily"
+        },
+        {
+          "name": "Ubimini Market, Emohua",
+          "slug": "ubimini-market-emohua",
+          "coordinates": {
+            "lat": 5.275777778,
+            "lng": 6.743027778
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ubimini"
+        },
+        {
+          "name": "Weekly Market Oduoha, Emohua",
+          "slug": "weekly-market-oduoha-emohua",
+          "coordinates": {
+            "lat": 4.920777778,
+            "lng": 6.843666667
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Weekly Oduoha"
+        },
+        {
+          "name": "Weekly Market Omudioga, Emohua",
+          "slug": "weekly-market-omudioga-emohua",
+          "coordinates": {
+            "lat": 5.168277778,
+            "lng": 6.80475
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Weekly Omudioga"
+        }
+      ]
     },
     {
       "name": "Etche",
       "slug": "rivers-etche",
-      "markets": []
+      "markets": [
+        {
+          "name": "Mba Market Etche",
+          "slug": "mba-market-etche",
+          "coordinates": {
+            "lat": 5.12763,
+            "lng": 7.091733333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Mba",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Ogida Market, Etche",
+          "slug": "ogida-market-etche",
+          "coordinates": {
+            "lat": 5.1923725,
+            "lng": 7.0051416
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Ogida",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        }
+      ]
     },
     {
       "name": "Gokana",
       "slug": "rivers-gokana",
-      "markets": []
+      "markets": [
+        {
+          "name": "Barako Community Market, Gokana",
+          "slug": "barako-community-market-gokana",
+          "coordinates": {
+            "lat": 4.66822,
+            "lng": 7.31237
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Barako Community"
+        },
+        {
+          "name": "Bodo Market, Gokana",
+          "slug": "bodo-market-gokana",
+          "coordinates": {
+            "lat": 4.63022,
+            "lng": 7.27437
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Bodo"
+        },
+        {
+          "name": "Bomu Market, Gokana",
+          "slug": "bomu-market-gokana",
+          "coordinates": {
+            "lat": 4.63747,
+            "lng": 7.303
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Bomu"
+        },
+        {
+          "name": "Gboryormii Market, Gokana",
+          "slug": "gboryormii-market-gokana",
+          "coordinates": {
+            "lat": 4.68728,
+            "lng": 7.3433
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gboryormii"
+        },
+        {
+          "name": "Gokana Central Market Buabari",
+          "slug": "gokana-central-market-buabari",
+          "coordinates": {
+            "lat": 4.6498,
+            "lng": 7.29465
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gokana Central Buabari"
+        },
+        {
+          "name": "Ki Dere, Gokana",
+          "slug": "ki-dere-gokana",
+          "coordinates": {
+            "lat": 4.66862,
+            "lng": 7.27293
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ki-dere"
+        },
+        {
+          "name": "Kibangha Market Gokana",
+          "slug": "kibangha-market-gokana",
+          "coordinates": {
+            "lat": 4.66403,
+            "lng": 7.3047
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kibangha Gokana"
+        },
+        {
+          "name": "Kiza Ala Market, Gokana",
+          "slug": "kiza-ala-market-gokana",
+          "coordinates": {
+            "lat": 4.63315,
+            "lng": 7.28853
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kiza-ala"
+        },
+        {
+          "name": "Kpakpawa Market, Gokana",
+          "slug": "kpakpawa-market-gokana",
+          "coordinates": {
+            "lat": 4.67737,
+            "lng": 7.3066
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kpakpawa"
+        },
+        {
+          "name": "Kpor Market, Gokana",
+          "slug": "kpor-market-gokana",
+          "coordinates": {
+            "lat": 4.65263,
+            "lng": 7.2839
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kpor"
+        },
+        {
+          "name": "Nwebiara Market, Gokana",
+          "slug": "nwebiara-market-gokana",
+          "coordinates": {
+            "lat": 4.6751,
+            "lng": 7.30843
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Nwebiara"
+        },
+        {
+          "name": "Suu Market Kegbara Dere, Gokana",
+          "slug": "suu-market-kegbara-dere-gokana",
+          "coordinates": {
+            "lat": 4.66758,
+            "lng": 7.27258
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Suu Kegbara Dere"
+        }
+      ]
     },
     {
       "name": "Ikwerre",
       "slug": "rivers-ikwerre",
-      "markets": []
+      "markets": [
+        {
+          "name": "Alimini Weekly Market, Ikwerre",
+          "slug": "alimini-weekly-market-ikwerre",
+          "coordinates": {
+            "lat": 4.97356,
+            "lng": 6.98413
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Alimini Weekly"
+        },
+        {
+          "name": "Central Market Omerelu, Ikwerre",
+          "slug": "central-market-omerelu-ikwerre",
+          "coordinates": {
+            "lat": 5.20668,
+            "lng": 6.86518
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Central Omerelu"
+        },
+        {
+          "name": "Community Market Odiabidi, Ikwerre",
+          "slug": "community-market-odiabidi-ikwerre",
+          "coordinates": {
+            "lat": 4.95045,
+            "lng": 6.96592
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Odiabidi"
+        },
+        {
+          "name": "Igwuruta Central Market, Ikwerre",
+          "slug": "igwuruta-central-market-ikwerre",
+          "coordinates": {
+            "lat": 4.95543,
+            "lng": 7.0195
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Igwuruta Central"
+        },
+        {
+          "name": "Isiokpo Central Market, Ikwerre",
+          "slug": "isiokpo-central-market-ikwerre",
+          "coordinates": {
+            "lat": 4.97977,
+            "lng": 6.87941
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Isiokpo Central"
+        },
+        {
+          "name": "Isiokpo Weekly Market, Ikwerre",
+          "slug": "isiokpo-weekly-market-ikwerre",
+          "coordinates": {
+            "lat": 4.97686,
+            "lng": 6.88109
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Isiokpo Weekly"
+        },
+        {
+          "name": "Omichiolu Market, Ikwerre",
+          "slug": "omichiolu-market-ikwerre",
+          "coordinates": {
+            "lat": 4.92543,
+            "lng": 6.92548
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Omichiolu"
+        },
+        {
+          "name": "Omodoma Market, Ikwerre",
+          "slug": "omodoma-market-ikwerre",
+          "coordinates": {
+            "lat": 4.96648,
+            "lng": 6.98894
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Omodoma"
+        },
+        {
+          "name": "Omunwei Market, Ikwerre",
+          "slug": "omunwei-market-ikwerre",
+          "coordinates": {
+            "lat": 4.9765,
+            "lng": 7.0218
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Omunwei"
+        },
+        {
+          "name": "Omuohia Market, Ikwerre",
+          "slug": "omuohia-market-ikwerre",
+          "coordinates": {
+            "lat": 5.04673,
+            "lng": 6.96533
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Omuohia"
+        },
+        {
+          "name": "Omuoluta Market, Ikwerre",
+          "slug": "omuoluta-market-ikwerre",
+          "coordinates": {
+            "lat": 4.96315,
+            "lng": 6.99365
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Omuoluta"
+        },
+        {
+          "name": "Ubima Central Market, Ikwerre",
+          "slug": "ubima-central-market-ikwerre",
+          "coordinates": {
+            "lat": 5.1199,
+            "lng": 6.90045
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ubima Central"
+        },
+        {
+          "name": "Ubima Market, Ikwerre",
+          "slug": "ubima-market-ikwerre",
+          "coordinates": {
+            "lat": 5.11464,
+            "lng": 6.90456
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ubima"
+        }
+      ]
     },
     {
       "name": "Khana",
       "slug": "rivers-khana",
-      "markets": []
+      "markets": [
+        {
+          "name": "Barabor Main Market, Khana",
+          "slug": "barabor-main-market-khana",
+          "coordinates": {
+            "lat": 4.70475,
+            "lng": 7.361083333
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Barabor Main"
+        },
+        {
+          "name": "Eete For Kpara Kanni 1, Khana",
+          "slug": "eete-for-kpara-kanni-1-khana",
+          "coordinates": {
+            "lat": 4.70243,
+            "lng": 7.35956
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Kanni 1",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kaa Market, Khana",
+          "slug": "kaa-market-khana",
+          "coordinates": {
+            "lat": 4.574388889,
+            "lng": 7.369944444
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kaa"
+        },
+        {
+          "name": "Legure Market Square, Khana",
+          "slug": "legure-market-square-khana",
+          "coordinates": {
+            "lat": 4.701444444,
+            "lng": 7.370972222
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Legure Square"
+        },
+        {
+          "name": "Luegbo Market Square, Khana",
+          "slug": "luegbo-market-square-khana",
+          "coordinates": {
+            "lat": 4.676666667,
+            "lng": 7.446
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Luegbo Square"
+        },
+        {
+          "name": "Luumene Market Bagha, Khana",
+          "slug": "luumene-market-bagha-khana",
+          "coordinates": {
+            "lat": 4.723125,
+            "lng": 7.492165
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Luumene",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Luuwa Kunemue Market Luuwa Community, Khana",
+          "slug": "luuwa-kunemue-market-luuwa-community-khana",
+          "coordinates": {
+            "lat": 4.671778333,
+            "lng": 7.484275
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff Mixed",
+          "local_name": "Luuwa Market",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Main Market Duburo, Khana",
+          "slug": "main-market-duburo-khana",
+          "coordinates": {
+            "lat": 4.658055556,
+            "lng": 7.480972222
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Main Duburo"
+        },
+        {
+          "name": "Okwale Town Market, Khana",
+          "slug": "okwale-town-market-khana",
+          "coordinates": {
+            "lat": 4.801388889,
+            "lng": 7.394
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Okwale Town"
+        },
+        {
+          "name": "Saah Main Market, Khana",
+          "slug": "saah-main-market-khana",
+          "coordinates": {
+            "lat": 4.700777778,
+            "lng": 7.428777778
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Saah Main"
+        },
+        {
+          "name": "Weekly Market Nyokuru, Khana",
+          "slug": "weekly-market-nyokuru-khana",
+          "coordinates": {
+            "lat": 4.731333333,
+            "lng": 7.450055556
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Weekly Nyokuru"
+        },
+        {
+          "name": "Were Saako Market Kor, Khana",
+          "slug": "were-saako-market-kor-khana",
+          "coordinates": {
+            "lat": 4.684398333,
+            "lng": 7.393193333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Kor Community, Bori",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        }
+      ]
     },
     {
       "name": "Obio/Akpor",
       "slug": "rivers-obio-akpor",
-      "markets": []
+      "markets": [
+        {
+          "name": "Boundary Market, Obio/Akpor",
+          "slug": "boundary-market-obio-akpor",
+          "coordinates": {
+            "lat": 4.85325,
+            "lng": 7.064138889
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Boundary"
+        },
+        {
+          "name": "Community Market Oro Ovo, Obio/Akpor",
+          "slug": "community-market-oro-ovo-obio-akpor",
+          "coordinates": {
+            "lat": 4.818421366,
+            "lng": 6.982687651
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "frequency": "Daily",
+          "type": "Food Stuff",
+          "local_name": "Oro-ovo",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Egbelu Ozodo Market, Obio/Akpor",
+          "slug": "egbelu-ozodo-market-obio-akpor",
+          "coordinates": {
+            "lat": 4.836861111,
+            "lng": 6.96
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Egbelu Ozodo"
+        },
+        {
+          "name": "Eheleze Community Market, Obio/Akpor",
+          "slug": "eheleze-community-market-obio-akpor",
+          "coordinates": {
+            "lat": 4.84675,
+            "lng": 7.068916667
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Eheleze Community"
+        },
+        {
+          "name": "Ibrahim Alfa Mammy Market, Obio/Akpor",
+          "slug": "ibrahim-alfa-mammy-market-obio-akpor",
+          "coordinates": {
+            "lat": 4.842111111,
+            "lng": 7.032388889
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ibrahim Alfa Mammy"
+        },
+        {
+          "name": "Mgbuamadi Opara Market, Obio/Akpor",
+          "slug": "mgbuamadi-opara-market-obio-akpor",
+          "coordinates": {
+            "lat": 4.800416667,
+            "lng": 6.966222222
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Mgbuamadi Opara"
+        },
+        {
+          "name": "Oil Mill Market, Obio/Akpor",
+          "slug": "oil-mill-market-obio-akpor",
+          "coordinates": {
+            "lat": 4.856305556,
+            "lng": 7.072083333
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Oil Mill"
+        },
+        {
+          "name": "Rumunduru Market, Obio/Akpor",
+          "slug": "rumunduru-market-obio-akpor",
+          "coordinates": {
+            "lat": 4.876666667,
+            "lng": 7.035111111
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Rumunduru"
+        },
+        {
+          "name": "Rumunnaye Market, Obio/Akpor",
+          "slug": "rumunnaye-market-obio-akpor",
+          "coordinates": {
+            "lat": 4.894055556,
+            "lng": 7.0015
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Rumunnaye"
+        },
+        {
+          "name": "Rumuolu Rumuekini Market, Obio/Akpor",
+          "slug": "rumuolu-rumuekini-market-obio-akpor",
+          "coordinates": {
+            "lat": 4.884555556,
+            "lng": 6.94125
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Rumuolu-rumuekini"
+        },
+        {
+          "name": "Rumuolumeni Central Market, Obio/Akpor",
+          "slug": "rumuolumeni-central-market-obio-akpor",
+          "coordinates": {
+            "lat": 4.827583333,
+            "lng": 6.957527778
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Rumuolumeni Central"
+        },
+        {
+          "name": "Rumuomasi Market, Obio/Akpor",
+          "slug": "rumuomasi-market-obio-akpor",
+          "coordinates": {
+            "lat": 4.834722222,
+            "lng": 7.030555556
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Rumuomasi"
+        },
+        {
+          "name": "Woji Market, Obio/Akpor",
+          "slug": "woji-market-obio-akpor",
+          "coordinates": {
+            "lat": 4.822472222,
+            "lng": 7.061194444
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Woji"
+        }
+      ]
     },
     {
       "name": "Ogba/Egbema/Ndoni",
       "slug": "rivers-ogba-egbema-ndoni",
-      "markets": []
+      "markets": [
+        {
+          "name": "Ahia Esek Market, Ogba/Egbema/Ndoni",
+          "slug": "ahia-esek-market-ogba-egbema-ndoni",
+          "coordinates": {
+            "lat": 5.18893,
+            "lng": 6.55703
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Ahia Esek"
+        },
+        {
+          "name": "Akabuka Market, Ogba/Egbema/Ndoni",
+          "slug": "akabuka-market-ogba-egbema-ndoni",
+          "coordinates": {
+            "lat": 5.213835,
+            "lng": 6.641273333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Akabuka",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Elieta Community Market, Ogba/Egbema/Ndoni",
+          "slug": "elieta-community-market-ogba-egbema-ndoni",
+          "coordinates": {
+            "lat": 5.293235,
+            "lng": 6.703396667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Elieta",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Mgbede Market, Ogba/Egbema/Ndoni",
+          "slug": "mgbede-market-ogba-egbema-ndoni",
+          "coordinates": {
+            "lat": 5.474211667,
+            "lng": 6.716708333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Bi-Weekly",
+          "type": "Mixed",
+          "local_name": "Mgbede",
+          "days": [
+            "Mon",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Ndoni Central Market, Ogba/Egbema/Ndoni",
+          "slug": "ndoni-central-market-ogba-egbema-ndoni",
+          "coordinates": {
+            "lat": 5.552416667,
+            "lng": 6.594083333
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ndoni Central"
+        },
+        {
+          "name": "Oboburu Market, Ogba/Egbema/Ndoni",
+          "slug": "oboburu-market-ogba-egbema-ndoni",
+          "coordinates": {
+            "lat": 5.22639,
+            "lng": 6.60283
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Mixed",
+          "local_name": "Oboburu Daily Market",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Obrikom Main Market, Ogba/Egbema/Ndoni",
+          "slug": "obrikom-main-market-ogba-egbema-ndoni",
+          "coordinates": {
+            "lat": 5.393961667,
+            "lng": 6.669971667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Obrikom Community",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Ogboghene Market, Ogba/Egbema/Ndoni",
+          "slug": "ogboghene-market-ogba-egbema-ndoni",
+          "coordinates": {
+            "lat": 5.452527778,
+            "lng": 6.552
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ogboghene"
+        },
+        {
+          "name": "Ogbugu Market, Ogba/Egbema/Ndoni",
+          "slug": "ogbugu-market-ogba-egbema-ndoni",
+          "coordinates": {
+            "lat": 5.236888889,
+            "lng": 6.654416667
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ogbugu"
+        },
+        {
+          "name": "Okposi Market, Ogba/Egbema/Ndoni",
+          "slug": "okposi-market-ogba-egbema-ndoni",
+          "coordinates": {
+            "lat": 5.32175,
+            "lng": 6.654277778
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Okposi"
+        },
+        {
+          "name": "Omoku Central Market, Ogba/Egbema/Ndoni",
+          "slug": "omoku-central-market-ogba-egbema-ndoni",
+          "coordinates": {
+            "lat": 5.353055556,
+            "lng": 6.660305556
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Omoku Central"
+        }
+      ]
     },
     {
       "name": "Ogu/Bolo",
@@ -90,12 +1450,149 @@
     {
       "name": "Okrika",
       "slug": "rivers-okrika",
-      "markets": []
+      "markets": [
+        {
+          "name": "Anyugu Biri Okrika Sandfill Market",
+          "slug": "anyugu-biri-okrika-sandfill-market",
+          "coordinates": {
+            "lat": 4.74,
+            "lng": 7.08727
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Anyugu Biri Okrika Sandfill"
+        },
+        {
+          "name": "Ibaka Model Market, Okrika",
+          "slug": "ibaka-model-market-okrika",
+          "coordinates": {
+            "lat": 4.7423,
+            "lng": 7.07932
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ibaka Model"
+        },
+        {
+          "name": "Nowa Intl Market, Okrika",
+          "slug": "nowa-intl-market-okrika",
+          "coordinates": {
+            "lat": 4.749277778,
+            "lng": 7.0445
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Nowa Int'l"
+        },
+        {
+          "name": "Ogoloma Sandfill Market, Okrika",
+          "slug": "ogoloma-sandfill-market-okrika",
+          "coordinates": {
+            "lat": 4.73292,
+            "lng": 7.08405
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ogoloma Sandfill"
+        },
+        {
+          "name": "Tomo Market, Okrika",
+          "slug": "tomo-market-okrika",
+          "coordinates": {
+            "lat": 4.74397,
+            "lng": 7.08655
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Tomo"
+        }
+      ]
     },
     {
       "name": "Omuma",
       "slug": "rivers-omuma",
-      "markets": []
+      "markets": [
+        {
+          "name": "Ahia Orie Market, Omuma",
+          "slug": "ahia-orie-market-omuma",
+          "coordinates": {
+            "lat": 5.0475536,
+            "lng": 7.223681195
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "local_name": "Ahia Orie Market",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Eberi Market, Omuma",
+          "slug": "eberi-market-omuma",
+          "coordinates": {
+            "lat": 5.08817,
+            "lng": 7.23148
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Eberi"
+        },
+        {
+          "name": "Eketa Okpulor Market, Omuma",
+          "slug": "eketa-okpulor-market-omuma",
+          "coordinates": {
+            "lat": 5.11224,
+            "lng": 7.25402
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Eketa Okpulor"
+        },
+        {
+          "name": "Orie Market Owaza, Omuma",
+          "slug": "orie-market-owaza-omuma",
+          "coordinates": {
+            "lat": 4.972824402,
+            "lng": 7.198155912
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "type": "Food Stuff",
+          "local_name": "Orie Owaza"
+        },
+        {
+          "name": "Orie Market Umuagwu, Omuma",
+          "slug": "orie-market-umuagwu-omuma",
+          "coordinates": {
+            "lat": 5.11302,
+            "lng": 7.24161
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Orie Umuagwu"
+        },
+        {
+          "name": "Orie Market Umuru, Omuma",
+          "slug": "orie-market-umuru-omuma",
+          "coordinates": {
+            "lat": 5.20228,
+            "lng": 7.27286
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Orie Umuru"
+        },
+        {
+          "name": "Umuakali Market, Omuma",
+          "slug": "umuakali-market-omuma",
+          "coordinates": {
+            "lat": 5.0095,
+            "lng": 7.20822
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Umuakali"
+        },
+        {
+          "name": "Umunwaka Market, Omuma",
+          "slug": "umunwaka-market-omuma",
+          "coordinates": {
+            "lat": 5.18508,
+            "lng": 7.26278
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Umunwaka"
+        }
+      ]
     },
     {
       "name": "Opobo/Nkoro",
@@ -105,17 +1602,451 @@
     {
       "name": "Oyigbo",
       "slug": "rivers-oyigbo",
-      "markets": []
+      "markets": [
+        {
+          "name": "Afam Nta Market, Oyigbo",
+          "slug": "afam-nta-market-oyigbo",
+          "coordinates": {
+            "lat": 4.80627,
+            "lng": 7.34492
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Afam Nta"
+        },
+        {
+          "name": "Ahia Nkwo, Oyigbo",
+          "slug": "ahia-nkwo-oyigbo",
+          "coordinates": {
+            "lat": 4.8576,
+            "lng": 7.17807
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Nkwo"
+        },
+        {
+          "name": "Ahiama Mgboji, Oyigbo",
+          "slug": "ahiama-mgboji-oyigbo",
+          "coordinates": {
+            "lat": 4.84828,
+            "lng": 7.33051
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahiama Mgboji"
+        },
+        {
+          "name": "Atata Market, Oyigbo",
+          "slug": "atata-market-oyigbo",
+          "coordinates": {
+            "lat": 4.88389,
+            "lng": 7.13058
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Atata"
+        },
+        {
+          "name": "Ayama Market, Oyigbo",
+          "slug": "ayama-market-oyigbo",
+          "coordinates": {
+            "lat": 4.85318,
+            "lng": 7.26487
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ayama"
+        },
+        {
+          "name": "Central Market Obete, Oyigbo",
+          "slug": "central-market-obete-oyigbo",
+          "coordinates": {
+            "lat": 4.80964,
+            "lng": 7.48512
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Central Obete"
+        },
+        {
+          "name": "Daily Market Okpontu, Oyigbo",
+          "slug": "daily-market-okpontu-oyigbo",
+          "coordinates": {
+            "lat": 4.83536,
+            "lng": 7.45867
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Daily Okpontu"
+        },
+        {
+          "name": "Daily Market Umuagbai, Oyigbo",
+          "slug": "daily-market-umuagbai-oyigbo",
+          "coordinates": {
+            "lat": 4.85391,
+            "lng": 7.37202
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Daily Umuagbai"
+        },
+        {
+          "name": "Egberu Daily Market, Oyigbo",
+          "slug": "egberu-daily-market-oyigbo",
+          "coordinates": {
+            "lat": 4.81091,
+            "lng": 7.27922
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Egberu Daily"
+        },
+        {
+          "name": "Eke Oyigbo Market",
+          "slug": "eke-oyigbo-market",
+          "coordinates": {
+            "lat": 4.87579,
+            "lng": 7.1461
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Eke Oyigbo"
+        },
+        {
+          "name": "Kom Kom Daily Market, Oyigbo",
+          "slug": "kom-kom-daily-market-oyigbo",
+          "coordinates": {
+            "lat": 4.86308,
+            "lng": 7.15632
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kom Kom Daily"
+        },
+        {
+          "name": "Marihu Market, Oyigbo",
+          "slug": "marihu-market-oyigbo",
+          "coordinates": {
+            "lat": 4.84127,
+            "lng": 7.4472
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Marihu"
+        },
+        {
+          "name": "Obeakpu Market, Oyigbo",
+          "slug": "obeakpu-market-oyigbo",
+          "coordinates": {
+            "lat": 4.85133,
+            "lng": 7.32147
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Obeakpu"
+        },
+        {
+          "name": "Obunku Market, Oyigbo",
+          "slug": "obunku-market-oyigbo",
+          "coordinates": {
+            "lat": 4.85931,
+            "lng": 7.27904
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Obunku"
+        },
+        {
+          "name": "Okoloma Market, Oyigbo",
+          "slug": "okoloma-market-oyigbo",
+          "coordinates": {
+            "lat": 4.85069,
+            "lng": 7.24264
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Okoloma"
+        },
+        {
+          "name": "Okoroezi Market, Oyigbo",
+          "slug": "okoroezi-market-oyigbo",
+          "coordinates": {
+            "lat": 4.88602,
+            "lng": 7.11899
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Okoroezi"
+        },
+        {
+          "name": "Orie Market Afam Ukwu, Oyigbo",
+          "slug": "orie-market-afam-ukwu-oyigbo",
+          "coordinates": {
+            "lat": 4.78979,
+            "lng": 7.31139
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Orie Afam Ukwu"
+        },
+        {
+          "name": "Orie Obeama Market, Oyigbo",
+          "slug": "orie-obeama-market-oyigbo",
+          "coordinates": {
+            "lat": 4.85184,
+            "lng": 7.19262
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Orie Obeama"
+        },
+        {
+          "name": "Umuosi Market, Oyigbo",
+          "slug": "umuosi-market-oyigbo",
+          "coordinates": {
+            "lat": 4.86289,
+            "lng": 7.29772
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Umuosi"
+        }
+      ]
     },
     {
       "name": "Port Harcourt",
       "slug": "rivers-port-harcourt",
-      "markets": []
+      "markets": [
+        {
+          "name": "Abali Market, Port Harcourt",
+          "slug": "abali-market-port-harcourt",
+          "coordinates": {
+            "lat": 4.81,
+            "lng": 7.012527778
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Abali"
+        },
+        {
+          "name": "Community Market Ede Okua Abuloma, Port Harcourt",
+          "slug": "community-market-ede-okua-abuloma-port-harcourt",
+          "coordinates": {
+            "lat": 4.789861111,
+            "lng": 7.059472222
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ede Okua Abuloma"
+        },
+        {
+          "name": "Community Market Rumukalagbo, Port Harcourt",
+          "slug": "community-market-rumukalagbo-port-harcourt",
+          "coordinates": {
+            "lat": 4.811527778,
+            "lng": 7.024805556
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Rumukalagbo"
+        },
+        {
+          "name": "Creek Road Market, Port Harcourt",
+          "slug": "creek-road-market-port-harcourt",
+          "coordinates": {
+            "lat": 4.76693731,
+            "lng": 7.029336952
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "type": "Food Stuff",
+          "local_name": "Creek Road"
+        },
+        {
+          "name": "Diobu Timber Market, Port Harcourt",
+          "slug": "diobu-timber-market-port-harcourt",
+          "coordinates": {
+            "lat": 4.794888889,
+            "lng": 6.989472222
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Diobu Timber"
+        },
+        {
+          "name": "Mgbu Odohia Market, Port Harcourt",
+          "slug": "mgbu-odohia-market-port-harcourt",
+          "coordinates": {
+            "lat": 4.792,
+            "lng": 6.974722222
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Mgbu Odohia"
+        },
+        {
+          "name": "New Layout Ultra Modern Market, Port Harcourt",
+          "slug": "new-layout-ultra-modern-market-port-harcourt",
+          "coordinates": {
+            "lat": 4.762972222,
+            "lng": 7.044194444
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "New Layout Ultra Modern"
+        },
+        {
+          "name": "Nkpolu Mile 3 Market, Port Harcourt",
+          "slug": "nkpolu-mile-3-market-port-harcourt",
+          "coordinates": {
+            "lat": 4.80925,
+            "lng": 6.999861111
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Nkpolu Mile 3"
+        },
+        {
+          "name": "Otumonye Mati Market, Port Harcourt",
+          "slug": "otumonye-mati-market-port-harcourt",
+          "coordinates": {
+            "lat": 4.78425,
+            "lng": 6.996722222
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Otumonye Mati"
+        },
+        {
+          "name": "Supabod Stores, Port Harcourt",
+          "slug": "supabod-stores-port-harcourt",
+          "coordinates": {
+            "lat": 4.780166667,
+            "lng": 7.021944444
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Supabod Stores"
+        },
+        {
+          "name": "Tere Market, Port Harcourt",
+          "slug": "tere-market-port-harcourt",
+          "coordinates": {
+            "lat": 4.788472222,
+            "lng": 7.038361111
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Tere"
+        }
+      ]
     },
     {
       "name": "Tai",
       "slug": "rivers-tai",
-      "markets": []
+      "markets": [
+        {
+          "name": "Ban Ogoi Central Market, Tai",
+          "slug": "ban-ogoi-central-market-tai",
+          "coordinates": {
+            "lat": 4.808,
+            "lng": 7.231416667
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ban-ogoi Central"
+        },
+        {
+          "name": "Central Market Town Square Aa Bue, Tai",
+          "slug": "central-market-town-square-aa-bue-tai",
+          "coordinates": {
+            "lat": 4.814,
+            "lng": 7.203361111
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Central Town Square Aa Bue"
+        },
+        {
+          "name": "Community Market Barakara Bunu, Tai",
+          "slug": "community-market-barakara-bunu-tai",
+          "coordinates": {
+            "lat": 4.772527778,
+            "lng": 7.250222222
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Barakara Bunu"
+        },
+        {
+          "name": "Community Market Gbaken Ii, Tai",
+          "slug": "community-market-gbaken-ii-tai",
+          "coordinates": {
+            "lat": 4.820722222,
+            "lng": 7.21825
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Gbaken 2"
+        },
+        {
+          "name": "Community Market Kpete Bunu, Tai",
+          "slug": "community-market-kpete-bunu-tai",
+          "coordinates": {
+            "lat": 4.770361111,
+            "lng": 7.24875
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kpete Bunu"
+        },
+        {
+          "name": "Community Market Nonwa Uedume, Tai",
+          "slug": "community-market-nonwa-uedume-tai",
+          "coordinates": {
+            "lat": 4.74775,
+            "lng": 7.22525
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Nonwa Uedume"
+        },
+        {
+          "name": "Community Market Norkpo, Tai",
+          "slug": "community-market-norkpo-tai",
+          "coordinates": {
+            "lat": 4.743583333,
+            "lng": 7.207388889
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Norkpo"
+        },
+        {
+          "name": "Community Market Sime, Tai",
+          "slug": "community-market-sime-tai",
+          "coordinates": {
+            "lat": 4.753777778,
+            "lng": 7.209
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Sime"
+        },
+        {
+          "name": "Deeyor Kira Community Market, Tai",
+          "slug": "deeyor-kira-community-market-tai",
+          "coordinates": {
+            "lat": 4.719027778,
+            "lng": 7.25
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Deeyor-kira Community"
+        },
+        {
+          "name": "Kidalo Market, Tai",
+          "slug": "kidalo-market-tai",
+          "coordinates": {
+            "lat": 4.706,
+            "lng": 7.3048
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kidalo"
+        },
+        {
+          "name": "Korokoro Community Market, Tai",
+          "slug": "korokoro-community-market-tai",
+          "coordinates": {
+            "lat": 4.743388889,
+            "lng": 7.311166667
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Korokoro Community"
+        },
+        {
+          "name": "Kpite Community Market, Tai",
+          "slug": "kpite-community-market-tai",
+          "coordinates": {
+            "lat": 4.734166667,
+            "lng": 7.303638889
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kpite Community"
+        },
+        {
+          "name": "Tai Central Market",
+          "slug": "tai-central-market",
+          "coordinates": {
+            "lat": 4.747611111,
+            "lng": 7.231861111
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Tai Central"
+        }
+      ]
     }
   ]
 }
