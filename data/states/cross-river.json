@@ -5,92 +5,5841 @@
     {
       "name": "Abi",
       "slug": "cross-river-abi",
-      "markets": []
+      "markets": [
+        {
+          "name": "Abe Upeh Igbor Market, Abi",
+          "slug": "abe-upeh-igbor-market-abi",
+          "coordinates": {
+            "lat": 5.88603,
+            "lng": 7.98925
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Abe Upeh Igbor"
+        },
+        {
+          "name": "Afafanyi Central, Abi",
+          "slug": "afafanyi-central-abi",
+          "coordinates": {
+            "lat": 5.88689,
+            "lng": 7.98946
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Afafanyi Central"
+        },
+        {
+          "name": "Aji Market, Abi",
+          "slug": "aji-market-abi",
+          "coordinates": {
+            "lat": 5.832611667,
+            "lng": 8.010673333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Bi-Weekly",
+          "type": "Mixed",
+          "local_name": "Aji",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Anong Usumutong Market Stalls, Abi",
+          "slug": "anong-usumutong-market-stalls-abi",
+          "coordinates": {
+            "lat": 5.8952917,
+            "lng": 8.0655883
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Anong Usumutong Stalls",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Anor Eborty Central, Abi",
+          "slug": "anor-eborty-central-abi",
+          "coordinates": {
+            "lat": 5.98457,
+            "lng": 8.02019
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Anor Eborty Central"
+        },
+        {
+          "name": "Atani Market, Abi",
+          "slug": "atani-market-abi",
+          "coordinates": {
+            "lat": 5.9275033,
+            "lng": 8.0860833
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Atani",
+          "days": [
+            "Wed",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Bazohure Market, Abi",
+          "slug": "bazohure-market-abi",
+          "coordinates": {
+            "lat": 5.8573567,
+            "lng": 7.9696567
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Food Stuff",
+          "local_name": "Bazohure",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Ediba Market, Abi",
+          "slug": "ediba-market-abi",
+          "coordinates": {
+            "lat": 5.8660283,
+            "lng": 8.0271283
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Ediba",
+          "days": [
+            "Tue",
+            "Thu",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Egboronyi Market Ikwo, Abi",
+          "slug": "egboronyi-market-ikwo-abi",
+          "coordinates": {
+            "lat": 5.9472933,
+            "lng": 8.036655
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Food Stuff",
+          "local_name": "Egboronyi Ikwo",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Eghe Osu Market, Abi",
+          "slug": "eghe-osu-market-abi",
+          "coordinates": {
+            "lat": 5.90021,
+            "lng": 8.06653
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Eghe Osu"
+        },
+        {
+          "name": "Enosu Kwe Market, Abi",
+          "slug": "enosu-kwe-market-abi",
+          "coordinates": {
+            "lat": 5.875983333,
+            "lng": 8.020545
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Livestock Food Stuff Mixed",
+          "local_name": "Enosu Kwe",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Hozzerapa Market, Abi",
+          "slug": "hozzerapa-market-abi",
+          "coordinates": {
+            "lat": 5.88558,
+            "lng": 8.033345
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Mixed",
+          "local_name": "Hozzerapa",
+          "days": [
+            "Tue",
+            "Thu"
+          ]
+        },
+        {
+          "name": "Ibom I Central, Abi",
+          "slug": "ibom-i-central-abi",
+          "coordinates": {
+            "lat": 5.92556,
+            "lng": 8.08222
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Ibom I Central"
+        },
+        {
+          "name": "Ilowen Market, Abi",
+          "slug": "ilowen-market-abi",
+          "coordinates": {
+            "lat": 5.92458,
+            "lng": 8.0826
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Ilowen"
+        },
+        {
+          "name": "Usumutong Market, Abi",
+          "slug": "usumutong-market-abi",
+          "coordinates": {
+            "lat": 5.839421667,
+            "lng": 8.012851667
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Usumutong",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Vumvum Market, Abi",
+          "slug": "vumvum-market-abi",
+          "coordinates": {
+            "lat": 5.88739,
+            "lng": 8.02376
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Vumvum"
+        }
+      ]
     },
     {
       "name": "Akamkpa",
       "slug": "cross-river-akamkpa",
-      "markets": []
+      "markets": [
+        {
+          "name": "Akamkpa Main Market",
+          "slug": "akamkpa-main-market",
+          "coordinates": {
+            "lat": 5.302841702,
+            "lng": 8.357006889
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "frequency": "Daily",
+          "type": "Food Stuff",
+          "local_name": "Akamkpa Main",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Aking Market, Akamkpa",
+          "slug": "aking-market-akamkpa",
+          "coordinates": {
+            "lat": 5.440091667,
+            "lng": 8.637513333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Aking",
+          "days": [
+            "Wed",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Aningheje Main Market, Akamkpa",
+          "slug": "aningheje-main-market-akamkpa",
+          "coordinates": {
+            "lat": 5.136676667,
+            "lng": 8.52462
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Food Stuff",
+          "local_name": "Aningheje Main",
+          "days": [
+            "Tue",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Awi Market Mfam Koko Village, Akamkpa",
+          "slug": "awi-market-mfam-koko-village-akamkpa",
+          "coordinates": {
+            "lat": 5.245015,
+            "lng": 8.366685
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Food Stuff Mixed",
+          "local_name": "Awi Mfam Koko Village",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Camp 5 Market, Akamkpa",
+          "slug": "camp-5-market-akamkpa",
+          "coordinates": {
+            "lat": 5.2224603,
+            "lng": 8.553119
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Camp 5",
+          "days": [
+            "Tue",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Dugbem Market, Akamkpa",
+          "slug": "dugbem-market-akamkpa",
+          "coordinates": {
+            "lat": 5.39899,
+            "lng": 8.26548
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Dugbem"
+        },
+        {
+          "name": "Ekong Market, Akamkpa",
+          "slug": "ekong-market-akamkpa",
+          "coordinates": {
+            "lat": 5.27044,
+            "lng": 8.566798333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff Mixed",
+          "local_name": "Ekong",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Ekonganaku Market, Akamkpa",
+          "slug": "ekonganaku-market-akamkpa",
+          "coordinates": {
+            "lat": 5.1009133,
+            "lng": 8.65955
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Food Stuff Mixed",
+          "local_name": "Ekonganaku",
+          "days": [
+            "Tue",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Iko Esai Market, Akamkpa",
+          "slug": "iko-esai-market-akamkpa",
+          "coordinates": {
+            "lat": 5.669105,
+            "lng": 8.219585
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff Mixed Other",
+          "local_name": "Iko Esai",
+          "days": [
+            "Tue",
+            "Thu",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Mbarakom Main Market, Akamkpa",
+          "slug": "mbarakom-main-market-akamkpa",
+          "coordinates": {
+            "lat": 5.268245,
+            "lng": 8.33235
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff Mixed",
+          "local_name": "Mbarakom Main",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Mfaminyen Market, Akamkpa",
+          "slug": "mfaminyen-market-akamkpa",
+          "coordinates": {
+            "lat": 5.657815,
+            "lng": 8.838851667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Mfaminyen",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Oban Town Market, Akamkpa",
+          "slug": "oban-town-market-akamkpa",
+          "coordinates": {
+            "lat": 5.314758333,
+            "lng": 8.576218333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff Mixed",
+          "local_name": "Oban Town",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Okomita Market, Akamkpa",
+          "slug": "okomita-market-akamkpa",
+          "coordinates": {
+            "lat": 5.3392817,
+            "lng": 8.3300833
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Okomita",
+          "days": [
+            "Wed",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Okomobraya Market, Akamkpa",
+          "slug": "okomobraya-market-akamkpa",
+          "coordinates": {
+            "lat": 5.338865,
+            "lng": 8.3315183
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Okomobraya",
+          "days": [
+            "Tue",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Old Market Squad Akamkpa Urban Town",
+          "slug": "old-market-squad-akamkpa-urban-town",
+          "coordinates": {
+            "lat": 5.314666667,
+            "lng": 8.35251
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Old Squad Akamkpa Urban Town",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Owom Market, Akamkpa",
+          "slug": "owom-market-akamkpa",
+          "coordinates": {
+            "lat": 5.5474883,
+            "lng": 8.7976133
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Owom Mkt",
+          "days": [
+            "Mon",
+            "Thu",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Udua Uforo Market, Akamkpa",
+          "slug": "udua-uforo-market-akamkpa",
+          "coordinates": {
+            "lat": 5.0835176,
+            "lng": 8.5278029
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff Mixed",
+          "local_name": "Udua Uforo",
+          "days": [
+            "Tue",
+            "Thu"
+          ]
+        },
+        {
+          "name": "Unicem Larfage Trailer Park Market, Akamkpa",
+          "slug": "unicem-larfage-trailer-park-market-akamkpa",
+          "coordinates": {
+            "lat": 5.0791717,
+            "lng": 8.5051283
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Food Stuff Mixed Other",
+          "local_name": "Unicem Larfage Trailer Park",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Uyanga Market, Akamkpa",
+          "slug": "uyanga-market-akamkpa",
+          "coordinates": {
+            "lat": 5.387341667,
+            "lng": 8.255443333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Uyanga",
+          "days": [
+            "Tue",
+            "Fri"
+          ]
+        }
+      ]
     },
     {
       "name": "Akpabuyo",
       "slug": "cross-river-akpabuyo",
-      "markets": []
+      "markets": [
+        {
+          "name": "Akansoko Market, Akpabuyo",
+          "slug": "akansoko-market-akpabuyo",
+          "coordinates": {
+            "lat": 5.0426683,
+            "lng": 8.462035
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Akansoko",
+          "days": [
+            "Tue",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Asabanka Market, Akpabuyo",
+          "slug": "asabanka-market-akpabuyo",
+          "coordinates": {
+            "lat": 5.054948333,
+            "lng": 8.424386667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Asabanka",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Esuk Idebe Market, Akpabuyo",
+          "slug": "esuk-idebe-market-akpabuyo",
+          "coordinates": {
+            "lat": 4.8402317,
+            "lng": 8.4196467
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Esuk Idebe",
+          "days": [
+            "Tue",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Esuk Mba Market, Akpabuyo",
+          "slug": "esuk-mba-market-akpabuyo",
+          "coordinates": {
+            "lat": 4.8674583,
+            "lng": 8.3969
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Esuk Mba",
+          "days": [
+            "Tue",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Idundu Market, Akpabuyo",
+          "slug": "idundu-market-akpabuyo",
+          "coordinates": {
+            "lat": 5.0149117,
+            "lng": 8.39596
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Livestock",
+          "local_name": "Idundu",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Ifiang Camp 1 Market, Akpabuyo",
+          "slug": "ifiang-camp-1-market-akpabuyo",
+          "coordinates": {
+            "lat": 4.8525967,
+            "lng": 8.5502817
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Ifiang Camp 1",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Ikot Ekpo Edem Market, Akpabuyo",
+          "slug": "ikot-ekpo-edem-market-akpabuyo",
+          "coordinates": {
+            "lat": 4.944905,
+            "lng": 8.5696983
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Food Stuff",
+          "local_name": "Ikot Ekpo Edem",
+          "days": [
+            "Mon",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Ikot Nakanda Market, Akpabuyo",
+          "slug": "ikot-nakanda-market-akpabuyo",
+          "coordinates": {
+            "lat": 4.8861867,
+            "lng": 8.4750167
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Bi-Weekly",
+          "type": "Food Stuff",
+          "local_name": "Ikot Nakanda",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Ikot Ndarakeikot Oyom Market, Akpabuyo",
+          "slug": "ikot-ndarakeikot-oyom-market-akpabuyo",
+          "coordinates": {
+            "lat": 4.94251,
+            "lng": 8.4334217
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Food Stuff",
+          "local_name": "Ikot NdarakeIkot Oyom",
+          "days": [
+            "Tue",
+            "Wed"
+          ]
+        },
+        {
+          "name": "Ikot Oyom Market, Akpabuyo",
+          "slug": "ikot-oyom-market-akpabuyo",
+          "coordinates": {
+            "lat": 4.94223,
+            "lng": 8.4328583
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Food Stuff Mixed",
+          "local_name": "Ikot Oyom",
+          "days": [
+            "Tue",
+            "Wed"
+          ]
+        },
+        {
+          "name": "Udua Mpruk Market, Akpabuyo",
+          "slug": "udua-mpruk-market-akpabuyo",
+          "coordinates": {
+            "lat": 4.9741733,
+            "lng": 8.53986
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Udua Mpruk",
+          "days": [
+            "Mon",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Udua Nyom Ebe Market, Akpabuyo",
+          "slug": "udua-nyom-ebe-market-akpabuyo",
+          "coordinates": {
+            "lat": 4.9825431,
+            "lng": 8.5048294
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Food Stuff Mixed",
+          "local_name": "Udua Nyom Ebe",
+          "days": [
+            "Tue",
+            "Sat"
+          ]
+        }
+      ]
     },
     {
       "name": "Bakassi",
       "slug": "cross-river-bakassi",
-      "markets": []
+      "markets": [
+        {
+          "name": "Ekpri Ikang Market, Bakassi",
+          "slug": "ekpri-ikang-market-bakassi",
+          "coordinates": {
+            "lat": 4.8336917,
+            "lng": 8.5055133
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Ekpri Ikang",
+          "days": [
+            "Tue",
+            "Thu",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Ikang Market, Bakassi",
+          "slug": "ikang-market-bakassi",
+          "coordinates": {
+            "lat": 4.7903117,
+            "lng": 8.5317467
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Mixed",
+          "local_name": "Ikang",
+          "days": [
+            "Fri"
+          ]
+        }
+      ]
     },
     {
       "name": "Bekwara",
       "slug": "cross-river-bekwara",
-      "markets": []
+      "markets": [
+        {
+          "name": "Achanya Ikanda Market, Bekwara",
+          "slug": "achanya-ikanda-market-bekwara",
+          "coordinates": {
+            "lat": 6.7353267,
+            "lng": 8.9492168
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Other",
+          "local_name": "Achanya Ikanda",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Iriya Ikwan Market Ebegang, Bekwara",
+          "slug": "iriya-ikwan-market-ebegang-bekwara",
+          "coordinates": {
+            "lat": 6.6766246,
+            "lng": 8.908619
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Food Stuff",
+          "local_name": "Iriya Ikwan Ebegang",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Iriyaactuam Market, Bekwara",
+          "slug": "iriyaactuam-market-bekwara",
+          "coordinates": {
+            "lat": 6.655769,
+            "lng": 8.903164
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Iriyaactuam",
+          "days": [
+            "Tue",
+            "Thu"
+          ]
+        },
+        {
+          "name": "Mosmira Super Market, Bekwara",
+          "slug": "mosmira-super-market-bekwara",
+          "coordinates": {
+            "lat": 6.7001816,
+            "lng": 8.9123612
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed Other",
+          "local_name": "Ezekobe market",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Obanishe Market Ochagbe, Bekwara",
+          "slug": "obanishe-market-ochagbe-bekwara",
+          "coordinates": {
+            "lat": 6.59632,
+            "lng": 8.9024983
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Obanishe Ochagbe",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Ochabge Market, Bekwara",
+          "slug": "ochabge-market-bekwara",
+          "coordinates": {
+            "lat": 6.5966113,
+            "lng": 8.9023101
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Ochabge",
+          "days": [
+            "Mon",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Ochanja Market Nyanya, Bekwara",
+          "slug": "ochanja-market-nyanya-bekwara",
+          "coordinates": {
+            "lat": 6.6993529,
+            "lng": 8.9119895
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff Mixed",
+          "local_name": "Ochanja Nyanya",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Okpeche Market, Bekwara",
+          "slug": "okpeche-market-bekwara",
+          "coordinates": {
+            "lat": 6.6075686,
+            "lng": 8.8608167
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff Other",
+          "local_name": "Mbayar",
+          "days": [
+            "Mon",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Old Ogidi Market Anyikang Ibiaragidi, Bekwara",
+          "slug": "old-ogidi-market-anyikang-ibiaragidi-bekwara",
+          "coordinates": {
+            "lat": 6.6833375,
+            "lng": 8.8839703
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Old Ogidi Anyikang Ibiaragidi",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Udama Market, Bekwara",
+          "slug": "udama-market-bekwara",
+          "coordinates": {
+            "lat": 6.761607,
+            "lng": 8.94063
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Udama",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Ugbada Market Ukpah Iribu, Bekwara",
+          "slug": "ugbada-market-ukpah-iribu-bekwara",
+          "coordinates": {
+            "lat": 6.625497,
+            "lng": 8.9162581
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Other",
+          "local_name": "Ugbada Ukpah Iribu",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Ugidi Market, Bekwara",
+          "slug": "ugidi-market-bekwara",
+          "coordinates": {
+            "lat": 6.6997238,
+            "lng": 8.911321
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Ugidi",
+          "days": [
+            "Mon",
+            "Fri"
+          ]
+        }
+      ]
     },
     {
       "name": "Biase",
       "slug": "cross-river-biase",
-      "markets": []
+      "markets": [
+        {
+          "name": "Abanwan Beach Market, Biase",
+          "slug": "abanwan-beach-market-biase",
+          "coordinates": {
+            "lat": 5.69809,
+            "lng": 7.97484
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Abanwan Beach"
+        },
+        {
+          "name": "Abaribara Market, Biase",
+          "slug": "abaribara-market-biase",
+          "coordinates": {
+            "lat": 5.74694,
+            "lng": 7.98291
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Abaribara"
+        },
+        {
+          "name": "Abeijang Market, Biase",
+          "slug": "abeijang-market-biase",
+          "coordinates": {
+            "lat": 5.764815,
+            "lng": 7.974265
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Abeijang"
+        },
+        {
+          "name": "Abini Market, Biase",
+          "slug": "abini-market-biase",
+          "coordinates": {
+            "lat": 5.6916467,
+            "lng": 8.0606567
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Food Stuff",
+          "local_name": "Abini",
+          "days": [
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Afono Community Market, Biase",
+          "slug": "afono-community-market-biase",
+          "coordinates": {
+            "lat": 5.734915,
+            "lng": 7.94639
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Afono Community",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Agwagune Community Market, Biase",
+          "slug": "agwagune-community-market-biase",
+          "coordinates": {
+            "lat": 5.6796117,
+            "lng": 8.00904
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Agwagune Community",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Akparavuni Market Agori, Biase",
+          "slug": "akparavuni-market-agori-biase",
+          "coordinates": {
+            "lat": 5.553245,
+            "lng": 8.1091033
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Food Stuff Mixed",
+          "local_name": "Akparavuni Agori",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Akparavuni Market, Biase",
+          "slug": "akparavuni-market-biase",
+          "coordinates": {
+            "lat": 5.55513,
+            "lng": 8.112155
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Livestock Food Stuff Mixed Other",
+          "local_name": "Akparavuni",
+          "days": [
+            "Tue",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Akpet Central Shopping Complex, Biase",
+          "slug": "akpet-central-shopping-complex-biase",
+          "coordinates": {
+            "lat": 5.6218167,
+            "lng": 8.1014867
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Other",
+          "local_name": "Akpet Central Shopping Complex",
+          "days": [
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Betem Market, Biase",
+          "slug": "betem-market-biase",
+          "coordinates": {
+            "lat": 5.501995,
+            "lng": 8.155555
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Other",
+          "local_name": "Betem",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Biakpan Market, Biase",
+          "slug": "biakpan-market-biase",
+          "coordinates": {
+            "lat": 5.5858033,
+            "lng": 7.9323433
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Food Stuff Mixed",
+          "local_name": "Biakpan",
+          "days": [
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Ehom Central Market, Biase",
+          "slug": "ehom-central-market-biase",
+          "coordinates": {
+            "lat": 5.4669017,
+            "lng": 8.1390983
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff Mixed",
+          "local_name": "Ehom Central",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Etono 2 Market, Biase",
+          "slug": "etono-2-market-biase",
+          "coordinates": {
+            "lat": 5.58506,
+            "lng": 7.9405167
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Etono 2",
+          "days": [
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Etono Central Market, Biase",
+          "slug": "etono-central-market-biase",
+          "coordinates": {
+            "lat": 5.632355,
+            "lng": 8.0190567
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Etono Central",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Fufu Market, Biase",
+          "slug": "fufu-market-biase",
+          "coordinates": {
+            "lat": 5.50064,
+            "lng": 8.1152067
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Fufu",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Ibini Community Market, Biase",
+          "slug": "ibini-community-market-biase",
+          "coordinates": {
+            "lat": 5.7440333,
+            "lng": 7.9564433
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Livestock",
+          "local_name": "Ibini Community",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Idoma Community Market, Biase",
+          "slug": "idoma-community-market-biase",
+          "coordinates": {
+            "lat": 5.51914,
+            "lng": 8.1799783
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Idoma Community",
+          "days": [
+            "Mon",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Igbofia Market, Biase",
+          "slug": "igbofia-market-biase",
+          "coordinates": {
+            "lat": 5.5085433,
+            "lng": 8.1082633
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Igbofia",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Ikot Okpora Market, Biase",
+          "slug": "ikot-okpora-market-biase",
+          "coordinates": {
+            "lat": 5.40855,
+            "lng": 8.067825
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Livestock Food Stuff",
+          "local_name": "Ikot Okpora",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Ikun Community Market, Biase",
+          "slug": "ikun-community-market-biase",
+          "coordinates": {
+            "lat": 5.6508233,
+            "lng": 7.9639283
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Ikun Community",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Iwuru Central Market, Biase",
+          "slug": "iwuru-central-market-biase",
+          "coordinates": {
+            "lat": 5.4011917,
+            "lng": 8.222995
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Iwuru Central",
+          "days": [
+            "Wed",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Iwuru Obio Ntan Market, Biase",
+          "slug": "iwuru-obio-ntan-market-biase",
+          "coordinates": {
+            "lat": 5.42104,
+            "lng": 8.1780617
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Bi-Weekly",
+          "type": "Mixed",
+          "local_name": "Iwuru Obio Ntan",
+          "days": [
+            "Mon",
+            "Thu"
+          ]
+        },
+        {
+          "name": "Okurike Market, Biase",
+          "slug": "okurike-market-biase",
+          "coordinates": {
+            "lat": 5.615685,
+            "lng": 8.04658
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Bi-Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Okurike",
+          "days": [
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Ugbem Market, Biase",
+          "slug": "ugbem-market-biase",
+          "coordinates": {
+            "lat": 5.5911,
+            "lng": 8.02551
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff Mixed",
+          "local_name": "Ugbem",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Urugbam Market, Biase",
+          "slug": "urugbam-market-biase",
+          "coordinates": {
+            "lat": 5.73242,
+            "lng": 7.9266183
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Urugbam",
+          "days": [
+            "Fri"
+          ]
+        }
+      ]
     },
     {
       "name": "Boki",
       "slug": "cross-river-boki",
-      "markets": []
+      "markets": [
+        {
+          "name": "Bankpor Market, Boki",
+          "slug": "bankpor-market-boki",
+          "coordinates": {
+            "lat": 6.50435,
+            "lng": 8.93074
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Bankpor"
+        },
+        {
+          "name": "Basan Market, Boki",
+          "slug": "basan-market-boki",
+          "coordinates": {
+            "lat": 6.344696,
+            "lng": 8.8238871
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Food Stuff Other",
+          "local_name": "Basan",
+          "days": [
+            "Tue",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Bateriko Market, Boki",
+          "slug": "bateriko-market-boki",
+          "coordinates": {
+            "lat": 6.48171,
+            "lng": 9.13818
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Bateriko"
+        },
+        {
+          "name": "Batriku Market, Boki",
+          "slug": "batriku-market-boki",
+          "coordinates": {
+            "lat": 6.4862283,
+            "lng": 9.1533283
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Batriku",
+          "days": [
+            "Mon",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Begbo Bawop Market, Boki",
+          "slug": "begbo-bawop-market-boki",
+          "coordinates": {
+            "lat": 6.4970567,
+            "lng": 8.8287697
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff",
+          "local_name": "Begbo Bawop",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Bekpor Market, Boki",
+          "slug": "bekpor-market-boki",
+          "coordinates": {
+            "lat": 6.4944362,
+            "lng": 8.9582483
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Food Stuff",
+          "local_name": "Bekpor",
+          "days": [
+            "Mon",
+            "Tue",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Biajua Market, Boki",
+          "slug": "biajua-market-boki",
+          "coordinates": {
+            "lat": 6.003826667,
+            "lng": 9.005281667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Biajua",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Biakwan Market, Boki",
+          "slug": "biakwan-market-boki",
+          "coordinates": {
+            "lat": 6.068601667,
+            "lng": 8.912875
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Biakwan",
+          "days": [
+            "Tue",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Biakwan Old Market Square, Boki",
+          "slug": "biakwan-old-market-square-boki",
+          "coordinates": {
+            "lat": 6.0740717,
+            "lng": 8.9193817
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Biakwan Old Square",
+          "days": [
+            "Tue",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Bitiah Market, Boki",
+          "slug": "bitiah-market-boki",
+          "coordinates": {
+            "lat": 6.4662575,
+            "lng": 8.9392933
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff Mixed Other",
+          "local_name": "Bitiah",
+          "days": [
+            "Tue",
+            "Thu",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Boje Market, Boki",
+          "slug": "boje-market-boki",
+          "coordinates": {
+            "lat": 6.2741067,
+            "lng": 8.9198533
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Boje",
+          "days": [
+            "Tue",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Bokalum Market, Boki",
+          "slug": "bokalum-market-boki",
+          "coordinates": {
+            "lat": 6.3425224,
+            "lng": 9.1158416
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Food Stuff",
+          "local_name": "Bokalum",
+          "days": [
+            "Tue",
+            "Thu"
+          ]
+        },
+        {
+          "name": "Boki Farm 111 Market",
+          "slug": "boki-farm-111-market",
+          "coordinates": {
+            "lat": 6.4267209,
+            "lng": 8.8490842
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Boki Farm 3",
+          "days": [
+            "Mon",
+            "Tue",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Bunyah Irruan Main Market, Boki",
+          "slug": "bunyah-irruan-main-market-boki",
+          "coordinates": {
+            "lat": 6.498808293,
+            "lng": 8.971860563
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "type": "Food Stuff",
+          "local_name": "Bunyah-irruan Main"
+        },
+        {
+          "name": "Bunyia Bekpor Community Market, Boki",
+          "slug": "bunyia-bekpor-community-market-boki",
+          "coordinates": {
+            "lat": 6.4945333,
+            "lng": 8.9578933
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Bunyia Bekpor Community",
+          "days": [
+            "Tue",
+            "Thu",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Bunyia Market, Boki",
+          "slug": "bunyia-market-boki",
+          "coordinates": {
+            "lat": 6.50264,
+            "lng": 8.96793
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Bunyia"
+        },
+        {
+          "name": "Butatong Market, Boki",
+          "slug": "butatong-market-boki",
+          "coordinates": {
+            "lat": 6.4151095,
+            "lng": 9.148317
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Butatong",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Ebam Market, Boki",
+          "slug": "ebam-market-boki",
+          "coordinates": {
+            "lat": 6.3970363,
+            "lng": 8.8807895
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Food Stuff",
+          "local_name": "Ebam",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Ebranta Market, Boki",
+          "slug": "ebranta-market-boki",
+          "coordinates": {
+            "lat": 6.2886883,
+            "lng": 8.925995
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Ebranta",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Esom Achue Central Market, Boki",
+          "slug": "esom-achue-central-market-boki",
+          "coordinates": {
+            "lat": 6.473936667,
+            "lng": 8.981826667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Esom-achue Central",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Iso Ben Market, Boki",
+          "slug": "iso-ben-market-boki",
+          "coordinates": {
+            "lat": 6.2302809,
+            "lng": 8.8117894
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Iso-ben",
+          "days": [
+            "Mon",
+            "Tue"
+          ]
+        },
+        {
+          "name": "Kachuan Market, Boki",
+          "slug": "kachuan-market-boki",
+          "coordinates": {
+            "lat": 6.4814466,
+            "lng": 8.9154191
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Other",
+          "local_name": "Kachuan",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Kakwagom Market, Boki",
+          "slug": "kakwagom-market-boki",
+          "coordinates": {
+            "lat": 6.4535167,
+            "lng": 8.9379767
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Kakwagom",
+          "days": [
+            "Tue",
+            "Thu",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Katchuan Market, Boki",
+          "slug": "katchuan-market-boki",
+          "coordinates": {
+            "lat": 6.47585,
+            "lng": 8.92151
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Katchuan"
+        },
+        {
+          "name": "Market Abo Ogbagante, Boki",
+          "slug": "market-abo-ogbagante-boki",
+          "coordinates": {
+            "lat": 6.1592645,
+            "lng": 9.0221285
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff Mixed",
+          "local_name": "Abo Ogbagante",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Nashua Market, Boki",
+          "slug": "nashua-market-boki",
+          "coordinates": {
+            "lat": 6.082303333,
+            "lng": 8.977686667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Other",
+          "local_name": "Nashua",
+          "days": [
+            "Tue",
+            "Thu"
+          ]
+        },
+        {
+          "name": "Ndemechang Market, Boki",
+          "slug": "ndemechang-market-boki",
+          "coordinates": {
+            "lat": 6.46615,
+            "lng": 8.99402
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ndemechang"
+        },
+        {
+          "name": "Nsadop Market, Boki",
+          "slug": "nsadop-market-boki",
+          "coordinates": {
+            "lat": 6.33901,
+            "lng": 8.82518
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Nsadop"
+        },
+        {
+          "name": "Obudu Market, Boki",
+          "slug": "obudu-market-boki",
+          "coordinates": {
+            "lat": 6.4132073,
+            "lng": 8.8806934
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Obudu",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Ojia Market Nkim Osokom, Boki",
+          "slug": "ojia-market-nkim-osokom-boki",
+          "coordinates": {
+            "lat": 6.3928633,
+            "lng": 8.7464133
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Ojia Nkim Osokom",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Oku Aro Market, Boki",
+          "slug": "oku-aro-market-boki",
+          "coordinates": {
+            "lat": 6.531798333,
+            "lng": 8.806233333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Oku Aro",
+          "days": [
+            "Mon",
+            "Tue",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Okubuchi Market, Boki",
+          "slug": "okubuchi-market-boki",
+          "coordinates": {
+            "lat": 6.4774,
+            "lng": 8.98024
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Okubuchi"
+        },
+        {
+          "name": "Okundi Market, Boki",
+          "slug": "okundi-market-boki",
+          "coordinates": {
+            "lat": 6.441097225,
+            "lng": 8.788202518
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Okundi"
+        },
+        {
+          "name": "Okundi Timber Market, Boki",
+          "slug": "okundi-timber-market-boki",
+          "coordinates": {
+            "lat": 6.44616,
+            "lng": 8.79745
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Okundi Timber"
+        },
+        {
+          "name": "Okwabang Central Market, Boki",
+          "slug": "okwabang-central-market-boki",
+          "coordinates": {
+            "lat": 6.4569928,
+            "lng": 9.1329958
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Food Stuff",
+          "local_name": "Okwabang Central",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Olum Market, Boki",
+          "slug": "olum-market-boki",
+          "coordinates": {
+            "lat": 6.377566667,
+            "lng": 9.04039
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff Mixed",
+          "local_name": "Olum",
+          "days": [
+            "Tue",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Timber Market, Boki",
+          "slug": "timber-market-boki",
+          "coordinates": {
+            "lat": 6.4392333,
+            "lng": 8.7795367
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Other",
+          "local_name": "Timber",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Ubong Market, Boki",
+          "slug": "ubong-market-boki",
+          "coordinates": {
+            "lat": 6.42636,
+            "lng": 9.08527
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ubong"
+        },
+        {
+          "name": "Wula Market, Boki",
+          "slug": "wula-market-boki",
+          "coordinates": {
+            "lat": 6.3903267,
+            "lng": 9.1076917
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Wula",
+          "days": [
+            "Mon"
+          ]
+        }
+      ]
     },
     {
       "name": "Calabar Municipal",
       "slug": "cross-river-calabar-municipal",
-      "markets": []
+      "markets": [
+        {
+          "name": "Akai Ebiet Complex, Calabar Municipal",
+          "slug": "akai-ebiet-complex-calabar-municipal",
+          "coordinates": {
+            "lat": 4.99201,
+            "lng": 8.3424
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Akai Ebiet Complex"
+        },
+        {
+          "name": "Asim Ita Market, Calabar Municipal",
+          "slug": "asim-ita-market-calabar-municipal",
+          "coordinates": {
+            "lat": 5.00731,
+            "lng": 8.33641
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff Mixed",
+          "local_name": "Asim Ita",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Calabar Discount City Mall Market, Calabar Municipal",
+          "slug": "calabar-discount-city-mall-market-calabar-municipal",
+          "coordinates": {
+            "lat": 4.972915,
+            "lng": 8.339785
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Calabar Discount City Mall",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Esuk Okukuk Beach Market, Calabar Municipal",
+          "slug": "esuk-okukuk-beach-market-calabar-municipal",
+          "coordinates": {
+            "lat": 4.9618367,
+            "lng": 8.3143017
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Esuk Okukuk Beach",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Esuk Utan Market And Slaughter, Calabar Municipal",
+          "slug": "esuk-utan-market-and-slaughter-calabar-municipal",
+          "coordinates": {
+            "lat": 5.01047,
+            "lng": 8.32385
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Esuk Utan And Slaughter"
+        },
+        {
+          "name": "Ika Ika Qua Market, Calabar Municipal",
+          "slug": "ika-ika-qua-market-calabar-municipal",
+          "coordinates": {
+            "lat": 4.9768417,
+            "lng": 8.3384767
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Ika Ika Qua",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Ikot Ishie Market, Calabar Municipal",
+          "slug": "ikot-ishie-market-calabar-municipal",
+          "coordinates": {
+            "lat": 4.997645,
+            "lng": 8.338395
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Ikot Ishie",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Infinity Place, Calabar Municipal",
+          "slug": "infinity-place-calabar-municipal",
+          "coordinates": {
+            "lat": 4.98932,
+            "lng": 8.33262
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Infinity Place"
+        },
+        {
+          "name": "Lagos Market, Calabar Municipal",
+          "slug": "lagos-market-calabar-municipal",
+          "coordinates": {
+            "lat": 4.9559867,
+            "lng": 8.3189517
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Bi-Weekly",
+          "type": "Mixed",
+          "local_name": "Lagos",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Mammi Market, Calabar Municipal",
+          "slug": "mammi-market-calabar-municipal",
+          "coordinates": {
+            "lat": 5.02091,
+            "lng": 8.34162
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Mammi"
+        },
+        {
+          "name": "Marian Market, Calabar Municipal",
+          "slug": "marian-market-calabar-municipal",
+          "coordinates": {
+            "lat": 4.97527,
+            "lng": 8.3392967
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff Mixed",
+          "local_name": "Marian",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Nsidung Beach Market, Calabar Municipal",
+          "slug": "nsidung-beach-market-calabar-municipal",
+          "coordinates": {
+            "lat": 4.9519017,
+            "lng": 8.3102233
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Nsidung Beach",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Nsidung Market, Calabar Municipal",
+          "slug": "nsidung-market-calabar-municipal",
+          "coordinates": {
+            "lat": 4.9641333,
+            "lng": 8.31612
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Other",
+          "local_name": "Nsidung",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Obioko Creek Town Beach Market, Calabar Municipal",
+          "slug": "obioko-creek-town-beach-market-calabar-municipal",
+          "coordinates": {
+            "lat": 4.95739,
+            "lng": 8.3114433
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Obioko Creek Town Beach",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Suya Market Bogobri, Calabar Municipal",
+          "slug": "suya-market-bogobri-calabar-municipal",
+          "coordinates": {
+            "lat": 4.959401667,
+            "lng": 8.329043333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff Mixed",
+          "local_name": "Suya Bogobri",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Watt Market, Calabar Municipal",
+          "slug": "watt-market-calabar-municipal",
+          "coordinates": {
+            "lat": 4.9577243,
+            "lng": 8.3205137
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff Other",
+          "local_name": "Watt",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        }
+      ]
     },
     {
       "name": "Calabar South",
       "slug": "cross-river-calabar-south",
-      "markets": []
+      "markets": [
+        {
+          "name": "Abasi Obori Market, Calabar South",
+          "slug": "abasi-obori-market-calabar-south",
+          "coordinates": {
+            "lat": 4.94546,
+            "lng": 8.3330483
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Bi-Weekly",
+          "type": "Mixed",
+          "local_name": "Abasi Obori",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Akim Market, Calabar South",
+          "slug": "akim-market-calabar-south",
+          "coordinates": {
+            "lat": 4.9618019,
+            "lng": 8.3398918
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Akim",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Ata Nsiyak Beach Market, Calabar South",
+          "slug": "ata-nsiyak-beach-market-calabar-south",
+          "coordinates": {
+            "lat": 4.95048,
+            "lng": 8.30854
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Ata Nsiyak Beach",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Bush Meat And Palm Wine Market, Calabar South",
+          "slug": "bush-meat-and-palm-wine-market-calabar-south",
+          "coordinates": {
+            "lat": 4.9661758,
+            "lng": 8.3728014
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Bush Meat And Palm Wine",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Crutech Market, Calabar South",
+          "slug": "crutech-market-calabar-south",
+          "coordinates": {
+            "lat": 4.9299167,
+            "lng": 8.3288983
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff Mixed",
+          "local_name": "Crutech",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Edim Otop Market, Calabar South",
+          "slug": "edim-otop-market-calabar-south",
+          "coordinates": {
+            "lat": 4.967723333,
+            "lng": 8.356531667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Edim Otop",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Esiere Ebom Baech Market, Calabar South",
+          "slug": "esiere-ebom-baech-market-calabar-south",
+          "coordinates": {
+            "lat": 4.94121,
+            "lng": 8.30914
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Esiere Ebom Baech"
+        },
+        {
+          "name": "Esuk Anantigha Market, Calabar South",
+          "slug": "esuk-anantigha-market-calabar-south",
+          "coordinates": {
+            "lat": 4.9157967,
+            "lng": 8.3220983
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff Mixed",
+          "local_name": "Esuk Anantigha",
+          "days": [
+            "Tue",
+            "Wed",
+            "Thu"
+          ]
+        },
+        {
+          "name": "Goldie Market, Calabar South",
+          "slug": "goldie-market-calabar-south",
+          "coordinates": {
+            "lat": 4.9459276,
+            "lng": 8.3433246
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Goldie",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Hart Market, Calabar South",
+          "slug": "hart-market-calabar-south",
+          "coordinates": {
+            "lat": 4.9454083,
+            "lng": 8.3230867
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Hart",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Ibesikpo Market, Calabar South",
+          "slug": "ibesikpo-market-calabar-south",
+          "coordinates": {
+            "lat": 4.9299083,
+            "lng": 8.3111367
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff Mixed",
+          "local_name": "Ibesikpo",
+          "days": [
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Ibesikpo Timber Market, Calabar South",
+          "slug": "ibesikpo-timber-market-calabar-south",
+          "coordinates": {
+            "lat": 4.93675,
+            "lng": 8.309925
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ibesikpo Timber"
+        },
+        {
+          "name": "Mami Market, Calabar South",
+          "slug": "mami-market-calabar-south",
+          "coordinates": {
+            "lat": 4.9618165,
+            "lng": 8.3367789
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Mami",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Mbukpa Market, Calabar South",
+          "slug": "mbukpa-market-calabar-south",
+          "coordinates": {
+            "lat": 4.9377017,
+            "lng": 8.31685
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Mbukpa",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Otokangha Market, Calabar South",
+          "slug": "otokangha-market-calabar-south",
+          "coordinates": {
+            "lat": 4.92885,
+            "lng": 8.31675
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Otokangha"
+        },
+        {
+          "name": "Otongkagha Efiowan Market, Calabar South",
+          "slug": "otongkagha-efiowan-market-calabar-south",
+          "coordinates": {
+            "lat": 4.9276283,
+            "lng": 8.3247567
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Otongkagha Efiowan",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Uwanse Market, Calabar South",
+          "slug": "uwanse-market-calabar-south",
+          "coordinates": {
+            "lat": 4.9409983,
+            "lng": 8.338045
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Bi-Weekly",
+          "type": "Mixed",
+          "local_name": "Uwanse",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        }
+      ]
     },
     {
       "name": "Etung",
       "slug": "cross-river-etung",
-      "markets": []
+      "markets": [
+        {
+          "name": "Agbokim Market, Etung",
+          "slug": "agbokim-market-etung",
+          "coordinates": {
+            "lat": 5.90693,
+            "lng": 8.908093333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Agbokim",
+          "days": [
+            "Tue",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Ekugatai Market, Etung",
+          "slug": "ekugatai-market-etung",
+          "coordinates": {
+            "lat": 5.878506667,
+            "lng": 8.88128
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff Mixed",
+          "local_name": "Ekugatai",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Etomi Community Market, Etung",
+          "slug": "etomi-community-market-etung",
+          "coordinates": {
+            "lat": 5.936128333,
+            "lng": 8.821726667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Etomi Community",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "International Market Ajassor, Etung",
+          "slug": "international-market-ajassor-etung",
+          "coordinates": {
+            "lat": 5.833871667,
+            "lng": 8.83555
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff Mixed",
+          "local_name": "International Ajassor",
+          "days": [
+            "Tue",
+            "Thu"
+          ]
+        },
+        {
+          "name": "Last Motto Market, Etung",
+          "slug": "last-motto-market-etung",
+          "coordinates": {
+            "lat": 5.915973333,
+            "lng": 8.769598333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Last Motto",
+          "days": [
+            "Mon",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Mpantor Market, Etung",
+          "slug": "mpantor-market-etung",
+          "coordinates": {
+            "lat": 6.028795,
+            "lng": 8.870261667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Mpantor",
+          "days": [
+            "Mon",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Ogum Market, Etung",
+          "slug": "ogum-market-etung",
+          "coordinates": {
+            "lat": 5.942078333,
+            "lng": 8.90904
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Ogum",
+          "days": [
+            "Tue",
+            "Thu"
+          ]
+        },
+        {
+          "name": "Okim Nsofang Market, Etung",
+          "slug": "okim-nsofang-market-etung",
+          "coordinates": {
+            "lat": 5.807823333,
+            "lng": 8.706155
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Okim Nsofang",
+          "days": [
+            "Mon",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Old Market, Etung",
+          "slug": "old-market-etung",
+          "coordinates": {
+            "lat": 6.017115,
+            "lng": 8.873331667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Old",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Titor Ekiem Market, Etung",
+          "slug": "titor-ekiem-market-etung",
+          "coordinates": {
+            "lat": 6.009122297,
+            "lng": 8.872855954
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "type": "Food Stuff",
+          "local_name": "Titor Ekiem"
+        }
+      ]
     },
     {
       "name": "Ikom",
       "slug": "cross-river-ikom",
-      "markets": []
+      "markets": [
+        {
+          "name": "Abinti Market, Ikom",
+          "slug": "abinti-market-ikom",
+          "coordinates": {
+            "lat": 6.239315,
+            "lng": 8.649363333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff Mixed",
+          "local_name": "Abinti",
+          "days": [
+            "Tue",
+            "Thu",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Adijingkpor Market, Ikom",
+          "slug": "adijingkpor-market-ikom",
+          "coordinates": {
+            "lat": 5.9984209,
+            "lng": 8.7443268
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Adijingkpor",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Agrotracts Cocoa Delarsmarket Obudu Ikom",
+          "slug": "agrotracts-cocoa-delarsmarket-obudu-ikom",
+          "coordinates": {
+            "lat": 5.980318333,
+            "lng": 8.73309
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Clothing Food Stuff Mixed",
+          "local_name": "Agrotracts Cocoa Delars Obudu Ikom"
+        },
+        {
+          "name": "Akam Market, Ikom",
+          "slug": "akam-market-ikom",
+          "coordinates": {
+            "lat": 5.9460679,
+            "lng": 8.6279054
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Akam",
+          "days": [
+            "Tue",
+            "Thu"
+          ]
+        },
+        {
+          "name": "Akpanna Market Omindom Ikom",
+          "slug": "akpanna-market-omindom-ikom",
+          "coordinates": {
+            "lat": 5.939973333,
+            "lng": 8.566641667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Bi-Weekly",
+          "type": "Mixed",
+          "local_name": "Akpanna Omindom Ikom",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Akparabong Market, Ikom",
+          "slug": "akparabong-market-ikom",
+          "coordinates": {
+            "lat": 6.033598333,
+            "lng": 8.750221667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Akparabong",
+          "days": [
+            "Tue",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Akpu Market, Ikom",
+          "slug": "akpu-market-ikom",
+          "coordinates": {
+            "lat": 6.1179101,
+            "lng": 8.6574031
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Other",
+          "local_name": "Akpu",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Alesi Community Market, Ikom",
+          "slug": "alesi-community-market-ikom",
+          "coordinates": {
+            "lat": 5.946183333,
+            "lng": 8.508936667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Alesi Community",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Alok Market, Ikom",
+          "slug": "alok-market-ikom",
+          "coordinates": {
+            "lat": 6.316986667,
+            "lng": 8.649526667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Food Stuff",
+          "local_name": "Alok",
+          "days": [
+            "Mon",
+            "Tue",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Atimaka Community Market, Ikom",
+          "slug": "atimaka-community-market-ikom",
+          "coordinates": {
+            "lat": 6.005886667,
+            "lng": 8.71659
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Atimaka Community",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Ayughasa Market, Ikom",
+          "slug": "ayughasa-market-ikom",
+          "coordinates": {
+            "lat": 6.155331667,
+            "lng": 8.612518333
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Ayughasa",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Balep Market, Ikom",
+          "slug": "balep-market-ikom",
+          "coordinates": {
+            "lat": 6.1200107,
+            "lng": 8.7039482
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Electronic Spare Parts Food Stuff",
+          "local_name": "Balep",
+          "days": [
+            "Tue",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Banana Market, Ikom",
+          "slug": "banana-market-ikom",
+          "coordinates": {
+            "lat": 6.125278333,
+            "lng": 8.679733333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff Mixed",
+          "local_name": "Banana",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed"
+          ]
+        },
+        {
+          "name": "Edor Market, Ikom",
+          "slug": "edor-market-ikom",
+          "coordinates": {
+            "lat": 6.2010963,
+            "lng": 8.6327517
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff Mixed",
+          "local_name": "Edor",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Ekonde Daily Market, Ikom",
+          "slug": "ekonde-daily-market-ikom",
+          "coordinates": {
+            "lat": 6.195873333,
+            "lng": 8.631193333
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Ekonde Daily",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Ekuekunela Market, Ikom",
+          "slug": "ekuekunela-market-ikom",
+          "coordinates": {
+            "lat": 5.94984,
+            "lng": 8.538821667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Ekuekunela",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Etakor Community Market, Ikom",
+          "slug": "etakor-community-market-ikom",
+          "coordinates": {
+            "lat": 6.048215,
+            "lng": 8.57637
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Etakor Community",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Iyama Market, Ikom",
+          "slug": "iyama-market-ikom",
+          "coordinates": {
+            "lat": 5.941763333,
+            "lng": 8.64046
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Livestock Food Stuff",
+          "local_name": "Iyama",
+          "days": [
+            "Tue",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Market Okangha, Ikom",
+          "slug": "market-okangha-ikom",
+          "coordinates": {
+            "lat": 5.941868333,
+            "lng": 8.635871667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Mixed",
+          "local_name": "Okangha",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Nbianang Yala Market, Ikom",
+          "slug": "nbianang-yala-market-ikom",
+          "coordinates": {
+            "lat": 5.998341667,
+            "lng": 8.638375
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Nbianang Yala",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Nconfam Main Market, Ikom",
+          "slug": "nconfam-main-market-ikom",
+          "coordinates": {
+            "lat": 6.362165,
+            "lng": 8.676706667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Nconfam Main",
+          "days": [
+            "Tue",
+            "Thu",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Nde Market 3 Corner, Ikom",
+          "slug": "nde-market-3-corner-ikom",
+          "coordinates": {
+            "lat": 6.047360219,
+            "lng": 8.685564041
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "frequency": "Daily",
+          "type": "Food Stuff",
+          "local_name": "Nde 3 Corner",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Ngo Market, Ikom",
+          "slug": "ngo-market-ikom",
+          "coordinates": {
+            "lat": 6.1723275,
+            "lng": 8.4753195
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff",
+          "local_name": "Ngo",
+          "days": [
+            "Mon",
+            "Tue",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Njimetop Market Square, Ikom",
+          "slug": "njimetop-market-square-ikom",
+          "coordinates": {
+            "lat": 6.207416667,
+            "lng": 8.527228333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Njimetop Square",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Nkarasi Community Market, Ikom",
+          "slug": "nkarasi-community-market-ikom",
+          "coordinates": {
+            "lat": 6.281998333,
+            "lng": 8.654888333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Nkarasi Community",
+          "days": [
+            "Mon",
+            "Tue",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Nkonfab Market, Ikom",
+          "slug": "nkonfab-market-ikom",
+          "coordinates": {
+            "lat": 6.3622082,
+            "lng": 8.6756587
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Nkonfab",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Nkum Community Market Village Ikom",
+          "slug": "nkum-community-market-village-ikom",
+          "coordinates": {
+            "lat": 6.246198333,
+            "lng": 8.653953333
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Nkum Community Village Ikom",
+          "days": [
+            "Tue",
+            "Thu",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Nkum Market, Ikom",
+          "slug": "nkum-market-ikom",
+          "coordinates": {
+            "lat": 6.2542059,
+            "lng": 8.6573899
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Food Stuff",
+          "local_name": "Nkum",
+          "days": [
+            "Mon",
+            "Tue",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Okimsama Cocoa Market Etomi, Ikom",
+          "slug": "okimsama-cocoa-market-etomi-ikom",
+          "coordinates": {
+            "lat": 5.960685,
+            "lng": 8.738586667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Livestock",
+          "local_name": "Okimsama Cocoa Etomi"
+        },
+        {
+          "name": "Okosora Market, Ikom",
+          "slug": "okosora-market-ikom",
+          "coordinates": {
+            "lat": 6.0385967,
+            "lng": 8.5331318
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "frequency": "Other",
+          "type": "Other",
+          "local_name": "Okosora",
+          "days": [
+            "Tue",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Okosora Palm Wine Market, Ikom",
+          "slug": "okosora-palm-wine-market-ikom",
+          "coordinates": {
+            "lat": 6.022283333,
+            "lng": 8.518308333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Okosora Palm Wine",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Okpanga Mkpansi, Ikom",
+          "slug": "okpanga-mkpansi-ikom",
+          "coordinates": {
+            "lat": 5.946928333,
+            "lng": 8.620061667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Okpanga Mkpansi",
+          "days": [
+            "Mon",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Otere Market, Ikom",
+          "slug": "otere-market-ikom",
+          "coordinates": {
+            "lat": 5.9852874,
+            "lng": 8.7344316
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Otere",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Oyenghe Market, Ikom",
+          "slug": "oyenghe-market-ikom",
+          "coordinates": {
+            "lat": 6.05552,
+            "lng": 8.51923
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Oyenghe",
+          "days": [
+            "Tue",
+            "Thu"
+          ]
+        },
+        {
+          "name": "Timber Market Nkim Village, Ikom",
+          "slug": "timber-market-nkim-village-ikom",
+          "coordinates": {
+            "lat": 6.250685,
+            "lng": 8.654741667
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Timber Nkim Village",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        }
+      ]
     },
     {
       "name": "Obanliku",
       "slug": "cross-river-obanliku",
-      "markets": []
+      "markets": [
+        {
+          "name": "Akorshi Market, Obanliku",
+          "slug": "akorshi-market-obanliku",
+          "coordinates": {
+            "lat": 6.5532967,
+            "lng": 9.18773
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Akorshi",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Amana Market, Obanliku",
+          "slug": "amana-market-obanliku",
+          "coordinates": {
+            "lat": 6.4750067,
+            "lng": 9.4482317
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Amana",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Bayalele Market, Obanliku",
+          "slug": "bayalele-market-obanliku",
+          "coordinates": {
+            "lat": 6.5500433,
+            "lng": 9.2226117
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Food Stuff Mixed",
+          "local_name": "Bayalele",
+          "days": [
+            "Mon",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Bayuloga Market, Obanliku",
+          "slug": "bayuloga-market-obanliku",
+          "coordinates": {
+            "lat": 6.6169774,
+            "lng": 9.3021999
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Bayuloga",
+          "days": [
+            "Mon",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Beti Market Bagga 1, Obanliku",
+          "slug": "beti-market-bagga-1-obanliku",
+          "coordinates": {
+            "lat": 6.5201539,
+            "lng": 9.4155259
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Beti Bagga 1",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Bishiri Market, Obanliku",
+          "slug": "bishiri-market-obanliku",
+          "coordinates": {
+            "lat": 6.6750017,
+            "lng": 9.201365
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Bi-Weekly",
+          "type": "Mixed",
+          "local_name": "Bishiri",
+          "days": [
+            "Mon",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Branch Market, Obanliku",
+          "slug": "branch-market-obanliku",
+          "coordinates": {
+            "lat": 6.61673,
+            "lng": 9.3707683
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Branch",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Ikpagajir Market, Obanliku",
+          "slug": "ikpagajir-market-obanliku",
+          "coordinates": {
+            "lat": 6.59166,
+            "lng": 9.3933517
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Ikpagajir",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Kiggol Market, Obanliku",
+          "slug": "kiggol-market-obanliku",
+          "coordinates": {
+            "lat": 6.360723333,
+            "lng": 9.37917
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Kiggol",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Sankwala Market, Obanliku",
+          "slug": "sankwala-market-obanliku",
+          "coordinates": {
+            "lat": 6.6077767,
+            "lng": 9.2517483
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Sankwala",
+          "days": [
+            "Mon",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Stone Market Kundeve, Obanliku",
+          "slug": "stone-market-kundeve-obanliku",
+          "coordinates": {
+            "lat": 6.5530417,
+            "lng": 9.39231
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Stone Kundeve",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Tabu Market, Obanliku",
+          "slug": "tabu-market-obanliku",
+          "coordinates": {
+            "lat": 6.6875,
+            "lng": 9.24827
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Tabu",
+          "days": [
+            "Tue",
+            "Fri",
+            "Sat"
+          ]
+        }
+      ]
     },
     {
       "name": "Obubra",
       "slug": "cross-river-obubra",
-      "markets": []
+      "markets": [
+        {
+          "name": "6 Corner Market Ababene, Obubra",
+          "slug": "6-corner-market-ababene-obubra",
+          "coordinates": {
+            "lat": 5.950251667,
+            "lng": 8.261836667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Ababene",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Ababene Market, Obubra",
+          "slug": "ababene-market-obubra",
+          "coordinates": {
+            "lat": 5.95361,
+            "lng": 8.259606667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Food Stuff Other",
+          "local_name": "Ababene",
+          "days": [
+            "Tue",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Adokos Cocoa Market, Obubra",
+          "slug": "adokos-cocoa-market-obubra",
+          "coordinates": {
+            "lat": 5.931115,
+            "lng": 8.426748333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Bi-Weekly",
+          "type": "Mixed",
+          "local_name": "Adokos Cocoa",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Ahana Market, Obubra",
+          "slug": "ahana-market-obubra",
+          "coordinates": {
+            "lat": 6.056108333,
+            "lng": 8.343215
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Ahana",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Apiapum Daily Market, Obubra",
+          "slug": "apiapum-daily-market-obubra",
+          "coordinates": {
+            "lat": 5.997038333,
+            "lng": 8.278833333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Mixed",
+          "local_name": "Apiapum Daily",
+          "days": [
+            "Tue",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Apiapum Market, Obubra",
+          "slug": "apiapum-market-obubra",
+          "coordinates": {
+            "lat": 5.99636,
+            "lng": 8.280088333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Apiapum",
+          "days": [
+            "Tue",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Edondon Market, Obubra",
+          "slug": "edondon-market-obubra",
+          "coordinates": {
+            "lat": 5.864336667,
+            "lng": 8.426121667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Edondon",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Eshafor Eja Market, Obubra",
+          "slug": "eshafor-eja-market-obubra",
+          "coordinates": {
+            "lat": 6.24505,
+            "lng": 8.42918
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Eshafor Eja"
+        },
+        {
+          "name": "Imabana Ochokwu Market, Obubra",
+          "slug": "imabana-ochokwu-market-obubra",
+          "coordinates": {
+            "lat": 6.00249,
+            "lng": 8.2856267
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Imabana Ochokwu",
+          "days": [
+            "Mon",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Iyami Second Market, Obubra",
+          "slug": "iyami-second-market-obubra",
+          "coordinates": {
+            "lat": 5.869023333,
+            "lng": 8.337381667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Iyami Second",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Iyamitet Community Market, Obubra",
+          "slug": "iyamitet-community-market-obubra",
+          "coordinates": {
+            "lat": 5.860775,
+            "lng": 8.340836667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Iyamitet Community",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Iyamoyong Market, Obubra",
+          "slug": "iyamoyong-market-obubra",
+          "coordinates": {
+            "lat": 5.97384,
+            "lng": 8.3573
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Iyamoyong"
+        },
+        {
+          "name": "Mfuma Market, Obubra",
+          "slug": "mfuma-market-obubra",
+          "coordinates": {
+            "lat": 6.3721433,
+            "lng": 8.45654
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Mfuma",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Mile 1 Market Obubra",
+          "slug": "mile-1-market-obubra",
+          "coordinates": {
+            "lat": 6.06913,
+            "lng": 8.33608
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Mile 1 Obubra",
+          "days": [
+            "Mon",
+            "Thu"
+          ]
+        },
+        {
+          "name": "Nkum Yala Market, Obubra",
+          "slug": "nkum-yala-market-obubra",
+          "coordinates": {
+            "lat": 6.068965,
+            "lng": 8.479701667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Mixed",
+          "local_name": "Nkum Yala",
+          "days": [
+            "Mon",
+            "Thu"
+          ]
+        },
+        {
+          "name": "Ntrigom Market, Obubra",
+          "slug": "ntrigom-market-obubra",
+          "coordinates": {
+            "lat": 6.359145,
+            "lng": 8.435911667
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Ntrigom",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Obhane Garri Market, Obubra",
+          "slug": "obhane-garri-market-obubra",
+          "coordinates": {
+            "lat": 6.09314,
+            "lng": 8.36672
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Obhane Garri"
+        },
+        {
+          "name": "Obhane Market, Obubra",
+          "slug": "obhane-market-obubra",
+          "coordinates": {
+            "lat": 6.09495,
+            "lng": 8.36754
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Obhane"
+        },
+        {
+          "name": "Obubra Market",
+          "slug": "obubra-market",
+          "coordinates": {
+            "lat": 6.00229,
+            "lng": 8.30871
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Food Stuff Mixed",
+          "local_name": "Obubra",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Ofat Market, Obubra",
+          "slug": "ofat-market-obubra",
+          "coordinates": {
+            "lat": 5.955973333,
+            "lng": 8.255156667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Mixed",
+          "local_name": "Ofat",
+          "days": [
+            "Tue",
+            "Thu"
+          ]
+        },
+        {
+          "name": "Ofodua Market, Obubra",
+          "slug": "ofodua-market-obubra",
+          "coordinates": {
+            "lat": 5.980381667,
+            "lng": 8.259076667
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "frequency": "Bi-Weekly",
+          "type": "Mixed",
+          "local_name": "Ofodua",
+          "days": [
+            "Tue",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Ofumbongha Market, Obubra",
+          "slug": "ofumbongha-market-obubra",
+          "coordinates": {
+            "lat": 6.0930917,
+            "lng": 8.370325
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Ofumbongha",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Ogamana Market, Obubra",
+          "slug": "ogamana-market-obubra",
+          "coordinates": {
+            "lat": 6.197951667,
+            "lng": 8.431603333
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "frequency": "Weekly",
+          "type": "Clothing Electronic Spare Parts Food Stuff Mixed",
+          "local_name": "Ogamana",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Ohana Market, Obubra",
+          "slug": "ohana-market-obubra",
+          "coordinates": {
+            "lat": 5.96655,
+            "lng": 8.36601
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ohana"
+        },
+        {
+          "name": "Okorn Market Ogurude, Obubra",
+          "slug": "okorn-market-ogurude-obubra",
+          "coordinates": {
+            "lat": 6.14185,
+            "lng": 8.388696667
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "frequency": "Bi-Weekly",
+          "type": "Mixed",
+          "local_name": "Okorn Ogurude",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Onyadama Market, Obubra",
+          "slug": "onyadama-market-obubra",
+          "coordinates": {
+            "lat": 5.93354,
+            "lng": 8.239406667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Bi-Weekly",
+          "type": "Clothing Electronic Spare Parts Food Stuff",
+          "local_name": "Onyadama",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Onyen Market, Obubra",
+          "slug": "onyen-market-obubra",
+          "coordinates": {
+            "lat": 5.976811667,
+            "lng": 8.470368333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Bi-Weekly",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Onyen",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Osakan Market, Obubra",
+          "slug": "osakan-market-obubra",
+          "coordinates": {
+            "lat": 6.02719,
+            "lng": 8.38181
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Osakan"
+        },
+        {
+          "name": "Ovonum Daily Market, Obubra",
+          "slug": "ovonum-daily-market-obubra",
+          "coordinates": {
+            "lat": 5.9931767,
+            "lng": 8.2695633
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Ovonum Daily",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        }
+      ]
     },
     {
       "name": "Obudu",
       "slug": "cross-river-obudu",
-      "markets": []
+      "markets": [
+        {
+          "name": "Atarwhoshi Market Ibong, Obudu",
+          "slug": "atarwhoshi-market-ibong-obudu",
+          "coordinates": {
+            "lat": 6.568918333,
+            "lng": 9.122338333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Atarwhoshi Ibong",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Ate Amukwong, Obudu",
+          "slug": "ate-amukwong-obudu",
+          "coordinates": {
+            "lat": 6.5734,
+            "lng": 9.07121
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "frequency": "Other",
+          "type": "Other",
+          "local_name": "Ate-amukwong",
+          "days": [
+            "Tue",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Community Market Ikgbo, Obudu",
+          "slug": "community-market-ikgbo-obudu",
+          "coordinates": {
+            "lat": 6.5489917,
+            "lng": 9.0929383
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Bi-Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Ikgbo",
+          "days": [
+            "Tue",
+            "Thu"
+          ]
+        },
+        {
+          "name": "Ichigh Market, Obudu",
+          "slug": "ichigh-market-obudu",
+          "coordinates": {
+            "lat": 6.6554987,
+            "lng": 9.0953297
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Other",
+          "type": "Mixed",
+          "local_name": "Mbaaposugh",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Market Obudu Ogoja",
+          "slug": "market-obudu-ogoja",
+          "coordinates": {
+            "lat": 6.637266667,
+            "lng": 9.025138333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Obudu-ogoja",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Mbayar Market, Obudu",
+          "slug": "mbayar-market-obudu",
+          "coordinates": {
+            "lat": 6.668875,
+            "lng": 9.138058333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Mbayar",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Okordem Market, Obudu",
+          "slug": "okordem-market-obudu",
+          "coordinates": {
+            "lat": 6.586206667,
+            "lng": 9.048911667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Okordem",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Udama Market Utugwang, Obudu",
+          "slug": "udama-market-utugwang-obudu",
+          "coordinates": {
+            "lat": 6.63681,
+            "lng": 9.024456667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Other",
+          "local_name": "Udama Utugwang",
+          "days": [
+            "Tue",
+            "Thu",
+            "Fri"
+          ]
+        }
+      ]
     },
     {
       "name": "Odukpani",
       "slug": "cross-river-odukpani",
-      "markets": []
+      "markets": [
+        {
+          "name": "8 Mile Market, Odukpani",
+          "slug": "8-mile-market-odukpani",
+          "coordinates": {
+            "lat": 5.057798435,
+            "lng": 8.353841724
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "type": "Food Stuff",
+          "local_name": "8 Mile"
+        },
+        {
+          "name": "Atan Okoyong Market, Odukpani",
+          "slug": "atan-okoyong-market-odukpani",
+          "coordinates": {
+            "lat": 5.18707,
+            "lng": 8.25916
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Atan Okoyong"
+        },
+        {
+          "name": "Calabar Municipal Ultra Modern Market Abattoir Ikot Eneobong, Odukpani",
+          "slug": "calabar-municipal-ultra-modern-market-abattoir-ikot-eneobong-odukpani",
+          "coordinates": {
+            "lat": 5.055515,
+            "lng": 8.3719417
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Calabar Municipal Ultra Modern Abattoir Ikot Eneobong",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Ekabobo Timber Market, Odukpani",
+          "slug": "ekabobo-timber-market-odukpani",
+          "coordinates": {
+            "lat": 5.07025,
+            "lng": 8.39364
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ekabobo Timber"
+        },
+        {
+          "name": "Ekam Market, Odukpani",
+          "slug": "ekam-market-odukpani",
+          "coordinates": {
+            "lat": 5.33896,
+            "lng": 7.966
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Food Stuff",
+          "local_name": "Ekam",
+          "days": [
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Nyakasang Market, Odukpani",
+          "slug": "nyakasang-market-odukpani",
+          "coordinates": {
+            "lat": 5.1323733,
+            "lng": 8.19937
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Nyakasang",
+          "days": [
+            "Tue",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Obioko Market Creek Town, Odukpani",
+          "slug": "obioko-market-creek-town-odukpani",
+          "coordinates": {
+            "lat": 4.9901767,
+            "lng": 8.2755633
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Obioko Creek Town",
+          "days": [
+            "Mon",
+            "Thu"
+          ]
+        },
+        {
+          "name": "Okoyong Usang Abasi Market, Odukpani",
+          "slug": "okoyong-usang-abasi-market-odukpani",
+          "coordinates": {
+            "lat": 5.1949302,
+            "lng": 8.2890562
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Okoyong Usang Abasi",
+          "days": [
+            "Mon",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Okurikang Okoyong Market, Odukpani",
+          "slug": "okurikang-okoyong-market-odukpani",
+          "coordinates": {
+            "lat": 5.1677633,
+            "lng": 8.1724383
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Bi-Weekly",
+          "type": "Livestock Food Stuff Mixed",
+          "local_name": "Okurikang Okoyong",
+          "days": [
+            "Tue",
+            "Thu",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Ukwa Ibom Market Isakhi, Odukpani",
+          "slug": "ukwa-ibom-market-isakhi-odukpani",
+          "coordinates": {
+            "lat": 5.4988283,
+            "lng": 7.9659483
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff Mixed",
+          "local_name": "Ukwa Ibom Isakhi",
+          "days": [
+            "Tue",
+            "Thu",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Urua Uyo Market, Odukpani",
+          "slug": "urua-uyo-market-odukpani",
+          "coordinates": {
+            "lat": 5.077875,
+            "lng": 8.2133117
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Mixed",
+          "local_name": "Urua Uyo",
+          "days": [
+            "Mon",
+            "Thu"
+          ]
+        }
+      ]
     },
     {
       "name": "Ogoja",
       "slug": "cross-river-ogoja",
-      "markets": []
+      "markets": [
+        {
+          "name": "Abatoir Slaughter Market Ogoja",
+          "slug": "abatoir-slaughter-market-ogoja",
+          "coordinates": {
+            "lat": 6.640408333,
+            "lng": 8.786728333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Bi-Weekly",
+          "type": "Mixed",
+          "local_name": "Ogoja",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Akpene Market Nkum Irede, Ogoja",
+          "slug": "akpene-market-nkum-irede-ogoja",
+          "coordinates": {
+            "lat": 6.494245,
+            "lng": 8.61836
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Food Stuff Mixed",
+          "local_name": "Akpene Nkum Irede",
+          "days": [
+            "Tue",
+            "Thu",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Aragban Market, Ogoja",
+          "slug": "aragban-market-ogoja",
+          "coordinates": {
+            "lat": 6.566466667,
+            "lng": 8.937411667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Aragban",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Bansara Market, Ogoja",
+          "slug": "bansara-market-ogoja",
+          "coordinates": {
+            "lat": 6.44471,
+            "lng": 8.5546317
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Mixed",
+          "local_name": "Bansara",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Benkpe Market, Ogoja",
+          "slug": "benkpe-market-ogoja",
+          "coordinates": {
+            "lat": 6.5743084,
+            "lng": 8.9258873
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Benkpe",
+          "days": [
+            "Tue",
+            "Thu",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Central Market Ekumtak, Ogoja",
+          "slug": "central-market-ekumtak-ogoja",
+          "coordinates": {
+            "lat": 6.5516483,
+            "lng": 8.8822567
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Other",
+          "local_name": "Central Ekumtak",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Ebe Market, Ogoja",
+          "slug": "ebe-market-ogoja",
+          "coordinates": {
+            "lat": 6.425873333,
+            "lng": 8.710665
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Ebe",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Idum Market, Ogoja",
+          "slug": "idum-market-ogoja",
+          "coordinates": {
+            "lat": 6.533556667,
+            "lng": 8.896971667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Bi-Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Idum",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Ishi Aya Market, Ogoja",
+          "slug": "ishi-aya-market-ogoja",
+          "coordinates": {
+            "lat": 6.5202467,
+            "lng": 8.6632683
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Ishi-aya",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Ishibori Main Market, Ogoja",
+          "slug": "ishibori-main-market-ogoja",
+          "coordinates": {
+            "lat": 6.65384,
+            "lng": 8.80278
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Ishibori Main",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Junction Market, Ogoja",
+          "slug": "junction-market-ogoja",
+          "coordinates": {
+            "lat": 6.6007067,
+            "lng": 8.7928033
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Junction",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Kese Edide, Ogoja",
+          "slug": "kese-edide-ogoja",
+          "coordinates": {
+            "lat": 6.56864,
+            "lng": 8.90621
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Kese Edide"
+        },
+        {
+          "name": "Mbok Market, Ogoja",
+          "slug": "mbok-market-ogoja",
+          "coordinates": {
+            "lat": 6.3718617,
+            "lng": 8.6791533
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Food Stuff Mixed",
+          "local_name": "Mbok",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Mfom Market, Ogoja",
+          "slug": "mfom-market-ogoja",
+          "coordinates": {
+            "lat": 6.500771667,
+            "lng": 8.561091667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Mfom",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Ndok Market, Ogoja",
+          "slug": "ndok-market-ogoja",
+          "coordinates": {
+            "lat": 6.603085,
+            "lng": 8.794885
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Ndok",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Njua Bano Market, Ogoja",
+          "slug": "njua-bano-market-ogoja",
+          "coordinates": {
+            "lat": 6.577528917,
+            "lng": 8.832533092
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Food Stuff",
+          "local_name": "Njua-bano",
+          "days": [
+            "Mon",
+            "Wed"
+          ]
+        },
+        {
+          "name": "Nkim Market, Ogoja",
+          "slug": "nkim-market-ogoja",
+          "coordinates": {
+            "lat": 6.510728333,
+            "lng": 8.752816667
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Nkim",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Ntamante Market, Ogoja",
+          "slug": "ntamante-market-ogoja",
+          "coordinates": {
+            "lat": 6.52315,
+            "lng": 8.75868
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ntamante"
+        },
+        {
+          "name": "Nwang Market, Ogoja",
+          "slug": "nwang-market-ogoja",
+          "coordinates": {
+            "lat": 6.4693106,
+            "lng": 8.7260188
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Nwang",
+          "days": [
+            "Mon",
+            "Tue",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Oboso Market, Ogoja",
+          "slug": "oboso-market-ogoja",
+          "coordinates": {
+            "lat": 6.5702,
+            "lng": 8.936813333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Oboso",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Odajie Market, Ogoja",
+          "slug": "odajie-market-ogoja",
+          "coordinates": {
+            "lat": 6.557745,
+            "lng": 8.8716583
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Odajie",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Timber Market Abapka, Ogoja",
+          "slug": "timber-market-abapka-ogoja",
+          "coordinates": {
+            "lat": 6.616046667,
+            "lng": 8.785866667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Food Stuff",
+          "local_name": "Timber Abapka",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Timber Market, Ogoja",
+          "slug": "timber-market-ogoja",
+          "coordinates": {
+            "lat": 6.664465,
+            "lng": 8.80031
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Timber",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Ukpagada Market, Ogoja",
+          "slug": "ukpagada-market-ogoja",
+          "coordinates": {
+            "lat": 6.5898483,
+            "lng": 8.7405483
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Ukpagada",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Umuruya Market Igoli Ogoja",
+          "slug": "umuruya-market-igoli-ogoja",
+          "coordinates": {
+            "lat": 6.6572967,
+            "lng": 8.8003983
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff Mixed",
+          "local_name": "Umuruya Igoli-ogoja",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Union Bank Market, Ogoja",
+          "slug": "union-bank-market-ogoja",
+          "coordinates": {
+            "lat": 6.659566667,
+            "lng": 8.800646667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Mixed",
+          "local_name": "Union Bank",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Wanudu Community Market, Ogoja",
+          "slug": "wanudu-community-market-ogoja",
+          "coordinates": {
+            "lat": 6.42987,
+            "lng": 8.470761667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Livestock Food Stuff Mixed",
+          "local_name": "Wanudu Community",
+          "days": [
+            "Tue",
+            "Thu",
+            "Fri"
+          ]
+        }
+      ]
     },
     {
       "name": "Yakurr",
       "slug": "cross-river-yakurr",
-      "markets": []
+      "markets": [
+        {
+          "name": "Agoi Ibami Market, Yakurr",
+          "slug": "agoi-ibami-market-yakurr",
+          "coordinates": {
+            "lat": 5.7190067,
+            "lng": 8.1834
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Agoi Ibami",
+          "days": [
+            "Tue",
+            "Thu",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Agoi Ibami Old Market, Yakurr",
+          "slug": "agoi-ibami-old-market-yakurr",
+          "coordinates": {
+            "lat": 5.724996667,
+            "lng": 8.174936667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Agoi-ibami Old",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Ajoni Market, Yakurr",
+          "slug": "ajoni-market-yakurr",
+          "coordinates": {
+            "lat": 5.935095,
+            "lng": 8.1164917
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "frequency": "Other",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Ajoni",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Akarukpar Government Market, Yakurr",
+          "slug": "akarukpar-government-market-yakurr",
+          "coordinates": {
+            "lat": 5.843278333,
+            "lng": 8.2631
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Akarukpar Government",
+          "days": [
+            "Tue",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Akarukpar Market, Yakurr",
+          "slug": "akarukpar-market-yakurr",
+          "coordinates": {
+            "lat": 5.84345,
+            "lng": 8.263158333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Akarukpar",
+          "days": [
+            "Tue",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Asankpat Iyiman Market, Yakurr",
+          "slug": "asankpat-iyiman-market-yakurr",
+          "coordinates": {
+            "lat": 5.8404017,
+            "lng": 8.25873
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Other",
+          "local_name": "Asankpat Iyiman",
+          "days": [
+            "Tue",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Assiga Old Town Market Square, Yakurr",
+          "slug": "assiga-old-town-market-square-yakurr",
+          "coordinates": {
+            "lat": 5.9443717,
+            "lng": 8.170085
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Assiga Old Town Square",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Assiga Old Town Market, Yakurr",
+          "slug": "assiga-old-town-market-yakurr",
+          "coordinates": {
+            "lat": 5.942125,
+            "lng": 8.1719867
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Assiga Old Town",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Azogor Market, Yakurr",
+          "slug": "azogor-market-yakurr",
+          "coordinates": {
+            "lat": 5.95674,
+            "lng": 8.14907
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Azogor"
+        },
+        {
+          "name": "Beach Market Ebo, Yakurr",
+          "slug": "beach-market-ebo-yakurr",
+          "coordinates": {
+            "lat": 5.943901667,
+            "lng": 8.155246667
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Beach Ebo",
+          "days": [
+            "Tue",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Biko Biko Market, Yakurr",
+          "slug": "biko-biko-market-yakurr",
+          "coordinates": {
+            "lat": 5.811263333,
+            "lng": 8.080883333
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Biko Biko",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Egbizum Market, Yakurr",
+          "slug": "egbizum-market-yakurr",
+          "coordinates": {
+            "lat": 5.810801667,
+            "lng": 8.077351667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Egbizum",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Ekom Agoi Market, Yakurr",
+          "slug": "ekom-agoi-market-yakurr",
+          "coordinates": {
+            "lat": 5.8651017,
+            "lng": 8.2283267
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Bi-Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Ekom Agoi",
+          "days": [
+            "Tue",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Ekpeti Market, Yakurr",
+          "slug": "ekpeti-market-yakurr",
+          "coordinates": {
+            "lat": 5.939655,
+            "lng": 8.1914317
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Food Stuff",
+          "local_name": "Ekpeti",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Emili Market, Yakurr",
+          "slug": "emili-market-yakurr",
+          "coordinates": {
+            "lat": 5.940008333,
+            "lng": 8.159745
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Emili",
+          "days": [
+            "Tue",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Ibiniden Old Market, Yakurr",
+          "slug": "ibiniden-old-market-yakurr",
+          "coordinates": {
+            "lat": 5.725106667,
+            "lng": 8.17516
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Ibiniden Old",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Igobor Market, Yakurr",
+          "slug": "igobor-market-yakurr",
+          "coordinates": {
+            "lat": 5.940985,
+            "lng": 8.157888333
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Igobor",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Ijiman Market, Yakurr",
+          "slug": "ijiman-market-yakurr",
+          "coordinates": {
+            "lat": 5.805316667,
+            "lng": 8.079443333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Bi-Weekly",
+          "type": "Mixed",
+          "local_name": "Ijiman",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Inyima Market, Yakurr",
+          "slug": "inyima-market-yakurr",
+          "coordinates": {
+            "lat": 5.919693333,
+            "lng": 8.211343333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Livestock Food Stuff",
+          "local_name": "Inyima",
+          "days": [
+            "Tue",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Ketabebe General Market, Yakurr",
+          "slug": "ketabebe-general-market-yakurr",
+          "coordinates": {
+            "lat": 5.810413333,
+            "lng": 8.084791667
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "frequency": "Bi-Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Ketabebe General",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Kowu Market, Yakurr",
+          "slug": "kowu-market-yakurr",
+          "coordinates": {
+            "lat": 5.758718333,
+            "lng": 8.088666667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Kowu",
+          "days": [
+            "Mon",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Lebang Market, Yakurr",
+          "slug": "lebang-market-yakurr",
+          "coordinates": {
+            "lat": 5.81751,
+            "lng": 8.2062717
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Lebang",
+          "days": [
+            "Mon",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Lekpanti Market, Yakurr",
+          "slug": "lekpanti-market-yakurr",
+          "coordinates": {
+            "lat": 5.938345,
+            "lng": 8.163496667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Lekpanti",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Lekplnte Market, Yakurr",
+          "slug": "lekplnte-market-yakurr",
+          "coordinates": {
+            "lat": 5.93823,
+            "lng": 8.163641667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Lekplnte",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Lokpoi Village Market, Yakurr",
+          "slug": "lokpoi-village-market-yakurr",
+          "coordinates": {
+            "lat": 5.8298233,
+            "lng": 8.241085
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Lokpoi",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Makpani Market, Yakurr",
+          "slug": "makpani-market-yakurr",
+          "coordinates": {
+            "lat": 5.82457,
+            "lng": 8.150755
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Bi-Weekly",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff Mixed",
+          "local_name": "Makpani",
+          "days": [
+            "Wed",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Market Square, Yakurr",
+          "slug": "market-square-yakurr",
+          "coordinates": {
+            "lat": 5.772805,
+            "lng": 8.181225
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Square",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Market, Yakurr",
+          "slug": "market-yakurr",
+          "coordinates": {
+            "lat": 5.885795,
+            "lng": 8.1218333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Mixed Other",
+          "local_name": "Market Area",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Mkpani, Yakurr",
+          "slug": "mkpani-yakurr",
+          "coordinates": {
+            "lat": 5.824284321,
+            "lng": 8.157408897
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "frequency": "Daily",
+          "type": "Food Stuff",
+          "local_name": "Mkpani",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Mkpeni Road Market, Yakurr",
+          "slug": "mkpeni-road-market-yakurr",
+          "coordinates": {
+            "lat": 5.8832,
+            "lng": 8.123286667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Mkpeni Road",
+          "days": [
+            "Tue",
+            "Wed",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Modern Market, Yakurr",
+          "slug": "modern-market-yakurr",
+          "coordinates": {
+            "lat": 5.8711883,
+            "lng": 8.120645
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Modern",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Nko Market, Yakurr",
+          "slug": "nko-market-yakurr",
+          "coordinates": {
+            "lat": 5.879421667,
+            "lng": 8.189971667
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff Mixed",
+          "local_name": "Nko",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Ntankpo Market, Yakurr",
+          "slug": "ntankpo-market-yakurr",
+          "coordinates": {
+            "lat": 5.82577,
+            "lng": 8.085706667
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Ntankpo",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Obghte Market, Yakurr",
+          "slug": "obghte-market-yakurr",
+          "coordinates": {
+            "lat": 5.883863333,
+            "lng": 8.119838333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Livestock Food Stuff Mixed",
+          "local_name": "Obghte",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Ofrekpe Market, Yakurr",
+          "slug": "ofrekpe-market-yakurr",
+          "coordinates": {
+            "lat": 5.9132817,
+            "lng": 8.1138567
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Food Stuff",
+          "local_name": "Ofrekpe",
+          "days": [
+            "Tue",
+            "Thu"
+          ]
+        },
+        {
+          "name": "Old Market, Yakurr",
+          "slug": "old-market-yakurr",
+          "coordinates": {
+            "lat": 5.8748367,
+            "lng": 8.1899767
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Food Stuff Mixed",
+          "local_name": "Old",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Pavilion Market, Yakurr",
+          "slug": "pavilion-market-yakurr",
+          "coordinates": {
+            "lat": 5.885751667,
+            "lng": 8.121773333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Pavilion",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Ugep Market, Yakurr",
+          "slug": "ugep-market-yakurr",
+          "coordinates": {
+            "lat": 5.811075,
+            "lng": 8.0844083
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff",
+          "local_name": "Ugep",
+          "days": [
+            "Tue",
+            "Wed"
+          ]
+        },
+        {
+          "name": "Weekly Market, Yakurr",
+          "slug": "weekly-market-yakurr",
+          "coordinates": {
+            "lat": 5.935156667,
+            "lng": 8.11641
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "frequency": "Bi-Weekly",
+          "type": "Mixed",
+          "local_name": "Weekly",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Yenon Market, Yakurr",
+          "slug": "yenon-market-yakurr",
+          "coordinates": {
+            "lat": 5.81495,
+            "lng": 8.08784
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Yenon"
+        }
+      ]
     },
     {
       "name": "Yala",
       "slug": "cross-river-yala",
-      "markets": []
+      "markets": [
+        {
+          "name": "Anyogba Gbadu Market, Yala",
+          "slug": "anyogba-gbadu-market-yala",
+          "coordinates": {
+            "lat": 6.86548,
+            "lng": 8.74925
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Anyogba Gbadu"
+        },
+        {
+          "name": "Ebo Market Idimogbo, Yala",
+          "slug": "ebo-market-idimogbo-yala",
+          "coordinates": {
+            "lat": 6.5335,
+            "lng": 8.503826667
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Ebo Idimogbo",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Ebo Market, Yala",
+          "slug": "ebo-market-yala",
+          "coordinates": {
+            "lat": 6.491366667,
+            "lng": 8.44756
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Ebo",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Echumofana Market, Yala",
+          "slug": "echumofana-market-yala",
+          "coordinates": {
+            "lat": 6.756808333,
+            "lng": 8.860201667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Food Stuff",
+          "local_name": "Echumofana",
+          "days": [
+            "Mon",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Ekowe Waniham Market, Yala",
+          "slug": "ekowe-waniham-market-yala",
+          "coordinates": {
+            "lat": 6.69531,
+            "lng": 8.503988333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Ekowe Waniham",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Ekwo Wonekom Market, Yala",
+          "slug": "ekwo-wonekom-market-yala",
+          "coordinates": {
+            "lat": 6.5722359,
+            "lng": 8.4213585
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Food Stuff",
+          "local_name": "Ekwo Wonekom",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Ezekobe Market, Yala",
+          "slug": "ezekobe-market-yala",
+          "coordinates": {
+            "lat": 6.6830233,
+            "lng": 8.7519817
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Ezekobe",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Ezekwe Market, Yala",
+          "slug": "ezekwe-market-yala",
+          "coordinates": {
+            "lat": 6.523673333,
+            "lng": 8.430188333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Electronic Spare Parts Food Stuff",
+          "local_name": "Ezekwe",
+          "days": [
+            "Mon",
+            "Tue",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Ijigu Market, Yala",
+          "slug": "ijigu-market-yala",
+          "coordinates": {
+            "lat": 6.7763154,
+            "lng": 8.7349031
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Monthly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Ijigu",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Ikor Market Echuofana, Yala",
+          "slug": "ikor-market-echuofana-yala",
+          "coordinates": {
+            "lat": 6.756763333,
+            "lng": 8.860005
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Mixed",
+          "local_name": "Ikor Echuofana",
+          "days": [
+            "Mon",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Ikor Market, Yala",
+          "slug": "ikor-market-yala",
+          "coordinates": {
+            "lat": 6.604213333,
+            "lng": 8.630631667
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Ikor",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Itari Oba Market, Yala",
+          "slug": "itari-oba-market-yala",
+          "coordinates": {
+            "lat": 6.5941019,
+            "lng": 8.6339075
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Itari Oba",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Mfom 1 Market, Yala",
+          "slug": "mfom-1-market-yala",
+          "coordinates": {
+            "lat": 6.53423,
+            "lng": 8.57346
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Mfom 1",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Ogide Main Market, Yala",
+          "slug": "ogide-main-market-yala",
+          "coordinates": {
+            "lat": 6.841105,
+            "lng": 8.802348333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Ogide Main",
+          "days": [
+            "Mon",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Okuku Market, Yala",
+          "slug": "okuku-market-yala",
+          "coordinates": {
+            "lat": 6.721308333,
+            "lng": 8.776595
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Okuku",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Osina Market, Yala",
+          "slug": "osina-market-yala",
+          "coordinates": {
+            "lat": 6.872078333,
+            "lng": 8.778923333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Mixed",
+          "local_name": "Osina",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Ugaga Market, Yala",
+          "slug": "ugaga-market-yala",
+          "coordinates": {
+            "lat": 6.6715947,
+            "lng": 8.7454296
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Other",
+          "type": "Clothing Food Stuff",
+          "local_name": "Ugaga",
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Wanhime Oju Market, Yala",
+          "slug": "wanhime-oju-market-yala",
+          "coordinates": {
+            "lat": 6.729503333,
+            "lng": 8.45603
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff Mixed",
+          "local_name": "Wanhime Oju",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Wanikade Market, Yala",
+          "slug": "wanikade-market-yala",
+          "coordinates": {
+            "lat": 6.691031667,
+            "lng": 8.424755
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Wanikade",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Wanogana Market, Yala",
+          "slug": "wanogana-market-yala",
+          "coordinates": {
+            "lat": 6.68959,
+            "lng": 8.423733333
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Clothing Food Stuff Mixed",
+          "local_name": "Wanogana",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Yahe Market, Yala",
+          "slug": "yahe-market-yala",
+          "coordinates": {
+            "lat": 6.4723595,
+            "lng": 8.5107493
+          },
+          "added_by": "GRID3 (oluwadare.sewedo)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Yahe",
+          "days": [
+            "Mon"
+          ]
+        }
+      ]
     }
   ]
 }

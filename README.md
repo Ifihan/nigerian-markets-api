@@ -4,6 +4,8 @@ An open directory and free API for markets across all 36 states of Nigeria + FCT
 
 **Data is community-driven** — anyone can contribute market information via pull requests or the web form.
 
+Some market records in the repository are sourced from [GRID3](https://data.grid3.org/datasets/38201adf2211405989d83c546a58c8fb_0/explore?location=9.027920%2C8.672295%2C6).
+
 ## API
 
 Base URL: `https://iya-oloja.pages.dev/api` (or your deployed URL)
@@ -34,6 +36,11 @@ curl "https://iya-oloja.pages.dev/api/markets?state=lagos&limit=10"
       "slug": "lekki-market",
       "lat": 6.4698,
       "lng": 3.5852,
+      "added_by": "GRID3 (racheal.olarewaju)",
+      "frequency": "Weekly",
+      "days": ["Mon", "Tue", "Wed"],
+      "type": "Food Stuff",
+      "local_name": "Ahia Eke Obeaja",
       "lga_name": "Eti-Osa",
       "lga_slug": "lagos-eti-osa",
       "state_name": "Lagos",
@@ -57,7 +64,11 @@ curl "https://iya-oloja.pages.dev/api/markets?state=lagos&limit=10"
   "name": "Balogun Market, Lagos Island",
   "slug": "balogun-market",
   "coordinates": { "lat": 6.4541, "lng": 3.3947 },
-  "added_by": "your-github-username"
+  "added_by": "GRID3 (racheal.olarewaju)",
+  "frequency": "Weekly",
+  "days": ["Mon", "Tue", "Wed"],
+  "type": "Food Stuff",
+  "local_name": "Ahia Eke Obeaja"
 }
 ```
 
@@ -101,7 +112,11 @@ Each file follows this structure:
           "name": "Balogun Market, Lagos Island",
           "slug": "balogun-market",
           "coordinates": { "lat": 6.4541, "lng": 3.3947 },
-          "added_by": "ifihan"
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "days": ["Mon", "Tue", "Wed"],
+          "type": "Food Stuff",
+          "local_name": "Ahia Eke Obeaja"
         }
       ]
     }
@@ -155,9 +170,13 @@ wrangler d1 create iya-oloja
 
 # Run migrations
 wrangler d1 execute iya-oloja --local --file=migrations/0001_create_tables.sql
+wrangler d1 execute iya-oloja --local --file=migrations/0002_create_rate_limit_events.sql
+wrangler d1 execute iya-oloja --local --file=migrations/0003_add_market_metadata.sql
 
 # For production
 wrangler d1 execute iya-oloja --file=migrations/0001_create_tables.sql
+wrangler d1 execute iya-oloja --file=migrations/0002_create_rate_limit_events.sql
+wrangler d1 execute iya-oloja --file=migrations/0003_add_market_metadata.sql
 ```
 
 ### CI/CD

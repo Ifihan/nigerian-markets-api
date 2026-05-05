@@ -1,0 +1,4 @@
+ALTER TABLE markets ADD COLUMN frequency TEXT;
+ALTER TABLE markets ADD COLUMN days TEXT;
+ALTER TABLE markets ADD COLUMN type TEXT;
+ALTER TABLE markets ADD COLUMN local_name TEXT;

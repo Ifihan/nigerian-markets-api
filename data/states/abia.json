@@ -5,87 +5,5333 @@
     {
       "name": "Aba North",
       "slug": "abia-aba-north",
-      "markets": []
+      "markets": [
+        {
+          "name": "7up Market Umuola, Aba North",
+          "slug": "7up-market-umuola-aba-north",
+          "coordinates": {
+            "lat": 5.113171667,
+            "lng": 7.39644
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Umuola 2",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Achiaru Market Crown Town, Aba North",
+          "slug": "achiaru-market-crown-town-aba-north",
+          "coordinates": {
+            "lat": 5.10726,
+            "lng": 7.35064
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Achiaru Crown Town"
+        },
+        {
+          "name": "Ama Ogbor Market, Aba North",
+          "slug": "ama-ogbor-market-aba-north",
+          "coordinates": {
+            "lat": 5.114208496,
+            "lng": 7.387173717
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Livestock Electronic Spare Parts Food Stuff Mixed",
+          "local_name": "Ogbor",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Cementry Market, Aba North",
+          "slug": "cementry-market-aba-north",
+          "coordinates": {
+            "lat": 5.11532,
+            "lng": 7.3791583
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Constitution Crescent",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Good Morning Market Ngwa Road, Aba North",
+          "slug": "good-morning-market-ngwa-road-aba-north",
+          "coordinates": {
+            "lat": 5.104056667,
+            "lng": 7.377176667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Other",
+          "type": "Food Stuff",
+          "local_name": "Clifford Road",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Nkwo Eziama Market, Aba North",
+          "slug": "nkwo-eziama-market-aba-north",
+          "coordinates": {
+            "lat": 5.13046,
+            "lng": 7.37202
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Nkwo Eziama"
+        },
+        {
+          "name": "Samek Powerline Foam Market, Aba North",
+          "slug": "samek-powerline-foam-market-aba-north",
+          "coordinates": {
+            "lat": 5.112676667,
+            "lng": 7.33691
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Other",
+          "local_name": "Ariaria",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Umunneato Aria Aba North Industrial Shoe Plaza",
+          "slug": "umunneato-aria-aba-north-industrial-shoe-plaza",
+          "coordinates": {
+            "lat": 5.11826,
+            "lng": 7.33551
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Umunneato Aria Aba North Industrial Shoe Plaza"
+        }
+      ]
     },
     {
       "name": "Aba South",
       "slug": "abia-aba-south",
-      "markets": []
+      "markets": [
+        {
+          "name": "Aba Shopping Centre Crown Town, Aba South",
+          "slug": "aba-shopping-centre-crown-town-aba-south",
+          "coordinates": {
+            "lat": 5.10644,
+            "lng": 7.36692
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Aba Shopping Center Crown Town"
+        },
+        {
+          "name": "Achiaru Market, Aba South",
+          "slug": "achiaru-market-aba-south",
+          "coordinates": {
+            "lat": 5.102738333,
+            "lng": 7.343158333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Other",
+          "type": "Food Stuff",
+          "local_name": "Nkwoha",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Afor Nnentu Market Crown Town, Aba South",
+          "slug": "afor-nnentu-market-crown-town-aba-south",
+          "coordinates": {
+            "lat": 5.05807,
+            "lng": 7.35248
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Afor Nnentu Crown Town"
+        },
+        {
+          "name": "Afor Nnentu Market Grown Town, Aba South",
+          "slug": "afor-nnentu-market-grown-town-aba-south",
+          "coordinates": {
+            "lat": 5.068338333,
+            "lng": 7.349986667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Okporo Enyi",
+          "days": [
+            "Tue",
+            "Thu",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Ahia Mine Market Crown Town, Aba South",
+          "slug": "ahia-mine-market-crown-town-aba-south",
+          "coordinates": {
+            "lat": 5.09640614,
+            "lng": 7.352786755
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Mine Crown Town"
+        },
+        {
+          "name": "Akwete Nsulu Market, Aba South",
+          "slug": "akwete-nsulu-market-aba-south",
+          "coordinates": {
+            "lat": 5.100575173,
+            "lng": 7.373940239
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Ngwa Road",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Ama Ogbonna Market Crown Town, Aba South",
+          "slug": "ama-ogbonna-market-crown-town-aba-south",
+          "coordinates": {
+            "lat": 5.11075,
+            "lng": 7.36135
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ama Ogbonna Crown Town"
+        },
+        {
+          "name": "Asannetu Motor Parts Market, Aba South",
+          "slug": "asannetu-motor-parts-market-aba-south",
+          "coordinates": {
+            "lat": 5.064086667,
+            "lng": 7.328018333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Other",
+          "type": "Electronic Spare Parts",
+          "local_name": "Alaiyi",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Cemetary Market Aba Crown Town, Aba South",
+          "slug": "cemetary-market-aba-crown-town-aba-south",
+          "coordinates": {
+            "lat": 5.10144,
+            "lng": 7.35646
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Aba Crown Town"
+        },
+        {
+          "name": "Ekeoha Shopping Center, Aba South",
+          "slug": "ekeoha-shopping-center-aba-south",
+          "coordinates": {
+            "lat": 5.106271667,
+            "lng": 7.36959
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Clothing Electronic Spare Parts Food Stuff",
+          "local_name": "Tenant Road",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Iheorji Daily Market Crown Town, Aba South",
+          "slug": "iheorji-daily-market-crown-town-aba-south",
+          "coordinates": {
+            "lat": 5.08544,
+            "lng": 7.37852
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Iheorji Daily Crown Town"
+        },
+        {
+          "name": "Iheorji Daily Market Grown Town, Aba South",
+          "slug": "iheorji-daily-market-grown-town-aba-south",
+          "coordinates": {
+            "lat": 5.0861283,
+            "lng": 7.3784233
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Iheorji Ward 6",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "New Market Ngwa Road Crown Town, Aba South",
+          "slug": "new-market-ngwa-road-crown-town-aba-south",
+          "coordinates": {
+            "lat": 5.1005,
+            "lng": 7.37389
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "New Ngwa Road Crown Town"
+        },
+        {
+          "name": "Nkwo Ngwa Market Crown Town, Aba South",
+          "slug": "nkwo-ngwa-market-crown-town-aba-south",
+          "coordinates": {
+            "lat": 5.08953,
+            "lng": 7.3597
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Nkwo Ngwa Crown Town"
+        },
+        {
+          "name": "Nkwo Ngwa Market, Aba South",
+          "slug": "nkwo-ngwa-market-aba-south",
+          "coordinates": {
+            "lat": 5.08999,
+            "lng": 7.35981
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Nkwo Ngwa"
+        },
+        {
+          "name": "Nkwongwa Market Crown Town, Aba South",
+          "slug": "nkwongwa-market-crown-town-aba-south",
+          "coordinates": {
+            "lat": 5.09063,
+            "lng": 7.35937
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Nkwongwa Crown Town"
+        },
+        {
+          "name": "Orie Ohabiam Inernational Market Crown Town, Aba South",
+          "slug": "orie-ohabiam-inernational-market-crown-town-aba-south",
+          "coordinates": {
+            "lat": 5.07924,
+            "lng": 7.33812
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Orie Ohabiam Inernational Crown Town"
+        },
+        {
+          "name": "Urrta Market, Aba South",
+          "slug": "urrta-market-aba-south",
+          "coordinates": {
+            "lat": 5.0964283,
+            "lng": 7.3531283
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Aba South",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Vegetable And Allied Market Crown Town, Aba South",
+          "slug": "vegetable-and-allied-market-crown-town-aba-south",
+          "coordinates": {
+            "lat": 5.09866,
+            "lng": 7.38648
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Vegetable and Allied Crown Town"
+        }
+      ]
     },
     {
       "name": "Arochukwu",
       "slug": "abia-arochukwu",
-      "markets": []
+      "markets": [
+        {
+          "name": "Abia Nkwo Market, Arochukwu",
+          "slug": "abia-nkwo-market-arochukwu",
+          "coordinates": {
+            "lat": 5.383245,
+            "lng": 7.897996667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Clothing Electronic Spare Parts Food Stuff",
+          "local_name": "Ibom",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu"
+          ]
+        },
+        {
+          "name": "Afia Ebi Market, Arochukwu",
+          "slug": "afia-ebi-market-arochukwu",
+          "coordinates": {
+            "lat": 5.43303,
+            "lng": 7.91418
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Afia Ebi"
+        },
+        {
+          "name": "Afo Ukwu Market, Arochukwu",
+          "slug": "afo-ukwu-market-arochukwu",
+          "coordinates": {
+            "lat": 5.59367,
+            "lng": 7.67657
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Afo Ukwu"
+        },
+        {
+          "name": "Ahia Ogo Ugwuakuma, Arochukwu",
+          "slug": "ahia-ogo-ugwuakuma-arochukwu",
+          "coordinates": {
+            "lat": 5.411471667,
+            "lng": 7.912255
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Food Stuff Mixed",
+          "local_name": "Ugwuakuma",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Amamiri Market, Arochukwu",
+          "slug": "amamiri-market-arochukwu",
+          "coordinates": {
+            "lat": 5.38333,
+            "lng": 7.894871667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Food Stuff Mixed",
+          "local_name": "Amamiri Market",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Arochukwu Central Market",
+          "slug": "arochukwu-central-market",
+          "coordinates": {
+            "lat": 5.390083333,
+            "lng": 7.899658333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Ahia Nkwo Market Arochukwu",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Atan Abam Market, Arochukwu",
+          "slug": "atan-abam-market-arochukwu",
+          "coordinates": {
+            "lat": 5.50617,
+            "lng": 7.76196
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Atan Abam"
+        },
+        {
+          "name": "Central Market Arochukwu",
+          "slug": "central-market-arochukwu",
+          "coordinates": {
+            "lat": 5.39026,
+            "lng": 7.89976
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Central Arochukwu"
+        },
+        {
+          "name": "Eke Idima Market, Arochukwu",
+          "slug": "eke-idima-market-arochukwu",
+          "coordinates": {
+            "lat": 5.54566,
+            "lng": 7.70246
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Eke Idima"
+        },
+        {
+          "name": "Eke Market Ndi Ebe Abam, Arochukwu",
+          "slug": "eke-market-ndi-ebe-abam-arochukwu",
+          "coordinates": {
+            "lat": 5.61478,
+            "lng": 7.71786
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Eke Ndi Ebe Abam"
+        },
+        {
+          "name": "Ndi Ojugwo Market, Arochukwu",
+          "slug": "ndi-ojugwo-market-arochukwu",
+          "coordinates": {
+            "lat": 5.60195,
+            "lng": 7.70835
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ndi Ojugwo"
+        },
+        {
+          "name": "Ndi Ojugwo, Arochukwu",
+          "slug": "ndi-ojugwo-arochukwu",
+          "coordinates": {
+            "lat": 5.614825,
+            "lng": 7.717946667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Ndi Ebe Abam Market",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Nkwo Market Abia, Arochukwu",
+          "slug": "nkwo-market-abia-arochukwu",
+          "coordinates": {
+            "lat": 5.53604,
+            "lng": 7.88896
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Nkwo Abia"
+        },
+        {
+          "name": "Obinto Ihechiowa Affia Orie Market, Arochukwu",
+          "slug": "obinto-ihechiowa-affia-orie-market-arochukwu",
+          "coordinates": {
+            "lat": 5.45347,
+            "lng": 7.8832
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Obinto Ihechiowa Affia Orie"
+        },
+        {
+          "name": "Ovukwu Central Market, Arochukwu",
+          "slug": "ovukwu-central-market-arochukwu",
+          "coordinates": {
+            "lat": 5.49944,
+            "lng": 7.78511
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Ovukwu Central"
+        },
+        {
+          "name": "Ozu Abam Market, Arochukwu",
+          "slug": "ozu-abam-market-arochukwu",
+          "coordinates": {
+            "lat": 5.596091667,
+            "lng": 7.747483333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Ozu Abam Arochukwu",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Ugwuakuma Market, Arochukwu",
+          "slug": "ugwuakuma-market-arochukwu",
+          "coordinates": {
+            "lat": 5.41138,
+            "lng": 7.91224
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ugwuakuma"
+        },
+        {
+          "name": "Umuchiakuma Market, Arochukwu",
+          "slug": "umuchiakuma-market-arochukwu",
+          "coordinates": {
+            "lat": 5.49062,
+            "lng": 7.88444
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Umuchiakuma"
+        },
+        {
+          "name": "Unique Market Bende, Arochukwu",
+          "slug": "unique-market-bende-arochukwu",
+          "coordinates": {
+            "lat": 5.55993,
+            "lng": 7.63263
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Unique Bende"
+        }
+      ]
     },
     {
       "name": "Bende",
       "slug": "abia-bende",
-      "markets": []
+      "markets": [
+        {
+          "name": "Affiaozara Market, Bende",
+          "slug": "affiaozara-market-bende",
+          "coordinates": {
+            "lat": 5.72737,
+            "lng": 7.60649
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Affiaozara"
+        },
+        {
+          "name": "Afo Market Amaokai Amaokwe Item, Bende",
+          "slug": "afo-market-amaokai-amaokwe-item-bende",
+          "coordinates": {
+            "lat": 5.75299,
+            "lng": 7.66779
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Afo Amaokai Amaokwe Item"
+        },
+        {
+          "name": "Afo Market Okagwe Item, Bende",
+          "slug": "afo-market-okagwe-item-bende",
+          "coordinates": {
+            "lat": 5.78199,
+            "lng": 7.65109
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Afo Okagwe Item"
+        },
+        {
+          "name": "Afor Modern Market, Bende",
+          "slug": "afor-modern-market-bende",
+          "coordinates": {
+            "lat": 5.798636667,
+            "lng": 7.613133333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Ndielu",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Akanu Market, Bende",
+          "slug": "akanu-market-bende",
+          "coordinates": {
+            "lat": 5.79498,
+            "lng": 7.68493
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Akanu"
+        },
+        {
+          "name": "Amaokwe Item Market, Bende",
+          "slug": "amaokwe-item-market-bende",
+          "coordinates": {
+            "lat": 5.79534,
+            "lng": 7.6849217
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Akanu Item",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Apanu Market, Bende",
+          "slug": "apanu-market-bende",
+          "coordinates": {
+            "lat": 5.758668333,
+            "lng": 7.697836667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Livestock Food Stuff Mixed",
+          "local_name": "Apanu Market In Apanu Settlement",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Eke Akoli Market, Bende",
+          "slug": "eke-akoli-market-bende",
+          "coordinates": {
+            "lat": 5.727148333,
+            "lng": 7.605961667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Ozara",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Eke Market Amankalu Alayi, Bende",
+          "slug": "eke-market-amankalu-alayi-bende",
+          "coordinates": {
+            "lat": 5.70355,
+            "lng": 7.60548
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Eke Amankalu Alayi"
+        },
+        {
+          "name": "Eke Market Apuanu Item, Bende",
+          "slug": "eke-market-apuanu-item-bende",
+          "coordinates": {
+            "lat": 5.75901,
+            "lng": 7.69722
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Eke Apuanu Item"
+        },
+        {
+          "name": "Eke Market Lohum, Bende",
+          "slug": "eke-market-lohum-bende",
+          "coordinates": {
+            "lat": 5.65738,
+            "lng": 7.53616
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Eke Lohum"
+        },
+        {
+          "name": "Eke Market Ndiwo Itumbaukwa, Bende",
+          "slug": "eke-market-ndiwo-itumbaukwa-bende",
+          "coordinates": {
+            "lat": 5.50553,
+            "lng": 7.68394
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Eke Ndiwo Itumbaukwa"
+        },
+        {
+          "name": "Eke Market Obilaji Umuede Nkpa, Bende",
+          "slug": "eke-market-obilaji-umuede-nkpa-bende",
+          "coordinates": {
+            "lat": 5.65351,
+            "lng": 7.47949
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Eke Obilaji Umuede Nkpa"
+        },
+        {
+          "name": "Eke Market Okosi Ohafor Ntalakwu, Bende",
+          "slug": "eke-market-okosi-ohafor-ntalakwu-bende",
+          "coordinates": {
+            "lat": 5.45232,
+            "lng": 7.6816
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Eke Okosi Ohafor Ntalakwu"
+        },
+        {
+          "name": "Eke Okai Market, Bende",
+          "slug": "eke-okai-market-bende",
+          "coordinates": {
+            "lat": 5.81616,
+            "lng": 7.67494
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Eke Okai"
+        },
+        {
+          "name": "Eluama Uzuakoli Eke Market, Bende",
+          "slug": "eluama-uzuakoli-eke-market-bende",
+          "coordinates": {
+            "lat": 5.63336,
+            "lng": 7.55875
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Eluama Uzuakoli Eke"
+        },
+        {
+          "name": "Ezeukwu Market, Bende",
+          "slug": "ezeukwu-market-bende",
+          "coordinates": {
+            "lat": 5.80371,
+            "lng": 7.55894
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ezeukwu"
+        },
+        {
+          "name": "Nkwo Market Etiti Ugwueke, Bende",
+          "slug": "nkwo-market-etiti-ugwueke-bende",
+          "coordinates": {
+            "lat": 5.79865,
+            "lng": 7.61307
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Nkwo Etiti Ugwueke"
+        },
+        {
+          "name": "Nkwomahia Market, Bende",
+          "slug": "nkwomahia-market-bende",
+          "coordinates": {
+            "lat": 5.61835,
+            "lng": 7.61747
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Nkwomahia"
+        },
+        {
+          "name": "Nkwor Okpko, Bende",
+          "slug": "nkwor-okpko-bende",
+          "coordinates": {
+            "lat": 5.81609,
+            "lng": 7.67477
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Okai Item",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Obuofia Ozuitem Orieukwu Market, Bende",
+          "slug": "obuofia-ozuitem-orieukwu-market-bende",
+          "coordinates": {
+            "lat": 5.64748,
+            "lng": 7.60564
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Obuofia Ozuitem Orieukwu"
+        },
+        {
+          "name": "Ogwumabiri Afoumuoch Market Bende",
+          "slug": "ogwumabiri-afoumuoch-market-bende",
+          "coordinates": {
+            "lat": 5.634223333,
+            "lng": 7.559391667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff Mixed",
+          "local_name": "Uzoakoli Quarters",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Okoko Market, Bende",
+          "slug": "okoko-market-bende",
+          "coordinates": {
+            "lat": 5.74053,
+            "lng": 7.63573
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Okoko"
+        },
+        {
+          "name": "Okopedi Market, Bende",
+          "slug": "okopedi-market-bende",
+          "coordinates": {
+            "lat": 5.505446667,
+            "lng": 7.683938333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Clothing Food Stuff Mixed",
+          "local_name": "Ndiwo",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Okposi Market, Bende",
+          "slug": "okposi-market-bende",
+          "coordinates": {
+            "lat": 5.4523,
+            "lng": 7.681553333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Okosi",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Omeziebiri Market, Bende",
+          "slug": "omeziebiri-market-bende",
+          "coordinates": {
+            "lat": 5.71479,
+            "lng": 7.6461
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Omeziebiri"
+        },
+        {
+          "name": "Orie Akara, Bende",
+          "slug": "orie-akara-bende",
+          "coordinates": {
+            "lat": 5.72133,
+            "lng": 7.559736667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Akara Imenyi",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Orie Amaba Market, Bende",
+          "slug": "orie-amaba-market-bende",
+          "coordinates": {
+            "lat": 5.703685,
+            "lng": 7.605703333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Agboeke Amankalu Alayi",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Orie Market, Bende",
+          "slug": "orie-market-bende",
+          "coordinates": {
+            "lat": 5.72111,
+            "lng": 7.55927
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Orie"
+        },
+        {
+          "name": "Orienta Central Market, Bende",
+          "slug": "orienta-central-market-bende",
+          "coordinates": {
+            "lat": 5.66199,
+            "lng": 7.47556
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Orienta Central"
+        },
+        {
+          "name": "Orienta Market, Bende",
+          "slug": "orienta-market-bende",
+          "coordinates": {
+            "lat": 5.682173333,
+            "lng": 7.646686667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Amankwu Ozuitem",
+          "days": [
+            "Mon",
+            "Thu",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Timber Market, Bende",
+          "slug": "timber-market-bende",
+          "coordinates": {
+            "lat": 5.724315,
+            "lng": 7.563203333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Other",
+          "type": "Other",
+          "local_name": "Ahaba",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Umuimeny Modern Market, Bende",
+          "slug": "umuimeny-modern-market-bende",
+          "coordinates": {
+            "lat": 5.657296667,
+            "lng": 7.536208333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Umuimenyi Modern Market",
+          "days": [
+            "Thu"
+          ]
+        }
+      ]
     },
     {
       "name": "Ikwuano",
       "slug": "abia-ikwuano",
-      "markets": []
+      "markets": [
+        {
+          "name": "Ahia Ama Ogbuebule, Ikwuano",
+          "slug": "ahia-ama-ogbuebule-ikwuano",
+          "coordinates": {
+            "lat": 5.38068,
+            "lng": 7.586705
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Livestock Food Stuff",
+          "local_name": "Ekebedi Oboro",
+          "days": [
+            "Mon",
+            "Thu"
+          ]
+        },
+        {
+          "name": "Ahia Eke Nta Market Umuezeukwu, Ikwuano",
+          "slug": "ahia-eke-nta-market-umuezeukwu-ikwuano",
+          "coordinates": {
+            "lat": 5.40884,
+            "lng": 7.546121667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Ahia Eke Nta",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Ahia Eke, Ikwuano",
+          "slug": "ahia-eke-ikwuano",
+          "coordinates": {
+            "lat": 5.373016667,
+            "lng": 7.536656667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Obuoporo Oloko",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu"
+          ]
+        },
+        {
+          "name": "Ahia Orie Ibere Market, Ikwuano",
+          "slug": "ahia-orie-ibere-market-ikwuano",
+          "coordinates": {
+            "lat": 5.441128333,
+            "lng": 7.565778333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Aro Okporoenyi",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Ahiama Market Sqare, Ikwuano",
+          "slug": "ahiama-market-sqare-ikwuano",
+          "coordinates": {
+            "lat": 5.448455,
+            "lng": 7.54184
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Other",
+          "type": "Food Stuff",
+          "local_name": "Amaba Ikputu",
+          "days": [
+            "Mon",
+            "Thu"
+          ]
+        },
+        {
+          "name": "Amawon Market Square, Ikwuano",
+          "slug": "amawon-market-square-ikwuano",
+          "coordinates": {
+            "lat": 5.46416,
+            "lng": 7.55862
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Amawon Square"
+        },
+        {
+          "name": "Ihim Market, Ikwuano",
+          "slug": "ihim-market-ikwuano",
+          "coordinates": {
+            "lat": 5.468291667,
+            "lng": 7.572983333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Ofeama Settlement",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Mbaru Market, Ikwuano",
+          "slug": "mbaru-market-ikwuano",
+          "coordinates": {
+            "lat": 5.44107,
+            "lng": 7.566368333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Other",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Ugwu Ibere",
+          "days": [
+            "Mon",
+            "Thu"
+          ]
+        },
+        {
+          "name": "Ndoro Market, Ikwuano",
+          "slug": "ndoro-market-ikwuano",
+          "coordinates": {
+            "lat": 5.439465,
+            "lng": 7.564473333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Ndoro-oboro",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Nkwo Araim Market, Ikwuano",
+          "slug": "nkwo-araim-market-ikwuano",
+          "coordinates": {
+            "lat": 5.3417,
+            "lng": 7.62279
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Nkwo Araim"
+        },
+        {
+          "name": "Nkwo Ndoro Market Square, Ikwuano",
+          "slug": "nkwo-ndoro-market-square-ikwuano",
+          "coordinates": {
+            "lat": 5.43979,
+            "lng": 7.5651
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Nkwo Ndoro Square"
+        },
+        {
+          "name": "Orie Amizi Market Square, Ikwuano",
+          "slug": "orie-amizi-market-square-ikwuano",
+          "coordinates": {
+            "lat": 5.36912,
+            "lng": 7.58408
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Orie Amizi Square"
+        },
+        {
+          "name": "Umuovai Orieukwu Market, Ikwuano",
+          "slug": "umuovai-orieukwu-market-ikwuano",
+          "coordinates": {
+            "lat": 5.38134,
+            "lng": 7.53864
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Umuovai Orieukwu"
+        }
+      ]
     },
     {
       "name": "Isiala Ngwa North",
       "slug": "abia-isiala-ngwa-north",
-      "markets": []
+      "markets": [
+        {
+          "name": "Ahia Court, Isiala Ngwa North",
+          "slug": "ahia-court-isiala-ngwa-north",
+          "coordinates": {
+            "lat": 5.389043333,
+            "lng": 7.34779
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Other",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Ahiaba Ubi",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Ahia Eketa Market Square, Isiala Ngwa North",
+          "slug": "ahia-eketa-market-square-isiala-ngwa-north",
+          "coordinates": {
+            "lat": 5.32642,
+            "lng": 7.51648
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Eketa Square"
+        },
+        {
+          "name": "Ahia Eketa Market, Isiala Ngwa North",
+          "slug": "ahia-eketa-market-isiala-ngwa-north",
+          "coordinates": {
+            "lat": 5.3652217,
+            "lng": 7.3596083
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Ahiaba Okpuala",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Ahia Ngwola, Isiala Ngwa North",
+          "slug": "ahia-ngwola-isiala-ngwa-north",
+          "coordinates": {
+            "lat": 5.405878333,
+            "lng": 7.482266667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Other",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Umuosu",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Amachi Market, Isiala Ngwa North",
+          "slug": "amachi-market-isiala-ngwa-north",
+          "coordinates": {
+            "lat": 5.3194,
+            "lng": 7.50933
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Amachi"
+        },
+        {
+          "name": "Nbawsi Market, Isiala Ngwa North",
+          "slug": "nbawsi-market-isiala-ngwa-north",
+          "coordinates": {
+            "lat": 5.385275,
+            "lng": 7.436995
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Other",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Mbawsi",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Obikabia Modern Market, Isiala Ngwa North",
+          "slug": "obikabia-modern-market-isiala-ngwa-north",
+          "coordinates": {
+            "lat": 5.351166667,
+            "lng": 7.369563333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Obikabia Road",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Orie Ntigha Market, Isiala Ngwa North",
+          "slug": "orie-ntigha-market-isiala-ngwa-north",
+          "coordinates": {
+            "lat": 5.4301617,
+            "lng": 7.3978367
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff Mixed",
+          "local_name": "Amapu Ntigha",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Oru Ukwu, Isiala Ngwa North",
+          "slug": "oru-ukwu-isiala-ngwa-north",
+          "coordinates": {
+            "lat": 5.389433333,
+            "lng": 7.38002
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Amaorji",
+          "days": [
+            "Mon"
+          ]
+        },
+        {
+          "name": "Usaka Eleogu Market, Isiala Ngwa North",
+          "slug": "usaka-eleogu-market-isiala-ngwa-north",
+          "coordinates": {
+            "lat": 5.326388333,
+            "lng": 7.516428333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Ahia Afor Usaka Eleogu Market",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        }
+      ]
     },
     {
       "name": "Isiala Ngwa South",
       "slug": "abia-isiala-ngwa-south",
-      "markets": []
+      "markets": [
+        {
+          "name": "Ahia Nkwo Market Nneoyi Village, Isiala Ngwa South",
+          "slug": "ahia-nkwo-market-nneoyi-village-isiala-ngwa-south",
+          "coordinates": {
+            "lat": 5.247063333,
+            "lng": 7.294611667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Umuekene Village",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Ahia Nkwo, Isiala Ngwa South",
+          "slug": "ahia-nkwo-isiala-ngwa-south",
+          "coordinates": {
+            "lat": 5.309798333,
+            "lng": 7.363456667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Umuopara Village Ichi Ukwu",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Ahiaeke Mgbokoanya, Isiala Ngwa South",
+          "slug": "ahiaeke-mgbokoanya-isiala-ngwa-south",
+          "coordinates": {
+            "lat": 5.23335,
+            "lng": 7.45675
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahiaeke Mgbokoanya"
+        },
+        {
+          "name": "Ahiaeke Umuaro Marekt, Isiala Ngwa South",
+          "slug": "ahiaeke-umuaro-marekt-isiala-ngwa-south",
+          "coordinates": {
+            "lat": 5.23957,
+            "lng": 7.47791
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahiaeke Umuaro Marekt"
+        },
+        {
+          "name": "Ekeonyeugba Market, Isiala Ngwa South",
+          "slug": "ekeonyeugba-market-isiala-ngwa-south",
+          "coordinates": {
+            "lat": 5.304056667,
+            "lng": 7.355238333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Mbutu Ngwa",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Ekeowerre Market, Isiala Ngwa South",
+          "slug": "ekeowerre-market-isiala-ngwa-south",
+          "coordinates": {
+            "lat": 5.233483333,
+            "lng": 7.456981667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Mgboko Umuoria",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Eketa Market, Isiala Ngwa South",
+          "slug": "eketa-market-isiala-ngwa-south",
+          "coordinates": {
+            "lat": 5.273485,
+            "lng": 7.426038333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Other",
+          "type": "Mixed",
+          "local_name": "Umuawa",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Omoba Market, Isiala Ngwa South",
+          "slug": "omoba-market-isiala-ngwa-south",
+          "coordinates": {
+            "lat": 5.244558333,
+            "lng": 7.408433333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff",
+          "local_name": "Omoba",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Umuachiri Umuapu Community Market, Isiala Ngwa South",
+          "slug": "umuachiri-umuapu-community-market-isiala-ngwa-south",
+          "coordinates": {
+            "lat": 5.31043,
+            "lng": 7.386888333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Ovungwu",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Umuagbai Market Square, Isiala Ngwa South",
+          "slug": "umuagbai-market-square-isiala-ngwa-south",
+          "coordinates": {
+            "lat": 5.26231,
+            "lng": 7.32545
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Umuagbai Square"
+        },
+        {
+          "name": "Umuehim Nvosi Evening Market, Isiala Ngwa South",
+          "slug": "umuehim-nvosi-evening-market-isiala-ngwa-south",
+          "coordinates": {
+            "lat": 5.319998333,
+            "lng": 7.430706667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Umuehim Nvosi Village",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Umunkpeyi Nkwo Market, Isiala Ngwa South",
+          "slug": "umunkpeyi-nkwo-market-isiala-ngwa-south",
+          "coordinates": {
+            "lat": 5.262941667,
+            "lng": 7.475241667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Ndiolumbe",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        }
+      ]
     },
     {
       "name": "Isuikwuato",
       "slug": "abia-isuikwuato",
-      "markets": []
+      "markets": [
+        {
+          "name": "Acha Central Market, Isuikwuato",
+          "slug": "acha-central-market-isuikwuato",
+          "coordinates": {
+            "lat": 5.82396,
+            "lng": 7.51375
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Acha Central"
+        },
+        {
+          "name": "Aho Ukwu Ahonta Eluama Market, Isuikwuato",
+          "slug": "aho-ukwu-ahonta-eluama-market-isuikwuato",
+          "coordinates": {
+            "lat": 5.740458333,
+            "lng": 7.420898333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Umuerem",
+          "days": [
+            "Mon",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Amaebo Market, Isuikwuato",
+          "slug": "amaebo-market-isuikwuato",
+          "coordinates": {
+            "lat": 5.7191,
+            "lng": 7.50246
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Amaebo"
+        },
+        {
+          "name": "Eke Amaibo Market, Isuikwuato",
+          "slug": "eke-amaibo-market-isuikwuato",
+          "coordinates": {
+            "lat": 5.76528,
+            "lng": 7.49696
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Eke Amaibo"
+        },
+        {
+          "name": "Eke Amiyi, Isuikwuato",
+          "slug": "eke-amiyi-isuikwuato",
+          "coordinates": {
+            "lat": 5.748596667,
+            "lng": 7.505031667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Akoba Otampa",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Eke Amiyiobilohia Market, Isuikwuato",
+          "slug": "eke-amiyiobilohia-market-isuikwuato",
+          "coordinates": {
+            "lat": 5.768225,
+            "lng": 7.4558
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff",
+          "local_name": "Amaiyionilohia",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Eke Ozara Market, Isuikwuato",
+          "slug": "eke-ozara-market-isuikwuato",
+          "coordinates": {
+            "lat": 5.76381,
+            "lng": 7.497581667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Other",
+          "type": "Food Stuff Mixed",
+          "local_name": "Amaibo",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Eke Ugwuele, Isuikwuato",
+          "slug": "eke-ugwuele-isuikwuato",
+          "coordinates": {
+            "lat": 5.852516667,
+            "lng": 7.416706667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Ugwuele Autonomous Community",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Eke Umuakwua Market, Isuikwuato",
+          "slug": "eke-umuakwua-market-isuikwuato",
+          "coordinates": {
+            "lat": 5.76834,
+            "lng": 7.52364
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Eke Umuakwua"
+        },
+        {
+          "name": "Ihankwu Square, Isuikwuato",
+          "slug": "ihankwu-square-isuikwuato",
+          "coordinates": {
+            "lat": 5.8193,
+            "lng": 7.43079
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ihankwu Square"
+        },
+        {
+          "name": "Ndiokoroukwu Market, Isuikwuato",
+          "slug": "ndiokoroukwu-market-isuikwuato",
+          "coordinates": {
+            "lat": 5.859933333,
+            "lng": 7.522806667
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Ndiodemelam",
+          "days": [
+            "Sun"
+          ]
+        },
+        {
+          "name": "Nkino Achara Market, Isuikwuato",
+          "slug": "nkino-achara-market-isuikwuato",
+          "coordinates": {
+            "lat": 5.84039,
+            "lng": 7.43422
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Nkino Achara"
+        },
+        {
+          "name": "Nkinonta Market, Isuikwuato",
+          "slug": "nkinonta-market-isuikwuato",
+          "coordinates": {
+            "lat": 5.77298,
+            "lng": 7.45149
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Nkinonta"
+        },
+        {
+          "name": "Nkwo Abuo Market Ugwunwangwu, Isuikwuato",
+          "slug": "nkwo-abuo-market-ugwunwangwu-isuikwuato",
+          "coordinates": {
+            "lat": 5.828370415,
+            "lng": 7.437579409
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "frequency": "Daily",
+          "type": "Food Stuff",
+          "local_name": "Nkwo Abuo Ugwunwangwu",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Nkwo Achara Market, Isuikwuato",
+          "slug": "nkwo-achara-market-isuikwuato",
+          "coordinates": {
+            "lat": 5.840715,
+            "lng": 7.433943333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Achara",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Nunya Central Market, Isuikwuato",
+          "slug": "nunya-central-market-isuikwuato",
+          "coordinates": {
+            "lat": 5.7038,
+            "lng": 7.4148
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Nunya Central"
+        },
+        {
+          "name": "Onuiyinta Ndiokoro Market, Isuikwuato",
+          "slug": "onuiyinta-ndiokoro-market-isuikwuato",
+          "coordinates": {
+            "lat": 5.8599933,
+            "lng": 7.522235
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Ndiokoro Market",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Orie Ukwu Otamkpa, Isuikwuato",
+          "slug": "orie-ukwu-otamkpa-isuikwuato",
+          "coordinates": {
+            "lat": 5.745305,
+            "lng": 7.511843333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Echiele Otamkpa",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Oriendu Market, Isuikwuato",
+          "slug": "oriendu-market-isuikwuato",
+          "coordinates": {
+            "lat": 5.73216,
+            "lng": 7.53851
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Oriendu"
+        },
+        {
+          "name": "Owere Igwebuike Market Square, Isuikwuato",
+          "slug": "owere-igwebuike-market-square-isuikwuato",
+          "coordinates": {
+            "lat": 5.81956,
+            "lng": 7.42696
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Owere Igwebuike Square"
+        },
+        {
+          "name": "Umunneukwu Agbo Market, Isuikwuato",
+          "slug": "umunneukwu-agbo-market-isuikwuato",
+          "coordinates": {
+            "lat": 5.776031667,
+            "lng": 7.476121667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Umunneukwu Agbo",
+          "days": [
+            "Sat"
+          ]
+        }
+      ]
     },
     {
       "name": "Obi Ngwa",
       "slug": "abia-obi-ngwa",
-      "markets": []
+      "markets": [
+        {
+          "name": "Aforukwu Ohanze Market, Obi Ngwa",
+          "slug": "aforukwu-ohanze-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.12721,
+            "lng": 7.484
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Aforukwu Ohanze"
+        },
+        {
+          "name": "Ahia Afor Market, Obi Ngwa",
+          "slug": "ahia-afor-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.24066,
+            "lng": 7.52773
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Afor"
+        },
+        {
+          "name": "Ahia Afor Ohuru Market, Obi Ngwa",
+          "slug": "ahia-afor-ohuru-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.15706,
+            "lng": 7.4217
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Afor Ohuru"
+        },
+        {
+          "name": "Ahia Afor Umuotu Market, Obi Ngwa",
+          "slug": "ahia-afor-umuotu-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.19919,
+            "lng": 7.42314
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Afor Umuotu"
+        },
+        {
+          "name": "Ahia Aforukwu Market, Obi Ngwa",
+          "slug": "ahia-aforukwu-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.22973,
+            "lng": 7.52107
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Aforukwu"
+        },
+        {
+          "name": "Ahia Ama Dee Chima Market, Obi Ngwa",
+          "slug": "ahia-ama-dee-chima-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.110868333,
+            "lng": 7.431291667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Other",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Ukpakiri",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Ahia De Simon Market, Obi Ngwa",
+          "slug": "ahia-de-simon-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.12599,
+            "lng": 7.39964
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia De Simon"
+        },
+        {
+          "name": "Ahia Eke Obasi Market, Obi Ngwa",
+          "slug": "ahia-eke-obasi-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.14822,
+            "lng": 7.41465
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Eke Obasi"
+        },
+        {
+          "name": "Ahia Eke Obete, Obi Ngwa",
+          "slug": "ahia-eke-obete-obi-ngwa",
+          "coordinates": {
+            "lat": 5.18302,
+            "lng": 7.3876267
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Other",
+          "type": "Food Stuff Mixed",
+          "local_name": "Iheorji",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Ahia Eke Umuguru Market, Obi Ngwa",
+          "slug": "ahia-eke-umuguru-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.13504,
+            "lng": 7.41393
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Eke Umuguru"
+        },
+        {
+          "name": "Ahia Nkwo Egbwlu, Obi Ngwa",
+          "slug": "ahia-nkwo-egbwlu-obi-ngwa",
+          "coordinates": {
+            "lat": 5.265815494,
+            "lng": 7.546946772
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Nkwo Egbwlu"
+        },
+        {
+          "name": "Ahia Nkwo Market, Obi Ngwa",
+          "slug": "ahia-nkwo-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.2227,
+            "lng": 7.47491
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Nkwo"
+        },
+        {
+          "name": "Ahia Nkwo Mbutuichi Market, Obi Ngwa",
+          "slug": "ahia-nkwo-mbutuichi-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.20563,
+            "lng": 7.43246
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Nkwo Mbutuichi"
+        },
+        {
+          "name": "Ahia Nkwoala Market, Obi Ngwa",
+          "slug": "ahia-nkwoala-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.23756,
+            "lng": 7.5057
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Nkwoala"
+        },
+        {
+          "name": "Ahia Orie Itukpa, Obi Ngwa",
+          "slug": "ahia-orie-itukpa-obi-ngwa",
+          "coordinates": {
+            "lat": 5.185885,
+            "lng": 7.44275
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Bi-Weekly",
+          "type": "Food Stuff",
+          "local_name": "Agbaragwu",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Ahia Orie Ntighauzo, Obi Ngwa",
+          "slug": "ahia-orie-ntighauzo-obi-ngwa",
+          "coordinates": {
+            "lat": 5.093931667,
+            "lng": 7.483683333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Bi-Weekly",
+          "type": "Food Stuff",
+          "local_name": "Iferiefe",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Ahiaeke Akanu Market, Obi Ngwa",
+          "slug": "ahiaeke-akanu-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.18018,
+            "lng": 7.4931
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahiaeke Akanu"
+        },
+        {
+          "name": "Ahiaeke Amato Market, Obi Ngwa",
+          "slug": "ahiaeke-amato-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.17852,
+            "lng": 7.41274
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahiaeke Amato"
+        },
+        {
+          "name": "Ahiaeke Daily Market, Obi Ngwa",
+          "slug": "ahiaeke-daily-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.15148,
+            "lng": 7.45757
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahiaeke Daily"
+        },
+        {
+          "name": "Ahiaeke Isikor Market, Obi Ngwa",
+          "slug": "ahiaeke-isikor-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.25023,
+            "lng": 7.52236
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahiaeke Isikor"
+        },
+        {
+          "name": "Ahiaeke Market, Obi Ngwa",
+          "slug": "ahiaeke-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.10878,
+            "lng": 7.49877
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahiaeke"
+        },
+        {
+          "name": "Ahiaeke Ofokobe Market, Obi Ngwa",
+          "slug": "ahiaeke-ofokobe-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.252086667,
+            "lng": 7.501715
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Umuokiahia",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Ahiaeke Umuga Ovom, Obi Ngwa",
+          "slug": "ahiaeke-umuga-ovom-obi-ngwa",
+          "coordinates": {
+            "lat": 5.091973333,
+            "lng": 7.41692
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Umuja Umuobu",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Ahiaeke Umuorukwu Market, Obi Ngwa",
+          "slug": "ahiaeke-umuorukwu-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.14349,
+            "lng": 7.41611
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahiaeke Umuorukwu"
+        },
+        {
+          "name": "Ahiafor Iferife Market, Obi Ngwa",
+          "slug": "ahiafor-iferife-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.09589,
+            "lng": 7.48374
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahiafor Iferife"
+        },
+        {
+          "name": "Ahiafor Market, Obi Ngwa",
+          "slug": "ahiafor-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.16319,
+            "lng": 7.48427
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahiafor"
+        },
+        {
+          "name": "Ahiafor Owo Market, Obi Ngwa",
+          "slug": "ahiafor-owo-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.16186,
+            "lng": 7.47943
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahiafor Owo"
+        },
+        {
+          "name": "Ahiafor Umuokpo Market, Obi Ngwa",
+          "slug": "ahiafor-umuokpo-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.13031,
+            "lng": 7.49953
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahiafor Umuokpo"
+        },
+        {
+          "name": "Ahiankwo Market, Obi Ngwa",
+          "slug": "ahiankwo-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.12465,
+            "lng": 7.51288
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahiankwo"
+        },
+        {
+          "name": "Ahiankwo Nlagu Market, Obi Ngwa",
+          "slug": "ahiankwo-nlagu-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.13957,
+            "lng": 7.52561
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahiankwo Nlagu"
+        },
+        {
+          "name": "Ahiankwo Ntigha Market, Obi Ngwa",
+          "slug": "ahiankwo-ntigha-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.14647,
+            "lng": 7.50881
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahiankwo Ntigha"
+        },
+        {
+          "name": "Ahiankwo Umuanunu, Obi Ngwa",
+          "slug": "ahiankwo-umuanunu-obi-ngwa",
+          "coordinates": {
+            "lat": 5.2668767,
+            "lng": 7.5460767
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Food Stuff Mixed",
+          "local_name": "Umuopara Egbelu",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Ahiaorie Abayi Ohanze, Obi Ngwa",
+          "slug": "ahiaorie-abayi-ohanze-obi-ngwa",
+          "coordinates": {
+            "lat": 5.126041667,
+            "lng": 7.399911667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Other",
+          "type": "Livestock Food Stuff",
+          "local_name": "Umuokahia",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Ahiaorie Itukpa Market, Obi Ngwa",
+          "slug": "ahiaorie-itukpa-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.17097,
+            "lng": 7.46049
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahiaorie Itukpa"
+        },
+        {
+          "name": "Ahiaorie Market, Obi Ngwa",
+          "slug": "ahiaorie-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.13423,
+            "lng": 7.42982
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahiaorie"
+        },
+        {
+          "name": "Ahiaorie Osaa Ukwu, Obi Ngwa",
+          "slug": "ahiaorie-osaa-ukwu-obi-ngwa",
+          "coordinates": {
+            "lat": 5.17882,
+            "lng": 7.43987
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahiaorie Osaa Ukwu"
+        },
+        {
+          "name": "Amahia Market, Obi Ngwa",
+          "slug": "amahia-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.15639,
+            "lng": 7.51336
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Amahia"
+        },
+        {
+          "name": "Amuda Cassava Market, Obi Ngwa",
+          "slug": "amuda-cassava-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.059645,
+            "lng": 7.383471667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Other",
+          "type": "Food Stuff Mixed Other",
+          "local_name": "Amuda",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Azuogwugwu Ahiafor Market, Obi Ngwa",
+          "slug": "azuogwugwu-ahiafor-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.23013,
+            "lng": 7.47889
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Azuogwugwu Ahiafor"
+        },
+        {
+          "name": "Ehere Modern Market, Obi Ngwa",
+          "slug": "ehere-modern-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.11059,
+            "lng": 7.40366
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ehere Modern"
+        },
+        {
+          "name": "Ekenta Market, Obi Ngwa",
+          "slug": "ekenta-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.26079,
+            "lng": 7.52163
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ekenta"
+        },
+        {
+          "name": "Ekeowerre Market, Obi Ngwa",
+          "slug": "ekeowerre-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.21307,
+            "lng": 7.44258
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ekeowerre"
+        },
+        {
+          "name": "Isiala Ovom Ahiaeke Market, Obi Ngwa",
+          "slug": "isiala-ovom-ahiaeke-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.09173,
+            "lng": 7.41417
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Isiala Ovom Ahiaeke"
+        },
+        {
+          "name": "Itungwa Ahia Aforukwu Market, Obi Ngwa",
+          "slug": "itungwa-ahia-aforukwu-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.18852,
+            "lng": 7.46572
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Itungwa Ahia Aforukwu"
+        },
+        {
+          "name": "Mgbokoma Ahiankwo Market, Obi Ngwa",
+          "slug": "mgbokoma-ahiankwo-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.21014,
+            "lng": 7.40926
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Mgbokoma Ahiankwo"
+        },
+        {
+          "name": "Nkwoala Agburuike Market, Obi Ngwa",
+          "slug": "nkwoala-agburuike-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.20059,
+            "lng": 7.49522
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Nkwoala Agburuike"
+        },
+        {
+          "name": "Nkwoala Market, Obi Ngwa",
+          "slug": "nkwoala-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.25203,
+            "lng": 7.50175
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Nkwoala"
+        },
+        {
+          "name": "Nkwonwelechi Market, Obi Ngwa",
+          "slug": "nkwonwelechi-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.15343,
+            "lng": 7.39432
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Nkwonwelechi"
+        },
+        {
+          "name": "Nkwonwelechi, Obi Ngwa",
+          "slug": "nkwonwelechi-obi-ngwa",
+          "coordinates": {
+            "lat": 5.160965,
+            "lng": 7.437841667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Osaa Okea",
+          "days": [
+            "Tue",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Ntigha Umuaro Ahiankwo Market, Obi Ngwa",
+          "slug": "ntigha-umuaro-ahiankwo-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.23117,
+            "lng": 7.48486
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ntigha Umuaro Ahiankwo"
+        },
+        {
+          "name": "Orieukwu Market, Obi Ngwa",
+          "slug": "orieukwu-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.18276,
+            "lng": 7.50783
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Orieukwu"
+        },
+        {
+          "name": "Osa Okea Uhie Ahiaeke Market, Obi Ngwa",
+          "slug": "osa-okea-uhie-ahiaeke-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.16106,
+            "lng": 7.43762
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Osa Okea Uhie Ahiaeke"
+        },
+        {
+          "name": "Ugiri Daily Market, Obi Ngwa",
+          "slug": "ugiri-daily-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.18297,
+            "lng": 7.38767
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ugiri Daily"
+        },
+        {
+          "name": "Umuakatawom Ahiaorie Market, Obi Ngwa",
+          "slug": "umuakatawom-ahiaorie-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.14265,
+            "lng": 7.44455
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Umuakatawom Ahiaorie"
+        },
+        {
+          "name": "Umuogele Ahia Nkwo Market, Obi Ngwa",
+          "slug": "umuogele-ahia-nkwo-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.08766,
+            "lng": 7.42292
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Umuogele Ahia Nkwo"
+        },
+        {
+          "name": "Umuogele Market, Obi Ngwa",
+          "slug": "umuogele-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.087546667,
+            "lng": 7.42329
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Umuogele",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Umuokenya Ahia Nkwo Market, Obi Ngwa",
+          "slug": "umuokenya-ahia-nkwo-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.09218,
+            "lng": 7.43779
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Umuokenya Ahia Nkwo"
+        },
+        {
+          "name": "Umuokenyi Ahiankwo Market, Obi Ngwa",
+          "slug": "umuokenyi-ahiankwo-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.1053,
+            "lng": 7.50601
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Umuokenyi Ahiankwo"
+        },
+        {
+          "name": "Umuola Egbelu Daily Market, Obi Ngwa",
+          "slug": "umuola-egbelu-daily-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.13194,
+            "lng": 7.38673
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Umuola Egbelu Daily"
+        },
+        {
+          "name": "Umuomei Ahia Nkwo Market, Obi Ngwa",
+          "slug": "umuomei-ahia-nkwo-market-obi-ngwa",
+          "coordinates": {
+            "lat": 5.20038,
+            "lng": 7.52028
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Umuomei Ahia Nkwo"
+        }
+      ]
     },
     {
       "name": "Ohafia",
       "slug": "abia-ohafia",
-      "markets": []
+      "markets": [
+        {
+          "name": "Affia Nkwo Market, Ohafia",
+          "slug": "affia-nkwo-market-ohafia",
+          "coordinates": {
+            "lat": 5.69269,
+            "lng": 7.73789
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Affia Nkwo"
+        },
+        {
+          "name": "Affia Orie Market, Ohafia",
+          "slug": "affia-orie-market-ohafia",
+          "coordinates": {
+            "lat": 5.6435,
+            "lng": 7.67301
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Affia Orie"
+        },
+        {
+          "name": "Affia Uda Market, Ohafia",
+          "slug": "affia-uda-market-ohafia",
+          "coordinates": {
+            "lat": 5.64807,
+            "lng": 7.83194
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Affia Uda"
+        },
+        {
+          "name": "Afo Market Elughu Nkporo, Ohafia",
+          "slug": "afo-market-elughu-nkporo-ohafia",
+          "coordinates": {
+            "lat": 5.76648,
+            "lng": 7.77352
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Afo Elughu Nkporo"
+        },
+        {
+          "name": "Ahia Nkwo, Ohafia",
+          "slug": "ahia-nkwo-ohafia",
+          "coordinates": {
+            "lat": 5.644415,
+            "lng": 7.888425
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Other",
+          "type": "Clothing Food Stuff Mixed Other",
+          "local_name": "Amuma Community",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Ahia Oguma, Ohafia",
+          "slug": "ahia-oguma-ohafia",
+          "coordinates": {
+            "lat": 5.769191667,
+            "lng": 7.758336667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Monthly",
+          "type": "Mixed",
+          "local_name": "Amurie Nkporo",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Akamba Daily Market, Ohafia",
+          "slug": "akamba-daily-market-ohafia",
+          "coordinates": {
+            "lat": 5.56035,
+            "lng": 7.83707
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Akamba Daily"
+        },
+        {
+          "name": "Amogudu Market, Ohafia",
+          "slug": "amogudu-market-ohafia",
+          "coordinates": {
+            "lat": 5.69804,
+            "lng": 7.73185
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Amogudu"
+        },
+        {
+          "name": "Amuke Ohafia Community Mini Market",
+          "slug": "amuke-ohafia-community-mini-market",
+          "coordinates": {
+            "lat": 5.766836667,
+            "lng": 7.773691667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Livestock Food Stuff",
+          "local_name": "Ahia Afor Market",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Eke Market Amangwu, Ohafia",
+          "slug": "eke-market-amangwu-ohafia",
+          "coordinates": {
+            "lat": 5.66878,
+            "lng": 7.86922
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Eke Amangwu"
+        },
+        {
+          "name": "Ekwueme Shopping Market, Ohafia",
+          "slug": "ekwueme-shopping-market-ohafia",
+          "coordinates": {
+            "lat": 5.67758,
+            "lng": 7.7969
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ekwueme Shopping"
+        },
+        {
+          "name": "Elu Affia Nkwo Market, Ohafia",
+          "slug": "elu-affia-nkwo-market-ohafia",
+          "coordinates": {
+            "lat": 5.64543,
+            "lng": 7.82693
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Elu Affia Nkwo"
+        },
+        {
+          "name": "Ihenta Market, Ohafia",
+          "slug": "ihenta-market-ohafia",
+          "coordinates": {
+            "lat": 5.61784,
+            "lng": 7.81942
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ihenta"
+        },
+        {
+          "name": "Ndi Elu Central Market, Ohafia",
+          "slug": "ndi-elu-central-market-ohafia",
+          "coordinates": {
+            "lat": 5.77394,
+            "lng": 7.76301
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ndi Elu Central"
+        },
+        {
+          "name": "Nkwo Market Isiugwu, Ohafia",
+          "slug": "nkwo-market-isiugwu-ohafia",
+          "coordinates": {
+            "lat": 5.55047,
+            "lng": 7.8085
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Nkwo Isiugwu"
+        },
+        {
+          "name": "Ochiagha Market, Ohafia",
+          "slug": "ochiagha-market-ohafia",
+          "coordinates": {
+            "lat": 5.76954,
+            "lng": 7.75815
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ochiagha"
+        },
+        {
+          "name": "Oguma Market Ebem, Ohafia",
+          "slug": "oguma-market-ebem-ohafia",
+          "coordinates": {
+            "lat": 5.628863333,
+            "lng": 7.833765
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Other",
+          "local_name": "Timber Market Close To Nepa",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Ohafor Central Market, Ohafia",
+          "slug": "ohafor-central-market-ohafia",
+          "coordinates": {
+            "lat": 5.622633333,
+            "lng": 7.859846667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff Mixed",
+          "local_name": "Asaga Ukwu Community",
+          "days": [
+            "Tue"
+          ]
+        },
+        {
+          "name": "Okagwe Market, Ohafia",
+          "slug": "okagwe-market-ohafia",
+          "coordinates": {
+            "lat": 5.68145,
+            "lng": 7.80244
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Okagwe"
+        },
+        {
+          "name": "Okwoko Nkporo Affia Orie Market, Ohafia",
+          "slug": "okwoko-nkporo-affia-orie-market-ohafia",
+          "coordinates": {
+            "lat": 5.80662,
+            "lng": 7.76414
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Okwoko Nkporo Affia Orie"
+        },
+        {
+          "name": "Orie Akwa, Ohafia",
+          "slug": "orie-akwa-ohafia",
+          "coordinates": {
+            "lat": 5.69309,
+            "lng": 7.73771
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Bi-Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Ameke",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Ukwa Nkporo Market, Ohafia",
+          "slug": "ukwa-nkporo-market-ohafia",
+          "coordinates": {
+            "lat": 5.806705,
+            "lng": 7.764131667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Ndiagbo",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Umuhu Ezechi Market, Ohafia",
+          "slug": "umuhu-ezechi-market-ohafia",
+          "coordinates": {
+            "lat": 5.644048333,
+            "lng": 7.673253333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Umuhu Ezechi",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ]
+        }
+      ]
     },
     {
       "name": "Osisioma Ngwa",
       "slug": "abia-osisioma-ngwa",
-      "markets": []
+      "markets": [
+        {
+          "name": "Aba International Industry Market, Osisioma Ngwa",
+          "slug": "aba-international-industry-market-osisioma-ngwa",
+          "coordinates": {
+            "lat": 5.20272,
+            "lng": 7.32524
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Aba International Industry"
+        },
+        {
+          "name": "Afor Aro Market, Osisioma Ngwa",
+          "slug": "afor-aro-market-osisioma-ngwa",
+          "coordinates": {
+            "lat": 5.2355,
+            "lng": 7.340038333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Umuka 1",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Afor Aro Umuka Market, Osisioma Ngwa",
+          "slug": "afor-aro-umuka-market-osisioma-ngwa",
+          "coordinates": {
+            "lat": 5.23549,
+            "lng": 7.33985
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Afor Aro Umuka"
+        },
+        {
+          "name": "Agwu Market Sqare, Osisioma Ngwa",
+          "slug": "agwu-market-sqare-osisioma-ngwa",
+          "coordinates": {
+            "lat": 5.22127,
+            "lng": 7.3344
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Agwu Sqare"
+        },
+        {
+          "name": "Ahia Orie Market, Osisioma Ngwa",
+          "slug": "ahia-orie-market-osisioma-ngwa",
+          "coordinates": {
+            "lat": 5.20506,
+            "lng": 7.34865
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Orie"
+        },
+        {
+          "name": "Ahia Orienobiohuru Market, Osisioma Ngwa",
+          "slug": "ahia-orienobiohuru-market-osisioma-ngwa",
+          "coordinates": {
+            "lat": 5.21215,
+            "lng": 7.33545
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Orienobiohuru"
+        },
+        {
+          "name": "Ahiaeke Ofokobe Market, Osisioma Ngwa",
+          "slug": "ahiaeke-ofokobe-market-osisioma-ngwa",
+          "coordinates": {
+            "lat": 5.19168,
+            "lng": 7.36693
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahiaeke Ofokobe"
+        },
+        {
+          "name": "Akiri Village Market, Osisioma Ngwa",
+          "slug": "akiri-village-market-osisioma-ngwa",
+          "coordinates": {
+            "lat": 5.2152,
+            "lng": 7.32955
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Akiri Village"
+        },
+        {
+          "name": "Allen Market, Osisioma Ngwa",
+          "slug": "allen-market-osisioma-ngwa",
+          "coordinates": {
+            "lat": 5.120355,
+            "lng": 7.330595
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Other",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff Mixed",
+          "local_name": "Umuehilegbu",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Allen Water Melons Market, Osisioma Ngwa",
+          "slug": "allen-water-melons-market-osisioma-ngwa",
+          "coordinates": {
+            "lat": 5.120488333,
+            "lng": 7.329853333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Other",
+          "type": "Food Stuff",
+          "local_name": "Umuode",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Eke Ama Market, Osisioma Ngwa",
+          "slug": "eke-ama-market-osisioma-ngwa",
+          "coordinates": {
+            "lat": 5.2641383,
+            "lng": 7.3702
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Amuke",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Eke Market, Osisioma Ngwa",
+          "slug": "eke-market-osisioma-ngwa",
+          "coordinates": {
+            "lat": 5.138711667,
+            "lng": 7.35118
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Afuule Market Located At Umuocham",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Ekeapara Market, Osisioma Ngwa",
+          "slug": "ekeapara-market-osisioma-ngwa",
+          "coordinates": {
+            "lat": 5.17244,
+            "lng": 7.31425
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ekeapara"
+        },
+        {
+          "name": "Emenike Market, Osisioma Ngwa",
+          "slug": "emenike-market-osisioma-ngwa",
+          "coordinates": {
+            "lat": 5.106341667,
+            "lng": 7.324223333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Other",
+          "type": "Food Stuff",
+          "local_name": "Abayi Ariaria",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Nkwo Market, Osisioma Ngwa",
+          "slug": "nkwo-market-osisioma-ngwa",
+          "coordinates": {
+            "lat": 5.142461667,
+            "lng": 7.343448333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Other",
+          "type": "Food Stuff",
+          "local_name": "Abayi",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Orie Umuimo Market, Osisioma Ngwa",
+          "slug": "orie-umuimo-market-osisioma-ngwa",
+          "coordinates": {
+            "lat": 5.18612,
+            "lng": 7.33783
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Orie Umuimo"
+        },
+        {
+          "name": "Orie Umuimo, Osisioma Ngwa",
+          "slug": "orie-umuimo-osisioma-ngwa",
+          "coordinates": {
+            "lat": 5.205106667,
+            "lng": 7.348945
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Other",
+          "type": "Food Stuff",
+          "local_name": "Umuagwu umugo",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Orie Umukoma Market, Osisioma Ngwa",
+          "slug": "orie-umukoma-market-osisioma-ngwa",
+          "coordinates": {
+            "lat": 5.19539,
+            "lng": 7.34655
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Orie Umukoma"
+        },
+        {
+          "name": "Peterson Plaza, Osisioma Ngwa",
+          "slug": "peterson-plaza-osisioma-ngwa",
+          "coordinates": {
+            "lat": 5.12855,
+            "lng": 7.331156667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff",
+          "local_name": "Umuode",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Umualata Ukwu Market, Osisioma Ngwa",
+          "slug": "umualata-ukwu-market-osisioma-ngwa",
+          "coordinates": {
+            "lat": 5.25137,
+            "lng": 7.34352
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Umualata Ukwu"
+        },
+        {
+          "name": "Umuekpele Market, Osisioma Ngwa",
+          "slug": "umuekpele-market-osisioma-ngwa",
+          "coordinates": {
+            "lat": 5.23921,
+            "lng": 7.34634
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Umuekpele"
+        },
+        {
+          "name": "Umugwo Market, Osisioma Ngwa",
+          "slug": "umugwo-market-osisioma-ngwa",
+          "coordinates": {
+            "lat": 5.21021,
+            "lng": 7.29404
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Umugwo"
+        },
+        {
+          "name": "Umunkaru Market Square, Osisioma Ngwa",
+          "slug": "umunkaru-market-square-osisioma-ngwa",
+          "coordinates": {
+            "lat": 5.26038,
+            "lng": 7.33606
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Umunkaru Square"
+        },
+        {
+          "name": "Umunwakwala Market, Osisioma Ngwa",
+          "slug": "umunwakwala-market-osisioma-ngwa",
+          "coordinates": {
+            "lat": 5.246436667,
+            "lng": 7.321888333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Umudaba",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Umuonwmata Umunwankwala Market, Osisioma Ngwa",
+          "slug": "umuonwmata-umunwankwala-market-osisioma-ngwa",
+          "coordinates": {
+            "lat": 5.25689,
+            "lng": 7.33675
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Umuonwmata Umunwankwala"
+        },
+        {
+          "name": "Uratta Timber And Allied Market, Osisioma Ngwa",
+          "slug": "uratta-timber-and-allied-market-osisioma-ngwa",
+          "coordinates": {
+            "lat": 5.08927,
+            "lng": 7.32126
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Uratta Timber and Allied"
+        },
+        {
+          "name": "Uratta Umuozuo Market, Osisioma Ngwa",
+          "slug": "uratta-umuozuo-market-osisioma-ngwa",
+          "coordinates": {
+            "lat": 5.084671667,
+            "lng": 7.327828333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Uratta",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        }
+      ]
     },
     {
       "name": "Ugwunagbo",
       "slug": "abia-ugwunagbo",
-      "markets": []
+      "markets": [
+        {
+          "name": "Ahai Eke Akoli Market, Ugwunagbo",
+          "slug": "ahai-eke-akoli-market-ugwunagbo",
+          "coordinates": {
+            "lat": 4.9893,
+            "lng": 7.37444
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahai Eke Akoli"
+        },
+        {
+          "name": "Ahia Afor Asa Market, Ugwunagbo",
+          "slug": "ahia-afor-asa-market-ugwunagbo",
+          "coordinates": {
+            "lat": 5.04345,
+            "lng": 7.32744
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Afor Asa"
+        },
+        {
+          "name": "Ahia Afor Mbaso Market, Ugwunagbo",
+          "slug": "ahia-afor-mbaso-market-ugwunagbo",
+          "coordinates": {
+            "lat": 5.01885,
+            "lng": 7.31672
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Afor Mbaso"
+        },
+        {
+          "name": "Ahia Afor Osusu Market, Ugwunagbo",
+          "slug": "ahia-afor-osusu-market-ugwunagbo",
+          "coordinates": {
+            "lat": 5.04045,
+            "lng": 7.35965
+          },
+          "added_by": "GRID3 (tosin.williams)",
+          "local_name": "Ahia Afor Osusu"
+        },
+        {
+          "name": "Ahia Afor Umuaja Market, Ugwunagbo",
+          "slug": "ahia-afor-umuaja-market-ugwunagbo",
+          "coordinates": {
+            "lat": 5.01645,
+            "lng": 7.38977
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Afor Umuaja"
+        },
+        {
+          "name": "Ahia Afor Umunka, Ugwunagbo",
+          "slug": "ahia-afor-umunka-ugwunagbo",
+          "coordinates": {
+            "lat": 4.985101667,
+            "lng": 7.328041667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Asaumunka",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Ahia Afor Umuodo Market, Ugwunagbo",
+          "slug": "ahia-afor-umuodo-market-ugwunagbo",
+          "coordinates": {
+            "lat": 5.02495,
+            "lng": 7.34565
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Afor Umuodo"
+        },
+        {
+          "name": "Ahia Afor Umuogele Market Crown Town, Ugwunagbo",
+          "slug": "ahia-afor-umuogele-market-crown-town-ugwunagbo",
+          "coordinates": {
+            "lat": 5.08118,
+            "lng": 7.37908
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Afor Umuogele Crown Town"
+        },
+        {
+          "name": "Ahia Eke Abayi Nchokoro, Ugwunagbo",
+          "slug": "ahia-eke-abayi-nchokoro-ugwunagbo",
+          "coordinates": {
+            "lat": 5.041435,
+            "lng": 7.383068333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Clothing Food Stuff Mixed",
+          "local_name": "Abayi Nchokoro",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Ahia Eke Akoli Market, Ugwunagbo",
+          "slug": "ahia-eke-akoli-market-ugwunagbo",
+          "coordinates": {
+            "lat": 5.0008905,
+            "lng": 7.3775494
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Other",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Umuchima",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Ahia Eke Obeaja Market, Ugwunagbo",
+          "slug": "ahia-eke-obeaja-market-ugwunagbo",
+          "coordinates": {
+            "lat": 5.00419,
+            "lng": 7.34896
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Eke Obeaja"
+        },
+        {
+          "name": "Ahia Eke Ozaa Market, Ugwunagbo",
+          "slug": "ahia-eke-ozaa-market-ugwunagbo",
+          "coordinates": {
+            "lat": 5.03571,
+            "lng": 7.30513
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Eke Ozaa"
+        },
+        {
+          "name": "Ahia Eke Ukebe Market, Ugwunagbo",
+          "slug": "ahia-eke-ukebe-market-ugwunagbo",
+          "coordinates": {
+            "lat": 4.99442,
+            "lng": 7.40171
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Eke Ukebe"
+        },
+        {
+          "name": "Ahia Eke Umubaghi Market, Ugwunagbo",
+          "slug": "ahia-eke-umubaghi-market-ugwunagbo",
+          "coordinates": {
+            "lat": 5.01381,
+            "lng": 7.33853
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Eke Umubaghi"
+        },
+        {
+          "name": "Ahia Eke, Ugwunagbo",
+          "slug": "ahia-eke-ugwunagbo",
+          "coordinates": {
+            "lat": 5.029896667,
+            "lng": 7.316918333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Amaufuru",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Ahia Nkwo Asa Market, Ugwunagbo",
+          "slug": "ahia-nkwo-asa-market-ugwunagbo",
+          "coordinates": {
+            "lat": 5.04407,
+            "lng": 7.33271
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Nkwo Asa"
+        },
+        {
+          "name": "Ahia Nkwo Ihie Market, Ugwunagbo",
+          "slug": "ahia-nkwo-ihie-market-ugwunagbo",
+          "coordinates": {
+            "lat": 5.0077,
+            "lng": 7.30944
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Nkwo Ihie"
+        },
+        {
+          "name": "Ahia Nkwo Market, Ugwunagbo",
+          "slug": "ahia-nkwo-market-ugwunagbo",
+          "coordinates": {
+            "lat": 5.036488333,
+            "lng": 7.30732
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Food Stuff Mixed",
+          "local_name": "Ihie Ukwu",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Ahia Nkwo Umuchima Market, Ugwunagbo",
+          "slug": "ahia-nkwo-umuchima-market-ugwunagbo",
+          "coordinates": {
+            "lat": 5.001,
+            "lng": 7.37745
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Nkwo Umuchima"
+        },
+        {
+          "name": "Ahia Nkwo Umugwu Market, Ugwunagbo",
+          "slug": "ahia-nkwo-umugwu-market-ugwunagbo",
+          "coordinates": {
+            "lat": 5.02324,
+            "lng": 7.33704
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Nkwo Umugwu"
+        },
+        {
+          "name": "Ahia Orie Amapu Market, Ugwunagbo",
+          "slug": "ahia-orie-amapu-market-ugwunagbo",
+          "coordinates": {
+            "lat": 5.02862,
+            "lng": 7.3418
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Orie Amapu"
+        },
+        {
+          "name": "Ahia Orie Obegu Market, Ugwunagbo",
+          "slug": "ahia-orie-obegu-market-ugwunagbo",
+          "coordinates": {
+            "lat": 4.98533,
+            "lng": 7.32658
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Orie Obegu"
+        },
+        {
+          "name": "Ahiaeke Abayi Market, Ugwunagbo",
+          "slug": "ahiaeke-abayi-market-ugwunagbo",
+          "coordinates": {
+            "lat": 5.04147,
+            "lng": 7.38299
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahiaeke Abayi"
+        },
+        {
+          "name": "Ahua Eke Umuakwa Market, Ugwunagbo",
+          "slug": "ahua-eke-umuakwa-market-ugwunagbo",
+          "coordinates": {
+            "lat": 5.01294,
+            "lng": 7.32658
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahua Eke Umuakwa"
+        },
+        {
+          "name": "Amaokpu Ahia Orie Market, Ugwunagbo",
+          "slug": "amaokpu-ahia-orie-market-ugwunagbo",
+          "coordinates": {
+            "lat": 5.01601,
+            "lng": 7.37125
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Amaokpu Ahia Orie"
+        },
+        {
+          "name": "Eke Ozaa Daily Market, Ugwunagbo",
+          "slug": "eke-ozaa-daily-market-ugwunagbo",
+          "coordinates": {
+            "lat": 5.034305,
+            "lng": 7.296086667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Ozata Eke Market",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Etituakanu Daily Market, Ugwunagbo",
+          "slug": "etituakanu-daily-market-ugwunagbo",
+          "coordinates": {
+            "lat": 5.00384,
+            "lng": 7.36079
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Etituakanu Daily"
+        },
+        {
+          "name": "Isiala Ihie Ahia Orie Obegu Market, Ugwunagbo",
+          "slug": "isiala-ihie-ahia-orie-obegu-market-ugwunagbo",
+          "coordinates": {
+            "lat": 5.02932,
+            "lng": 7.31546
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Isiala Ihie Ahia Orie Obegu"
+        },
+        {
+          "name": "Orie Obegu Market, Ugwunagbo",
+          "slug": "orie-obegu-market-ugwunagbo",
+          "coordinates": {
+            "lat": 4.989054612,
+            "lng": 7.336704193
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Food Stuff Mixed",
+          "local_name": "Obegu",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Umugo Amano Ahia Nkwo Market, Ugwunagbo",
+          "slug": "umugo-amano-ahia-nkwo-market-ugwunagbo",
+          "coordinates": {
+            "lat": 5.05669,
+            "lng": 7.31573
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Umugo Amano Ahia Nkwo"
+        },
+        {
+          "name": "Umuoria Market, Ugwunagbo",
+          "slug": "umuoria-market-ugwunagbo",
+          "coordinates": {
+            "lat": 4.961255,
+            "lng": 7.29801
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Clothing Food Stuff Mixed",
+          "local_name": "Owor Asa",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        }
+      ]
     },
     {
       "name": "Ukwa East",
       "slug": "abia-ukwa-east",
-      "markets": []
+      "markets": [
+        {
+          "name": "Abala Nkamiri Ahiaeke Market, Ukwa East",
+          "slug": "abala-nkamiri-ahiaeke-market-ukwa-east",
+          "coordinates": {
+            "lat": 5.01105,
+            "lng": 7.43199
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Abala Nkamiri Ahiaeke"
+        },
+        {
+          "name": "Afor Market, Ukwa East",
+          "slug": "afor-market-ukwa-east",
+          "coordinates": {
+            "lat": 4.9030683,
+            "lng": 7.3812717
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Obohia",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Ahia Apor Obohia Market, Ukwa East",
+          "slug": "ahia-apor-obohia-market-ukwa-east",
+          "coordinates": {
+            "lat": 4.9031,
+            "lng": 7.38124
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Apor Obohia"
+        },
+        {
+          "name": "Ahia Nmasiri, Ukwa East",
+          "slug": "ahia-nmasiri-ukwa-east",
+          "coordinates": {
+            "lat": 5.044815,
+            "lng": 7.527155
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Akirika Uku",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Ahia Nwaebule Market, Ukwa East",
+          "slug": "ahia-nwaebule-market-ukwa-east",
+          "coordinates": {
+            "lat": 4.94623,
+            "lng": 7.48104
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Nwaebule"
+        },
+        {
+          "name": "Ahia Obuozu Market, Ukwa East",
+          "slug": "ahia-obuozu-market-ukwa-east",
+          "coordinates": {
+            "lat": 4.96715,
+            "lng": 7.45876
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Obuozu"
+        },
+        {
+          "name": "Ahia Ukwuwangwu, Ukwa East",
+          "slug": "ahia-ukwuwangwu-ukwa-east",
+          "coordinates": {
+            "lat": 5.066516667,
+            "lng": 7.519446667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Oberete Community",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Ahiaeke Abiaka Market, Ukwa East",
+          "slug": "ahiaeke-abiaka-market-ukwa-east",
+          "coordinates": {
+            "lat": 5.05638,
+            "lng": 7.52431
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahiaeke Abiaka"
+        },
+        {
+          "name": "Ahiankwo Market Square, Ukwa East",
+          "slug": "ahiankwo-market-square-ukwa-east",
+          "coordinates": {
+            "lat": 4.98561,
+            "lng": 7.45854
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahiankwo Square"
+        },
+        {
+          "name": "Akudo Food Stuff, Ukwa East",
+          "slug": "akudo-food-stuff-ukwa-east",
+          "coordinates": {
+            "lat": 4.893336667,
+            "lng": 7.36525
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Bi-Weekly",
+          "type": "Food Stuff",
+          "local_name": "Ohanso",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Akwete Market, Ukwa East",
+          "slug": "akwete-market-ukwa-east",
+          "coordinates": {
+            "lat": 4.8853883,
+            "lng": 7.3572367
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Amaka Akwete",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Avaukwu Abaki Market, Ukwa East",
+          "slug": "avaukwu-abaki-market-ukwa-east",
+          "coordinates": {
+            "lat": 4.98712,
+            "lng": 7.42835
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Avaukwu Abaki"
+        },
+        {
+          "name": "Awete Market, Ukwa East",
+          "slug": "awete-market-ukwa-east",
+          "coordinates": {
+            "lat": 4.88522,
+            "lng": 7.35716
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Awete"
+        },
+        {
+          "name": "Mkporobe Community Market Afo, Ukwa East",
+          "slug": "mkporobe-community-market-afo-ukwa-east",
+          "coordinates": {
+            "lat": 4.9689067,
+            "lng": 7.3634083
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Clothing Food Stuff Mixed",
+          "local_name": "Ohuru",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Nkwo Market Akirika, Ukwa East",
+          "slug": "nkwo-market-akirika-ukwa-east",
+          "coordinates": {
+            "lat": 4.985596044,
+            "lng": 7.458634349
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "type": "Food Stuff",
+          "local_name": "Nkwo Akirika"
+        },
+        {
+          "name": "Nkwo Market Ohuru, Ukwa East",
+          "slug": "nkwo-market-ohuru-ukwa-east",
+          "coordinates": {
+            "lat": 4.968915548,
+            "lng": 7.363229118
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "type": "Food Stuff",
+          "local_name": "Nkwo Ohuru"
+        },
+        {
+          "name": "Nwaebule Market, Ukwa East",
+          "slug": "nwaebule-market-ukwa-east",
+          "coordinates": {
+            "lat": 4.946266667,
+            "lng": 7.48101
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Other",
+          "type": "Food Stuff",
+          "local_name": "Azumini",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Obeaku Main Market, Ukwa East",
+          "slug": "obeaku-main-market-ukwa-east",
+          "coordinates": {
+            "lat": 4.87607,
+            "lng": 7.45151
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Obeaku Main"
+        },
+        {
+          "name": "Oberete Isiala Ahia Nkwo Market, Ukwa East",
+          "slug": "oberete-isiala-ahia-nkwo-market-ukwa-east",
+          "coordinates": {
+            "lat": 5.06591,
+            "lng": 7.51978
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Oberete Isiala Ahia Nkwo"
+        },
+        {
+          "name": "Obuozu Market, Ukwa East",
+          "slug": "obuozu-market-ukwa-east",
+          "coordinates": {
+            "lat": 4.9872283,
+            "lng": 7.42838
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Abaki",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Ohambele Market, Ukwa East",
+          "slug": "ohambele-market-ukwa-east",
+          "coordinates": {
+            "lat": 4.899846667,
+            "lng": 7.414173333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Clothing Food Stuff",
+          "local_name": "Ohambele",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Ohuru Market Square, Ukwa East",
+          "slug": "ohuru-market-square-ukwa-east",
+          "coordinates": {
+            "lat": 4.96901,
+            "lng": 7.3634
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ohuru Square"
+        }
+      ]
     },
     {
       "name": "Ukwa West",
       "slug": "abia-ukwa-west",
-      "markets": []
+      "markets": [
+        {
+          "name": "Afor Ogwe Market, Ukwa West",
+          "slug": "afor-ogwe-market-ukwa-west",
+          "coordinates": {
+            "lat": 5.0092,
+            "lng": 7.26432
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Afor Ogwe"
+        },
+        {
+          "name": "Ahia Eke Ngtwaiyiekwe Market, Ukwa West",
+          "slug": "ahia-eke-ngtwaiyiekwe-market-ukwa-west",
+          "coordinates": {
+            "lat": 4.97509,
+            "lng": 7.28132
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Eke Ngtwaiyiekwe"
+        },
+        {
+          "name": "Ahia Eke Ngwaiyiekwe, Ukwa West",
+          "slug": "ahia-eke-ngwaiyiekwe-ukwa-west",
+          "coordinates": {
+            "lat": 4.975746823,
+            "lng": 7.281393146
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Bi-Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Ngwaiyiekwe",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Ahia Eke Uzuaku, Ukwa West",
+          "slug": "ahia-eke-uzuaku-ukwa-west",
+          "coordinates": {
+            "lat": 4.903253333,
+            "lng": 7.182486667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Uzuaku",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Ahia Nkpukwe, Ukwa West",
+          "slug": "ahia-nkpukwe-ukwa-west",
+          "coordinates": {
+            "lat": 5.069778333,
+            "lng": 7.291858333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Bi-Weekly",
+          "type": "Mixed",
+          "local_name": "Mkpukwe Asa",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Ahia Orie Obokwe, Ukwa West",
+          "slug": "ahia-orie-obokwe-ukwa-west",
+          "coordinates": {
+            "lat": 5.009122615,
+            "lng": 7.264487362
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff Mixed",
+          "local_name": "Umuololo",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Eke Market Square, Ukwa West",
+          "slug": "eke-market-square-ukwa-west",
+          "coordinates": {
+            "lat": 4.92819,
+            "lng": 7.24505
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Eke Square"
+        },
+        {
+          "name": "Eze Uzuaku Market, Ukwa West",
+          "slug": "eze-uzuaku-market-ukwa-west",
+          "coordinates": {
+            "lat": 4.90145,
+            "lng": 7.18087
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Eze Uzuaku"
+        },
+        {
+          "name": "Nkwo Market Obuzor Umuelechi, Ukwa West",
+          "slug": "nkwo-market-obuzor-umuelechi-ukwa-west",
+          "coordinates": {
+            "lat": 4.919341396,
+            "lng": 7.215219657
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "type": "Food Stuff",
+          "local_name": "Nkwo- Obuzor-umuelechi"
+        },
+        {
+          "name": "Nkwo Market Obuzor, Ukwa West",
+          "slug": "nkwo-market-obuzor-ukwa-west",
+          "coordinates": {
+            "lat": 4.922451275,
+            "lng": 7.224631974
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Umuajuoha",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Nkwo Market Umuaka, Ukwa West",
+          "slug": "nkwo-market-umuaka-ukwa-west",
+          "coordinates": {
+            "lat": 4.988468333,
+            "lng": 7.241016667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Bi-Weekly",
+          "type": "Clothing Mixed",
+          "local_name": "Umuaka Asa",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Obehie Market, Ukwa West",
+          "slug": "obehie-market-ukwa-west",
+          "coordinates": {
+            "lat": 4.948536667,
+            "lng": 7.256631667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Isi Asa",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Obejie Central Market, Ukwa West",
+          "slug": "obejie-central-market-ukwa-west",
+          "coordinates": {
+            "lat": 4.94561,
+            "lng": 7.26126
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Obejie Central"
+        },
+        {
+          "name": "Orborhia Ahiaorie Market, Ukwa West",
+          "slug": "orborhia-ahiaorie-market-ukwa-west",
+          "coordinates": {
+            "lat": 4.91394,
+            "lng": 7.26438
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Orborhia Ahiaorie"
+        },
+        {
+          "name": "Orie Market Obuzor Umuelechi, Ukwa West",
+          "slug": "orie-market-obuzor-umuelechi-ukwa-west",
+          "coordinates": {
+            "lat": 4.922526389,
+            "lng": 7.224146526
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "type": "Food Stuff",
+          "local_name": "Orie Obuzor Umuelechi"
+        },
+        {
+          "name": "Orie Market Ozaa, Ukwa West",
+          "slug": "orie-market-ozaa-ukwa-west",
+          "coordinates": {
+            "lat": 4.919377195,
+            "lng": 7.307420117
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "type": "Food Stuff",
+          "local_name": "Orie Ozaa"
+        },
+        {
+          "name": "Orie Market Umuorie, Ukwa West",
+          "slug": "orie-market-umuorie-ukwa-west",
+          "coordinates": {
+            "lat": 4.915255654,
+            "lng": 7.263950795
+          },
+          "added_by": "GRID3 (adanna.alex)",
+          "type": "Food Stuff",
+          "local_name": "Orie Umuorie"
+        },
+        {
+          "name": "Orie Umuajuoha, Ukwa West",
+          "slug": "orie-umuajuoha-ukwa-west",
+          "coordinates": {
+            "lat": 4.922422376,
+            "lng": 7.224434677
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Orie Umuajuoha"
+        },
+        {
+          "name": "Umuopere Ahia Orie Market, Ukwa West",
+          "slug": "umuopere-ahia-orie-market-ukwa-west",
+          "coordinates": {
+            "lat": 5.06113,
+            "lng": 7.27012
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Umuopere Ahia Orie"
+        }
+      ]
     },
     {
       "name": "Umuahia North",
       "slug": "abia-umuahia-north",
-      "markets": []
+      "markets": [
+        {
+          "name": "Afor Afugiri Market, Umuahia North",
+          "slug": "afor-afugiri-market-umuahia-north",
+          "coordinates": {
+            "lat": 5.60022,
+            "lng": 7.47549
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Afor Afugiri"
+        },
+        {
+          "name": "Afor Umuda Market, Umuahia North",
+          "slug": "afor-umuda-market-umuahia-north",
+          "coordinates": {
+            "lat": 5.66183,
+            "lng": 7.43716
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Afor Umuda"
+        },
+        {
+          "name": "Afugiri Market, Umuahia North",
+          "slug": "afugiri-market-umuahia-north",
+          "coordinates": {
+            "lat": 5.600215,
+            "lng": 7.47554
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Bi-Weekly",
+          "type": "Food Stuff",
+          "local_name": "Umuekwule Afugiri",
+          "days": [
+            "Tue",
+            "Thu",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Ahia Ama Market Square, Umuahia North",
+          "slug": "ahia-ama-market-square-umuahia-north",
+          "coordinates": {
+            "lat": 5.58542,
+            "lng": 7.49182
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Ama Square"
+        },
+        {
+          "name": "Ahia Ama Umuokehi Market, Umuahia North",
+          "slug": "ahia-ama-umuokehi-market-umuahia-north",
+          "coordinates": {
+            "lat": 5.59303,
+            "lng": 7.48644
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Ama Umuokehi"
+        },
+        {
+          "name": "Ahia Ama, Umuahia North",
+          "slug": "ahia-ama-umuahia-north",
+          "coordinates": {
+            "lat": 5.593025,
+            "lng": 7.486553333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Livestock Food Stuff",
+          "local_name": "Umuokehi",
+          "days": [
+            "Mon",
+            "Wed",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Ahia Eke Market, Umuahia North",
+          "slug": "ahia-eke-market-umuahia-north",
+          "coordinates": {
+            "lat": 5.512,
+            "lng": 7.53053
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Eke"
+        },
+        {
+          "name": "Ahia Orie Ugba, Umuahia North",
+          "slug": "ahia-orie-ugba-umuahia-north",
+          "coordinates": {
+            "lat": 5.5363,
+            "lng": 7.50435
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Orie Ugba"
+        },
+        {
+          "name": "Ahiaama Umuokoro Market, Umuahia North",
+          "slug": "ahiaama-umuokoro-market-umuahia-north",
+          "coordinates": {
+            "lat": 5.54077,
+            "lng": 7.47058
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahiaama Umuokoro"
+        },
+        {
+          "name": "Ahiama Ohorobe Market, Umuahia North",
+          "slug": "ahiama-ohorobe-market-umuahia-north",
+          "coordinates": {
+            "lat": 5.51574,
+            "lng": 7.50536
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahiama Ohorobe"
+        },
+        {
+          "name": "Eke Okwuru Market, Umuahia North",
+          "slug": "eke-okwuru-market-umuahia-north",
+          "coordinates": {
+            "lat": 5.605,
+            "lng": 7.46781
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Eke Okwuru"
+        },
+        {
+          "name": "Ekeoba Market Square, Umuahia North",
+          "slug": "ekeoba-market-square-umuahia-north",
+          "coordinates": {
+            "lat": 5.58001,
+            "lng": 7.44445
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ekeoba Square"
+        },
+        {
+          "name": "Nkwo Abia, Umuahia North",
+          "slug": "nkwo-abia-umuahia-north",
+          "coordinates": {
+            "lat": 5.522791667,
+            "lng": 7.512828333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Abia Arochukwu",
+          "days": [
+            "Sat"
+          ]
+        },
+        {
+          "name": "Nkwo Market Ulonna North, Umuahia North",
+          "slug": "nkwo-market-ulonna-north-umuahia-north",
+          "coordinates": {
+            "lat": 5.68618,
+            "lng": 7.46013
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Nkwo Ulonna North"
+        },
+        {
+          "name": "Nkwo Ulonna Farm, Umuahia North",
+          "slug": "nkwo-ulonna-farm-umuahia-north",
+          "coordinates": {
+            "lat": 5.621846667,
+            "lng": 7.497445
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Livestock Food Stuff",
+          "local_name": "Ulonna",
+          "days": [
+            "Mon",
+            "Wed",
+            "Fri"
+          ]
+        },
+        {
+          "name": "Nkwoegwu Market, Umuahia North",
+          "slug": "nkwoegwu-market-umuahia-north",
+          "coordinates": {
+            "lat": 5.571746667,
+            "lng": 7.456071667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Monthly",
+          "type": "Mixed",
+          "local_name": "Nkwoegwu",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Ogwumabiri Ukwuapu Market, Umuahia North",
+          "slug": "ogwumabiri-ukwuapu-market-umuahia-north",
+          "coordinates": {
+            "lat": 5.53619,
+            "lng": 7.46183
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ogwumabiri Ukwuapu"
+        },
+        {
+          "name": "Okaiuga Nkwuegu Market, Umuahia North",
+          "slug": "okaiuga-nkwuegu-market-umuahia-north",
+          "coordinates": {
+            "lat": 5.57182,
+            "lng": 7.4554
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Okaiuga-nkwuegu"
+        },
+        {
+          "name": "Orie Ogwu Market, Umuahia North",
+          "slug": "orie-ogwu-market-umuahia-north",
+          "coordinates": {
+            "lat": 5.50484,
+            "lng": 7.48232
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Orie Ogwu"
+        },
+        {
+          "name": "Orie Ugba Market, Umuahia North",
+          "slug": "orie-ugba-market-umuahia-north",
+          "coordinates": {
+            "lat": 5.535226667,
+            "lng": 7.50373
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Electronic Spare Parts Food Stuff",
+          "local_name": "Ugba Along Bende Road",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Orie Umuaru Market, Umuahia North",
+          "slug": "orie-umuaru-market-umuahia-north",
+          "coordinates": {
+            "lat": 5.60028,
+            "lng": 7.45898
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Orie Umuaru"
+        },
+        {
+          "name": "Orie Umukabia Market, Umuahia North",
+          "slug": "orie-umukabia-market-umuahia-north",
+          "coordinates": {
+            "lat": 5.600203333,
+            "lng": 7.45891
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Livestock Food Stuff Mixed",
+          "local_name": "Umukabia Okpuala Mbaraegbe",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed"
+          ]
+        },
+        {
+          "name": "Oriendu Market, Umuahia North",
+          "slug": "oriendu-market-umuahia-north",
+          "coordinates": {
+            "lat": 5.613101667,
+            "lng": 7.447893333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Bi-Weekly",
+          "type": "Food Stuff",
+          "local_name": "Umuagu",
+          "days": [
+            "Mon",
+            "Tue"
+          ]
+        },
+        {
+          "name": "Oriendu Markrt Square, Umuahia North",
+          "slug": "oriendu-markrt-square-umuahia-north",
+          "coordinates": {
+            "lat": 5.58262,
+            "lng": 7.43776
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Oriendu Markrt Square"
+        },
+        {
+          "name": "Shoprite, Umuahia North",
+          "slug": "shoprite-umuahia-north",
+          "coordinates": {
+            "lat": 5.541596667,
+            "lng": 7.497598333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Umuwaya",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Umuagu Orie Umuaru Market, Umuahia North",
+          "slug": "umuagu-orie-umuaru-market-umuahia-north",
+          "coordinates": {
+            "lat": 5.61285,
+            "lng": 7.44802
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Umuagu Orie Umuaru"
+        },
+        {
+          "name": "Umuahia Main Market, Umuahia North",
+          "slug": "umuahia-main-market-umuahia-north",
+          "coordinates": {
+            "lat": 5.5342,
+            "lng": 7.49399
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Umuahia Main"
+        },
+        {
+          "name": "Umuahia Ultra Modern International Market Ubani, Umuahia North",
+          "slug": "umuahia-ultra-modern-international-market-ubani-umuahia-north",
+          "coordinates": {
+            "lat": 5.59042,
+            "lng": 7.50503
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Mixed",
+          "local_name": "Ubani",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Umuezike Market, Umuahia North",
+          "slug": "umuezike-market-umuahia-north",
+          "coordinates": {
+            "lat": 5.660618333,
+            "lng": 7.430398333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Clothing Food Stuff",
+          "local_name": "Umuezike",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Sat"
+          ]
+        }
+      ]
     },
     {
       "name": "Umuahia South",
       "slug": "abia-umuahia-south",
-      "markets": []
+      "markets": [
+        {
+          "name": "Afor Ibeji Market, Umuahia South",
+          "slug": "afor-ibeji-market-umuahia-south",
+          "coordinates": {
+            "lat": 5.486327411,
+            "lng": 7.473836473
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Other",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Old Umuahia",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Afor Uche Market, Umuahia South",
+          "slug": "afor-uche-market-umuahia-south",
+          "coordinates": {
+            "lat": 5.49273,
+            "lng": 7.43736
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Afor Uche"
+        },
+        {
+          "name": "Afor Umuihie Market, Umuahia South",
+          "slug": "afor-umuihie-market-umuahia-south",
+          "coordinates": {
+            "lat": 5.52325,
+            "lng": 7.4335
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Afor Umuihie"
+        },
+        {
+          "name": "Ahia Afor Abam Market, Umuahia South",
+          "slug": "ahia-afor-abam-market-umuahia-south",
+          "coordinates": {
+            "lat": 5.46967,
+            "lng": 7.41367
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Afor Abam"
+        },
+        {
+          "name": "Ahia Ama Market, Umuahia South",
+          "slug": "ahia-ama-market-umuahia-south",
+          "coordinates": {
+            "lat": 5.47328,
+            "lng": 7.47735
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Ama"
+        },
+        {
+          "name": "Ahia Nkuwuku Market, Umuahia South",
+          "slug": "ahia-nkuwuku-market-umuahia-south",
+          "coordinates": {
+            "lat": 5.48284,
+            "lng": 7.45613
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahia Nkuwuku"
+        },
+        {
+          "name": "Ahiaukwu Market, Umuahia South",
+          "slug": "ahiaukwu-market-umuahia-south",
+          "coordinates": {
+            "lat": 5.47961,
+            "lng": 7.50124
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ahiaukwu"
+        },
+        {
+          "name": "Ahiaukwu Olokoro Market, Umuahia South",
+          "slug": "ahiaukwu-olokoro-market-umuahia-south",
+          "coordinates": {
+            "lat": 5.4665717,
+            "lng": 7.51047
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Other",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Okwu Village",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Apumir Daily Market, Umuahia South",
+          "slug": "apumir-daily-market-umuahia-south",
+          "coordinates": {
+            "lat": 5.4735,
+            "lng": 7.43629
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Apumir Daily"
+        },
+        {
+          "name": "Apumiri Ubakala Market, Umuahia South",
+          "slug": "apumiri-ubakala-market-umuahia-south",
+          "coordinates": {
+            "lat": 5.470233333,
+            "lng": 7.443448333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Other",
+          "type": "Food Stuff",
+          "local_name": "Laguru Village",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Eboh Market, Umuahia South",
+          "slug": "eboh-market-umuahia-south",
+          "coordinates": {
+            "lat": 5.46534,
+            "lng": 7.50128
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Eboh"
+        },
+        {
+          "name": "Eke Ngwu Market, Umuahia South",
+          "slug": "eke-ngwu-market-umuahia-south",
+          "coordinates": {
+            "lat": 5.48457,
+            "lng": 7.44414
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Eke Ngwu"
+        },
+        {
+          "name": "Eke Ochansi Market, Umuahia South",
+          "slug": "eke-ochansi-market-umuahia-south",
+          "coordinates": {
+            "lat": 5.469311245,
+            "lng": 7.41389386
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Other",
+          "type": "Food Stuff",
+          "local_name": "Abam Ubakala",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Ekeala Market, Umuahia South",
+          "slug": "ekeala-market-umuahia-south",
+          "coordinates": {
+            "lat": 5.5031167,
+            "lng": 7.3942367
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Other",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Umunwanwa Community",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Eziama Market, Umuahia South",
+          "slug": "eziama-market-umuahia-south",
+          "coordinates": {
+            "lat": 5.494695,
+            "lng": 7.4240917
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Other",
+          "type": "Livestock Electronic Spare Parts Food Stuff",
+          "local_name": "Eziama",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Eziama Ogwumabiri Market, Umuahia South",
+          "slug": "eziama-ogwumabiri-market-umuahia-south",
+          "coordinates": {
+            "lat": 5.49484,
+            "lng": 7.42424
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Eziama Ogwumabiri"
+        },
+        {
+          "name": "Mbaraekpe Market Umuakor Nsirimo, Umuahia South",
+          "slug": "mbaraekpe-market-umuakor-nsirimo-umuahia-south",
+          "coordinates": {
+            "lat": 5.46652,
+            "lng": 7.388898333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Other",
+          "type": "Livestock Food Stuff",
+          "local_name": "Umumba Nsirimo",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Mgbarigba Market, Umuahia South",
+          "slug": "mgbarigba-market-umuahia-south",
+          "coordinates": {
+            "lat": 5.46265,
+            "lng": 7.49562
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Mgbarigba"
+        },
+        {
+          "name": "Nkwo Ebo Market, Umuahia South",
+          "slug": "nkwo-ebo-market-umuahia-south",
+          "coordinates": {
+            "lat": 5.52087,
+            "lng": 7.44866
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Nkwo Ebo"
+        },
+        {
+          "name": "Nkwo Ekwelenweze Market, Umuahia South",
+          "slug": "nkwo-ekwelenweze-market-umuahia-south",
+          "coordinates": {
+            "lat": 5.55643,
+            "lng": 7.41896
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Nkwo Ekwelenweze"
+        },
+        {
+          "name": "Nkwo Oha Market, Umuahia South",
+          "slug": "nkwo-oha-market-umuahia-south",
+          "coordinates": {
+            "lat": 5.55462,
+            "lng": 7.43459
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Nkwo Oha"
+        },
+        {
+          "name": "Ogwumabiri Market, Umuahia South",
+          "slug": "ogwumabiri-market-umuahia-south",
+          "coordinates": {
+            "lat": 5.50306,
+            "lng": 7.39441
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Ogwumabiri"
+        },
+        {
+          "name": "Oil Market, Umuahia South",
+          "slug": "oil-market-umuahia-south",
+          "coordinates": {
+            "lat": 5.54884,
+            "lng": 7.43888
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Oil"
+        },
+        {
+          "name": "Okwu Ahia Ama Market, Umuahia South",
+          "slug": "okwu-ahia-ama-market-umuahia-south",
+          "coordinates": {
+            "lat": 5.46674,
+            "lng": 7.51039
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Okwu Ahia Ama"
+        },
+        {
+          "name": "Orie Ogbodiukwu Market, Umuahia South",
+          "slug": "orie-ogbodiukwu-market-umuahia-south",
+          "coordinates": {
+            "lat": 5.5414,
+            "lng": 7.4401
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Orie Ogbodiukwu"
+        },
+        {
+          "name": "Orie Onyechufula Market, Umuahia South",
+          "slug": "orie-onyechufula-market-umuahia-south",
+          "coordinates": {
+            "lat": 5.48719,
+            "lng": 7.42683
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Orie Onyechufula"
+        },
+        {
+          "name": "Orieama Market, Umuahia South",
+          "slug": "orieama-market-umuahia-south",
+          "coordinates": {
+            "lat": 5.46582,
+            "lng": 7.38868
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Orieama"
+        },
+        {
+          "name": "Umuajata Community Market, Umuahia South",
+          "slug": "umuajata-community-market-umuahia-south",
+          "coordinates": {
+            "lat": 5.462733333,
+            "lng": 7.495775
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Livestock Food Stuff",
+          "local_name": "Umuajata Olokoro",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Umuobia Market, Umuahia South",
+          "slug": "umuobia-market-umuahia-south",
+          "coordinates": {
+            "lat": 5.489273333,
+            "lng": 7.483598333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Other",
+          "type": "Livestock Food Stuff Mixed",
+          "local_name": "Umuobia",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        }
+      ]
     },
     {
       "name": "Umu Nneochi",
       "slug": "abia-umu-nneochi",
-      "markets": []
+      "markets": [
+        {
+          "name": "Afo Market Akawa, Umu Nneochi",
+          "slug": "afo-market-akawa-umu-nneochi",
+          "coordinates": {
+            "lat": 5.930728333,
+            "lng": 7.291341667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Afo Market, Akawa",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Afo Market, Umu Nneochi",
+          "slug": "afo-market-umu-nneochi",
+          "coordinates": {
+            "lat": 5.973036667,
+            "lng": 7.412935
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Afo Market Is Functional",
+          "days": [
+            "Wed"
+          ]
+        },
+        {
+          "name": "Afo Umuaku, Umu Nneochi",
+          "slug": "afo-umuaku-umu-nneochi",
+          "coordinates": {
+            "lat": 6.01133,
+            "lng": 7.35742
+          },
+          "added_by": "GRID3 (racheal.olarewaju)",
+          "local_name": "Afo Umuaku"
+        },
+        {
+          "name": "Ahia Lokpanta Better Life Market, Umu Nneochi",
+          "slug": "ahia-lokpanta-better-life-market-umu-nneochi",
+          "coordinates": {
+            "lat": 5.978553333,
+            "lng": 7.464271667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Amoji Lokpanta",
+          "days": [
+            "Mon",
+            "Wed",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Ahiaututu Market, Umu Nneochi",
+          "slug": "ahiaututu-market-umu-nneochi",
+          "coordinates": {
+            "lat": 5.963301667,
+            "lng": 7.293575
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Monthly",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "The Market Is Small",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Eke Anyim Market, Umu Nneochi",
+          "slug": "eke-anyim-market-umu-nneochi",
+          "coordinates": {
+            "lat": 6.006133333,
+            "lng": 7.401613333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Umuogele Autonomous Community",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Eke Market Eziama, Umu Nneochi",
+          "slug": "eke-market-eziama-umu-nneochi",
+          "coordinates": {
+            "lat": 5.970073333,
+            "lng": 7.301856667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Other",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Eziama",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ]
+        },
+        {
+          "name": "Eke Market, Umu Nneochi",
+          "slug": "eke-market-umu-nneochi",
+          "coordinates": {
+            "lat": 5.9265,
+            "lng": 7.427903333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Other",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Amaubiri",
+          "days": [
+            "Fri"
+          ]
+        },
+        {
+          "name": "Nkwo Leru Market, Umu Nneochi",
+          "slug": "nkwo-leru-market-umu-nneochi",
+          "coordinates": {
+            "lat": 5.915928333,
+            "lng": 7.408551667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Food Stuff",
+          "local_name": "Orie Market Located At Ugwuleru Village",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Nkwo Mbala, Umu Nneochi",
+          "slug": "nkwo-mbala-umu-nneochi",
+          "coordinates": {
+            "lat": 6.0267467,
+            "lng": 7.3906667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Clothing Food Stuff Mixed",
+          "local_name": "Oruwe",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Ogwumabiri Daily Market, Umu Nneochi",
+          "slug": "ogwumabiri-daily-market-umu-nneochi",
+          "coordinates": {
+            "lat": 5.954351667,
+            "lng": 7.384678333
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Other",
+          "type": "Livestock Food Stuff Other",
+          "local_name": "Obinolu Ngodo",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Orie Agu, Umu Nneochi",
+          "slug": "orie-agu-umu-nneochi",
+          "coordinates": {
+            "lat": 5.956763333,
+            "lng": 7.445495
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Ndiaga Obiagu",
+          "days": [
+            "Mon",
+            "Wed",
+            "Sat"
+          ]
+        },
+        {
+          "name": "Orie Market In Aroikpa Community, Umu Nneochi",
+          "slug": "orie-market-in-aroikpa-community-umu-nneochi",
+          "coordinates": {
+            "lat": 5.925728333,
+            "lng": 7.279456667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff",
+          "local_name": "Orie Market",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "name": "Orie Ngodo Isuochi, Umu Nneochi",
+          "slug": "orie-ngodo-isuochi-umu-nneochi",
+          "coordinates": {
+            "lat": 5.965896667,
+            "lng": 7.386351667
+          },
+          "added_by": "GRID3 (abiodun.adedire)",
+          "frequency": "Weekly",
+          "type": "Clothing Livestock Food Stuff Mixed",
+          "local_name": "Ngodo Isuochi",
+          "days": [
+            "Mon",
+            "Fri"
+          ]
+        }
+      ]
     }
   ]
 }
