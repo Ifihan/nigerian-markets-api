@@ -19,7 +19,7 @@
     "db:migrate": "wrangler d1 execute iya-oloja --local --file=migrations/0001_create_tables.sql"
   },
   "dependencies": {
-    "hono": "^4.12.27"
+    "hono": "^4.13.5"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20260625.1",
